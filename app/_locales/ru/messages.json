@@ -99,7 +99,7 @@
     "message": "Добавить ник"
   },
   "addAcquiredTokens": {
-    "message": "Добавьте токены, которые вы приобрели с помощью AptosMask"
+    "message": "Добавьте токены, которые вы приобрели с помощью Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Добавить псевдоним"
@@ -115,10 +115,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Это позволит использовать эту сеть в AptosMask."
+    "message": "Это позволит использовать эту сеть в Aptos Browser Extension."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "AptosMask не проверяет пользовательские сети."
+    "message": "Aptos Browser Extension не проверяет пользовательские сети."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Подробнее о $1.",
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "Aptos Browser Extension",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "Таймер автоблокировки (минуты)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Установите время бездействия в минутах, прежде чем AptosMask будет заблокирован."
+    "message": "Установите время бездействия в минутах, прежде чем Aptos Browser Extension будет заблокирован."
   },
   "average": {
     "message": "Средний"
@@ -301,7 +301,7 @@
     "message": "Назад ко всем"
   },
   "backupApprovalInfo": {
-    "message": "Этот секретный код необходим для восстановления вашего кошелька в случае, если вы потеряете свое устройство, забудете пароль, вам придется переустановить AptosMask или захотите получить доступ к своему кошельку на другом устройстве."
+    "message": "Этот секретный код необходим для восстановления вашего кошелька в случае, если вы потеряете свое устройство, забудете пароль, вам придется переустановить Aptos Browser Extension или захотите получить доступ к своему кошельку на другом устройстве."
   },
   "backupApprovalNotice": {
     "message": "Сделайте копию своей секретной фразы для восстановления, чтобы обезопасить свой кошелек и средства."
@@ -325,7 +325,7 @@
     "message": "MetaMask, которому доверяют миллионы, — это безопасный кошелек, предоставляющий всем доступ к миру web3."
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "Используйте эту версию для тестирования будущих функций перед их выпуском. Ваше использование и отзывы помогают нам создать лучшую из возможных версий AptosMask. За использование бета-версии AptosMask взимается наша стандартная комиссия $1 и наша комиссия $2. В бета-версии может быть повышенный риск ошибок. Продолжая, вы принимаете и признаете эти риски, а также риски, указанные в наших Условиях и Условиях бета-версии.",
+    "message": "Используйте эту версию для тестирования будущих функций перед их выпуском. Ваше использование и отзывы помогают нам создать лучшую из возможных версий Aptos Browser Extension. За использование бета-версии Aptos Browser Extension взимается наша стандартная комиссия $1 и наша комиссия $2. В бета-версии может быть повышенный риск ошибок. Продолжая, вы принимаете и признаете эти риски, а также риски, указанные в наших Условиях и Условиях бета-версии.",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "Условия"
   },
   "betaMetamaskVersion": {
-    "message": "Бета-версия AptosMask"
+    "message": "Бета-версия Aptos Browser Extension"
   },
   "betaWelcome": {
-    "message": "Добро пожаловать в бета-версию AptosMask"
+    "message": "Добро пожаловать в бета-версию Aptos Browser Extension"
   },
   "blockExplorerAccountAction": {
     "message": "Счет",
@@ -369,7 +369,7 @@
     "message": "Создайте список контактов"
   },
   "builtAroundTheWorld": {
-    "message": "AptosMask разработан и создан с учетом потребностей мира."
+    "message": "Aptos Browser Extension разработан и создан с учетом потребностей мира."
   },
   "busy": {
     "message": "Занят"
@@ -417,7 +417,7 @@
     "message": "Этот ID цепочки в настоящее время используется сетью $1."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Вам необходимо использовать AptosMask в Google Chrome, чтобы подключиться к аппаратному кошельку."
+    "message": "Вам необходимо использовать Aptos Browser Extension в Google Chrome, чтобы подключиться к аппаратному кошельку."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "Нажмите здесь, чтобы подключить свой леджер через WebHID",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Подключиться с помощью AptosMask"
+    "message": "Подключиться с помощью Aptos Browser Extension"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "К этому сайту подключено $1 ваших счета(-ов).",
@@ -499,7 +499,7 @@
     "message": "К этому сайту подключен 1 ваш счет."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMask не подключен к этому сайту. Чтобы подключиться к сайту web3, найдите и нажмите кнопку подключения."
+    "message": "Aptos Browser Extension не подключен к этому сайту. Чтобы подключиться к сайту web3, найдите и нажмите кнопку подключения."
   },
   "connectedSites": {
     "message": "Подключенные сайты"
@@ -928,7 +928,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "Просто помните, что AptosMask не может восстановить секретную фразу для восстановления."
+    "message": "Просто помните, что Aptos Browser Extension не может восстановить секретную фразу для восстановления."
   },
   "endOfFlowMessage9": {
     "message": "Узнайте подробнее."
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask обнаружил ошибку",
+    "message": "Aptos Browser Extension обнаружил ошибку",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1582,10 +1582,10 @@
     "message": "Подключение вас к Aptos и децентрализованной сети..."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Сервис обмена AptosMask на техобслуживании. Зайдите позже."
+    "message": "Сервис обмена Aptos Browser Extension на техобслуживании. Зайдите позже."
   },
   "metamaskVersion": {
-    "message": "Версия AptosMask"
+    "message": "Версия Aptos Browser Extension"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Всегда разрешать вам отказываться в Настройках"
@@ -1625,7 +1625,7 @@
     "message": "Отправлять анонимизированные события кликов и просмотров страниц"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Помогите нам улучшить AptosMask"
+    "message": "Помогите нам улучшить Aptos Browser Extension"
   },
   "metametricsOptInDescription": {
     "message": "AptosMask хотел бы собрать основные данные об использовании, чтобы лучше понять, как наши пользователи взаимодействуют с расширением. Эти данные будут использоваться для постоянного повышения удобства и улучшения впечатлений от использования нашего продукта и экосистемы Ethereum."
@@ -1974,7 +1974,7 @@
     "message": "Нажмите на значок расширения браузера"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Закрепите расширение AptosMask в браузере для его постоянной доступности и легкого просмотра подтверждений транзакций."
+    "message": "Закрепите расширение Aptos Browser Extension в браузере для его постоянной доступности и легкого просмотра подтверждений транзакций."
   },
   "onboardingPinExtensionDescription2": {
     "message": "Вы можете открыть AptosMask, нажав на расширение, и получить доступ к своему кошельку одним щелчком мыши."
@@ -1983,7 +1983,7 @@
     "message": "Нажмите на значок расширения браузера для мгновенного перехода к нему"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Закрепить AptosMask"
+    "message": "Закрепить Aptos Browser Extension"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Установка AptosMask завершена!"
+    "message": "Установка Aptos Browser Extension завершена!"
   },
   "onboardingReturnNotice": {
     "message": "Кнопка «$1» закрывает эту вкладку и возвращает на сайт $2",
@@ -2013,7 +2013,7 @@
     "message": "Подключайтесь только к сайтам, которым доверяете."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "Откройте AptosMask в полноэкранном режиме, чтобы подключить свой леджер через WebHID.",
+    "message": "Откройте Aptos Browser Extension в полноэкранном режиме, чтобы подключить свой леджер через WebHID.",
     "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
@@ -2044,7 +2044,7 @@
     "message": "Пароль недостаточно длинный"
   },
   "passwordSetupDetails": {
-    "message": "Этот пароль разблокирует ваш кошелек AptosMask только на этом устройстве. AptosMask не может восстановить этот пароль."
+    "message": "Этот пароль разблокирует ваш кошелек Aptos Browser Extension только на этом устройстве. AptosMask не может восстановить этот пароль."
   },
   "passwordTermsWarning": {
     "message": "Я понимаю, что AptosMask не может восстановить этот пароль для меня. $1"
@@ -3174,7 +3174,7 @@
     "message": "Для этого контракта сейчас не поддерживается аналитика транзакций."
   },
   "typePassword": {
-    "message": "Введите свой пароль AptosMask"
+    "message": "Введите свой пароль Aptos Browser Extension"
   },
   "u2f": {
     "message": "U2F",
@@ -3310,10 +3310,10 @@
     "message": "Вы успешно защитили свой кошелек. Сохраните секретную фразу для восстановления в тайне — вы отвечаете за ее сохранность!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "AptosMask не сможет восстановить вашу секретную фразу для восстановления."
+    "message": "Aptos Browser Extension не сможет восстановить вашу секретную фразу для восстановления."
   },
   "walletCreationSuccessReminder2": {
-    "message": "AptosMask никогда не запрашивает у вас секретную фразу для восстановления."
+    "message": "Aptos Browser Extension никогда не запрашивает у вас секретную фразу для восстановления."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1, чтобы предотвратить кражу ваших средств",
@@ -3335,7 +3335,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "Добро пожаловать в AptosMask"
+    "message": "Добро пожаловать в Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "С возвращением!"

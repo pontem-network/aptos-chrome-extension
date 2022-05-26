@@ -121,7 +121,7 @@
     "message": "This will allow this network to be used within AptosMask."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "AptosMask does not verify custom networks."
+    "message": "Aptos Browser Extension does not verify custom networks."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Learn about $1.",
@@ -231,15 +231,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "Aptos Browser Extension",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -301,7 +301,7 @@
     "message": "Auto-Lock Timer (minutes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Set the idle time in minutes before AptosMask will become locked."
+    "message": "Set the idle time in minutes before Aptos Browser Extension will become locked."
   },
   "average": {
     "message": "Average"
@@ -347,10 +347,10 @@
     "message": "Terms"
   },
   "betaMetamaskVersion": {
-    "message": "AptosMask Beta Version"
+    "message": "Aptos Browser Extension Beta Version"
   },
   "betaWelcome": {
-    "message": "Welcome to AptosMask Beta"
+    "message": "Welcome to Aptos Browser Extension Beta"
   },
   "blockExplorerAccountAction": {
     "message": "Account",
@@ -1028,7 +1028,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask cannot recover your Secret Recovery Phrase."
+    "message": "Aptos Browser Extension cannot recover your Secret Recovery Phrase."
   },
   "endOfFlowMessage9": {
     "message": "Learn more."
@@ -1089,7 +1089,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask encountered an error",
+    "message": "Aptos Browser Extension encountered an error",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1187,10 +1187,10 @@
   },
   "flaskWelcomeWarning2": {
     "message": "We do not guarantee the safety or stability of this extension. The new APIs offered by Flask are not hardened against phishing attacks, meaning that any site or snap that requires Flask might be a malicious attempt to steal your assets.",
-    "description": "This explains the risks of using AptosMask Flask"
+    "description": "This explains the risks of using Aptos Browser Extension Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "All Flask APIs are experimental. They may be changed or removed without notice, or they might stay on Flask indefinitely without ever being migrated to stable AptosMask. Use them at your own risk.",
+    "message": "All Flask APIs are experimental. They may be changed or removed without notice, or they might stay on Flask indefinitely without ever being migrated to stable Aptos Browser Extension. Use them at your own risk.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarningAcceptButton": {
@@ -1360,7 +1360,7 @@
     "message": "Connect a hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "Select a hardware wallet you'd like to use with AptosMask."
+    "message": "Select a hardware wallet you'd like to use with Aptos Browser Extension."
   },
   "here": {
     "message": "here",
@@ -1750,10 +1750,10 @@
     "message": "Connecting you to Aptos and the Decentralized Web."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask Swaps is undergoing maintenance. Please check back later."
+    "message": "Aptos Browser Extension Swaps is undergoing maintenance. Please check back later."
   },
   "metamaskVersion": {
-    "message": "AptosMask Version"
+    "message": "Aptos Browser Extension Version"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Always allow you to opt-out via Settings"
@@ -1766,7 +1766,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "AptosMask will.."
+    "message": "Aptos Browser Extension will.."
   },
   "metametricsCommitmentsNeverCollect": {
     "message": "Never collect keys, addresses, transactions, balances, hashes, or any personal information"
@@ -1793,7 +1793,7 @@
     "message": "Send anonymized click & pageview events"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Help us improve AptosMask"
+    "message": "Help us improve Aptos Browser Extension"
   },
   "metametricsOptInDescription": {
     "message": "AptosMask would like to gather usage data to better understand how our users interact with the extension. This data will be used to continually improve the usability and user experience of our product and the Aptos ecosystem."

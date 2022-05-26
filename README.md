@@ -1,4 +1,4 @@
-# AptosMask Browser Extension
+# Aptos Browser Extension
 
 **Experimental Software**
 

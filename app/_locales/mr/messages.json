@@ -12,15 +12,15 @@
     "message": "प्रगत"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "Aptos Browser Extension",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "back": {
