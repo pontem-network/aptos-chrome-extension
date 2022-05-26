@@ -1,4 +1,4 @@
-# Aptos Browser Extension
+# Aptos Wallet Browser Extension
 
 **Experimental Software**
 
