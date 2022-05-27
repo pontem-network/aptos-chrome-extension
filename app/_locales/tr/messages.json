@@ -99,7 +99,7 @@
     "message": "Takma ad ekle"
   },
   "addAcquiredTokens": {
-    "message": "AptosMask kullanarak elde ettiğiniz tokenleri ekleyin"
+    "message": "Aptos Browser Extension kullanarak elde ettiğiniz tokenleri ekleyin"
   },
   "addAlias": {
     "message": "Diğer adı ekle"
@@ -118,7 +118,7 @@
     "message": "Bu, bu ağın MetaMas dahilinde kullanılmasına olanak tanıyacaktır."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "AptosMask özel ağları doğrulamaz."
+    "message": "Aptos Browser Extension özel ağları doğrulamaz."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "$1 hakkında bilgi edinin.",
@@ -232,11 +232,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "Otomatik Kilitleme Sayacı (dakika)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "AptosMask kilitlenmeden önce dakika olarak boşta kalma süresini belirleyin."
+    "message": "Aptos Browser Extension kilitlenmeden önce dakika olarak boşta kalma süresini belirleyin."
   },
   "average": {
     "message": "Ortalama"
@@ -301,7 +301,7 @@
     "message": "Tümüne Geri Git"
   },
   "backupApprovalInfo": {
-    "message": "Bu gizli kod, cihazınızı kaybetmeniz, parolanızı unutmanız, AptosMask'ı yeniden kurmanızın gerektiği ya da cüzdanınıza başka bir cihazdan oturum açmak istemeniz durumunda cüzdanınıza erişim sağlamak için gereklidir."
+    "message": "Bu gizli kod, cihazınızı kaybetmeniz, parolanızı unutmanız, Aptos Browser Extension'ı yeniden kurmanızın gerektiği ya da cüzdanınıza başka bir cihazdan oturum açmak istemeniz durumunda cüzdanınıza erişim sağlamak için gereklidir."
   },
   "backupApprovalNotice": {
     "message": "Cüzdanınızı ve paranızı güvende tutmak için Gizli Kurtarma İfadenizi yedekleyin."
@@ -322,10 +322,10 @@
     "message": "Temel"
   },
   "betaMetamaskDescription": {
-    "message": "Milyonların güvendiği AptosMask, web3 dünyasını herkes için erişilebilir kılan güvenli bir cüzdandır."
+    "message": "Milyonların güvendiği Aptos Browser Extension, web3 dünyasını herkes için erişilebilir kılan güvenli bir cüzdandır."
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "Yayınlanmadan önce gelecek özellikleri test etmek için bu sürümü kullanın. Kullanımınız ve geri bildiriminiz mümkün olan en iyi AptosMask sürümünü oluşturmamıza yardımcı olur. MetMask Beta kullanımınız standart $1 ile ayrıca $2 bölümümüze tabidir. Beta sürümü olduğu için hatayla karşılaşma riskiniz daha yüksektir. Devam ederek bu riskleri ve aynı zamanda Şartlar ve Beta Şartları kısımlarında yer alan riskleri kabul eder ve onaylarsınız.",
+    "message": "Yayınlanmadan önce gelecek özellikleri test etmek için bu sürümü kullanın. Kullanımınız ve geri bildiriminiz mümkün olan en iyi Aptos Browser Extension sürümünü oluşturmamıza yardımcı olur. MetMask Beta kullanımınız standart $1 ile ayrıca $2 bölümümüze tabidir. Beta sürümü olduğu için hatayla karşılaşma riskiniz daha yüksektir. Devam ederek bu riskleri ve aynı zamanda Şartlar ve Beta Şartları kısımlarında yer alan riskleri kabul eder ve onaylarsınız.",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "Koşullar"
   },
   "betaMetamaskVersion": {
-    "message": "AptosMask Beta Sürümü"
+    "message": "Aptos Browser Extension Beta Sürümü"
   },
   "betaWelcome": {
-    "message": "AptosMask Beta Sürümüne Hoş Geldiniz"
+    "message": "Aptos Browser Extension Beta Sürümüne Hoş Geldiniz"
   },
   "blockExplorerAccountAction": {
     "message": "Hesap",
@@ -369,7 +369,7 @@
     "message": "Kişi listenizi oluşturun"
   },
   "builtAroundTheWorld": {
-    "message": "AptosMask dünya çapında geliştirilmiş ve yapılmıştır."
+    "message": "Aptos Browser Extension dünya çapında geliştirilmiş ve yapılmıştır."
   },
   "busy": {
     "message": "Meşgul"
@@ -381,7 +381,7 @@
     "message": "Wyre ile ETH satın al"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre, doğrudan AptosMask hesabınıza ETH yatırma işlemleri için banka kartı kullanmanıza izin verir."
+    "message": "Wyre, doğrudan Aptos Browser Extension hesabınıza ETH yatırma işlemleri için banka kartı kullanmanıza izin verir."
   },
   "bytes": {
     "message": "Bayt"
@@ -417,7 +417,7 @@
     "message": "Bu Zincir Kimliği şu anda $1 ağı tarafından kullanılıyor."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Donanım Cüzdanınıza bağlamak için AptosMask'ı Google Chrome'da kullanmanız gerekir."
+    "message": "Donanım Cüzdanınıza bağlamak için Aptos Browser Extension'ı Google Chrome'da kullanmanız gerekir."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "WebHID üzerinden Kayıt Defterinizi bağlamak için tıklayın",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "AptosMask ile Bağlan"
+    "message": "Aptos Browser Extension ile Bağlan"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Bu siteye bağlı $1 hesabınız var.",
@@ -499,7 +499,7 @@
     "message": "Bu siteye bağlı 1 hesabınız var."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMask bu siteye bağlı değil. Bir web3 sitesine bağlanmak için siteyi bulun ve bağlan düğmesine tıklayın."
+    "message": "Aptos Browser Extension bu siteye bağlı değil. Bir web3 sitesine bağlanmak için siteyi bulun ve bağlan düğmesine tıklayın."
   },
   "connectedSites": {
     "message": "Bağlı siteler"
@@ -918,7 +918,7 @@
     "message": "İfadeyi hiç kimseyle paylaşmayın."
   },
   "endOfFlowMessage5": {
-    "message": "Kimlik avına karşı dikkatli olun! AptosMask asla kendiliğinden Gizli Kurtarma İfadenizi istemez."
+    "message": "Kimlik avına karşı dikkatli olun! Aptos Browser Extension asla kendiliğinden Gizli Kurtarma İfadenizi istemez."
   },
   "endOfFlowMessage6": {
     "message": "Gizli Kurtarma İfadenizi tekrar yedeklemeniz gerekirse Ayarlar -> Güvenlik kısmında bulabilirsiniz."
@@ -928,7 +928,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask Gizli Kurtarma İfadenizi kurtaramıyor."
+    "message": "Aptos Browser Extension Gizli Kurtarma İfadenizi kurtaramıyor."
   },
   "endOfFlowMessage9": {
     "message": "Daha fazla bilgi edinin."
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask bir hata ile karşılaştı",
+    "message": "Aptos Browser Extension bir hata ile karşılaştı",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1228,7 +1228,7 @@
     "message": "Donanım cüzdanı bağla"
   },
   "hardwareWalletsMsg": {
-    "message": "AptosMask ile kullanmak istediğiniz donanım cüzdanını seçin."
+    "message": "Aptos Browser Extension ile kullanmak istediğiniz donanım cüzdanını seçin."
   },
   "here": {
     "message": "burada",
@@ -1277,7 +1277,7 @@
     "message": "Gizli Kurtarma İfadesi kullanarak içe aktar"
   },
   "importAccountMsg": {
-    "message": "İçe aktarılan hesaplar ilk olarak oluşturduğunuz AptosMask hesabı Gizli Kurtarma ifadenizle ilişkilendirilmez. İçe aktarılan hesaplar hakkında daha fazla bilgi edinin"
+    "message": "İçe aktarılan hesaplar ilk olarak oluşturduğunuz Aptos Browser Extension hesabı Gizli Kurtarma ifadenizle ilişkilendirilmez. İçe aktarılan hesaplar hakkında daha fazla bilgi edinin"
   },
   "importAccountSeedPhrase": {
     "message": "Gizli Kurtarma İfadesi ile bir cüzdanı içe aktarın"
@@ -1322,7 +1322,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "AptosMask blokzincir ana bilgisayarına bağlanamıyor. $1 olası nedenleri inceleyin.",
+    "message": "Aptos Browser Extension blokzincir ana bilgisayarına bağlanamıyor. $1 olası nedenleri inceleyin.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1462,7 +1462,7 @@
     "message": "Ledger Live Uygulamasını açın ve kilidini açın"
   },
   "ledgerConnectionPreferenceDescription": {
-    "message": "Kayıt Defterinizi AptosMask'a nasıl bağladığınızı özelleştirin. $1 önerilir ancak başka seçenekler de mevcuttur. Buradan daha fazlasını okuyun: $2",
+    "message": "Kayıt Defterinizi Aptos Browser Extension'a nasıl bağladığınızı özelleştirin. $1 önerilir ancak başka seçenekler de mevcuttur. Buradan daha fazlasını okuyun: $2",
     "description": "A description that appears above a dropdown where users can select between up to three options - Ledger Live, U2F or WebHID - depending on what is supported in their browser. $1 is the recommended browser option, it will be either WebHID or U2f. $2 is a link to an article where users can learn more, but will be the translation of the learnMore message."
   },
   "ledgerDeviceOpenFailureMessage": {
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to Aptos Browser Extension."
   },
   "ledgerLiveApp": {
     "message": "Ledger Live Uygulaması"
@@ -1570,7 +1570,7 @@
     "message": "Mesaj"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Artık AptosMask'te hesap bağlantılarınızın üzerinde daha fazla kontrole sahipsiniz."
+    "message": "Artık Aptos Browser Extension'te hesap bağlantılarınızın üzerinde daha fazla kontrole sahipsiniz."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Bağlı hesaplarınızı yönetmek için tıklayın."
@@ -1582,10 +1582,10 @@
     "message": "Sizi Aptos ve Merkezi Olmayan Webe bağlar."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask Takas İşlemleri bakımda. Lütfen daha sonra tekrar kontrol edin."
+    "message": "Aptos Browser Extension Takas İşlemleri bakımda. Lütfen daha sonra tekrar kontrol edin."
   },
   "metamaskVersion": {
-    "message": "AptosMask Sürümü"
+    "message": "Aptos Browser Extension Sürümü"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Dilediğiniz zaman Ayarlar kısmında vazgeçebilmenize olanak tanır"
@@ -1651,7 +1651,7 @@
     "message": "Tokeninizi görmüyor musunuz?"
   },
   "mobileSyncWarning": {
-    "message": "\"Uzantı ile senkronize et\" özelliği geçici olarak devre dışı bırakılmış. AptosMask mobilde uzantı cüzdanınızı kullanmak istiyorsanız mobil uygulamaya gidin: cüzdan kurulum ayarlarına geri dönün ve \"Gizli Kurtarma İfadesi ile İçe Aktar\" seçeneğini seçin. Ardından cüzdanınızı mobil uygulamada içe aktarmak için uzantı cüzdanınızın gizli ifadesini kullanın."
+    "message": "\"Uzantı ile senkronize et\" özelliği geçici olarak devre dışı bırakılmış. Aptos Browser Extension mobilde uzantı cüzdanınızı kullanmak istiyorsanız mobil uygulamaya gidin: cüzdan kurulum ayarlarına geri dönün ve \"Gizli Kurtarma İfadesi ile İçe Aktar\" seçeneğini seçin. Ardından cüzdanınızı mobil uygulamada içe aktarmak için uzantı cüzdanınızın gizli ifadesini kullanın."
   },
   "mustSelectOne": {
     "message": "En az bir token seçilmeli."
@@ -1670,7 +1670,7 @@
     "message": "Geri bildiriminizi paylaşın"
   },
   "needHelpLinkText": {
-    "message": "AptosMask Destek"
+    "message": "Aptos Browser Extension Destek"
   },
   "needHelpSubmitTicket": {
     "message": "Sorgu Gönder"
@@ -1761,7 +1761,7 @@
     "message": "Yeni! NFT algılama"
   },
   "newNFTsDetectedInfo": {
-    "message": "MetaMask'in otomatik olarak Opensea'den NFT'leri algılamasına ve AptosMask cüzdanınızda görüntülemesine izin verin."
+    "message": "MetaMask'in otomatik olarak Opensea'den NFT'leri algılamasına ve Aptos Browser Extension cüzdanınızda görüntülemesine izin verin."
   },
   "newNetworkAdded": {
     "message": "\"$1\" başarılı bir şekilde eklendi!"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "Geçici anahtar, önerilen $1 geçici anahtarından daha büyük",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to Aptos Browser Extension's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "Toplanabilir kimliğini girin"
@@ -1849,19 +1849,19 @@
     "message": "Yeterli Gaz Yok"
   },
   "notifications1Description": {
-    "message": "AptosMask Mobil kullanıcıları artık mobil cüzdanları içinde token takas edebilirler. Mobil uygulamayı edinmek ve takas yapmaya başlamak için QR kodunu tarayın.",
+    "message": "Aptos Browser Extension Mobil kullanıcıları artık mobil cüzdanları içinde token takas edebilirler. Mobil uygulamayı edinmek ve takas yapmaya başlamak için QR kodunu tarayın.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Mobilde takas burada!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use Aptos Browser Extension Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Daha fazla bilgi",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "AptosMask en iyi güvenlik uygulamalarında güncel kalın ve resmi AptosMask desteğinden en son güvenlik ipuçlarını alın.",
+    "message": "Aptos Browser Extension en iyi güvenlik uygulamalarında güncel kalın ve resmi Aptos Browser Extension desteğinden en son güvenlik ipuçlarını alın.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1873,7 +1873,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Doğrudan cüzdanınızdan token takaslarında en iyi fiyatlara sahip olun. AptosMask artık Binance Smart Chain'deki birden fazla merkezi olmayan borsa toplayıcısı ve profesyonel piyasa oluşturucuyu bağlıyor.",
+    "message": "Doğrudan cüzdanınızdan token takaslarında en iyi fiyatlara sahip olun. Aptos Browser Extension artık Binance Smart Chain'deki birden fazla merkezi olmayan borsa toplayıcısı ve profesyonel piyasa oluşturucuyu bağlıyor.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1885,11 +1885,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Chrome 91 sürümünden itibaren Kayıt Defteri desteğimize olanak tanıyan API (U2F) artık donanım cüzdanları desteklememektedir. AptosMask Kayıt Defteri cihazınızı Ledger Live masaüstü uygulaması üzerinden bağlamanıza olanak tanıyan yeni bir Ledger Live desteğini hayata geçirmiştir.",
+    "message": "Chrome 91 sürümünden itibaren Kayıt Defteri desteğimize olanak tanıyan API (U2F) artık donanım cüzdanları desteklememektedir. Aptos Browser Extension Kayıt Defteri cihazınızı Ledger Live masaüstü uygulaması üzerinden bağlamanıza olanak tanıyan yeni bir Ledger Live desteğini hayata geçirmiştir.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "MetaMask'te Kayıt Defteri hesabınız ile etkileşim kurarken yeni bir sekme açılacak ve sizden Ledger Live uygulamasını açmanız istenecektir. Uygulama açıldıktan sonra sizden AptosMask hesabınızla bir WebSocket bağlantısı kurulmasına izin vermeniz istenecektir. Hepsi bu!",
+    "message": "MetaMask'te Kayıt Defteri hesabınız ile etkileşim kurarken yeni bir sekme açılacak ve sizden Ledger Live uygulamasını açmanız istenecektir. Uygulama açıldıktan sonra sizden Aptos Browser Extension hesabınızla bir WebSocket bağlantısı kurulmasına izin vermeniz istenecektir. Hepsi bu!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1901,7 +1901,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "AptosMask 10.1.0 sürümü, Kayıt Defteri cihazları kullanıldığında EIP-1559 işlemleri için yeni destek içerir.",
+    "message": "Aptos Browser Extension 10.1.0 sürümü, Kayıt Defteri cihazları kullanıldığında EIP-1559 işlemleri için yeni destek içerir.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1917,7 +1917,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "AptosMask 10.4.0 sürümü itibariyle Kayıt Defteri cihazınızı Metamask'e bağlamak için artık Ledger Live'e ihtiyacınız yok.",
+    "message": "Aptos Browser Extension 10.4.0 sürümü itibariyle Kayıt Defteri cihazınızı Metamask'e bağlamak için artık Ledger Live'e ihtiyacınız yok.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -1974,10 +1974,10 @@
     "message": "Tarayıcı uzantısı simgesine tıklayın"
   },
   "onboardingPinExtensionDescription": {
-    "message": "İşlem onaylarını erişilebilir ve kolay görüntülenebilir hale getirmek için AptosMask'i tarayıcınıza sabitleyin."
+    "message": "İşlem onaylarını erişilebilir ve kolay görüntülenebilir hale getirmek için Aptos Browser Extension'i tarayıcınıza sabitleyin."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Uzantıya tıklayarak AptosMask'i açabilir ve 1 tık ile cüzdanınıza erişim sağlayabilirsiniz."
+    "message": "Uzantıya tıklayarak Aptos Browser Extension'i açabilir ve 1 tık ile cüzdanınıza erişim sağlayabilirsiniz."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Hemen erişim sağlamak için tarayıcı uzantısı simgesine tıklayın"
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "AptosMask kurulumunuz tamamlandı!"
+    "message": "Aptos Browser Extension kurulumunuz tamamlandı!"
   },
   "onboardingReturnNotice": {
     "message": "\"$\" bu sekmeyi kapatacak $2 alanına geri döndürecektir",
@@ -2013,8 +2013,8 @@
     "message": "Sadece güvendiğiniz sitelere bağlayın."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "Kayıt defterinizi WebHID üzerinden bağlamak için AptosMask'i tam ekran açın.",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "message": "Kayıt defterinizi WebHID üzerinden bağlamak için Aptos Browser Extension'i tam ekran açın.",
+    "description": "Shown to the user on the confirm screen when they are viewing Aptos Browser Extension in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "İsteğe bağlı"
@@ -2044,7 +2044,7 @@
     "message": "Parola yeterince uzun değil"
   },
   "passwordSetupDetails": {
-    "message": "Bu parola AptosMask cüzdanınızın kilidini sadece bu cihazda açacaktır. AptosMask bu parolayı kurtaramaz."
+    "message": "Bu parola Aptos Browser Extension cüzdanınızın kilidini sadece bu cihazda açacaktır. Aptos Browser Extension bu parolayı kurtaramaz."
   },
   "passwordTermsWarning": {
     "message": "MetaMask'in benim için bu parolayı kurtaramayacağını anlıyorum. $1"
@@ -2167,7 +2167,7 @@
     "message": "Gizli Kurtarma İfadenizi asla başkasıyla paylaşmayın"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "AptosMask ekibi sizden asla Gizli Kurtarma İfadenizi istemeyecektir"
+    "message": "Aptos Browser Extension ekibi sizden asla Gizli Kurtarma İfadenizi istemeyecektir"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Gizli Kurtarma İfadeniz tüm hesaplarınızı kontrol eder."
@@ -2342,7 +2342,7 @@
     "message": "Birileri sizden kurtarma ifadenizi istiyorsa büyük olasılıkla sizi dolandırmaya ve cüzdanınızdaki paraları çalmaya çalışıyordur"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Gizli Kurtarma İfadenizi AptosMask de dahil olmak üzere asla paylaşmayın!"
+    "message": "Gizli Kurtarma İfadenizi Aptos Browser Extension de dahil olmak üzere asla paylaşmayın!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Gizli Kurtarma İfadesi nedir?"
@@ -2381,7 +2381,7 @@
     "message": "Hesap Seç"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Bu hesap zaten AptosMask'e bağlanmış"
+    "message": "Bu hesap zaten Aptos Browser Extension'e bağlanmış"
   },
   "selectEachPhrase": {
     "message": "Doğru olduğundan emin olmak için lütfen her ifadeyi seçin."
@@ -2564,7 +2564,7 @@
     "message": "Durum günlükleri alınırken hata."
   },
   "stateLogFileName": {
-    "message": "AptosMask Durum Günlükleri"
+    "message": "Aptos Browser Extension Durum Günlükleri"
   },
   "stateLogs": {
     "message": "Durum Günlükleri"
@@ -2582,7 +2582,7 @@
     "message": "Lattice1'inizin bağlanmaya hazır olduğundan emin olun"
   },
   "step1LatticeWalletMsg": {
-    "message": "Kurulduktan ve çevrimiçi olduktan sonra Lattice1'inizi AptosMask'e bağlayabilirsiniz. Cihazınızın kilidini açın ve Cihaz Kimliğini hazırlayın. Donanım cüzdanlarının kullanımı hakkında daha fazla bilgi için, $1",
+    "message": "Kurulduktan ve çevrimiçi olduktan sonra Lattice1'inizi Aptos Browser Extension'e bağlayabilirsiniz. Cihazınızın kilidini açın ve Cihaz Kimliğini hazırlayın. Donanım cüzdanlarının kullanımı hakkında daha fazla bilgi için, $1",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2678,7 +2678,7 @@
     "message": "Limiti düzenle"
   },
   "swapEnableDescription": {
-    "message": "Bu gereklidir ve AptosMask'e $1 takası yapma izni verir.",
+    "message": "Bu gereklidir ve Aptos Browser Extension'e $1 takası yapma izni verir.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2724,14 +2724,14 @@
     "message": "Önceki ekrandaki gaz ücretleri bu iki işlem arasında bölünmüştür."
   },
   "swapGasFeesSummary": {
-    "message": "Gaz ücretleri, $1 ağında işlemleri gerçekleştiren kripto madencilerine ödenir. AptosMask gaz ücretlerinden herhangi bir kazanç elde etmemektedir.",
+    "message": "Gaz ücretleri, $1 ağında işlemleri gerçekleştiren kripto madencilerine ödenir. Aptos Browser Extension gaz ücretlerinden herhangi bir kazanç elde etmemektedir.",
     "description": "$1 is the selected network, e.g. Aptos or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "Fark tutarı çok yüksek."
   },
   "swapIncludesMMFee": {
-    "message": "%$1 AptosMask ücreti dahildir.",
+    "message": "%$1 Aptos Browser Extension ücreti dahildir.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2741,7 +2741,7 @@
     "message": "Maks. fark"
   },
   "swapMetaMaskFee": {
-    "message": "AptosMask ücreti"
+    "message": "Aptos Browser Extension ücreti"
   },
   "swapMetaMaskFeeDescription": {
     "message": "Her defasında en iyi likidite kaynaklarından en iyi fiyatı buluyoruz. %$1 oranında bir ücret otomatik olarak bu teklife dahil edilmiştir.",
@@ -2924,7 +2924,7 @@
     "message": "Aktivitede görüntüle"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Bu, AptosMask'te seçili bir ağı önceden eklenmiş bir ağa dönüştürecektir:"
+    "message": "Bu, Aptos Browser Extension'te seçili bir ağı önceden eklenmiş bir ağa dönüştürecektir:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Bu sitenin ağı değiştirmesine izin ver?"
@@ -2960,16 +2960,16 @@
     "message": "Bu kodu tararken hiç kimsenin ekranınıza bakmadığından emin olun"
   },
   "syncWithMobileComplete": {
-    "message": "Verileriniz başarılı bir şekilde senkronize edildi. AptosMask mobil uygulamasının tadını çıkarın!"
+    "message": "Verileriniz başarılı bir şekilde senkronize edildi. Aptos Browser Extension mobil uygulamasının tadını çıkarın!"
   },
   "syncWithMobileDesc": {
-    "message": "Hesaplarınızı ve bilgilerinizi mobil cihazınızla senkronize edebilirsiniz. AptosMask mobil uygulamasını açın, \"Ayarlar\" kısmına gidin ve \"Tarayıcı Uzantısından Senkronize Et\" seçeneğine dokunun"
+    "message": "Hesaplarınızı ve bilgilerinizi mobil cihazınızla senkronize edebilirsiniz. Aptos Browser Extension mobil uygulamasını açın, \"Ayarlar\" kısmına gidin ve \"Tarayıcı Uzantısından Senkronize Et\" seçeneğine dokunun"
   },
   "syncWithMobileDescNewUsers": {
     "message": "Metamask Mobil uygulamasını ilk defa açıyorsanız telefonunuzdaki adımları izleyin."
   },
   "syncWithMobileScanThisCode": {
-    "message": "AptosMask mobil uygulamanızla bu kodu tarayın"
+    "message": "Aptos Browser Extension mobil uygulamanızla bu kodu tarayın"
   },
   "syncWithMobileTitle": {
     "message": "Mobil ile senkronize et"
@@ -3067,7 +3067,7 @@
     "message": "Site önerisi"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "En son bloka göre AptosMask'in önerilen gaz ücretini kullanmak için düzenleyin."
+    "message": "En son bloka göre Aptos Browser Extension'in önerilen gaz ücretini kullanmak için düzenleyin."
   },
   "transactionDetailGasHeading": {
     "message": "Tahmini gaz ücreti"
@@ -3082,7 +3082,7 @@
     "message": "Gaz ücretleri ağ tarafından belirlenir ve ağ trafiği ve işlem karmaşıklığına göre dalgalanır."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Gaz ücretleri, $1 ağında işlemleri gerçekleştiren kripto madencilerine ödenir. AptosMask gaz ücretlerinden herhangi bir kazanç elde etmemektedir."
+    "message": "Gaz ücretleri, $1 ağında işlemleri gerçekleştiren kripto madencilerine ödenir. Aptos Browser Extension gaz ücretlerinden herhangi bir kazanç elde etmemektedir."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Tutar + gaz ücreti"
@@ -3174,11 +3174,11 @@
     "message": "Şu anda işlem içgörüleri bu sözleşme için desteklenmiyor."
   },
   "typePassword": {
-    "message": "AptosMask parolanızı girin"
+    "message": "Aptos Browser Extension parolanızı girin"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect Aptos Browser Extension to Ledger devices."
   },
   "unapproved": {
     "message": "Onaylanmadı"
@@ -3247,7 +3247,7 @@
     "message": "Token Algılama Kullan"
   },
   "useTokenDetectionDescription": {
-    "message": "Cüzdanınıza gönderilen yeni tokenleri algılamak ve görüntülemek için üçüncü taraf API'leri kullanıyoruz. AptosMask tarafından bu hizmetlerden veri çekilmesini istemiyorsanız bunu kapatın."
+    "message": "Cüzdanınıza gönderilen yeni tokenleri algılamak ve görüntülemek için üçüncü taraf API'leri kullanıyoruz. Aptos Browser Extension tarafından bu hizmetlerden veri çekilmesini istemiyorsanız bunu kapatın."
   },
   "usedByClients": {
     "message": "Çeşitli müşteriler tarafından kullanılıyor"
@@ -3310,10 +3310,10 @@
     "message": "Cüzdanınızı başarılı bir şekilde korudunuz. Gizli Kurtarma İfadenizi güvenli ve gizli tutun -- bunun sorumluluğu size aittir!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "AptosMask Gizli Kurtarma İfadenizi kurtaramıyor."
+    "message": "Aptos Browser Extension Gizli Kurtarma İfadenizi kurtaramıyor."
   },
   "walletCreationSuccessReminder2": {
-    "message": "AptosMask hiçbir zaman Gizli Kurtarma İfadenizi istemeyecektir."
+    "message": "Aptos Browser Extension hiçbir zaman Gizli Kurtarma İfadenizi istemeyecektir."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 hiç kimseyle başkasıyla paylaşmayın, aksi halde çalınma riskiyle karşı karşıya kalırsınız",
@@ -3347,7 +3347,7 @@
     "message": "Merkezsiz uygulamaları keşfedin"
   },
   "welcomeLoginDescription": {
-    "message": "Merkezsiz uygulamalarda oturum açmak için AptosMask'inizi kullanın - kaydolmak gerekmez."
+    "message": "Merkezsiz uygulamalarda oturum açmak için Aptos Browser Extension'inizi kullanın - kaydolmak gerekmez."
   },
   "welcomeLoginTitle": {
     "message": "Cüzdanınıza merhaba deyin"
@@ -3356,11 +3356,11 @@
     "message": "Başlayalım"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "Milyonların güvendiği AptosMask, web3 dünyasını herkes için erişilebilir kılan güvenli bir cüzdandır."
+    "message": "Milyonların güvendiği Aptos Browser Extension, web3 dünyasını herkes için erişilebilir kılan güvenli bir cüzdandır."
   },
   "whatsNew": {
     "message": "Yenilikler",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to Aptos Browser Extension."
   },
   "whatsThis": {
     "message": "Bu nedir?"

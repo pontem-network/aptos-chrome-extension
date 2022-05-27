@@ -41,7 +41,7 @@
     "message": "سجل النشاط"
   },
   "addAcquiredTokens": {
-    "message": "أضف العملات الرمزية التي اكتسبتها باستخدام AptosMask"
+    "message": "أضف العملات الرمزية التي اكتسبتها باستخدام Aptos Browser Extension"
   },
   "addAlias": {
     "message": "إضافة اسم مستعار"
@@ -79,11 +79,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -111,7 +111,7 @@
     "message": "مؤقت تسجيل الخروج التلقائي (بالدقائق)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "اضبط مهلة السكون بالدقائق التي يقوم AptosMask بتسجيل الخروج بعدها تلقائيًا"
+    "message": "اضبط مهلة السكون بالدقائق التي يقوم Aptos Browser Extension بتسجيل الخروج بعدها تلقائيًا"
   },
   "average": {
     "message": "المتوسط"
@@ -123,7 +123,7 @@
     "message": "العودة إلى الجميع"
   },
   "backupApprovalInfo": {
-    "message": "هذا الرمز السري مطلوب لاسترداد محفظتك في حالة فقد جهازك أو نسيان كلمة مرورك أو إعادة تثبيت AptosMask أو الرغبة في الوصول إلى محفظتك عبر جهاز آخر."
+    "message": "هذا الرمز السري مطلوب لاسترداد محفظتك في حالة فقد جهازك أو نسيان كلمة مرورك أو إعادة تثبيت Aptos Browser Extension أو الرغبة في الوصول إلى محفظتك عبر جهاز آخر."
   },
   "backupApprovalNotice": {
     "message": "قم بالنسخ الاحتياطي لرمز الاسترداد السري للحفاظ على محفظتك وأموالك بأمان."
@@ -154,7 +154,7 @@
     "message": "قم بشراء عملة إيثير بواسطة Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "يتيح لك Wyre استخدام بطاقة ائتمان لإيداع ETH مباشرة في حساب AptosMask الخاص بك."
+    "message": "يتيح لك Wyre استخدام بطاقة ائتمان لإيداع ETH مباشرة في حساب Aptos Browser Extension الخاص بك."
   },
   "bytes": {
     "message": "بايتات"
@@ -172,7 +172,7 @@
     "message": "معرّف السلسلة"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "تحتاج إلى استخدام AptosMask على Google Chrome للاتصال بمحفظة الأجهزة الخاصة بك."
+    "message": "تحتاج إلى استخدام Aptos Browser Extension على Google Chrome للاتصال بمحفظة الأجهزة الخاصة بك."
   },
   "clickToRevealSeed": {
     "message": "انقر هنا للكشف عن الكلمات السرية"
@@ -331,13 +331,13 @@
     "message": "لا تشارك هذه الجملة مطلقًا مع أي شخص."
   },
   "endOfFlowMessage5": {
-    "message": "كن حذراً من الخداع الإلكتروني! لن يسأل AptosMask من تلقاء نفسه عن عبارة الأمان الخاصة بك أبداً."
+    "message": "كن حذراً من الخداع الإلكتروني! لن يسأل Aptos Browser Extension من تلقاء نفسه عن عبارة الأمان الخاصة بك أبداً."
   },
   "endOfFlowMessage6": {
     "message": "إذا كنت بحاجة إلى عمل نسخة احتياطية من عبارة الأمان الخاصة بك مرة أخرى، يمكنك العثور عليها في الإعدادات -> الأمان."
   },
   "endOfFlowMessage8": {
-    "message": "لا يمكن لـ AptosMask استعادة جملتك البذرية. تعلم المزيد."
+    "message": "لا يمكن لـ Aptos Browser Extension استعادة جملتك البذرية. تعلم المزيد."
   },
   "endOfFlowMessage9": {
     "message": "اعرف المزيد."
@@ -441,7 +441,7 @@
     "message": "الاتصال بمحفظة hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "حدد محفظة أجهزة ترغب في استخدامها مع AptosMask"
+    "message": "حدد محفظة أجهزة ترغب في استخدامها مع Aptos Browser Extension"
   },
   "here": {
     "message": "هنا",
@@ -467,7 +467,7 @@
     "message": "استيراد الحساب"
   },
   "importAccountMsg": {
-    "message": "لن يتم ربط الحسابات التي تم استيرادها بعبارة أمان حساب AptosMask الذي تم إنشاؤها في الأصل. تعرف على المزيد حول الحسابات المستوردة"
+    "message": "لن يتم ربط الحسابات التي تم استيرادها بعبارة أمان حساب Aptos Browser Extension الذي تم إنشاؤها في الأصل. تعرف على المزيد حول الحسابات المستوردة"
   },
   "importAccountSeedPhrase": {
     "message": "استيراد حساب باستخدام عبارة الأمان"
@@ -568,7 +568,7 @@
     "message": "إيصالك بالإيثيريوم وبالشبكة اللامركزية."
   },
   "metamaskVersion": {
-    "message": "إصدار AptosMask "
+    "message": "إصدار Aptos Browser Extension "
   },
   "mustSelectOne": {
     "message": "يجب تحديد عملة رمزية واحدة على الأقل."
@@ -612,7 +612,7 @@
     "message": "كلمة مرور جديدة (8 أحرف كحد أدنى)"
   },
   "newToMetaMask": {
-    "message": "هل انت جديد في AptosMask؟"
+    "message": "هل انت جديد في Aptos Browser Extension؟"
   },
   "newTotal": {
     "message": "إجمالي جديد"
@@ -666,7 +666,7 @@
     "message": "المشاركة في MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "شارك في MetaMetrics لمساعدتنا في جعل AptosMask أفضل"
+    "message": "شارك في MetaMetrics لمساعدتنا في جعل Aptos Browser Extension أفضل"
   },
   "password": {
     "message": "كلمة المرور"
@@ -938,16 +938,16 @@
     "message": "تأكد من عدم قيام أي شخص آخر بالنظر إلى شاشتك عند مسح هذا الرمز"
   },
   "syncWithMobileComplete": {
-    "message": "تمت مزامنة بياناتك بنجاح. استمتع بتطبيق AptosMask للهاتف المحمول!"
+    "message": "تمت مزامنة بياناتك بنجاح. استمتع بتطبيق Aptos Browser Extension للهاتف المحمول!"
   },
   "syncWithMobileDesc": {
-    "message": "يمكنك مزامنة حساباتك ومعلوماتك مع جهازك المحمول. افتح تطبيق AptosMask على الجهاز المحمول وانتقل إلى \"الإعدادات\" ثم انقر على \"المزامنة من إضافة المتصفح\""
+    "message": "يمكنك مزامنة حساباتك ومعلوماتك مع جهازك المحمول. افتح تطبيق Aptos Browser Extension على الجهاز المحمول وانتقل إلى \"الإعدادات\" ثم انقر على \"المزامنة من إضافة المتصفح\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "إذا قمت للتوّ بفتح تطبيق AptosMask للهواتف المحمولة لأول مرة، فاتبع الخطوات الموجودة في هاتفك."
+    "message": "إذا قمت للتوّ بفتح تطبيق Aptos Browser Extension للهواتف المحمولة لأول مرة، فاتبع الخطوات الموجودة في هاتفك."
   },
   "syncWithMobileScanThisCode": {
-    "message": "امسح هذا الرمز ضوئياً باستخدام تطبيق AptosMask للهواتف المحمولة"
+    "message": "امسح هذا الرمز ضوئياً باستخدام تطبيق Aptos Browser Extension للهواتف المحمولة"
   },
   "syncWithMobileTitle": {
     "message": "المزامنة مع الجهاز المحمول"
@@ -1038,7 +1038,7 @@
     "message": "إعادة المحاولة"
   },
   "typePassword": {
-    "message": "أدخل كلمة مرور AptosMask الخاصة بك"
+    "message": "أدخل كلمة مرور Aptos Browser Extension الخاصة بك"
   },
   "unapproved": {
     "message": "تم الرفض"
@@ -1089,7 +1089,7 @@
     "message": "قم بزيارة موقعنا على الإنترنت"
   },
   "welcome": {
-    "message": "مرحباً بك في AptosMask"
+    "message": "مرحباً بك في Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "نرحب بعودتك!"

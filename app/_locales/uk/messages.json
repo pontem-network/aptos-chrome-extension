@@ -33,7 +33,7 @@
     "message": "журнал активності"
   },
   "addAcquiredTokens": {
-    "message": "Додайте токени, отримані за допомогою AptosMask"
+    "message": "Додайте токени, отримані за допомогою Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Додати псевдо"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Таймер автоматичного виходу (хвилин)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Встановіть час відсутності активності у хвилинах після якого AptosMask буде здійснювати автоматичний вихід"
+    "message": "Встановіть час відсутності активності у хвилинах після якого Aptos Browser Extension буде здійснювати автоматичний вихід"
   },
   "average": {
     "message": "У середньому"
@@ -115,7 +115,7 @@
     "message": "Повернутися до всіх"
   },
   "backupApprovalInfo": {
-    "message": "Цей секретний код буде потрібен, щоб відновити ваш гаманець у разі втрати вашого пристрою, забуття паролю, потреби у перевстановленні AptosMask або виникнення бажання отримати доступ до вашого гаманця з іншого пристрою."
+    "message": "Цей секретний код буде потрібен, щоб відновити ваш гаманець у разі втрати вашого пристрою, забуття паролю, потреби у перевстановленні Aptos Browser Extension або виникнення бажання отримати доступ до вашого гаманця з іншого пристрою."
   },
   "backupApprovalNotice": {
     "message": "Створіть резервну копію вашого Секретного кода відновлення, щоб ваш гаманець та ваші кошти залишались у безпеці."
@@ -146,7 +146,7 @@
     "message": "Купити ETH через Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти ETH безпосередньо у свій гаманець AptosMask."
+    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти ETH безпосередньо у свій гаманець Aptos Browser Extension."
   },
   "bytes": {
     "message": "Байти"
@@ -164,7 +164,7 @@
     "message": "ID мережі"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Щоб підключитися до апаратного гаманця, розширення AptosMask потрібно використовувати в Google Chrome."
+    "message": "Щоб підключитися до апаратного гаманця, розширення Aptos Browser Extension потрібно використовувати в Google Chrome."
   },
   "clickToRevealSeed": {
     "message": "Клацніть тут, щоб відкрити секретні слова"
@@ -323,13 +323,13 @@
     "message": "Ніколи не передавайте цю фразу нікому."
   },
   "endOfFlowMessage5": {
-    "message": "Остерігайтесь фішингу! AptosMask ніколи не запитуватиме вашої початкової фрази."
+    "message": "Остерігайтесь фішингу! Aptos Browser Extension ніколи не запитуватиме вашої початкової фрази."
   },
   "endOfFlowMessage6": {
     "message": "Якщо вам потрібно знову зробити резервну копію вашої початкової фрази, ви можете знайти її у Налаштування -> Безпека."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask не вдалося відновити вашу мнемонічну фразу. Докладніше."
+    "message": "Aptos Browser Extension не вдалося відновити вашу мнемонічну фразу. Докладніше."
   },
   "endOfFlowMessage9": {
     "message": "Дізнатись більше."
@@ -437,7 +437,7 @@
     "message": "Під'єднати апаратний гаманець"
   },
   "hardwareWalletsMsg": {
-    "message": "Оберіть апаратний гаманець, який ви хочете використовувати з AptosMask"
+    "message": "Оберіть апаратний гаманець, який ви хочете використовувати з Aptos Browser Extension"
   },
   "here": {
     "message": "тут",
@@ -463,7 +463,7 @@
     "message": "Імпортувати обліковий запис"
   },
   "importAccountMsg": {
-    "message": "Імпортовані облікові записи не будуть пов'язані з вашою первісно створеною початковою фразою облікового запису AptosMask. Дізнайтесь більше про імпортовані облікові записи"
+    "message": "Імпортовані облікові записи не будуть пов'язані з вашою первісно створеною початковою фразою облікового запису Aptos Browser Extension. Дізнайтесь більше про імпортовані облікові записи"
   },
   "importAccountSeedPhrase": {
     "message": "Імпортувати обліковий запис з початковою фразою"
@@ -567,7 +567,7 @@
     "message": "Під'єднуємо вас до Aptos та децентралізованої мережі."
   },
   "metamaskVersion": {
-    "message": "Версія AptosMask"
+    "message": "Версія Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Слід вибрати хоча б 1 токен."
@@ -611,7 +611,7 @@
     "message": "Новий пароль (мінімум 8 символів)"
   },
   "newToMetaMask": {
-    "message": "Вперше в AptosMask?"
+    "message": "Вперше в Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Новий підсумок"
@@ -665,7 +665,7 @@
     "message": "Взяти участь у MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Беріть участь у програмі MetaMetrics, щоб допомогти нам покращити AptosMask"
+    "message": "Беріть участь у програмі MetaMetrics, щоб допомогти нам покращити Aptos Browser Extension"
   },
   "password": {
     "message": "Пароль"
@@ -937,16 +937,16 @@
     "message": "Переконайтесь, що ніхто не дивиться на ваш екран, коли скануєте цей код"
   },
   "syncWithMobileComplete": {
-    "message": "Ваші дані були успішно синхронізовані. Насолоджуйтесь мобільним застосунком AptosMask!"
+    "message": "Ваші дані були успішно синхронізовані. Насолоджуйтесь мобільним застосунком Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Ви можете синхронізувати ваші облікові записи та інформацію з вашим мобільним пристроєм. Відкрийте мобільний застосунок AptosMask, перейдіть до \"Налаштування\" та клацніть на \"Синхронізувати з розширення браузера\""
+    "message": "Ви можете синхронізувати ваші облікові записи та інформацію з вашим мобільним пристроєм. Відкрийте мобільний застосунок Aptos Browser Extension, перейдіть до \"Налаштування\" та клацніть на \"Синхронізувати з розширення браузера\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Якщо ви відкрили мобільний застосунок AptosMask вперше, просто слідуйте крокам у вашому телефоні."
+    "message": "Якщо ви відкрили мобільний застосунок Aptos Browser Extension вперше, просто слідуйте крокам у вашому телефоні."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Відскануйте цей код за допомогою мобільної програми AptosMask"
+    "message": "Відскануйте цей код за допомогою мобільної програми Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Синхронізувати з мобільним"
@@ -1037,7 +1037,7 @@
     "message": "Повторити"
   },
   "typePassword": {
-    "message": "Введіть ваш пароль AptosMask"
+    "message": "Введіть ваш пароль Aptos Browser Extension"
   },
   "unapproved": {
     "message": "Не затверджено"
@@ -1088,7 +1088,7 @@
     "message": "Відвідайте наш веб-сайт"
   },
   "welcome": {
-    "message": "Ласкаво просимо до AptosMask"
+    "message": "Ласкаво просимо до Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "З поверненням!"

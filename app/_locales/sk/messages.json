@@ -33,7 +33,7 @@
     "message": "protokol aktivity"
   },
   "addAcquiredTokens": {
-    "message": "Pridajte tokeny, ktoré ste získali pomocou AptosMask"
+    "message": "Pridajte tokeny, ktoré ste získali pomocou Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Pridať alias"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -100,7 +100,7 @@
     "message": "Časovač automatického odhlásenia (minúty)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Nastavte čas nečinnosti v minútach skôr, než sa AptosMask automaticky odhlási"
+    "message": "Nastavte čas nečinnosti v minútach skôr, než sa Aptos Browser Extension automaticky odhlási"
   },
   "average": {
     "message": "Priemerný"
@@ -112,7 +112,7 @@
     "message": "Späť na všetko"
   },
   "backupApprovalInfo": {
-    "message": "Tento tajný kód je potrebný na obnovenie peňaženky v prípade straty zariadenia, zabudnutia hesla, preinštalovania AptosMask alebo prístupu k peňaženke na inom zariadení."
+    "message": "Tento tajný kód je potrebný na obnovenie peňaženky v prípade straty zariadenia, zabudnutia hesla, preinštalovania Aptos Browser Extension alebo prístupu k peňaženke na inom zariadení."
   },
   "backupApprovalNotice": {
     "message": "Zálohujte si svoj tajný kód na obnovenie, aby bola vaša peňaženka a prostriedky bezpečné."
@@ -140,7 +140,7 @@
     "message": "Kúpte ETH s Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vám umožňuje použiť kreditnú kartu na vloženie depozitu ETH priamo na váš účet AptosMask."
+    "message": "Wyre vám umožňuje použiť kreditnú kartu na vloženie depozitu ETH priamo na váš účet Aptos Browser Extension."
   },
   "bytes": {
     "message": "Bajty"
@@ -158,7 +158,7 @@
     "message": "ID reťazca"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ak sa chcete pripojiť k svojej hardvérovej peňaženke, musíte v Google Chrome použiť AptosMask."
+    "message": "Ak sa chcete pripojiť k svojej hardvérovej peňaženke, musíte v Google Chrome použiť Aptos Browser Extension."
   },
   "clickToRevealSeed": {
     "message": "Kliknutím sem odkryjete tajné slová"
@@ -317,13 +317,13 @@
     "message": "Nikdy nezdieľajte frázu s niekým iným."
   },
   "endOfFlowMessage5": {
-    "message": "Dávajte pozor na phishing! AptosMask nikdy nebude spontánne požadovať vašu seed frázu."
+    "message": "Dávajte pozor na phishing! Aptos Browser Extension nikdy nebude spontánne požadovať vašu seed frázu."
   },
   "endOfFlowMessage6": {
     "message": "Ak potrebujete backup frázu znova zálohovať, nájdete ju v časti Nastavenia -> Zabezpečenie."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask nemôže obnoviť vašu seed frázu. Zistiť viac."
+    "message": "Aptos Browser Extension nemôže obnoviť vašu seed frázu. Zistiť viac."
   },
   "endOfFlowMessage9": {
     "message": "Dozvedieť sa viac."
@@ -431,7 +431,7 @@
     "message": "Pripojiť hardvérovú peňaženku"
   },
   "hardwareWalletsMsg": {
-    "message": "Vyberte hardvérovú peňaženku, ktorú chcete používať s AptosMask"
+    "message": "Vyberte hardvérovú peňaženku, ktorú chcete používať s Aptos Browser Extension"
   },
   "here": {
     "message": "zde",
@@ -450,7 +450,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní AptosMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní Aptos Browser Extensionovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "importAccountSeedPhrase": {
     "message": "Importovať účet so seed frázou"
@@ -536,10 +536,10 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "AptosMask je bezpečný osobní trezor pro Ethereum."
+    "message": "Aptos Browser Extension je bezpečný osobní trezor pro Ethereum."
   },
   "metamaskVersion": {
-    "message": "Verzia AptosMask"
+    "message": "Verzia Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
@@ -583,7 +583,7 @@
     "message": "Nové heslo (min 8 znaků)"
   },
   "newToMetaMask": {
-    "message": "Ste noví na AptosMask?"
+    "message": "Ste noví na Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Nový súčet"
@@ -634,7 +634,7 @@
     "message": "Zúčastnite sa na MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Zúčastnite sa na MetaMetrics a pomôžte nám vylepšiť AptosMask"
+    "message": "Zúčastnite sa na MetaMetrics a pomôžte nám vylepšiť Aptos Browser Extension"
   },
   "password": {
     "message": "Heslo"
@@ -897,16 +897,16 @@
     "message": "Pri skenovaní tohto kódu sa uistite, že sa nikto iný nedíva na vašu obrazovku"
   },
   "syncWithMobileComplete": {
-    "message": "Vaše údaje boli úspešne synchronizované. Užite si mobilnú aplikáciu AptosMask!"
+    "message": "Vaše údaje boli úspešne synchronizované. Užite si mobilnú aplikáciu Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Svoje účty a informácie môžete synchronizovať so svojim mobilným zariadením. Otvorte mobilnú aplikáciu AptosMask, prejdite na „Nastavenia“ a kliknite na „Synchronizovať z rozšírenia prehliadača“."
+    "message": "Svoje účty a informácie môžete synchronizovať so svojim mobilným zariadením. Otvorte mobilnú aplikáciu Aptos Browser Extension, prejdite na „Nastavenia“ a kliknite na „Synchronizovať z rozšírenia prehliadača“."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ak otvoríte mobilnú aplikáciu AptosMask prvýkrát, postupujte podľa pokynov v telefóne."
+    "message": "Ak otvoríte mobilnú aplikáciu Aptos Browser Extension prvýkrát, postupujte podľa pokynov v telefóne."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Naskenujte tento kód pomocou mobilnej aplikácie AptosMask"
+    "message": "Naskenujte tento kód pomocou mobilnej aplikácie Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Synchronizácia s mobilom"
@@ -1045,7 +1045,7 @@
     "message": "Navštivte naši stránku"
   },
   "welcome": {
-    "message": "Vitajte v AptosMask"
+    "message": "Vitajte v Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Vitajte späť!"

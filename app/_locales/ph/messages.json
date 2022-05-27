@@ -41,7 +41,7 @@
     "message": "log ng aktibidad"
   },
   "addAcquiredTokens": {
-    "message": "Idagdag ang mga token na nakuha mo gamit ang AptosMask"
+    "message": "Idagdag ang mga token na nakuha mo gamit ang Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Magdagdag ng alias"
@@ -54,10 +54,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Bibigyang-daan nito na magamit ang network na ito sa AptosMask."
+    "message": "Bibigyang-daan nito na magamit ang network na ito sa Aptos Browser Extension."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "Hindi vine-verify ng AptosMask ang mga custom na network."
+    "message": "Hindi vine-verify ng Aptos Browser Extension ang mga custom na network."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Matuto tungkol sa $1.",
@@ -140,11 +140,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -194,7 +194,7 @@
     "message": "Timer sa Awtomatikong Pag-lock (minuto)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Itakda ang oras ng pag-idle sa ilang minuto bago ma-lock ang AptosMask."
+    "message": "Itakda ang oras ng pag-idle sa ilang minuto bago ma-lock ang Aptos Browser Extension."
   },
   "average": {
     "message": "Average"
@@ -206,7 +206,7 @@
     "message": "Bumalik sa Lahat"
   },
   "backupApprovalInfo": {
-    "message": "Ang lihim na code na ito ay kinakailangan para ma-recover ang iyong wallet sakaling maiwala mo ang iyong device, makalimutan ang iyong password, kailanganin mong i-install ulit ang AptosMask, o gusto mong i-access ang iyong wallet sa ibang device."
+    "message": "Ang lihim na code na ito ay kinakailangan para ma-recover ang iyong wallet sakaling maiwala mo ang iyong device, makalimutan ang iyong password, kailanganin mong i-install ulit ang Aptos Browser Extension, o gusto mong i-access ang iyong wallet sa ibang device."
   },
   "backupApprovalNotice": {
     "message": "I-back up ang iyong Lihim na Code sa Pag-recover para mapanatiling secure ang iyong wallet at mga pondo."
@@ -246,7 +246,7 @@
     "message": "Bumili ng ETH gamit ang Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Binibigyang-daan ka ng Wyre na gumamit ng debit card para mag-deposit ng ETH sa mismong AptosMask account mo."
+    "message": "Binibigyang-daan ka ng Wyre na gumamit ng debit card para mag-deposit ng ETH sa mismong Aptos Browser Extension account mo."
   },
   "bytes": {
     "message": "Bytes"
@@ -273,7 +273,7 @@
     "message": "Kasalukuyang ginagamit ng $1 network ang Chain ID na ito."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Kailangan mong gamitin ang AptosMask sa Google Chrome para maikonekta sa iyong Hardware Wallet."
+    "message": "Kailangan mong gamitin ang Aptos Browser Extension sa Google Chrome para maikonekta sa iyong Hardware Wallet."
   },
   "clickToRevealSeed": {
     "message": "Mag-click dito para ipakita ang mga lihim na salita"
@@ -338,7 +338,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Kumonekta sa AptosMask"
+    "message": "Kumonekta sa Aptos Browser Extension"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Mayroon kang $1 (na) account na nakakonekta sa site na ito.",
@@ -348,7 +348,7 @@
     "message": "Mayroon kang 1 account na nakakonekta sa site na ito."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "Ang AptosMask ay hindi nakakonekta sa site na ito. Para kumonekta sa isang web3 site, hanapin ang button na kumonekta sa site nila."
+    "message": "Ang Aptos Browser Extension ay hindi nakakonekta sa site na ito. Para kumonekta sa isang web3 site, hanapin ang button na kumonekta sa site nila."
   },
   "connectedSites": {
     "message": "Mga nakakonektang site"
@@ -464,7 +464,7 @@
     "message": "Custom na Token"
   },
   "dataBackupFoundInfo": {
-    "message": "Ang ilan sa data ng iyong account ay na-back up sa nakaraang pag-install ng AptosMask. Maaaring kasama rito ang iyong mga setting, contact, at token. Gusto mo na bang i-restore ang data na ito ngayon?"
+    "message": "Ang ilan sa data ng iyong account ay na-back up sa nakaraang pag-install ng Aptos Browser Extension. Maaaring kasama rito ang iyong mga setting, contact, at token. Gusto mo na bang i-restore ang data na ito ngayon?"
   },
   "decimal": {
     "message": "Decimal ng Token"
@@ -590,7 +590,7 @@
     "message": "Huwag kailanmang ibahagi ang parirala sa sinuman."
   },
   "endOfFlowMessage5": {
-    "message": "Mag-ingat sa phishing! Hindi kailanman basta na lang hihingin ng AptosMask ang iyong Secret Recovery Phrase."
+    "message": "Mag-ingat sa phishing! Hindi kailanman basta na lang hihingin ng Aptos Browser Extension ang iyong Secret Recovery Phrase."
   },
   "endOfFlowMessage6": {
     "message": "Kung kailangan mong i-back up ulit ang iyong Secret Recovery Phrase, makikita mo ito sa Mga Setting -> Seguridad."
@@ -600,7 +600,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "Hindi mababawi ng AptosMask ang iyong Secret Recovery Phrase."
+    "message": "Hindi mababawi ng Aptos Browser Extension ang iyong Secret Recovery Phrase."
   },
   "endOfFlowMessage9": {
     "message": "Matuto pa."
@@ -652,7 +652,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "Nagkaroon ng error sa AptosMask",
+    "message": "Nagkaroon ng error sa Aptos Browser Extension",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -810,7 +810,7 @@
     "message": "Magkonekta ng hardware wallet"
   },
   "hardwareWalletsMsg": {
-    "message": "Pumili ng hardware wallet na gusto mong gamitin kasama ng AptosMask."
+    "message": "Pumili ng hardware wallet na gusto mong gamitin kasama ng Aptos Browser Extension."
   },
   "here": {
     "message": "dito",
@@ -846,7 +846,7 @@
     "message": "i-import gamit ang Secret Recovery Phrase"
   },
   "importAccountMsg": {
-    "message": " Ang mga na-import na account ay hindi mauugnay sa orihinal mong nagawang Secret Recovery Phrase ng AptosMask account. Matuto pa tungkol sa mga na-import account "
+    "message": " Ang mga na-import na account ay hindi mauugnay sa orihinal mong nagawang Secret Recovery Phrase ng Aptos Browser Extension account. Matuto pa tungkol sa mga na-import account "
   },
   "importAccountSeedPhrase": {
     "message": "Mag-import ng account gamit ang Secret Recovery Phrase"
@@ -872,7 +872,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "Hindi nakakonekta ang AptosMask sa blockchain host. Suriin ang mga posibleng dahilan na $1.",
+    "message": "Hindi nakakonekta ang Aptos Browser Extension sa blockchain host. Suriin ang mga posibleng dahilan na $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1020,7 +1020,7 @@
     "message": "Mensahe"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Mas may kontrol ka na ngayon sa mga koneksyon ng iyong account sa AptosMask."
+    "message": "Mas may kontrol ka na ngayon sa mga koneksyon ng iyong account sa Aptos Browser Extension."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "I-click ito para pamahalaan ang mga nakakonekta mong account."
@@ -1032,10 +1032,10 @@
     "message": "Ikinokonekta ka sa Aptos at sa Decentralized Web."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Kasalukuyang minementina ang AptosMask Swaps. Bumalik sa ibang pagkakataon."
+    "message": "Kasalukuyang minementina ang Aptos Browser Extension Swaps. Bumalik sa ibang pagkakataon."
   },
   "metamaskVersion": {
-    "message": "Bersyon ng AptosMask"
+    "message": "Bersyon ng Aptos Browser Extension"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Palagi kang papayagang mag-opt out sa pamamagitan ng Mga Setting"
@@ -1045,7 +1045,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "Gagawin ng AptosMask ang sumusunod..."
+    "message": "Gagawin ng Aptos Browser Extension ang sumusunod..."
   },
   "metametricsCommitmentsNeverCollectIP": {
     "message": "$1 kolektahin ang iyong IP address",
@@ -1063,10 +1063,10 @@
     "message": "Magpapadala ng mga anonymous na kaganapang pag-click at pagtingin sa page"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Tulungan Kaming Mapahusay ang AptosMask"
+    "message": "Tulungan Kaming Mapahusay ang Aptos Browser Extension"
   },
   "metametricsOptInDescription": {
-    "message": "Gustong kunin ng AptosMask ang data ng paggamit para mas maunawaan kung paano ginagamit ng mga user namin ang extension. Gagamitin ang data na ito para patuloy na mapahusay ang kakayahang magamit at karanasan ng user sa paggamit ng produkto namin at Aptos ecosystem."
+    "message": "Gustong kunin ng Aptos Browser Extension ang data ng paggamit para mas maunawaan kung paano ginagamit ng mga user namin ang extension. Gagamitin ang data na ito para patuloy na mapahusay ang kakayahang magamit at karanasan ng user sa paggamit ng produkto namin at Aptos ecosystem."
   },
   "mismatchedChain": {
     "message": "Ang mga detalye ng network para sa chain ID na ito ay hindi tumutugma sa aming mga record. Inirerekomenda naming $1 ka bago magpatuloy.",
@@ -1090,7 +1090,7 @@
     "description": "$1 represents `needHelpLinkText`, the text which goes in the help link"
   },
   "needHelpLinkText": {
-    "message": "Suporta sa AptosMask"
+    "message": "Suporta sa Aptos Browser Extension"
   },
   "needImportFile": {
     "message": "Dapat kang pumili ng file na ii-import.",
@@ -1152,7 +1152,7 @@
     "message": "Bagong password (min na 8 char)"
   },
   "newToMetaMask": {
-    "message": "Bago ka ba sa AptosMask?"
+    "message": "Bago ka ba sa Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Bagong Kabuuan"
@@ -1165,7 +1165,7 @@
   },
   "nextNonceWarning": {
     "message": "Mas mataas ang nonce sa iminumungkahing nonce na $1",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to Aptos Browser Extension's internal logic"
   },
   "noAccountsFound": {
     "message": "Walang nakitang account para sa ibinigay na query sa paghahanap"
@@ -1210,19 +1210,19 @@
     "message": "Hindi Sapat ang Gas"
   },
   "notifications1Description": {
-    "message": "Puwede na ngayong i-swap ng mga user ng AptosMask Mobile ang mga token sa kanilang mobile wallet. I-scan ang QR code para kunin ang mobile app at magsimulang mag-swap.",
+    "message": "Puwede na ngayong i-swap ng mga user ng Aptos Browser Extension Mobile ang mga token sa kanilang mobile wallet. I-scan ang QR code para kunin ang mobile app at magsimulang mag-swap.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Narito na ang pag-swap sa mobile!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use Aptos Browser Extension Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Magbasa pa",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Manatiling up to date tungkol sa pinakamahuhusay na kagawian sa seguridad ng AptosMask at kunin ang mga pinakabagong tip sa seguridad mula sa opisyal na suporta ng AptosMask.",
+    "message": "Manatiling up to date tungkol sa pinakamahuhusay na kagawian sa seguridad ng Aptos Browser Extension at kunin ang mga pinakabagong tip sa seguridad mula sa opisyal na suporta ng Aptos Browser Extension.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1234,7 +1234,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Kunin ang pinakamura sa mga pag-swap ng token sa mismong wallet mo. Kinokonekta ka na ngayon ng AptosMask sa maraming naka-decentralize na aggregator sa pagpapalit at propesyonal na market maker sa Binance Smart Chain.",
+    "message": "Kunin ang pinakamura sa mga pag-swap ng token sa mismong wallet mo. Kinokonekta ka na ngayon ng Aptos Browser Extension sa maraming naka-decentralize na aggregator sa pagpapalit at propesyonal na market maker sa Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1246,11 +1246,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Simula sa Chrome version 91, hindi na susuportahan ng API na nag-enable sa aming Ledger support (U2F) ang mga hardware wallet. Nagpatupad ang AptosMask ng bagong Ledger Live support na nagbibigay-daan sa iyong patuloy na ikonekta ang Ledger device mo sa pamamagitan ng Ledger Live desktop app.",
+    "message": "Simula sa Chrome version 91, hindi na susuportahan ng API na nag-enable sa aming Ledger support (U2F) ang mga hardware wallet. Nagpatupad ang Aptos Browser Extension ng bagong Ledger Live support na nagbibigay-daan sa iyong patuloy na ikonekta ang Ledger device mo sa pamamagitan ng Ledger Live desktop app.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Kapag ginagamit ang iyong Ledger account sa AptosMask, may bagong tab na magbubukas at hihilingin sa iyong buksan ang Ledger Live app.  Kapag nagbukas ang app, hihilingin sa iyong payagan ang isang koneksyon ng WebSocket sa AptosMask account mo.  Iyon lang!",
+    "message": "Kapag ginagamit ang iyong Ledger account sa Aptos Browser Extension, may bagong tab na magbubukas at hihilingin sa iyong buksan ang Ledger Live app.  Kapag nagbukas ang app, hihilingin sa iyong payagan ang isang koneksyon ng WebSocket sa Aptos Browser Extension account mo.  Iyon lang!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1296,7 +1296,7 @@
     "message": "Sumali sa MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Sumali sa MetaMetrics para mas mapahusay namin ang AptosMask"
+    "message": "Sumali sa MetaMetrics para mas mapahusay namin ang Aptos Browser Extension"
   },
   "password": {
     "message": "Password"
@@ -1393,7 +1393,7 @@
     "message": "Huwag kailanman ipaalam sa iba ang iyong Secret Recovery Phrase"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "Hindi kailanman hihingin ng AptosMask team ang iyong Secret Recovery Phrase"
+    "message": "Hindi kailanman hihingin ng Aptos Browser Extension team ang iyong Secret Recovery Phrase"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Kinokontrol ng iyong Secret Recovery Phrase ang lahat ng iyong account."
@@ -1538,7 +1538,7 @@
     "message": "Kung may manghihingi man ng iyong recovery phrase, malamang na sinusubukan ka niyang i-scam."
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Huwag kailanmang ibahagi ang iyong recovery phrase kahit na sa AptosMask!"
+    "message": "Huwag kailanmang ibahagi ang iyong recovery phrase kahit na sa Aptos Browser Extension!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Ano ang recovery phrase?"
@@ -1571,7 +1571,7 @@
     "message": "Pumili ng Account"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Nakakonekta na ang account na ito sa AptosMask"
+    "message": "Nakakonekta na ang account na ito sa Aptos Browser Extension"
   },
   "selectEachPhrase": {
     "message": "Pakipili ang bawat phrase para matiyak na tama ito."
@@ -1690,7 +1690,7 @@
     "message": "Error sa pagkuha ng mga log ng estado."
   },
   "stateLogFileName": {
-    "message": "Mga Log ng Estado ng AptosMask"
+    "message": "Mga Log ng Estado ng Aptos Browser Extension"
   },
   "stateLogs": {
     "message": "Mga Log ng Estado"
@@ -1790,7 +1790,7 @@
     "message": "I-edit ang limitasyon"
   },
   "swapEnableDescription": {
-    "message": "Kinakailangan ito at nagbibigay ito ng pahintulot sa AptosMask na i-swap ang iyong $1.",
+    "message": "Kinakailangan ito at nagbibigay ito ng pahintulot sa Aptos Browser Extension na i-swap ang iyong $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEstimatedNetworkFees": {
@@ -1832,7 +1832,7 @@
     "message": "Max na slippage"
   },
   "swapMetaMaskFee": {
-    "message": "Bayarin sa AptosMask"
+    "message": "Bayarin sa Aptos Browser Extension"
   },
   "swapMetaMaskFeeDescription": {
     "message": "Hinahanap namin ang pinakasulit na presyo mula sa mga nangungunang pinagkukunan ng liquidity, sa lahat ng pagkakataon. Awtomatikong fina-factor ang bayaring $1% sa quote na ito.",
@@ -2001,7 +2001,7 @@
     "message": "Tingnan sa aktibidad"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Papalitan nito ang napiling network sa AptosMask at gagamitin ang nakaraang idinagdag na network:"
+    "message": "Papalitan nito ang napiling network sa Aptos Browser Extension at gagamitin ang nakaraang idinagdag na network:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Payagang palitan ng site na ito ang network?"
@@ -2031,16 +2031,16 @@
     "message": "Tiyaking walang ibang nakakakita sa iyong screen kapag na-scan mo ang code na ito"
   },
   "syncWithMobileComplete": {
-    "message": "Matagumpay na na-sync ang iyong data. I-enjoy ang AptosMask mobile app!"
+    "message": "Matagumpay na na-sync ang iyong data. I-enjoy ang Aptos Browser Extension mobile app!"
   },
   "syncWithMobileDesc": {
-    "message": "Puwede mong i-sync ang iyong mga account at impormasyon sa mobile device mo. Buksan ang AptosMask mobile app, pumunta sa \"Mga Setting\" at mag-tap sa \"I-sync mula sa Browser Extension\""
+    "message": "Puwede mong i-sync ang iyong mga account at impormasyon sa mobile device mo. Buksan ang Aptos Browser Extension mobile app, pumunta sa \"Mga Setting\" at mag-tap sa \"I-sync mula sa Browser Extension\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Kung unang pagkakataon mong bubuksan ang AptosMask Mobile app, sundin lang ang mga hakbang sa iyong telepono."
+    "message": "Kung unang pagkakataon mong bubuksan ang Aptos Browser Extension Mobile app, sundin lang ang mga hakbang sa iyong telepono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "I-scan ang code na ito gamit ang iyong AptosMask mobile app"
+    "message": "I-scan ang code na ito gamit ang iyong Aptos Browser Extension mobile app"
   },
   "syncWithMobileTitle": {
     "message": "I-sync sa mobile"
@@ -2157,7 +2157,7 @@
     "message": "Subukan ulit"
   },
   "typePassword": {
-    "message": "Uri ng password ng iyong AptosMask"
+    "message": "Uri ng password ng iyong Aptos Browser Extension"
   },
   "unapproved": {
     "message": "Hindi inaprubahan"
@@ -2253,14 +2253,14 @@
     "description": "$1 is a clickable link."
   },
   "welcome": {
-    "message": "Welcome sa AptosMask"
+    "message": "Welcome sa Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Welcome Back!"
   },
   "whatsNew": {
     "message": "Ano'ng bago",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to Aptos Browser Extension."
   },
   "whatsThis": {
     "message": "Ano ito?"

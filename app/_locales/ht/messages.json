@@ -27,7 +27,7 @@
     "message": "aktivite ki fèt"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk AptosMask"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk Aptos Browser Extension"
   },
   "addSuggestedTokens": {
     "message": "Ajoute Token Yo Sikjere W"
@@ -47,11 +47,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -88,7 +88,7 @@
     "message": "Anilasyon Gaz Chaj"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak AptosMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak Aptos Browser Extension sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "close": {
     "message": "Fèmen"
@@ -238,7 +238,7 @@
     "message": "Materyèl Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak AptosMask"
+    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak Aptos Browser Extension"
   },
   "here": {
     "message": "isit la",
@@ -261,7 +261,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont AptosMask seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont Aptos Browser Extension seed fraz. Aprann plis sou kont enpòte "
   },
   "imported": {
     "message": "Pòte",
@@ -332,10 +332,10 @@
     "message": "Mesaje"
   },
   "metamaskDescription": {
-    "message": "AptosMask sekirize idantite pou Ethereum."
+    "message": "Aptos Browser Extension sekirize idantite pou Ethereum."
   },
   "metamaskVersion": {
-    "message": "AptosMask Vèsyon"
+    "message": "Aptos Browser Extension Vèsyon"
   },
   "mustSelectOne": {
     "message": "Ou dwe chwazi omwen 1 token."
@@ -679,7 +679,7 @@
     "message": "Vizite sit entènèt nou an"
   },
   "welcome": {
-    "message": "Byenveni nan AptosMask"
+    "message": "Byenveni nan Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Bon Retou!"

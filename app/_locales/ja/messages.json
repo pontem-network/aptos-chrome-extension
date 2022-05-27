@@ -99,7 +99,7 @@
     "message": "ニックネームを追加"
   },
   "addAcquiredTokens": {
-    "message": "AptosMaskを使用して取得したトークンを追加します"
+    "message": "Aptos Browser Extensionを使用して取得したトークンを追加します"
   },
   "addAlias": {
     "message": "別名を追加"
@@ -115,10 +115,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "これにより、このネットワークはAptosMask内で使用できるようになります。"
+    "message": "これにより、このネットワークはAptos Browser Extension内で使用できるようになります。"
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "AptosMaskはカスタム ネットワークを検証しません。"
+    "message": "Aptos Browser Extensionはカスタム ネットワークを検証しません。"
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "$1の詳細。",
@@ -232,11 +232,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "オートロックタイマー (分)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "AptosMaskがロックされるまでのアイドル時間を分単位で設定します。"
+    "message": "Aptos Browser Extensionがロックされるまでのアイドル時間を分単位で設定します。"
   },
   "average": {
     "message": "平均"
@@ -301,7 +301,7 @@
     "message": "一覧に戻る"
   },
   "backupApprovalInfo": {
-    "message": "このシークレット コードは、デバイスをなくしたとき、パスワードを忘れたとき、AptosMaskの再インストールが必要なとき、または別のデバイスでウォレットにアクセスするときに必要です。"
+    "message": "このシークレット コードは、デバイスをなくしたとき、パスワードを忘れたとき、Aptos Browser Extensionの再インストールが必要なとき、または別のデバイスでウォレットにアクセスするときに必要です。"
   },
   "backupApprovalNotice": {
     "message": "シークレットリカバリコードをバックアップして、ウォレットと資金の安全を確保してください。"
@@ -322,10 +322,10 @@
     "message": "基本"
   },
   "betaMetamaskDescription": {
-    "message": "AptosMaskは何百万人もに信頼されている安全なウォレットで、誰もがWeb3の世界にアクセスできるようにしています。"
+    "message": "Aptos Browser Extensionは何百万人もに信頼されている安全なウォレットで、誰もがWeb3の世界にアクセスできるようにしています。"
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "このバージョンを使うと、リリース前に今後の機能をテストできます。皆様からのご意見は、可能な限り最高のバージョンのAptosMaskを開発するうえで参考にさせていただきます。AptosMaskベータの使用には、標準の$1および弊社の$2が適用されます。ベータ版のため、バグのリスクが高くなる可能性があります。 続行することにより、これらのリスクと、弊社の利用規約およびベータ規約に記載されているリスクを承認し、これらに同意したものとみなされます。",
+    "message": "このバージョンを使うと、リリース前に今後の機能をテストできます。皆様からのご意見は、可能な限り最高のバージョンのAptos Browser Extensionを開発するうえで参考にさせていただきます。Aptos Browser Extensionベータの使用には、標準の$1および弊社の$2が適用されます。ベータ版のため、バグのリスクが高くなる可能性があります。 続行することにより、これらのリスクと、弊社の利用規約およびベータ規約に記載されているリスクを承認し、これらに同意したものとみなされます。",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "利用規約"
   },
   "betaMetamaskVersion": {
-    "message": "AptosMaskベータバージョン"
+    "message": "Aptos Browser Extensionベータバージョン"
   },
   "betaWelcome": {
-    "message": "AptosMaskベータへようこそ"
+    "message": "Aptos Browser Extensionベータへようこそ"
   },
   "blockExplorerAccountAction": {
     "message": "アカウント",
@@ -369,7 +369,7 @@
     "message": "連絡先リストを作成する"
   },
   "builtAroundTheWorld": {
-    "message": "AptosMaskは、世界中でデザイン・開発されています。"
+    "message": "Aptos Browser Extensionは、世界中でデザイン・開発されています。"
   },
   "busy": {
     "message": "ビジー状態"
@@ -381,7 +381,7 @@
     "message": "WyreでETHを購入"
   },
   "buyWithWyreDescription": {
-    "message": "Wyreを使用すると、デビット カードを使用して、ETHをAptosMaskアカウントに直接デポジットできます。"
+    "message": "Wyreを使用すると、デビット カードを使用して、ETHをAptos Browser Extensionアカウントに直接デポジットできます。"
   },
   "bytes": {
     "message": "バイト"
@@ -417,7 +417,7 @@
     "message": "このチェーンIDは現在$1ネットワークで使用されています。"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "ハードウェアウォレットに接続するには、AptosMaskをGoogle Chromeで使用する必要があります。"
+    "message": "ハードウェアウォレットに接続するには、Aptos Browser ExtensionをGoogle Chromeで使用する必要があります。"
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "ここをクリックして、WebHIDでLedgerを接続します",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "AptosMaskを使用して接続"
+    "message": "Aptos Browser Extensionを使用して接続"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "このサイトに接続されているアカウントを$1個持っています。",
@@ -499,7 +499,7 @@
     "message": "このサイトに接続されているアカウントを1個持っています。"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMaskはこのサイトに接続されていません。web3サイトに接続するには、そのサイトの接続ボタンをクリックしてください。"
+    "message": "Aptos Browser Extensionはこのサイトに接続されていません。web3サイトに接続するには、そのサイトの接続ボタンをクリックしてください。"
   },
   "connectedSites": {
     "message": "接続済みのサイト"
@@ -918,7 +918,7 @@
     "message": "フレーズは絶対に誰にも教えないでください。"
   },
   "endOfFlowMessage5": {
-    "message": "フィッシングにご注意ください! AptosMaskがシークレットリカバリーフレーズをいきなり要求することは絶対にありません。"
+    "message": "フィッシングにご注意ください! Aptos Browser Extensionがシークレットリカバリーフレーズをいきなり要求することは絶対にありません。"
   },
   "endOfFlowMessage6": {
     "message": "シークレットリカバリーフレーズを再度バックアップする場合は、[設定] -> [セキュリティ] でそれを見つけることができます。"
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to Aptos Browser Extension."
   },
   "ledgerLiveApp": {
     "message": "Ledger Liveアプリ"
@@ -1582,7 +1582,7 @@
     "message": "イーサリアムと分散型Webに接続しています。"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask Swapsはメンテナンス中です。後でもう一度確認してください。"
+    "message": "Aptos Browser Extension Swapsはメンテナンス中です。後でもう一度確認してください。"
   },
   "metamaskVersion": {
     "message": "MetaMaskのバージョン"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "ナンスが提案され$1よりも大きいです",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to Aptos Browser Extension's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "コレクティブルIDを入力してください"
@@ -1849,12 +1849,12 @@
     "message": "ガスが不足しています"
   },
   "notifications1Description": {
-    "message": "AptosMask Mobileのユーザーが、モバイルウォレット内でトークンを交換できるようになりました。QRコードをスキャンしてモバイルアプリを取得し、スワップを開始します。",
+    "message": "Aptos Browser Extension Mobileのユーザーが、モバイルウォレット内でトークンを交換できるようになりました。QRコードをスキャンしてモバイルアプリを取得し、スワップを開始します。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "モバイルでのスワッピングが可能になりました!\n",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use Aptos Browser Extension Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "続きを表示",
@@ -1901,7 +1901,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "AptosMask v10.1.0には、Ledgerデバイスを使用時のEIP-1559トランザクションのサポートが新たに追加されました。",
+    "message": "Aptos Browser Extension v10.1.0には、Ledgerデバイスを使用時のEIP-1559トランザクションのサポートが新たに追加されました。",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1917,7 +1917,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "AptosMask v10.4.0以降では、LedgerデバイスのMetaMaskへの接続にLedger Liveが不要になりました。",
+    "message": "Aptos Browser Extension v10.4.0以降では、LedgerデバイスのMetaMaskへの接続にLedger Liveが不要になりました。",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -2014,7 +2014,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "WebHIDでLedgerを接続するには、MetaMaskを全画面モードで開いてください。",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing Aptos Browser Extension in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "任意"
@@ -3178,7 +3178,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect Aptos Browser Extension to Ledger devices."
   },
   "unapproved": {
     "message": "未承認"
@@ -3360,7 +3360,7 @@
   },
   "whatsNew": {
     "message": "新機能",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to Aptos Browser Extension."
   },
   "whatsThis": {
     "message": "これは何ですか?"

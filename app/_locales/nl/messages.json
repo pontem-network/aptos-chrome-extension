@@ -147,7 +147,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte AptosMask-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte Aptos Browser Extension-account. Meer informatie over geïmporteerde accounts"
   },
   "imported": {
     "message": "geïmporteerd",
@@ -197,7 +197,7 @@
     "message": "Bericht"
   },
   "metamaskDescription": {
-    "message": "AptosMask is een veilige identiteitskluis voor Ethereum."
+    "message": "Aptos Browser Extension is een veilige identiteitskluis voor Ethereum."
   },
   "mustSelectOne": {
     "message": "Moet ten minste één token selecteren."
@@ -372,7 +372,7 @@
     "message": "Bezoek onze website"
   },
   "welcome": {
-    "message": "Welkom bij AptosMask"
+    "message": "Welkom bij Aptos Browser Extension"
   },
   "youSign": {
     "message": "U ondertekent"

@@ -33,7 +33,7 @@
     "message": "jurnal activitate"
   },
   "addAcquiredTokens": {
-    "message": "Adăugați token-urile pe care le-ați achiziționat folosind AptosMask"
+    "message": "Adăugați token-urile pe care le-ați achiziționat folosind Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Adăugare alias"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Temporizator deconectare automată (minute)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Setați perioada de inactivitate în minute înainte ca AptosMask să se deconecteze automat"
+    "message": "Setați perioada de inactivitate în minute înainte ca Aptos Browser Extension să se deconecteze automat"
   },
   "average": {
     "message": "Mediu"
@@ -115,7 +115,7 @@
     "message": "Înapoi la toate"
   },
   "backupApprovalInfo": {
-    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați AptosMask sau vreți să accesați portofelul de pe alt dispozitiv."
+    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați Aptos Browser Extension sau vreți să accesați portofelul de pe alt dispozitiv."
   },
   "backupApprovalNotice": {
     "message": "Creați o copie de rezervă a codului de recuperare secret pentru a vă menține portofelul și fondurile în siguranță."
@@ -146,7 +146,7 @@
     "message": "Cumpărați ETH cu Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ETH direct în contul dvs. AptosMask."
+    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ETH direct în contul dvs. Aptos Browser Extension."
   },
   "bytes": {
     "message": "Octeți"
@@ -164,7 +164,7 @@
     "message": "ID lanț"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Trebuie să folosiți AptosMask în Google Chrome pentru a vă conecta la portofelul hardware."
+    "message": "Trebuie să folosiți Aptos Browser Extension în Google Chrome pentru a vă conecta la portofelul hardware."
   },
   "clickToRevealSeed": {
     "message": "Faceți clic aici pentru a arăta cuvintele secrete"
@@ -323,13 +323,13 @@
     "message": "Nu comunicați niciodată fraza cuiva."
   },
   "endOfFlowMessage5": {
-    "message": "Aveți grijă la phishing! AptosMask nu vă va cere niciodată în mod spontan expresia sursă."
+    "message": "Aveți grijă la phishing! Aptos Browser Extension nu vă va cere niciodată în mod spontan expresia sursă."
   },
   "endOfFlowMessage6": {
     "message": "Dacă trebuie să vă salvați din nou fraza seed, puteți să o găsiți în Setări -> Securitate."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask nu vă poate recupera expresia sursă. Aflați mai multe."
+    "message": "Aptos Browser Extension nu vă poate recupera expresia sursă. Aflați mai multe."
   },
   "endOfFlowMessage9": {
     "message": "Aflați mai multe."
@@ -427,7 +427,7 @@
     "message": "Conectați un portofel hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu AptosMask"
+    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu Aptos Browser Extension"
   },
   "here": {
     "message": "aici",
@@ -453,7 +453,7 @@
     "message": "Importare cont"
   },
   "importAccountMsg": {
-    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră AptosMask creat inițial. Aflați mai multe despre conturile importate"
+    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră Aptos Browser Extension creat inițial. Aflați mai multe despre conturile importate"
   },
   "importAccountSeedPhrase": {
     "message": "Importați un cont cu fraza seed"
@@ -554,7 +554,7 @@
     "message": "Vă conectăm la Aptos și la Internetul descentralizat."
   },
   "metamaskVersion": {
-    "message": "Versiune AptosMask"
+    "message": "Versiune Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Trebuie să selectați cel puțin 1 simbol."
@@ -598,7 +598,7 @@
     "message": "Parola Nouă (minimum 8 caractere)"
   },
   "newToMetaMask": {
-    "message": "Nefamiliarizat cu AptosMask?"
+    "message": "Nefamiliarizat cu Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Total nou"
@@ -652,7 +652,7 @@
     "message": "Participați la MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim AptosMask."
+    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim Aptos Browser Extension."
   },
   "password": {
     "message": "Parolă"
@@ -924,16 +924,16 @@
     "message": "Asigurați-vă că nimeni altcineva nu poate vedea ecranul dvs. când scanați acest cod"
   },
   "syncWithMobileComplete": {
-    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă AptosMask!"
+    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă AptosMask, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
+    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă Aptos Browser Extension, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Dacă deschideți aplicația pentru mobil AptosMask pentru prima oară, urmați pașii afișați pe telefonul dvs."
+    "message": "Dacă deschideți aplicația pentru mobil Aptos Browser Extension pentru prima oară, urmați pașii afișați pe telefonul dvs."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scanați acest cod folosind aplicația dvs. mobilă AptosMask"
+    "message": "Scanați acest cod folosind aplicația dvs. mobilă Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Sincronizați cu mobilul"
@@ -1018,7 +1018,7 @@
     "message": "Încearcă din nou"
   },
   "typePassword": {
-    "message": "Scrieți parola dvs. pentru AptosMask"
+    "message": "Scrieți parola dvs. pentru Aptos Browser Extension"
   },
   "unapproved": {
     "message": "Neaprobat"
@@ -1069,7 +1069,7 @@
     "message": "Accesați site-ul nostru"
   },
   "welcome": {
-    "message": "Bun venit la AptosMask"
+    "message": "Bun venit la Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Bine ai revenit!"

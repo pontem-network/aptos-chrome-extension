@@ -33,7 +33,7 @@
     "message": "dziennik aktywności"
   },
   "addAcquiredTokens": {
-    "message": "Dodaj tokeny pozyskane przy pomocy AptosMask"
+    "message": "Dodaj tokeny pozyskane przy pomocy Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Dodaj alias"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Czas automatycznego wylogowania (w minutach)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Ustaw czas bezczynności w minutach, po którym AptosMask wyloguje Cię automatycznie"
+    "message": "Ustaw czas bezczynności w minutach, po którym Aptos Browser Extension wyloguje Cię automatycznie"
   },
   "average": {
     "message": "Średnia"
@@ -115,7 +115,7 @@
     "message": "Wróć do wszystkich"
   },
   "backupApprovalInfo": {
-    "message": "Ten tajny kod jest wymagany do odzyskania portfela w przypadku zgubienia urządzenia, zapomnienia hasła, ponownego zainstalowania AptosMask lub potrzeby uzyskania dostępu do portfela na innym urządzeniu."
+    "message": "Ten tajny kod jest wymagany do odzyskania portfela w przypadku zgubienia urządzenia, zapomnienia hasła, ponownego zainstalowania Aptos Browser Extension lub potrzeby uzyskania dostępu do portfela na innym urządzeniu."
   },
   "backupApprovalNotice": {
     "message": "Utwórz kopię zapasową tajnego kodu odzyskiwania, aby zapewnić bezpieczeństwo swojego portfela i środków."
@@ -146,7 +146,7 @@
     "message": "Kup ETH poprzez Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić ETH bezpośrednio na swoje konto AptosMask."
+    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić ETH bezpośrednio na swoje konto Aptos Browser Extension."
   },
   "bytes": {
     "message": "Bajty"
@@ -164,7 +164,7 @@
     "message": "Identyfikator łańcucha"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić AptosMask z przeglądarką Google Chrome."
+    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić Aptos Browser Extension z przeglądarką Google Chrome."
   },
   "clickToRevealSeed": {
     "message": "Kliknij tutaj, aby odkryć tajne słowa"
@@ -323,13 +323,13 @@
     "message": "Nigdy nie udostępniaj nikomu tej frazy."
   },
   "endOfFlowMessage5": {
-    "message": "Uważaj na phishing! AptosMask nigdy spontanicznie nie poprosi Cię o podanie frazy seed."
+    "message": "Uważaj na phishing! Aptos Browser Extension nigdy spontanicznie nie poprosi Cię o podanie frazy seed."
   },
   "endOfFlowMessage6": {
     "message": "Jeśli zajdzie konieczność ponownego wykonania kopii zapasowej frazy seed, znajdziesz ją w Ustawieniach -> Zabezpieczenia."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask nie może odzyskać Twojej frazy seed. Dowiedz się więcej."
+    "message": "Aptos Browser Extension nie może odzyskać Twojej frazy seed. Dowiedz się więcej."
   },
   "endOfFlowMessage9": {
     "message": "Dowiedz się więcej."
@@ -437,7 +437,7 @@
     "message": "Podłącz sprzętowy portfel"
   },
   "hardwareWalletsMsg": {
-    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z AptosMaskiem"
+    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z Aptos Browser Extensioniem"
   },
   "here": {
     "message": "tutaj",
@@ -463,7 +463,7 @@
     "message": "Importuj konto"
   },
   "importAccountMsg": {
-    "message": " Importowane konta nie będą powiązane z Twoją pierwotną frazą seed AptosMask. Dowiedz się więcej o importowaniu kont "
+    "message": " Importowane konta nie będą powiązane z Twoją pierwotną frazą seed Aptos Browser Extension. Dowiedz się więcej o importowaniu kont "
   },
   "importAccountSeedPhrase": {
     "message": "Zaimportuj konto za pomocą frazy seed"
@@ -561,10 +561,10 @@
     "message": "Wiadomość"
   },
   "metamaskDescription": {
-    "message": "AptosMask to bezpieczny portfel dla Ethereum."
+    "message": "Aptos Browser Extension to bezpieczny portfel dla Ethereum."
   },
   "metamaskVersion": {
-    "message": "Wersja AptosMask"
+    "message": "Wersja Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Należy wybrać co najmniej 1 token."
@@ -608,7 +608,7 @@
     "message": "Nowe hasło (min. 8 znaków)"
   },
   "newToMetaMask": {
-    "message": "Pierwszy raz w AptosMask?"
+    "message": "Pierwszy raz w Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Nowa suma"
@@ -659,7 +659,7 @@
     "message": "Weź udział w MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Weź udział w MetaMetrics, aby pomóc nam ulepszyć AptosMask"
+    "message": "Weź udział w MetaMetrics, aby pomóc nam ulepszyć Aptos Browser Extension"
   },
   "password": {
     "message": "Hasło"
@@ -928,16 +928,16 @@
     "message": "Upewnij się, że nikt inny nie patrzy na Twój ekran podczas skanowania tego kodu"
   },
   "syncWithMobileComplete": {
-    "message": "Twoje dane zostały zsynchronizowane. Miłego korzystania z aplikacji mobilnej AptosMask!"
+    "message": "Twoje dane zostały zsynchronizowane. Miłego korzystania z aplikacji mobilnej Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Możesz synchronizować swoje konta i informacje z urządzeniem mobilnym. Otwórz aplikację mobilną AptosMask, przejdź do „Ustawień” i wybierz opcję „Synchronizuj z rozszerzeniem przeglądarki”."
+    "message": "Możesz synchronizować swoje konta i informacje z urządzeniem mobilnym. Otwórz aplikację mobilną Aptos Browser Extension, przejdź do „Ustawień” i wybierz opcję „Synchronizuj z rozszerzeniem przeglądarki”."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Jeśli po raz pierwszy otwierasz aplikację AptosMask Mobile, postępuj zgodnie z instrukcjami w telefonie."
+    "message": "Jeśli po raz pierwszy otwierasz aplikację Aptos Browser Extension Mobile, postępuj zgodnie z instrukcjami w telefonie."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Zeskanuj ten kod za pomocą aplikacji mobilnej AptosMask"
+    "message": "Zeskanuj ten kod za pomocą aplikacji mobilnej Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Synchronizuj z telefonem"
@@ -1076,7 +1076,7 @@
     "message": "Odwiedź naszą stronę"
   },
   "welcome": {
-    "message": "Witaj w AptosMask"
+    "message": "Witaj w Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Witaj z powrotem!"

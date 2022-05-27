@@ -44,7 +44,7 @@
     "message": "log attività"
   },
   "addAcquiredTokens": {
-    "message": "Aggiungi i token che hai acquistato usando AptosMask"
+    "message": "Aggiungi i token che hai acquistato usando Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Aggiungi alias"
@@ -116,11 +116,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -161,7 +161,7 @@
     "message": "Timer di logout automatico (minuti)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Imposta il tempo di inattività dopo il quale AptosMask fa il log out automaticamente"
+    "message": "Imposta il tempo di inattività dopo il quale Aptos Browser Extension fa il log out automaticamente"
   },
   "average": {
     "message": "Media"
@@ -173,7 +173,7 @@
     "message": "Torna a \"Tutti\""
   },
   "backupApprovalInfo": {
-    "message": "Questo codice è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare AptosMask o voglia accedere al tuo portafoglio su un altro dispositivo."
+    "message": "Questo codice è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare Aptos Browser Extension o voglia accedere al tuo portafoglio su un altro dispositivo."
   },
   "backupApprovalNotice": {
     "message": "Mantieni al sicuro il portafoglio e i fondi eseguendo il backup della frase di recupero."
@@ -207,7 +207,7 @@
     "message": "Compra ETH con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ti consente di usare la carta di credito per depositare ETH direttamente nel tuo account AptosMask."
+    "message": "Wyre ti consente di usare la carta di credito per depositare ETH direttamente nel tuo account Aptos Browser Extension."
   },
   "canToggleInSettings": {
     "message": "Puoi riabilitare questa notifica in Impostazioni -> Avvisi."
@@ -222,7 +222,7 @@
     "message": "Annullata"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Devi usare AptosMask con Google Chrome per connettere il tuo Portafoglio Hardware"
+    "message": "Devi usare Aptos Browser Extension con Google Chrome per connettere il tuo Portafoglio Hardware"
   },
   "clickToRevealSeed": {
     "message": "Clicca qui per rivelare la tua frase segreta"
@@ -278,7 +278,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Connetti con AptosMask"
+    "message": "Connetti con Aptos Browser Extension"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Hai $1 account connessi a questo sito.",
@@ -288,7 +288,7 @@
     "message": "Hai un account connesso a questo sito."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMask non è connesso a questo sito. Per connetterti ad un sito web3, trova il pulsante di connessione."
+    "message": "Aptos Browser Extension non è connesso a questo sito. Per connetterti ad un sito web3, trova il pulsante di connessione."
   },
   "connectedSites": {
     "message": "Siti connessi"
@@ -395,7 +395,7 @@
     "message": "Token Personalizzato"
   },
   "dataBackupFoundInfo": {
-    "message": "Alcuni dati sul tuo account sono state salvate durante una installazione precedente di AptosMask. Questi includono le impostazioni, i contatti, e i token. Vuoi ripristinare questi dati?"
+    "message": "Alcuni dati sul tuo account sono state salvate durante una installazione precedente di Aptos Browser Extension. Questi includono le impostazioni, i contatti, e i token. Vuoi ripristinare questi dati?"
   },
   "decimal": {
     "message": "Precisione Decimali"
@@ -506,13 +506,13 @@
     "message": "Non condividerla mai con nessuno."
   },
   "endOfFlowMessage5": {
-    "message": "Stai attento al phishing! AptosMask non ti chiederà mai spontaneamente la tua frase seed."
+    "message": "Stai attento al phishing! Aptos Browser Extension non ti chiederà mai spontaneamente la tua frase seed."
   },
   "endOfFlowMessage6": {
     "message": "Se vorrai fare nuovamente un backup della frase, la puoi trovare in Impostazioni -> Sicurezza & Privacy."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask non può recuperare la tua frase seed. Impara di più."
+    "message": "Aptos Browser Extension non può recuperare la tua frase seed. Impara di più."
   },
   "endOfFlowMessage9": {
     "message": "Scopri di più."
@@ -556,7 +556,7 @@
     "description": "Displayed error name for debugging purposes. $1 is the error name"
   },
   "errorPageTitle": {
-    "message": "AptosMask ha riscontrato un errore",
+    "message": "Aptos Browser Extension ha riscontrato un errore",
     "description": "Title of generic error page"
   },
   "estimatedProcessingTimes": {
@@ -688,7 +688,7 @@
     "message": "Connetti portafoglio hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selezione un portafoglio hardware che vuoi utilizzare con AptosMask"
+    "message": "Selezione un portafoglio hardware che vuoi utilizzare con Aptos Browser Extension"
   },
   "here": {
     "message": "qui",
@@ -718,7 +718,7 @@
     "message": "Importa Account"
   },
   "importAccountMsg": {
-    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con AptosMask. Scopri di più sugli account importati "
+    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con Aptos Browser Extension. Scopri di più sugli account importati "
   },
   "importAccountSeedPhrase": {
     "message": "Importa un Account con una Frase Seed"
@@ -863,7 +863,7 @@
     "message": "Messaggio"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Ora hai piu controllo sulle connessioni del tuo account in AptosMask."
+    "message": "Ora hai piu controllo sulle connessioni del tuo account in Aptos Browser Extension."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Clicca per gestire i tuo account connessi."
@@ -872,13 +872,13 @@
     "message": "Il bottone di stato della connessione mostra se il sito che stai visitando è connesso all'account corrente"
   },
   "metamaskDescription": {
-    "message": "AptosMask è una cassaforte sicura per identità su Ethereum."
+    "message": "Aptos Browser Extension è una cassaforte sicura per identità su Ethereum."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask Swaps è in manutenzione. Prova più tardi."
+    "message": "Aptos Browser Extension Swaps è in manutenzione. Prova più tardi."
   },
   "metamaskVersion": {
-    "message": "versione di AptosMask"
+    "message": "versione di Aptos Browser Extension"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Ti consentirà sempre di rimuovere il consenso tramite Impostazioni"
@@ -906,10 +906,10 @@
     "message": "Invierà click e visualizzazioni di pagina in modo anonimo"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Aiutaci a Migliorare AptosMask"
+    "message": "Aiutaci a Migliorare Aptos Browser Extension"
   },
   "metametricsOptInDescription": {
-    "message": "AptosMask vorrebbe raccogliere dati di utilizzo per capire meglio come gli utenti interagiscono con l'estensione. Questi dati verranno usati continuamente per migliorare l'usabilità e l'esperienza utente dei nostri prodotti e dell'ecosistema Ethereum."
+    "message": "Aptos Browser Extension vorrebbe raccogliere dati di utilizzo per capire meglio come gli utenti interagiscono con l'estensione. Questi dati verranno usati continuamente per migliorare l'usabilità e l'esperienza utente dei nostri prodotti e dell'ecosistema Ethereum."
   },
   "mustSelectOne": {
     "message": "Devi selezionare almeno un token."
@@ -952,7 +952,7 @@
     "message": "Nuova Password (minimo 8 caratteri)"
   },
   "newToMetaMask": {
-    "message": "Nuovo su AptosMask?"
+    "message": "Nuovo su Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Nuovo Totale"
@@ -965,7 +965,7 @@
   },
   "nextNonceWarning": {
     "message": "Numero di transazione deve essere maggiore di $1",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to Aptos Browser Extension's internal logic"
   },
   "noAccountsFound": {
     "message": "Nessun account trovato per la ricerca effettuata"
@@ -1032,7 +1032,7 @@
     "message": "Participa in MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa in MetaMetrics per aiutarci a rendere AptosMask migliore"
+    "message": "Participa in MetaMetrics per aiutarci a rendere Aptos Browser Extension migliore"
   },
   "passwordNotLongEnough": {
     "message": "Password non abbastanza lunga"
@@ -1348,7 +1348,7 @@
     "message": "Errore nel recupero dei log di stato."
   },
   "stateLogFileName": {
-    "message": "Log di Stato di AptosMask"
+    "message": "Log di Stato di Aptos Browser Extension"
   },
   "stateLogs": {
     "message": "Log di stato"
@@ -1411,7 +1411,7 @@
     "message": "Modifica limite"
   },
   "swapEnableDescription": {
-    "message": "Questo è richiesto e darà a AptosMask il permesso di scambiare $1.",
+    "message": "Questo è richiesto e darà a Aptos Browser Extension il permesso di scambiare $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEstimatedNetworkFees": {
@@ -1439,10 +1439,10 @@
     "message": "Slippage massimo"
   },
   "swapMetaMaskFee": {
-    "message": "Tassa AptosMask"
+    "message": "Tassa Aptos Browser Extension"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "Troviamo i migliori prezzi dalle sorgenti di liquidità migliori, sempre. Una tassa del $1% è automaticamente aggiunta ad ogni quotazione, ciò serve a supportare lo sviluppo in modo da rendere AptosMask sempre migliore.",
+    "message": "Troviamo i migliori prezzi dalle sorgenti di liquidità migliori, sempre. Una tassa del $1% è automaticamente aggiunta ad ogni quotazione, ciò serve a supportare lo sviluppo in modo da rendere Aptos Browser Extension sempre migliore.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNewQuoteIn": {
@@ -1598,16 +1598,16 @@
     "message": "Assicurati che nessun'altro stia guardando al tuo schermo quando scansioni questo codice"
   },
   "syncWithMobileComplete": {
-    "message": "I tuoi dati sono stati sincronizzati con successo. Goditi l'app di AptosMask!"
+    "message": "I tuoi dati sono stati sincronizzati con successo. Goditi l'app di Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Puoi sincronizzare i tuoi account e le tue informazioni con il tuo dispositivo mobile. Apri l'app di AptosMask, vai su \"Impostazioni\" e tocca \"Sincronizza da Estensione sul Browser\""
+    "message": "Puoi sincronizzare i tuoi account e le tue informazioni con il tuo dispositivo mobile. Apri l'app di Aptos Browser Extension, vai su \"Impostazioni\" e tocca \"Sincronizza da Estensione sul Browser\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Se hai appena aperto l'app di AptosMask per la prima volta, segui i passaggi sul tuo telefono."
+    "message": "Se hai appena aperto l'app di Aptos Browser Extension per la prima volta, segui i passaggi sul tuo telefono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scansiona questo codice con l'app di AptosMask"
+    "message": "Scansiona questo codice con l'app di Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Sincronizza con dispositivo mobile"
@@ -1792,7 +1792,7 @@
     "description": "$1 is a clickable link."
   },
   "welcome": {
-    "message": "Benvenuto nella Beta di AptosMask"
+    "message": "Benvenuto nella Beta di Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Bentornato!"

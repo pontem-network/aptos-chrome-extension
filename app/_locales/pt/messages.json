@@ -23,11 +23,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -150,7 +150,7 @@
     "message": "Importar Conta"
   },
   "importAccountMsg": {
-    "message": "Contas importadas não irão ser associadas com a frase seed da conta criada originalmente pelo AptosMask. Saiba mais sobre contas importadas."
+    "message": "Contas importadas não irão ser associadas com a frase seed da conta criada originalmente pelo Aptos Browser Extension. Saiba mais sobre contas importadas."
   },
   "imported": {
     "message": "Importado",
@@ -200,7 +200,7 @@
     "message": "Mensagem"
   },
   "metamaskDescription": {
-    "message": "O AptosMask é um lugar seguro para guardar a sua identidade em em Ethereum."
+    "message": "O Aptos Browser Extension é um lugar seguro para guardar a sua identidade em em Ethereum."
   },
   "mustSelectOne": {
     "message": "Deve escolher no mínimo 1 token."
@@ -379,7 +379,7 @@
     "message": "Visite o nosso site"
   },
   "welcome": {
-    "message": "Bem-vindo ao AptosMask"
+    "message": "Bem-vindo ao Aptos Browser Extension"
   },
   "youSign": {
     "message": "Está a assinar"

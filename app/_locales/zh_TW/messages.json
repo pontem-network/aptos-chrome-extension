@@ -30,7 +30,7 @@
     "message": "活動紀錄"
   },
   "addAcquiredTokens": {
-    "message": "將您已經擁有的代幣顯示於 AptosMask"
+    "message": "將您已經擁有的代幣顯示於 Aptos Browser Extension"
   },
   "addAlias": {
     "message": "新增化名"
@@ -68,11 +68,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "自動登出計時器（分）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "設定閒置分鐘上限，時間到時 AptosMask 將自動登出"
+    "message": "設定閒置分鐘上限，時間到時 Aptos Browser Extension 將自動登出"
   },
   "average": {
     "message": "平均"
@@ -115,7 +115,7 @@
     "message": "回到所有"
   },
   "backupApprovalInfo": {
-    "message": "在裝置遺失、忘記密碼、需要重新安裝 AptosMask、或是想在另一裝置開啟錢包的情形下，你需要此秘密代碼來復原錢包。"
+    "message": "在裝置遺失、忘記密碼、需要重新安裝 Aptos Browser Extension、或是想在另一裝置開啟錢包的情形下，你需要此秘密代碼來復原錢包。"
   },
   "backupApprovalNotice": {
     "message": "備份你的秘密還原代碼，安全防護錢包與資金。"
@@ -149,7 +149,7 @@
     "message": "用 Wyre 購買 ETH"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre 讓你使用信用卡在 AptosMask 帳號中直接存入 ETH。"
+    "message": "Wyre 讓你使用信用卡在 Aptos Browser Extension 帳號中直接存入 ETH。"
   },
   "bytes": {
     "message": "位元組"
@@ -167,7 +167,7 @@
     "message": "鏈 ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在 Google Chrome 瀏覽器使用 AptosMask 連結您的硬體錢包"
+    "message": "您需要在 Google Chrome 瀏覽器使用 Aptos Browser Extension 連結您的硬體錢包"
   },
   "clickToRevealSeed": {
     "message": "點選顯示助憶詞"
@@ -329,7 +329,7 @@
     "message": "如你需要再次備份助記詞，可至設定 -> 安全。"
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask 無法還原你的助記詞。暸解更多"
+    "message": "Aptos Browser Extension 無法還原你的助記詞。暸解更多"
   },
   "endOfFlowMessage9": {
     "message": "深入瞭解。"
@@ -437,7 +437,7 @@
     "message": "連線硬體錢包"
   },
   "hardwareWalletsMsg": {
-    "message": "選擇要連線到 AptosMask 的硬體錢包"
+    "message": "選擇要連線到 Aptos Browser Extension 的硬體錢包"
   },
   "here": {
     "message": "這裡",
@@ -463,7 +463,7 @@
     "message": "匯入帳戶"
   },
   "importAccountMsg": {
-    "message": " 匯入的帳戶與您原有 AptosMask 帳戶的助憶詞並無關聯。請查看與匯入帳戶相關的資料 "
+    "message": " 匯入的帳戶與您原有 Aptos Browser Extension 帳戶的助憶詞並無關聯。請查看與匯入帳戶相關的資料 "
   },
   "importAccountSeedPhrase": {
     "message": "利用助憶詞還原"
@@ -558,10 +558,10 @@
     "message": "訊息"
   },
   "metamaskDescription": {
-    "message": "AptosMask 是以太坊安全身份識別金庫"
+    "message": "Aptos Browser Extension 是以太坊安全身份識別金庫"
   },
   "metamaskVersion": {
-    "message": "AptosMask 版本"
+    "message": "Aptos Browser Extension 版本"
   },
   "mustSelectOne": {
     "message": "必須選擇至少 1 代幣"
@@ -605,7 +605,7 @@
     "message": "新密碼（至少8個字元）"
   },
   "newToMetaMask": {
-    "message": "新來到 AptosMask？"
+    "message": "新來到 Aptos Browser Extension？"
   },
   "newTotal": {
     "message": "總費用"
@@ -653,7 +653,7 @@
     "message": "參與 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "參與 MetaMetrics 來協助我們打造更好的 AptosMask"
+    "message": "參與 MetaMetrics 來協助我們打造更好的 Aptos Browser Extension"
   },
   "password": {
     "message": "密碼"
@@ -916,16 +916,16 @@
     "message": "掃描代碼時確保沒有其他人在看你的螢幕"
   },
   "syncWithMobileComplete": {
-    "message": "你的資料已成功同步。開始活用 AptosMask 移動 app！"
+    "message": "你的資料已成功同步。開始活用 Aptos Browser Extension 移動 app！"
   },
   "syncWithMobileDesc": {
-    "message": "你可以用移動裝置同步帳號與資訊。開啟 AptosMask 移動 app，至「設定」並點擊「自瀏覽器擴充功能同步」"
+    "message": "你可以用移動裝置同步帳號與資訊。開啟 Aptos Browser Extension 移動 app，至「設定」並點擊「自瀏覽器擴充功能同步」"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "如你是第一次開啟 AptosMask 移動 app，只要跟著手機上的指示操作即可。"
+    "message": "如你是第一次開啟 Aptos Browser Extension 移動 app，只要跟著手機上的指示操作即可。"
   },
   "syncWithMobileScanThisCode": {
-    "message": "用你的 AptosMask 移動 app 掃描此代碼"
+    "message": "用你的 Aptos Browser Extension 移動 app 掃描此代碼"
   },
   "syncWithMobileTitle": {
     "message": "和移動裝置同步"
@@ -1067,7 +1067,7 @@
     "message": "造訪我們的網站"
   },
   "welcome": {
-    "message": "歡迎來到 AptosMask"
+    "message": "歡迎來到 Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "歡迎回來!"

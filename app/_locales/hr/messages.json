@@ -33,7 +33,7 @@
     "message": "zapisnik aktivnosti"
   },
   "addAcquiredTokens": {
-    "message": "Dodajte tokene koje ste kupili uslugom AptosMask"
+    "message": "Dodajte tokene koje ste kupili uslugom Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Dodaj pseudonim"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Brojač za automatsko odjavljivanje (minute)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Postavite stanje u mirovanju u minutama prije nego što se AptosMask automatski odjavi"
+    "message": "Postavite stanje u mirovanju u minutama prije nego što se Aptos Browser Extension automatski odjavi"
   },
   "average": {
     "message": "Prosječno"
@@ -115,7 +115,7 @@
     "message": "Natrag na sve"
   },
   "backupApprovalInfo": {
-    "message": "Ovaj je sigurnosni kôd potreban za obnavljanje novčanika ako izgubite svoj uređaj, zaboravite svoju lozinku, morate ponovno instalirati AptosMask ili želite pristupiti svojem novčaniku na drugom uređaju."
+    "message": "Ovaj je sigurnosni kôd potreban za obnavljanje novčanika ako izgubite svoj uređaj, zaboravite svoju lozinku, morate ponovno instalirati Aptos Browser Extension ili želite pristupiti svojem novčaniku na drugom uređaju."
   },
   "backupApprovalNotice": {
     "message": "Sigurnosno kopirajte svoj sigurnosni kôd za obnavljanje kako biste zaštitili svoj novčanik i sredstva."
@@ -146,7 +146,7 @@
     "message": "Kupi ETH Wyerom"
   },
   "buyWithWyreDescription": {
-    "message": "Wyreom vam se omogućava korištenje kreditnom karticom za polaganje ETH-a izravno na vaš račun za AptosMask."
+    "message": "Wyreom vam se omogućava korištenje kreditnom karticom za polaganje ETH-a izravno na vaš račun za Aptos Browser Extension."
   },
   "bytes": {
     "message": "Bajtovi"
@@ -164,7 +164,7 @@
     "message": "Identifikacijska oznaka bloka"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Trebate upotrebljavati AptosMask u pregledniku Google Chrome kako biste ga povezali s vašim hardverskim novčanikom."
+    "message": "Trebate upotrebljavati Aptos Browser Extension u pregledniku Google Chrome kako biste ga povezali s vašim hardverskim novčanikom."
   },
   "clickToRevealSeed": {
     "message": "Ovdje kliknite za otkrivanje tajnih riječi"
@@ -323,13 +323,13 @@
     "message": "Nikada ne dijelite rečenicu ni s kim."
   },
   "endOfFlowMessage5": {
-    "message": "Pazite na krađu identiteta! Na usluzi AptosMask nikada vas se neće pitati početna rečenica."
+    "message": "Pazite na krađu identiteta! Na usluzi Aptos Browser Extension nikada vas se neće pitati početna rečenica."
   },
   "endOfFlowMessage6": {
     "message": "Ako trebate ponovno sigurnosno kopirati svoju početnu rečenicu, možete je pronaći unutar stavke Postavke --> Sigurnost."
   },
   "endOfFlowMessage8": {
-    "message": "Osoblje AptosMask ne može obnoviti vašu početnu rečenicu. Saznajte više."
+    "message": "Osoblje Aptos Browser Extension ne može obnoviti vašu početnu rečenicu. Saznajte više."
   },
   "endOfFlowMessage9": {
     "message": "Saznajte više."
@@ -433,7 +433,7 @@
     "message": "Poveži hardverski novčanik"
   },
   "hardwareWalletsMsg": {
-    "message": "Odaberite hardverski novčanik koji biste željeli upotrebljavati s uslugom AptosMask"
+    "message": "Odaberite hardverski novčanik koji biste željeli upotrebljavati s uslugom Aptos Browser Extension"
   },
   "here": {
     "message": "ovdje",
@@ -459,7 +459,7 @@
     "message": "Uvezi račun"
   },
   "importAccountMsg": {
-    "message": "Uvezeni se računi ne pridružuju vašoj izvorno stvorenoj početnoj rečenici za AptosMask. Saznajte više o uvezenim računima"
+    "message": "Uvezeni se računi ne pridružuju vašoj izvorno stvorenoj početnoj rečenici za Aptos Browser Extension. Saznajte više o uvezenim računima"
   },
   "importAccountSeedPhrase": {
     "message": "Uvezi račun početnom rečenicom"
@@ -560,7 +560,7 @@
     "message": "Povezujete se na Aptos i decentralizirani internet."
   },
   "metamaskVersion": {
-    "message": "Inačica usluge AptosMask"
+    "message": "Inačica usluge Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Mora se odabrati barem jedan token."
@@ -604,7 +604,7 @@
     "message": "Nova lozinka (najmanje osam znakova)"
   },
   "newToMetaMask": {
-    "message": "Novi korisnik usluge AptosMask?"
+    "message": "Novi korisnik usluge Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Novi ukupni zbroj"
@@ -658,7 +658,7 @@
     "message": "Sudjelujte u anketi MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Sudjelujte u anketi MetaMetrics kako biste nam pomogli poboljšati uslugu AptosMask"
+    "message": "Sudjelujte u anketi MetaMetrics kako biste nam pomogli poboljšati uslugu Aptos Browser Extension"
   },
   "password": {
     "message": "Zaporka"
@@ -930,16 +930,16 @@
     "message": "Pazite da nitko ne gleda u vaš zaslon dok skenirate ovaj kôd"
   },
   "syncWithMobileComplete": {
-    "message": "Vaši su podatci uspješno sinkronizirani. Uživajte u mobilnoj aplikaciji AptosMask!"
+    "message": "Vaši su podatci uspješno sinkronizirani. Uživajte u mobilnoj aplikaciji Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Možete sinkronizirati svoje račune i informacije s vašim mobilnim telefonom. Otvorite mobilnu aplikaciju AptosMask, idite u stavku „Postavke” i dodirnite „Sinkroniziraj iz dodatka preglednika”"
+    "message": "Možete sinkronizirati svoje račune i informacije s vašim mobilnim telefonom. Otvorite mobilnu aplikaciju Aptos Browser Extension, idite u stavku „Postavke” i dodirnite „Sinkroniziraj iz dodatka preglednika”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Kad otvorite mobilnu aplikaciju AptosMask po prvi puta, pridržavajte se koraka koji se prikazuju na telefonu."
+    "message": "Kad otvorite mobilnu aplikaciju Aptos Browser Extension po prvi puta, pridržavajte se koraka koji se prikazuju na telefonu."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skenirajte ovaj kôd uporabom mobilne aplikacije AptosMask"
+    "message": "Skenirajte ovaj kôd uporabom mobilne aplikacije Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Sinkroniziraj s mobilnim telefonom"
@@ -1027,7 +1027,7 @@
     "message": "Pokušaj ponovo"
   },
   "typePassword": {
-    "message": "Upišite svoju lozinku AptosMask."
+    "message": "Upišite svoju lozinku Aptos Browser Extension."
   },
   "unapproved": {
     "message": "Neodobreno"
@@ -1078,7 +1078,7 @@
     "message": "Posjetite naše mrežno mjesto"
   },
   "welcome": {
-    "message": "Dobro došli u uslugu AptosMask"
+    "message": "Dobro došli u uslugu Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Dobro došli natrag!"

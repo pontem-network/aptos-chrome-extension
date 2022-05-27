@@ -33,7 +33,7 @@
     "message": "aktivitetslog"
   },
   "addAcquiredTokens": {
-    "message": "Tilføj de tokens du har erhvervet ved hjælp af AptosMask"
+    "message": "Tilføj de tokens du har erhvervet ved hjælp af Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Tilføj alias"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Timer for automatisk udlogning (minutter)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Indstil den passive tid i minutter, før AptosMask automatisk logger dig ud"
+    "message": "Indstil den passive tid i minutter, før Aptos Browser Extension automatisk logger dig ud"
   },
   "average": {
     "message": "Gennemsnit"
@@ -115,7 +115,7 @@
     "message": "Tilbage til Alle"
   },
   "backupApprovalInfo": {
-    "message": "Den hemmelige kode er påkrævet for at gendanne din pung, hvis du mister din enhed, glemmer dit kodeord, er nødt til at geninstallere AptosMask eller ønsker adgang til din pung fra en anden enhed."
+    "message": "Den hemmelige kode er påkrævet for at gendanne din pung, hvis du mister din enhed, glemmer dit kodeord, er nødt til at geninstallere Aptos Browser Extension eller ønsker adgang til din pung fra en anden enhed."
   },
   "backupApprovalNotice": {
     "message": "Sikkerhedskopiér din Hemmelige Gendannelseskode for at holde din tegnebog og dine penge sikre."
@@ -146,7 +146,7 @@
     "message": "Køb ETH med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lader dig bruge et kreditkort til at indbetale ETH på din AptosMask-konto."
+    "message": "Wyre lader dig bruge et kreditkort til at indbetale ETH på din Aptos Browser Extension-konto."
   },
   "bytes": {
     "message": "Byte"
@@ -164,7 +164,7 @@
     "message": "Kæde-ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Du skal bruge AptosMask i Google Chrome for at forbinde med din Hardware Wallet."
+    "message": "Du skal bruge Aptos Browser Extension i Google Chrome for at forbinde med din Hardware Wallet."
   },
   "clickToRevealSeed": {
     "message": "Klik her for at se hemmelige ord"
@@ -323,13 +323,13 @@
     "message": "Del aldrig frasen med nogen."
   },
   "endOfFlowMessage5": {
-    "message": "Vær varsom med phishing! AptosMask vil aldrig spontant bede om din seedfrase."
+    "message": "Vær varsom med phishing! Aptos Browser Extension vil aldrig spontant bede om din seedfrase."
   },
   "endOfFlowMessage6": {
     "message": "Hvis du får brug for at lave en backup af din seedfrase igen, kan du finde det under Indstillinger -> Sikkerhed."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask kan ikke gendanne din seed-sætning. Få mere at vide."
+    "message": "Aptos Browser Extension kan ikke gendanne din seed-sætning. Få mere at vide."
   },
   "endOfFlowMessage9": {
     "message": "Lær mere. "
@@ -430,7 +430,7 @@
     "message": "Tilslut en hardware-tegnebog"
   },
   "hardwareWalletsMsg": {
-    "message": "Vælg en hardware-pung du vil bruge med AptosMask"
+    "message": "Vælg en hardware-pung du vil bruge med Aptos Browser Extension"
   },
   "here": {
     "message": "her",
@@ -456,7 +456,7 @@
     "message": "Importer konto"
   },
   "importAccountMsg": {
-    "message": "Importerede konti vil ikke blive forbundet med din oprindeligt oprettede seed-sætning for din AptosMask-konto. Få mere at vide om importerede konti"
+    "message": "Importerede konti vil ikke blive forbundet med din oprindeligt oprettede seed-sætning for din Aptos Browser Extension-konto. Få mere at vide om importerede konti"
   },
   "importAccountSeedPhrase": {
     "message": "Importér en Konto med Seedfrase"
@@ -595,7 +595,7 @@
     "message": "Ny adgangskode (min. 8 tegn)"
   },
   "newToMetaMask": {
-    "message": "Ny på AptosMask?"
+    "message": "Ny på Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Ny Sum"
@@ -646,7 +646,7 @@
     "message": "Deltag i MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Deltag i MetaMetrics for at hjælpe os med at gøre AptosMask bedre"
+    "message": "Deltag i MetaMetrics for at hjælpe os med at gøre Aptos Browser Extension bedre"
   },
   "password": {
     "message": "Adgangskode"
@@ -912,16 +912,16 @@
     "message": "Sørg for at der ikke er nogen der kigger på din skærm, når du scanner denne kode"
   },
   "syncWithMobileComplete": {
-    "message": "Dine data er blevet synkroniseret korrekt. Nyd AptosMask-mobilappen!"
+    "message": "Dine data er blevet synkroniseret korrekt. Nyd Aptos Browser Extension-mobilappen!"
   },
   "syncWithMobileDesc": {
-    "message": "Du kan synkronisere dine konti og informationer med din mobilenhed. Åbn AptosMask-mobilappen, gå til \"Indstillinger\" og tryk på \"Synkroniser fra browserudvidelse\""
+    "message": "Du kan synkronisere dine konti og informationer med din mobilenhed. Åbn Aptos Browser Extension-mobilappen, gå til \"Indstillinger\" og tryk på \"Synkroniser fra browserudvidelse\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Hvis du netop har åbnet AptosMask-mobilappen for første gang, skal du blot følge trinnene på din telefon."
+    "message": "Hvis du netop har åbnet Aptos Browser Extension-mobilappen for første gang, skal du blot følge trinnene på din telefon."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scan denne kode med din AptosMask-mobilapp"
+    "message": "Scan denne kode med din Aptos Browser Extension-mobilapp"
   },
   "syncWithMobileTitle": {
     "message": "Synkroniser med mobil"
@@ -1006,7 +1006,7 @@
     "message": "Prøv igen"
   },
   "typePassword": {
-    "message": "Skriv din AptosMask-adgangskode"
+    "message": "Skriv din Aptos Browser Extension-adgangskode"
   },
   "unapproved": {
     "message": "Ikke godkendt"
@@ -1057,7 +1057,7 @@
     "message": "Besøg vores webside"
   },
   "welcome": {
-    "message": "Velkommen til AptosMask"
+    "message": "Velkommen til Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Velkommen tilbage!"

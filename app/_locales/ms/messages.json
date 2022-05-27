@@ -33,7 +33,7 @@
     "message": "log aktiviti"
   },
   "addAcquiredTokens": {
-    "message": "Tambah token yang anda peroleh menggunakan AptosMask"
+    "message": "Tambah token yang anda peroleh menggunakan Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Tambah alias"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Pemasa Logout Automatik (minit)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Tetapkan masa melahu dalam minit sebelum AptosMask log keluar secara automatik"
+    "message": "Tetapkan masa melahu dalam minit sebelum Aptos Browser Extension log keluar secara automatik"
   },
   "average": {
     "message": "Purata"
@@ -115,7 +115,7 @@
     "message": "Kembali kepada Semua"
   },
   "backupApprovalInfo": {
-    "message": "Kod rahsia ini diperlukan untuk memulihkan dompet anda sekiranya anda kehilangan peranti anda, terlupa kata laluan anda, perlu memasang semua AptosMask, atau mahu mengakses dompet anda menggunakan peranti lain."
+    "message": "Kod rahsia ini diperlukan untuk memulihkan dompet anda sekiranya anda kehilangan peranti anda, terlupa kata laluan anda, perlu memasang semua Aptos Browser Extension, atau mahu mengakses dompet anda menggunakan peranti lain."
   },
   "backupApprovalNotice": {
     "message": "Sandarkan kod Pemulihan Rahsia anda untuk memastikan dompet dan dana anda sentiasa selamat."
@@ -146,7 +146,7 @@
     "message": "Beli ETH dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre membolehkan anda menggunakan kad kredit untuk mendeposit ETH secara terus ke dalam akaun AptosMask anda."
+    "message": "Wyre membolehkan anda menggunakan kad kredit untuk mendeposit ETH secara terus ke dalam akaun Aptos Browser Extension anda."
   },
   "bytes": {
     "message": "Bait"
@@ -164,7 +164,7 @@
     "message": "ID Rantaian"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Anda perlu menggunakan AptosMask di Google Chrome untuk menyambung kepada Dompet Perkakasan anda."
+    "message": "Anda perlu menggunakan Aptos Browser Extension di Google Chrome untuk menyambung kepada Dompet Perkakasan anda."
   },
   "clickToRevealSeed": {
     "message": "Klik di sini untuk mendedahkan perkataan rahsia"
@@ -320,13 +320,13 @@
     "message": "Jangan sesekali kongsi frasa ini dengan sesiapa."
   },
   "endOfFlowMessage5": {
-    "message": "Berhati-hati dengan pemancingan data! AptosMask tidak akan sesekali meminta frasa benih anda secara tiba-tiba."
+    "message": "Berhati-hati dengan pemancingan data! Aptos Browser Extension tidak akan sesekali meminta frasa benih anda secara tiba-tiba."
   },
   "endOfFlowMessage6": {
     "message": "Jika anda perlu membuat sandaran ungkapan benih anda sekali lagi, anda boleh lakukannya melalui Tetapan -> Keselamatan."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask tidak dapat memulihkan ungkapan benih anda. Ketahui lebih lanjut."
+    "message": "Aptos Browser Extension tidak dapat memulihkan ungkapan benih anda. Ketahui lebih lanjut."
   },
   "endOfFlowMessage9": {
     "message": "Ketahui lebih lanjut."
@@ -430,7 +430,7 @@
     "message": "Sambungkan dompet perkakasan"
   },
   "hardwareWalletsMsg": {
-    "message": "Pilih dompet perkakasan yang anda ingin gunakan dengan AptosMask"
+    "message": "Pilih dompet perkakasan yang anda ingin gunakan dengan Aptos Browser Extension"
   },
   "here": {
     "message": "di sini",
@@ -452,7 +452,7 @@
     "message": "Import Akaun"
   },
   "importAccountMsg": {
-    "message": "Akaun yang diimport tidak akan dikaitkan dengan frasa benih akaun AptosMask asal yang anda cipta. Ketahui lebih lanjut tentang akaun import"
+    "message": "Akaun yang diimport tidak akan dikaitkan dengan frasa benih akaun Aptos Browser Extension asal yang anda cipta. Ketahui lebih lanjut tentang akaun import"
   },
   "importAccountSeedPhrase": {
     "message": "Import Akaun dengan Frasa Benih"
@@ -550,7 +550,7 @@
     "message": "Menyambungkan anda kepada Aptos dan Web Ternyahpusat."
   },
   "metamaskVersion": {
-    "message": "Versi AptosMask"
+    "message": "Versi Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Mesti memilih sekurang-kurangnya 1 token."
@@ -594,7 +594,7 @@
     "message": "Kata Laluan Baru (min 8 aks)"
   },
   "newToMetaMask": {
-    "message": "Baru mengenali AptosMask?"
+    "message": "Baru mengenali Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Jumlah Keseluruhan Baru"
@@ -645,7 +645,7 @@
     "message": "Sertai MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Sertai MetaMetrics untuk membantu kami menambah baik AptosMask"
+    "message": "Sertai MetaMetrics untuk membantu kami menambah baik Aptos Browser Extension"
   },
   "password": {
     "message": "Kata laluan"
@@ -917,16 +917,16 @@
     "message": "Pastikan tiada orang lain melihat skrin anda ketika anda mengimbas kod ini"
   },
   "syncWithMobileComplete": {
-    "message": "Data anda berjaya disegerakkan. Nikmati aplikasi mudah alih AptosMask!"
+    "message": "Data anda berjaya disegerakkan. Nikmati aplikasi mudah alih Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
-    "message": "Anda boleh menyegerakkan akaun dan maklumat anda dengan peranti mudah alih anda. Buka ap mudah alih AptosMask, pergi ke \"Tetapan\" dan ketik \"Segerakkan daripada Sambungan Pelayar\""
+    "message": "Anda boleh menyegerakkan akaun dan maklumat anda dengan peranti mudah alih anda. Buka ap mudah alih Aptos Browser Extension, pergi ke \"Tetapan\" dan ketik \"Segerakkan daripada Sambungan Pelayar\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Jika ini kali pertama anda membuka aplikasi mudah alih AptosMask, anda cuma perlu ikuti langkah-langkah di telefon anda."
+    "message": "Jika ini kali pertama anda membuka aplikasi mudah alih Aptos Browser Extension, anda cuma perlu ikuti langkah-langkah di telefon anda."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Imbas kod ini dengan aplikasi mudah alih AptosMask anda"
+    "message": "Imbas kod ini dengan aplikasi mudah alih Aptos Browser Extension anda"
   },
   "syncWithMobileTitle": {
     "message": "Segerakkan dengan mudah alih"
@@ -1014,7 +1014,7 @@
     "message": "Cuba lagi"
   },
   "typePassword": {
-    "message": "Taip kata laluan AptosMask anda"
+    "message": "Taip kata laluan Aptos Browser Extension anda"
   },
   "unapproved": {
     "message": "Belum Diluluskan"
@@ -1065,7 +1065,7 @@
     "message": "Kunjungi laman web kami"
   },
   "welcome": {
-    "message": "Selamat datang ke AptosMask"
+    "message": "Selamat datang ke Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Selamat Kembali!"

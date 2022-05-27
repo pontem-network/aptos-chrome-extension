@@ -26,11 +26,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -173,7 +173,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní AptosMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní Aptos Browser Extensionovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "imported": {
     "message": "Importováno",
@@ -226,7 +226,7 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "AptosMask je bezpečný osobní trezor pro Ethereum."
+    "message": "Aptos Browser Extension je bezpečný osobní trezor pro Ethereum."
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
@@ -426,7 +426,7 @@
     "message": "Navštivte naši stránku"
   },
   "welcome": {
-    "message": "Vítejte v AptosMask"
+    "message": "Vítejte v Aptos Browser Extension"
   },
   "youSign": {
     "message": "Podepisujete"

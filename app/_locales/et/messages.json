@@ -33,7 +33,7 @@
     "message": "tegevuste logi"
   },
   "addAcquiredTokens": {
-    "message": "Lisage load, mis olete AptosMaskiga saanud"
+    "message": "Lisage load, mis olete Aptos Browser Extensioniga saanud"
   },
   "addAlias": {
     "message": "Lisage alias"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Automaatse väljalogimise taimer (minutites)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Seadistage jõudeolek minutites, enne kui AptosMask automaatselt välja logib"
+    "message": "Seadistage jõudeolek minutites, enne kui Aptos Browser Extension automaatselt välja logib"
   },
   "average": {
     "message": "Keskmine"
@@ -115,7 +115,7 @@
     "message": "Tagasi kõigile"
   },
   "backupApprovalInfo": {
-    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate AptosMaski uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
+    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate Aptos Browser Extensioni uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
   },
   "backupApprovalNotice": {
     "message": "Varundage oma salajane taastamisvõti, et oma rahakott ja vahendid turvalisena hoida."
@@ -146,7 +146,7 @@
     "message": "Ostke ETH-d Wyre'iga"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse AptosMaski kontole."
+    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse Aptos Browser Extensioni kontole."
   },
   "bytes": {
     "message": "Baidid"
@@ -164,7 +164,7 @@
     "message": "Ahela ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Riistvararahakoti ühendamiseks peate kasutama AptosMaski Google Chrome'is."
+    "message": "Riistvararahakoti ühendamiseks peate kasutama Aptos Browser Extensioni Google Chrome'is."
   },
   "clickToRevealSeed": {
     "message": "Klõpsake salasõnade kuvamiseks"
@@ -323,13 +323,13 @@
     "message": "Ärge jagage fraasi mitte kellegagi."
   },
   "endOfFlowMessage5": {
-    "message": "Olge ettevaatlik andmepüügi osas! AptosMask ei küsi kunagi spontaanselt teie seemnefraasi."
+    "message": "Olge ettevaatlik andmepüügi osas! Aptos Browser Extension ei küsi kunagi spontaanselt teie seemnefraasi."
   },
   "endOfFlowMessage6": {
     "message": "Kui peate oma seemnefraasi uuesti varundama, leiate selle valikust Settings (Seaded) -> Security (Turvalisus)."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask ei saa teie seemnefraasi taastada. Lisateave."
+    "message": "Aptos Browser Extension ei saa teie seemnefraasi taastada. Lisateave."
   },
   "endOfFlowMessage9": {
     "message": "Lisateave."
@@ -433,7 +433,7 @@
     "message": "Ühendage riistvara rahakott"
   },
   "hardwareWalletsMsg": {
-    "message": "Valige riistvara rahakott, mida soovite AptosMaskis kasutada"
+    "message": "Valige riistvara rahakott, mida soovite Aptos Browser Extensionis kasutada"
   },
   "here": {
     "message": "siin",
@@ -459,7 +459,7 @@
     "message": "Impordi konto"
   },
   "importAccountMsg": {
-    "message": "Imporditud kontosid ei seostata teie ainulaadse AptosMaski konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
+    "message": "Imporditud kontosid ei seostata teie ainulaadse Aptos Browser Extensioni konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
   },
   "importAccountSeedPhrase": {
     "message": "Impordi seemnefraasiga konto"
@@ -601,7 +601,7 @@
     "message": "Uus parool (vähemalt 8 tähemärki)"
   },
   "newToMetaMask": {
-    "message": "Pole AptosMaski varem kasutanud?"
+    "message": "Pole Aptos Browser Extensioni varem kasutanud?"
   },
   "newTotal": {
     "message": "Uus kogusumma"
@@ -655,7 +655,7 @@
     "message": "Osalege MetaMetricsis"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Osalege MetaMetricsis, et aidata meil AptosMaski paremaks teha"
+    "message": "Osalege MetaMetricsis, et aidata meil Aptos Browser Extensioni paremaks teha"
   },
   "password": {
     "message": "Parool"
@@ -927,16 +927,16 @@
     "message": "Veenduge, et keegi teine ei vaata selle koodi skannimisel teie ekraani"
   },
   "syncWithMobileComplete": {
-    "message": "Teie andmed on edukalt sünkroonitud. Nautige AptosMaski mobiilirakendust!"
+    "message": "Teie andmed on edukalt sünkroonitud. Nautige Aptos Browser Extensioni mobiilirakendust!"
   },
   "syncWithMobileDesc": {
-    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage AptosMaski mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
+    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage Aptos Browser Extensioni mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Järgige AptosMaski mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
+    "message": "Järgige Aptos Browser Extensioni mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skanneerige see kood AptosMaski mobiilirakendusega"
+    "message": "Skanneerige see kood Aptos Browser Extensioni mobiilirakendusega"
   },
   "syncWithMobileTitle": {
     "message": "Mobiiliga sünkroonimine"
@@ -1027,7 +1027,7 @@
     "message": "Proovi uuesti"
   },
   "typePassword": {
-    "message": "Sisestage oma AptosMaski parool"
+    "message": "Sisestage oma Aptos Browser Extensioni parool"
   },
   "unapproved": {
     "message": "Kinnitamata"
@@ -1078,7 +1078,7 @@
     "message": "Külastage meie veebilehte"
   },
   "welcome": {
-    "message": "Tere tulemast AptosMaski"
+    "message": "Tere tulemast Aptos Browser Extensioni"
   },
   "welcomeBack": {
     "message": "Tere tulemast tagasi!"

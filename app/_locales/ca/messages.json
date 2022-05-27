@@ -33,7 +33,7 @@
     "message": "registre d'activitat"
   },
   "addAcquiredTokens": {
-    "message": "Afegeix les fitxes que has adquirit fent servir AptosMask"
+    "message": "Afegeix les fitxes que has adquirit fent servir Aptos Browser Extension"
   },
   "addAlias": {
     "message": "Afegeix un àlies"
@@ -71,11 +71,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Temporitzador de tancament de sessió automàtic (minuts)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Configura el temps de repòs com minuts abans que AptosMask tanqui la sessió automàticament"
+    "message": "Configura el temps de repòs com minuts abans que Aptos Browser Extension tanqui la sessió automàticament"
   },
   "average": {
     "message": "Mitjana"
@@ -115,7 +115,7 @@
     "message": "Torna a Tot"
   },
   "backupApprovalInfo": {
-    "message": "Aquest codi secret es requereix per recuperar el teu moneder en cas que perdis el dispositiu, oblidis la teva contrasenya, hagis de reinstal·lar AptosMask, o vulguis accedir al teu moneder des d'un altre dispositiu."
+    "message": "Aquest codi secret es requereix per recuperar el teu moneder en cas que perdis el dispositiu, oblidis la teva contrasenya, hagis de reinstal·lar Aptos Browser Extension, o vulguis accedir al teu moneder des d'un altre dispositiu."
   },
   "backupApprovalNotice": {
     "message": "Fes una còpia de seguretat del teu codi Secret de Recuperació per mantenir el teu moneder i els teus fons segurs."
@@ -146,7 +146,7 @@
     "message": "Compra ETH amb Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar ETH directe al teu compte AptosMask."
+    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar ETH directe al teu compte Aptos Browser Extension."
   },
   "cancel": {
     "message": "Cancel·la"
@@ -161,7 +161,7 @@
     "message": "Cadena ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Necessites fer servir AptosMask amb Google Chrome per a connectar-te al teu Moneder Hardware."
+    "message": "Necessites fer servir Aptos Browser Extension amb Google Chrome per a connectar-te al teu Moneder Hardware."
   },
   "clickToRevealSeed": {
     "message": "Fes clic aquí per a revelar les paraules secretes"
@@ -320,13 +320,13 @@
     "message": "No comparteixis mai la frase amb ningú."
   },
   "endOfFlowMessage5": {
-    "message": "Estigues atent amb el phishing! AptosMask no et preguntarà mai espontàniament la teva frase de recuperació."
+    "message": "Estigues atent amb el phishing! Aptos Browser Extension no et preguntarà mai espontàniament la teva frase de recuperació."
   },
   "endOfFlowMessage6": {
     "message": "Si necessites fer una còpia de seguretat de la teva frase de recuperació una altra vegada, la pots trobar a Configuració-> Seguretat."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask no pot recuperar la teva seedphrase. Descobreix per què."
+    "message": "Aptos Browser Extension no pot recuperar la teva seedphrase. Descobreix per què."
   },
   "endOfFlowMessage9": {
     "message": "Més informació."
@@ -424,7 +424,7 @@
     "message": "Connectar un moneder hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selecciona una cartera de hardware que t'agradaria utilizar amb AptosMask"
+    "message": "Selecciona una cartera de hardware que t'agradaria utilizar amb Aptos Browser Extension"
   },
   "here": {
     "message": "aquí",
@@ -450,7 +450,7 @@
     "message": "Importa compte"
   },
   "importAccountMsg": {
-    "message": "Els comptes importats no s'associaran amb la teva frase de recuperació creada originalment a AptosMask. Aprèn més sobre els comptes importats"
+    "message": "Els comptes importats no s'associaran amb la teva frase de recuperació creada originalment a Aptos Browser Extension. Aprèn més sobre els comptes importats"
   },
   "importAccountSeedPhrase": {
     "message": "Importa un Compte amb Phrase de Recuperació"
@@ -551,7 +551,7 @@
     "message": "Conectant-te a Aptos i la web descentralitzada."
   },
   "metamaskVersion": {
-    "message": "Versió AptosMask"
+    "message": "Versió Aptos Browser Extension"
   },
   "mustSelectOne": {
     "message": "Has de seleccionar "
@@ -595,7 +595,7 @@
     "message": "Nova contrasenya (mínim 8 caràcters)"
   },
   "newToMetaMask": {
-    "message": "Nou a AptosMask?"
+    "message": "Nou a Aptos Browser Extension?"
   },
   "newTotal": {
     "message": "Nou total"
@@ -649,7 +649,7 @@
     "message": "Participar a MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa a MetaMetrics per ajudar-nos a fer AptosMask millor"
+    "message": "Participa a MetaMetrics per ajudar-nos a fer Aptos Browser Extension millor"
   },
   "password": {
     "message": "Contrasenya"
@@ -915,16 +915,16 @@
     "message": "Assegura't que no hi ha ningú mirant la teva pantalla quan escanegis aquest codi"
   },
   "syncWithMobileComplete": {
-    "message": "Les teves dades s'han sincronitzat amb èxit. Disfruta de l'app mòbil de AptosMask!"
+    "message": "Les teves dades s'han sincronitzat amb èxit. Disfruta de l'app mòbil de Aptos Browser Extension!"
   },
   "syncWithMobileDesc": {
     "message": "Pots sincronitzar els teus comptes i la teva informació amb el teu dispositiu mòbil. Obre l'app mòbil de MetaTask, ves a \"Configuració\" i \"Sincronitzar desde l"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si acabes d'obrir l'app mòbil AptosMask per primer cop, tan sols has de seguir els passos del teu telèfon."
+    "message": "Si acabes d'obrir l'app mòbil Aptos Browser Extension per primer cop, tan sols has de seguir els passos del teu telèfon."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Escaneja aquest codi amb la teva aplicació mòbil de AptosMask"
+    "message": "Escaneja aquest codi amb la teva aplicació mòbil de Aptos Browser Extension"
   },
   "syncWithMobileTitle": {
     "message": "Sincronitzar amb mòbil"
@@ -1006,7 +1006,7 @@
     "message": "Torna-ho a provar"
   },
   "typePassword": {
-    "message": "Tecleja la teva contrasenya de AptosMask"
+    "message": "Tecleja la teva contrasenya de Aptos Browser Extension"
   },
   "unapproved": {
     "message": "Pendent d'aprovació"
@@ -1057,7 +1057,7 @@
     "message": "Visita el nostre lloc web"
   },
   "welcome": {
-    "message": "Benvingut a AptosMask"
+    "message": "Benvingut a Aptos Browser Extension"
   },
   "welcomeBack": {
     "message": "Benvingut de nou!"

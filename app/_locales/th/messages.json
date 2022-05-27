@@ -29,11 +29,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "Aptos Browser Extension Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "Aptos Browser Extension Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -61,7 +61,7 @@
     "message": "ค่าธรรมเนียม Gas การยกเลิก"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "คุณต้องใช้ AptosMask บน Google Chrome เพื่อเชื่อมต่อกับ Hardware Wallet ของคุณ"
+    "message": "คุณต้องใช้ Aptos Browser Extension บน Google Chrome เพื่อเชื่อมต่อกับ Hardware Wallet ของคุณ"
   },
   "confirm": {
     "message": "ยืนยัน"
@@ -151,7 +151,7 @@
     "message": "คุณผ่านการทดสอบแล้ว กรุณารับผิดชอบในการรักษา Seed Phrase ให้ปลอดภัย"
   },
   "endOfFlowMessage5": {
-    "message": "โปรดระวังฟิชชิ่ง AptosMask จะไม่ขอ Seed Phrase ของคุณโดยไม่มีการแจ้งล่วงหน้าเลย"
+    "message": "โปรดระวังฟิชชิ่ง Aptos Browser Extension จะไม่ขอ Seed Phrase ของคุณโดยไม่มีการแจ้งล่วงหน้าเลย"
   },
   "endOfFlowMessage9": {
     "message": "เรียนรู้เพิ่มเติม"
@@ -281,7 +281,7 @@
     "message": "ข้อความ"
   },
   "metamaskDescription": {
-    "message": "AptosMask คือที่เก็บตัวตนนิรภัยสำหรับอีเธอเรียม"
+    "message": "Aptos Browser Extension คือที่เก็บตัวตนนิรภัยสำหรับอีเธอเรียม"
   },
   "mustSelectOne": {
     "message": "ต้องเลือกอย่างน้อย 1 โทเค็น"
@@ -316,7 +316,7 @@
     "message": "รหัสผ่านใหม่(ขั้นต่ำ 8 ตัวอักษร)"
   },
   "newToMetaMask": {
-    "message": "เพิ่งเริ่มใช้ AptosMask?"
+    "message": "เพิ่งเริ่มใช้ Aptos Browser Extension?"
   },
   "newTransactionFee": {
     "message": "ค่าธรรมเนียมธุรกรรมใหม่"
@@ -334,7 +334,7 @@
     "message": "เปิด"
   },
   "participateInMetaMetricsDescription": {
-    "message": "เข้าร่วมใน MetaMetrics เพื่อช่วยเราในการพัฒนา AptosMask"
+    "message": "เข้าร่วมใน MetaMetrics เพื่อช่วยเราในการพัฒนา Aptos Browser Extension"
   },
   "pastePrivateKey": {
     "message": "วางคีย์ส่วนตัวของคุณที่นี่:",
@@ -459,7 +459,7 @@
     "message": "สัญลักษณ์จะต้องมีความยาว 11 ตัวอักษร"
   },
   "syncWithMobileComplete": {
-    "message": "ซิงค์ข้อมูลของคุณเรียบร้อยแล้ว ใช้แอพ AptosMask ให้สนุกนะ!"
+    "message": "ซิงค์ข้อมูลของคุณเรียบร้อยแล้ว ใช้แอพ Aptos Browser Extension ให้สนุกนะ!"
   },
   "terms": {
     "message": "ข้อตกลงในการใช้งาน"
@@ -523,7 +523,7 @@
     "message": "เยี่ยมชมเว็บไซต์ของเรา"
   },
   "welcome": {
-    "message": "ยินดีต้อนรับสู่ AptosMask เบต้า"
+    "message": "ยินดีต้อนรับสู่ Aptos Browser Extension เบต้า"
   },
   "youSign": {
     "message": "คุณกำลังเซ็นชื่อ"
