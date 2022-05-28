@@ -72,31 +72,31 @@ export default class AccountDetailsModal extends Component {
 
         <div className="account-details-modal__divider" />
 
-        <Button
-          type="secondary"
-          className="account-details-modal__button"
-          onClick={() => {
-            const accountLink = getAccountLink(address, chainId, rpcPrefs);
-            this.context.trackEvent({
-              category: 'Navigation',
-              event: 'Clicked Block Explorer Link',
-              properties: {
-                link_type: 'Account Tracker',
-                action: 'Account Details Modal',
-                block_explorer_domain: getURLHostName(accountLink),
-              },
-            });
-            global.platform.openTab({
-              url: accountLink,
-            });
-          }}
-        >
-          {rpcPrefs.blockExplorerUrl
-            ? this.context.t('blockExplorerView', [
-                getURLHostName(rpcPrefs.blockExplorerUrl),
-              ])
-            : this.context.t('etherscanViewOn')}
-        </Button>
+        {/*<Button*/}
+        {/*  type="secondary"*/}
+        {/*  className="account-details-modal__button"*/}
+        {/*  onClick={() => {*/}
+        {/*    const accountLink = getAccountLink(address, chainId, rpcPrefs);*/}
+        {/*    this.context.trackEvent({*/}
+        {/*      category: 'Navigation',*/}
+        {/*      event: 'Clicked Block Explorer Link',*/}
+        {/*      properties: {*/}
+        {/*        link_type: 'Account Tracker',*/}
+        {/*        action: 'Account Details Modal',*/}
+        {/*        block_explorer_domain: getURLHostName(accountLink),*/}
+        {/*      },*/}
+        {/*    });*/}
+        {/*    global.platform.openTab({*/}
+        {/*      url: accountLink,*/}
+        {/*    });*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*  {rpcPrefs.blockExplorerUrl*/}
+        {/*    ? this.context.t('blockExplorerView', [*/}
+        {/*        getURLHostName(rpcPrefs.blockExplorerUrl),*/}
+        {/*      ])*/}
+        {/*    : this.context.t('etherscanViewOn')}*/}
+        {/*</Button>*/}
 
         <Button
           type="secondary"

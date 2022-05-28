@@ -222,7 +222,7 @@ async function addEthereumChainHandler(
       );
     }
   }
-  const ticker = nativeCurrency?.symbol || 'ETH';
+  const ticker = nativeCurrency?.symbol || 'APTOS';
 
   if (typeof ticker !== 'string' || ticker.length < 2 || ticker.length > 6) {
     return end(

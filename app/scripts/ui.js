@@ -20,6 +20,7 @@ import ExtensionPlatform from './platforms/extension';
 import { setupMultiplex } from './lib/stream-utils';
 import { getEnvironmentType } from './lib/util';
 import metaRPCClientFactory from './lib/metaRPCClientFactory';
+import pify from 'pify';
 
 start().catch(log.error);
 
@@ -134,6 +135,7 @@ function setupWeb3Connection(connectionStream) {
   providerStream.on('error', console.error.bind(console));
   global.ethereumProvider = providerStream;
   global.ethQuery = new PontemQuery(providerStream);
+  global.aptosQuery = pify(new PontemQuery(providerStream));
   global.eth = new Eth(providerStream);
 }
 

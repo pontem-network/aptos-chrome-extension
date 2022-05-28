@@ -62,7 +62,7 @@ export function addFiat(...args) {
 
 export function getValueFromWeiHex({
   value,
-  fromCurrency = 'ETH',
+  fromCurrency = 'APTOS',
   toCurrency,
   conversionRate,
   numberOfDecimals,
@@ -82,7 +82,7 @@ export function getValueFromWeiHex({
 
 export function getTransactionFee({
   value,
-  fromCurrency = 'ETH',
+  fromCurrency = 'APTOS',
   toCurrency,
   conversionRate,
   numberOfDecimals,

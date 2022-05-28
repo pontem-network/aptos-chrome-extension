@@ -13,13 +13,24 @@ const normalizers = {
     lowerCase ? addHexPrefix(to).toLowerCase() : addHexPrefix(to),
   nonce: addHexPrefix,
   value: addHexPrefix,
-  data: addHexPrefix,
-  payload: (payload) => ({
+  data: (payload) => {
+    const data = payload ? {
+      arguments: payload.arguments,
+      function: payload.function,
+      type: payload.type,
+      type_arguments: payload.type_arguments || payload.typeArguments
+    } : undefined
+
+    if(typeof payload === 'string') {
+      return addHexPrefix(payload)
+    }
+  },
+  payload: (payload) => (payload ? {
     arguments: payload.arguments,
     function: payload.function,
     type: payload.type,
     type_arguments: payload.type_arguments || payload.typeArguments
-  }),
+  } : undefined),
   gas: addHexPrefix,
   gasPrice: addHexPrefix,
   maxFeePerGas: addHexPrefix,
@@ -227,6 +238,8 @@ export function validateTxParams(txParams, eip1559Compatibility = true) {
         }
         break;
       case 'payload':
+        break;
+      case 'data':
         break;
       default:
         ensureFieldIsString(txParams, key);

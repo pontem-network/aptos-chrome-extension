@@ -123,7 +123,8 @@ export class TokenDetectionController extends BaseController<
    * Start polling for the currency rate.
    */
   async start() {
-    if (!this.isMainnet() || this.disabled) {
+    // if (!this.isMainnet() || this.disabled) {
+    if (this.disabled) {
       return;
     }
 
@@ -169,7 +170,8 @@ export class TokenDetectionController extends BaseController<
    */
   async detectTokens() {
     /* istanbul ignore if */
-    if (!this.isMainnet() || this.disabled) {
+    // if (!this.isMainnet() || this.disabled) {
+    if (this.disabled) {
       return;
     }
 
@@ -213,8 +215,10 @@ export class TokenDetectionController extends BaseController<
           const { ignoredTokens } = this.getTokensState();
           if (ignoredTokens.length) {
             ignored = ignoredTokens.find(
-              (ignoredTokenAddress) =>
-                ignoredTokenAddress === toChecksumHexAddress(tokenAddress),
+              (ignoredTokenAddress) => {
+                // return ignoredTokenAddress === toChecksumHexAddress(tokenAddress)
+                return ignoredTokenAddress === tokenAddress
+              },
             );
           }
           const caseInsensitiveTokenKey =

@@ -6,6 +6,7 @@ PACKAGES_DIR=$SRC_DIR"/../packages"
 cd $PACKAGES_DIR/pontem-aptos-middleware && bash ./link.sh
 cd $PACKAGES_DIR/pontem-block-tracker && bash ./link.sh
 cd $PACKAGES_DIR/pontem-query && bash ./link.sh
+cd $PACKAGES_DIR/pontem-token-tracker && bash ./link.sh
 cd $PACKAGES_DIR/pontem-controllers && bash ./link.sh
 cd $PACKAGES_DIR/pontem-nonce-tracker && bash ./link.sh
 cd $PACKAGES_DIR/pontem-hdkey && bash ./link.sh
@@ -22,6 +23,7 @@ cd $SRC_DIR/..
 yarn link @pontem/pontem-aptos-middleware
 yarn link @pontem/pontem-block-tracker
 yarn link @pontem/pontem-query
+yarn link @pontem/pontem-token-tracker
 yarn link @pontem/pontem-controllers
 yarn link @pontem/nonce-tracker # TODO rename to @pontem/pontem-nonce-tracker
 yarn link @pontem/pontem-hdkey

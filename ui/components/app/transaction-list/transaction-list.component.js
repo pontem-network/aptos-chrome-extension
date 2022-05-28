@@ -28,11 +28,15 @@ const getTransactionGroupRecipientAddressFilter = (
   recipientAddress,
   chainId,
 ) => {
-  return ({ initialTransaction: { txParams } }) => {
+  // return ({ initialTransaction: { txParams } }) => {
+  return (params) => {
+    const txParams = params.initialTransaction.txParams;
+    console.log('[Pontem] getTransactionGroupRecipientAddressFilter', params, recipientAddress);
     return (
       isEqualCaseInsensitive(txParams?.to, recipientAddress) ||
-      (txParams?.to === SWAPS_CHAINID_CONTRACT_ADDRESS_MAP[chainId] &&
-        txParams.data.match(recipientAddress.slice(2)))
+      txParams.payload?.type_arguments?.find(item => item?.includes(recipientAddress))
+      // || (txParams?.to === SWAPS_CHAINID_CONTRACT_ADDRESS_MAP[chainId] &&
+      //   txParams.data.match(recipientAddress.slice(2)))
     );
   };
 };

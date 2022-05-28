@@ -1,5 +1,4 @@
 import { BN } from 'ethereumjs-util';
-import Web3 from 'web3';
 import abiSingleCallBalancesContract from 'single-call-balance-checker-abi';
 import { BaseController, BaseConfig, BaseState } from '../BaseController';
 import type { PreferencesState } from '../user/PreferencesController';
@@ -7,6 +6,7 @@ import { IPFS_DEFAULT_GATEWAY_URL } from '../constants';
 import { ERC721Standard } from './Standards/CollectibleStandards/ERC721/ERC721Standard';
 import { ERC1155Standard } from './Standards/CollectibleStandards/ERC1155/ERC1155Standard';
 import { ERC20Standard } from './Standards/ERC20Standard';
+import PontemQuery from "@pontem/pontem-query";
 
 const SINGLE_CALL_BALANCES_ADDRESS =
   '0xb1f8e55c7f64d203c1400b9d8555d050f94adf39';
@@ -49,6 +49,8 @@ export class AssetsContractController extends BaseController<
   private erc1155Standard?: ERC1155Standard;
 
   private erc20Standard?: ERC20Standard;
+
+  private query?: PontemQuery;
 
   /**
    * Name of this controller used during composition
@@ -93,10 +95,11 @@ export class AssetsContractController extends BaseController<
    * @property provider - Provider used to create a new underlying Web3 instance
    */
   set provider(provider: any) {
-    this.web3 = new Web3(provider);
-    this.erc721Standard = new ERC721Standard(this.web3);
-    this.erc1155Standard = new ERC1155Standard(this.web3);
-    this.erc20Standard = new ERC20Standard(this.web3);
+    // this.web3 = new Web3(provider);
+    this.query = new PontemQuery(provider);
+    // this.erc721Standard = new ERC721Standard(this.web3);
+    // this.erc1155Standard = new ERC1155Standard(this.web3);
+    // this.erc20Standard = new ERC20Standard(this.web3);
   }
 
   get provider() {
@@ -156,6 +159,53 @@ export class AssetsContractController extends BaseController<
     );
   }
 
+  async _getAccountResource(...args: any[]): Promise<any> {
+    return new Promise((resolve, reject) => {
+
+      // @ts-ignore
+      this.query?.getAccountResource(...args, (err: any, result: any) => {
+        if(err) {
+          reject(err)
+          return;
+        }
+
+        resolve(result);
+      })
+    })
+  }
+
+  async getBalance(userAddress: undefined | string, tokenAddress: string) {
+    console.log('[Pontem] AssetsContractController getBalance', userAddress, tokenAddress);
+    if(!userAddress) {
+      return undefined
+    }
+
+    let balance;
+
+    try {
+      const resource = await this._getAccountResource(userAddress, `0x1::Coin::CoinStore<${tokenAddress}>`);
+      console.log('[Pontem] AssetsContractController getBalance result', resource);
+      balance = resource.data.coin.value
+    } catch (e) {
+      balance = '0';
+    }
+
+    return new BN(balance, 10);
+  }
+
+  async getTokenDetails(tokenAddress: string) {
+    console.log('[Pontem] AssetsContractController _getSymbol');
+    const ownerAddress = tokenAddress.split('::')[0];
+    const resource = await this._getAccountResource(ownerAddress, `0x1::Coin::CoinInfo<${tokenAddress}>`);
+    console.log('[Pontem] AssetsContractController _getSymbol result', resource);
+
+    return {
+      symbol: resource.data.symbol,
+      name: resource.data.name,
+      decimals: resource.data.decimals,
+    }
+  }
+
   /**
    * Enumerate assets assigned to an owner.
    *
@@ -177,49 +227,59 @@ export class AssetsContractController extends BaseController<
     balance?: BN | undefined;
   }> {
     if (
-      this.erc721Standard === undefined ||
-      this.erc1155Standard === undefined ||
-      this.erc20Standard === undefined
+      this.query === undefined
+      // this.erc721Standard === undefined ||
+      // this.erc1155Standard === undefined ||
+      // this.erc20Standard === undefined
     ) {
       throw new Error(MISSING_PROVIDER_ERROR);
     }
 
-    const { ipfsGateway } = this.config;
+    const details = await this.getTokenDetails(tokenAddress);
+    const balance = await this.getBalance(userAddress, tokenAddress);
+
+    return {
+      standard: 'ERC20',
+      balance,
+      ...details
+    }
+
+    // const { ipfsGateway } = this.config;
 
     // ERC721
-    try {
-      return {
-        ...(await this.erc721Standard.getDetails(
-          tokenAddress,
-          ipfsGateway,
-          tokenId,
-        )),
-      };
-    } catch {
-      // Ignore
-    }
-
-    // ERC1155
-    try {
-      return {
-        ...(await this.erc1155Standard.getDetails(
-          tokenAddress,
-          ipfsGateway,
-          tokenId,
-        )),
-      };
-    } catch {
-      // Ignore
-    }
-
-    // ERC20
-    try {
-      return {
-        ...(await this.erc20Standard.getDetails(tokenAddress, userAddress)),
-      };
-    } catch {
-      // Ignore
-    }
+    // try {
+    //   return {
+    //     ...(await this.erc721Standard.getDetails(
+    //       tokenAddress,
+    //       ipfsGateway,
+    //       tokenId,
+    //     )),
+    //   };
+    // } catch {
+    //   // Ignore
+    // }
+    //
+    // // ERC1155
+    // try {
+    //   return {
+    //     ...(await this.erc1155Standard.getDetails(
+    //       tokenAddress,
+    //       ipfsGateway,
+    //       tokenId,
+    //     )),
+    //   };
+    // } catch {
+    //   // Ignore
+    // }
+    //
+    // // ERC20
+    // try {
+    //   return {
+    //     ...(await this.erc20Standard.getDetails(tokenAddress, userAddress)),
+    //   };
+    // } catch {
+    //   // Ignore
+    // }
 
     throw new Error('Unable to determine contract standard');
   }
@@ -356,6 +416,7 @@ export class AssetsContractController extends BaseController<
     selectedAddress: string,
     tokensToDetect: string[],
   ) {
+    console.log('[Pontem] AssetsContractController getBalancesInSingleCall', selectedAddress, tokensToDetect);
     const contract = this.web3.eth
       .contract(abiSingleCallBalancesContract)
       .at(SINGLE_CALL_BALANCES_ADDRESS);

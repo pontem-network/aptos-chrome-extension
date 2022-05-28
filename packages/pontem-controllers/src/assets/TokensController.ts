@@ -186,7 +186,7 @@ export class TokensController extends BaseController<
       const { selectedAddress } = this.config;
       const { chainId } = provider;
       this.configure({ chainId });
-      this.ethersProvider = this._instantiateNewEthersProvider();
+      // this.ethersProvider = this._instantiateNewEthersProvider();
       this.update({
         tokens: allTokens[chainId]?.[selectedAddress] || [],
         ignoredTokens: allIgnoredTokens[chainId]?.[selectedAddress] || [],
@@ -215,9 +215,10 @@ export class TokensController extends BaseController<
   ): Promise<Token[]> {
     const releaseLock = await this.mutex.acquire();
     try {
-      address = toChecksumHexAddress(address);
+      // address = toChecksumHexAddress(address);
       const { tokens, ignoredTokens } = this.state;
-      const isERC721 = await this._detectIsERC721(address);
+      // const isERC721 = await this._detectIsERC721(address);
+      const isERC721 = false;
       const newEntry: Token = { address, symbol, decimals, image, isERC721 };
       const previousEntry = tokens.find(
         (token) => token.address.toLowerCase() === address.toLowerCase(),
@@ -262,7 +263,8 @@ export class TokensController extends BaseController<
     try {
       tokensToAdd = await Promise.all(
         tokensToAdd.map(async (token) => {
-          token.isERC721 = await this._detectIsERC721(token.address);
+          // token.isERC721 = await this._detectIsERC721(token.address);
+          token.isERC721 = false;
           return token;
         }),
       );
@@ -271,7 +273,8 @@ export class TokensController extends BaseController<
 
       tokensToAdd.forEach((tokenToAdd) => {
         const { address, symbol, decimals, image, isERC721 } = tokenToAdd;
-        const checksumAddress = toChecksumHexAddress(address);
+        // const checksumAddress = toChecksumHexAddress(address);
+        const checksumAddress = address;
         const newEntry: Token = {
           address: checksumAddress,
           symbol,
@@ -322,7 +325,8 @@ export class TokensController extends BaseController<
    * @returns The new token object with the added isERC721 field.
    */
   async updateTokenType(tokenAddress: string) {
-    const isERC721 = await this._detectIsERC721(tokenAddress);
+    // const isERC721 = await this._detectIsERC721(tokenAddress);
+    const isERC721 = false;
     const { tokens } = this.state;
     const tokenIndex = tokens.findIndex((token) => {
       return token.address.toLowerCase() === tokenAddress.toLowerCase();

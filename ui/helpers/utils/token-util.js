@@ -6,15 +6,22 @@ import {
 } from '../../../shared/modules/conversion.utils';
 import * as util from './util';
 import { formatCurrency } from './confirm-tx.util';
+import {bnToHex} from '../../../app/scripts/lib/util';
+import {composeType, extractAddressFromType} from './aptos.util';
 
 const DEFAULT_SYMBOL = '';
 
-async function getSymbolFromContract(tokenAddress) {
-  const token = util.getContractAtAddress(tokenAddress);
+export async function getTokenInfo(coin) {
+  const ownerAddress = extractAddressFromType(coin);
+  const coinInfoResource = composeType('0x1::Coin', 'CoinInfo', [coin]);
+  return global.aptosQuery.getAccountResource(ownerAddress, coinInfoResource);
+}
 
+async function getSymbolFromContract(tokenAddress) {
   try {
-    const result = await token.symbol();
-    return result[0];
+    console.log('[Pontem] getSymbolFromContract', tokenAddress);
+    const result = await getTokenInfo(tokenAddress);
+    return result?.data?.symbol;
   } catch (error) {
     log.warn(
       `symbol() call for token at address ${tokenAddress} resulted in error:`,
@@ -25,11 +32,10 @@ async function getSymbolFromContract(tokenAddress) {
 }
 
 async function getDecimalsFromContract(tokenAddress) {
-  const token = util.getContractAtAddress(tokenAddress);
-
   try {
-    const result = await token.decimals();
-    const decimalsBN = result[0];
+    console.log('[Pontem] getDecimalsFromContract', tokenAddress);
+    const result = await getTokenInfo(tokenAddress);
+    const decimalsBN = new BigNumber(result?.data?.decimals, 10);
     return decimalsBN?.toString();
   } catch (error) {
     log.warn(

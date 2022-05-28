@@ -202,6 +202,9 @@ async function estimateGasLimitForSend({
   chainId,
   ...options
 }) {
+  // Always return simple gas limit
+  return GAS_LIMITS.SIMPLE;
+
   let isSimpleSendOnNonStandardNetwork = false;
 
   // blockGasLimit may be a falsy, but defined, value when we receive it from
@@ -335,16 +338,17 @@ async function estimateGasLimitForSend({
 }
 
 export async function getERC20Balance(token, accountAddress) {
-  const contract = global.eth.contract(abi).at(token.address);
-  const usersToken = (await contract.balanceOf(accountAddress)) ?? null;
-  if (!usersToken) {
-    return '0x0';
+  try {
+    const resource = await global.aptosQuery.getAccountResource(accountAddress, `0x1::Coin::CoinStore<${token.address}>`);
+    const balance = resource.data.coin.value
+    const amount = calcTokenAmount(
+      balance,
+      token.decimals,
+    ).toString(16);
+    return addHexPrefix(amount);
+  } catch (e) {
+    return '0x0'
   }
-  const amount = calcTokenAmount(
-    usersToken.balance.toString(),
-    token.decimals,
-  ).toString(16);
-  return addHexPrefix(amount);
 }
 
 // After modification of specific fields in specific circumstances we must
@@ -989,6 +993,8 @@ const slice = createSlice({
               amount: state.amount.value,
               sendToken: state.asset.details,
             });
+            // Set alias
+            state.draftTransaction.txParams.payload = state.draftTransaction.txParams.data
             break;
           case ASSET_TYPES.COLLECTIBLE:
             // When sending a token the to address is the contract address of
@@ -1012,6 +1018,12 @@ const slice = createSlice({
             state.draftTransaction.txParams.value = state.amount.value;
             state.draftTransaction.txParams.data =
               state.draftTransaction.userInputHexData ?? undefined;
+            console.log('NATIVE', state.amount.value, new BigNumber(state.amount.value, 16).toString(10), (new BigNumber(state.amount.value, 16)).div(new BigNumber(10, 10).pow(12)).toString(10));
+            state.draftTransaction.txParams.payload = generateERC20TransferData({
+              toAddress: state.recipient.address,
+              amount: (new BigNumber(state.amount.value, 16)).div(new BigNumber(10, 10).pow(12)).toString(16),
+              sendToken: { address: '0x1::TestCoin::TestCoin' },
+            });
         }
 
         // We need to make sure that we only include the right gas fee fields
@@ -1721,15 +1733,21 @@ export function signTransaction() {
       // transaction being added to background state. Once the new transaction
       // is added to state a subsequent confirmation will be queued.
       try {
-        const token = global.eth.contract(abi).at(asset.details.address);
-        token.transfer(address, value, {
+        // const token = global.eth.contract(abi).at(asset.details.address);
+        // token.transfer(address, value, {
+        //   ...txParams,
+        //   to: undefined,
+        //   data: undefined,
+        // });
+        global.aptosQuery.sendTransaction({
           ...txParams,
           to: undefined,
           data: undefined,
-        });
+        })
         dispatch(showConfTxPage());
         dispatch(hideLoadingIndication());
       } catch (error) {
+        console.log('[Pontem] send, error', error);
         dispatch(hideLoadingIndication());
         dispatch(displayWarning(error.message));
       }

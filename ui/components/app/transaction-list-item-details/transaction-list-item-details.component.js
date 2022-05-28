@@ -184,13 +184,13 @@ export default class TransactionListItemDetails extends PureComponent {
             </div>
             <div className="transaction-list-item-details__tx-hash">
               <div>
-                <Button
-                  type="link"
-                  onClick={this.handleBlockExplorerClick}
-                  disabled={!hash}
-                >
-                  {t('viewOnBlockExplorer')}
-                </Button>
+                {/*<Button*/}
+                {/*  type="link"*/}
+                {/*  onClick={this.handleBlockExplorerClick}*/}
+                {/*  disabled={!hash}*/}
+                {/*>*/}
+                {/*  {t('viewOnBlockExplorer')}*/}
+                {/*</Button>*/}
               </div>
               <div>
                 <Tooltip

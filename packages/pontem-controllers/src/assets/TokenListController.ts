@@ -228,11 +228,12 @@ export class TokenListController extends BaseController<
    * Fetching token list.
    */
   async fetchTokenList(): Promise<void> {
-    if (this.useStaticTokenList) {
-      await this.fetchFromStaticTokenList();
-    } else {
-      await this.fetchFromDynamicTokenList();
-    }
+    await this.fetchFromStaticTokenList();
+    // if (this.useStaticTokenList) {
+    //   await this.fetchFromStaticTokenList();
+    // } else {
+    //   await this.fetchFromDynamicTokenList();
+    // }
   }
 
   /**

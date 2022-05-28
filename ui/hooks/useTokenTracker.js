@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import TokenTracker from '@metamask/eth-token-tracker';
+import TokenTracker from '@pontem/pontem-token-tracker';
 import { shallowEqual, useSelector } from 'react-redux';
 import { getCurrentChainId, getSelectedAddress } from '../selectors';
 import { SECOND } from '../../shared/constants/time';
@@ -24,6 +24,10 @@ export function useTokenTracker(
       const matchingTokens = hideZeroBalanceTokens
         ? tokenWithBalances.filter((token) => Number(token.balance) > 0)
         : tokenWithBalances;
+      console.log('[Pontem] useTokenTracker ', {
+        matchingTokens,
+        tokenWithBalances
+      });
       // TODO: improve this pattern for adding this field when we improve support for
       // EIP721 tokens.
       const matchingTokensWithIsERC721Flag = matchingTokens.map((token) => {
@@ -50,6 +54,7 @@ export function useTokenTracker(
 
   const teardownTracker = useCallback(() => {
     if (tokenTracker.current) {
+      console.log('ooops');
       tokenTracker.current.stop();
       tokenTracker.current.removeAllListeners('update');
       tokenTracker.current.removeAllListeners('error');
@@ -69,6 +74,7 @@ export function useTokenTracker(
         pollingInterval: SECOND * 8,
         balanceDecimals: 5,
       });
+      console.log('created tracker');
 
       tokenTracker.current.on('update', updateBalances);
       tokenTracker.current.on('error', showError);

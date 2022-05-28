@@ -15,6 +15,7 @@ import {
   TOKEN_TRANSFER_FUNCTION_SIGNATURE,
   COLLECTIBLE_TRANSFER_FROM_FUNCTION_SIGNATURE,
 } from './send.constants';
+import BigNumber from 'bignumber.js';
 
 export {
   addGasBuffer,
@@ -136,18 +137,18 @@ function generateERC20TransferData({
   if (!sendToken) {
     return undefined;
   }
-  return (
-    TOKEN_TRANSFER_FUNCTION_SIGNATURE +
-    Array.prototype.map
-      .call(
-        abi.rawEncode(
-          ['address', 'uint256'],
-          [toAddress, addHexPrefix(amount)],
-        ),
-        (x) => `00${x.toString(16)}`.slice(-2),
-      )
-      .join('')
-  );
+
+  const payload = {
+    type: "script_function_payload",
+    function: "0x1::Coin::transfer",
+    type_arguments: [sendToken.address],
+    arguments: [
+      toAddress,
+      (new BigNumber(amount, 16)).toString(10)
+    ]
+  }
+  console.log('[send.utils] generateERC20TransferData', payload, sendToken);
+  return payload;
 }
 
 function generateERC721TransferData({

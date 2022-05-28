@@ -45,7 +45,7 @@ function transformState(state = {}) {
       chainId: '0x4',
       nickname: '',
       rpcPrefs: {},
-      ticker: 'ETH',
+      ticker: 'APTOS',
     };
   } else if (state.NetworkController?.provider) {
     if ('rpcTarget' in state.NetworkController.provider) {
@@ -65,7 +65,7 @@ function transformState(state = {}) {
   state.PreferencesController.frequentRpcListDetail.unshift({
     rpcUrl: 'http://localhost:8545',
     chainId: '0x539',
-    ticker: 'ETH',
+    ticker: 'APTOS',
     nickname: 'Localhost 8545',
     rpcPrefs: {},
   });

@@ -571,7 +571,7 @@
     "message": "Connecting to Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Connecting to Aptos Mainnet"
+    "message": "Connecting to Aptos"
   },
   "connectingToRinkeby": {
     "message": "Connecting to Rinkeby Test Network"

@@ -607,21 +607,6 @@
         "tweetnacl-util": true
       }
     },
-    "@metamask/eth-token-tracker": {
-      "globals": {
-        "console.warn": true
-      },
-      "packages": {
-        "@babel/runtime": true,
-        "deep-equal": true,
-        "eth-block-tracker": true,
-        "ethjs": true,
-        "ethjs-contract": true,
-        "ethjs-query": true,
-        "human-standard-token-abi": true,
-        "safe-event-emitter": true
-      }
-    },
     "@metamask/etherscan-link": {
       "globals": {
         "URL": true
@@ -1481,12 +1466,6 @@
     "buffer-xor": {
       "packages": {
         "buffer": true
-      }
-    },
-    "call-bind": {
-      "packages": {
-        "function-bind": true,
-        "get-intrinsic": true
       }
     },
     "camel-case": {
@@ -2440,18 +2419,6 @@
         "webkitRTCSessionDescription": true
       }
     },
-    "get-intrinsic": {
-      "globals": {
-        "AggregateError": true,
-        "FinalizationRegistry": true,
-        "WeakRef": true
-      },
-      "packages": {
-        "function-bind": true,
-        "has": true,
-        "has-symbols": true
-      }
-    },
     "graphql-request": {
       "globals": {
         "fetch": true
@@ -3046,8 +3013,7 @@
     },
     "is-regex": {
       "packages": {
-        "call-bind": true,
-        "has-symbols": true
+        "has": true
       }
     },
     "is-upper-case": {
@@ -4749,7 +4715,6 @@
     },
     "regexp.prototype.flags": {
       "packages": {
-        "call-bind": true,
         "define-properties": true
       }
     },

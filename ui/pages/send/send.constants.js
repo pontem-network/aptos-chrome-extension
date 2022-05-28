@@ -4,10 +4,10 @@ import {
 } from '../../../shared/modules/conversion.utils';
 import { addHexPrefix } from '../../../app/scripts/lib/util';
 
-const MIN_GAS_PRICE_DEC = '0';
+const MIN_GAS_PRICE_DEC = '1';
 const MIN_GAS_PRICE_HEX = parseInt(MIN_GAS_PRICE_DEC, 10).toString(16);
-const MIN_GAS_LIMIT_DEC = '21000';
-const MAX_GAS_LIMIT_DEC = '7920027';
+const MIN_GAS_LIMIT_DEC = '5000';
+const MAX_GAS_LIMIT_DEC = '20000';
 const MIN_GAS_LIMIT_HEX = parseInt(MIN_GAS_LIMIT_DEC, 10).toString(16);
 
 const HIGH_FEE_WARNING_MULTIPLIER = 1.5;

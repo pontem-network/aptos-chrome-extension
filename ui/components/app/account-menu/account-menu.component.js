@@ -400,13 +400,13 @@ export default class AccountMenu extends Component {
           text={t('connectHardwareWallet')}
         /> */}
         <div className="account-menu__divider" />
-        <AccountMenuItem
-          onClick={() => {
-            global.platform.openTab({ url: supportLink });
-          }}
-          icon={<img src="images/support.svg" alt={supportText} />}
-          text={supportText}
-        />
+        {/*<AccountMenuItem*/}
+        {/*  onClick={() => {*/}
+        {/*    global.platform.openTab({ url: supportLink });*/}
+        {/*  }}*/}
+        {/*  icon={<img src="images/support.svg" alt={supportText} />}*/}
+        {/*  text={supportText}*/}
+        {/*/>*/}
 
         <AccountMenuItem
           onClick={() => {

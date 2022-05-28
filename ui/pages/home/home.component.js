@@ -577,30 +577,28 @@ export default class Home extends PureComponent {
               </Tab>
             </Tabs>
             <div className="home__support">
+              {/*{*/}
+              {/*  ///: BEGIN:ONLY_INCLUDE_IN(main)*/}
+              {/*  t('needHelp', [*/}
+              {/*    <a*/}
+              {/*      href={SUPPORT_LINK}*/}
+              {/*      target="_blank"*/}
+              {/*      rel="noopener noreferrer"*/}
+              {/*      key="need-help-link"*/}
+              {/*    >*/}
+              {/*      {t('needHelpLinkText')}*/}
+              {/*    </a>,*/}
+              {/*  ])*/}
+              {/*  ///: END:ONLY_INCLUDE_IN*/}
+              {/*}*/}
               {
-                ///: BEGIN:ONLY_INCLUDE_IN(main)
-                t('needHelp', [
-                  <a
-                    href={SUPPORT_LINK}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    key="need-help-link"
-                  >
-                    {t('needHelpLinkText')}
-                  </a>,
-                ])
-                ///: END:ONLY_INCLUDE_IN
+                // <BetaHomeFooter />
               }
-              {
-                ///: BEGIN:ONLY_INCLUDE_IN(beta)
-                <BetaHomeFooter />
-                ///: END:ONLY_INCLUDE_IN
-              }
-              {
-                ///: BEGIN:ONLY_INCLUDE_IN(flask)
-                <FlaskHomeFooter />
-                ///: END:ONLY_INCLUDE_IN
-              }
+              {/*{*/}
+              {/*  ///: BEGIN:ONLY_INCLUDE_IN(flask)*/}
+              {/*  <FlaskHomeFooter />*/}
+              {/*  ///: END:ONLY_INCLUDE_IN*/}
+              {/*}*/}
             </div>
           </div>
 

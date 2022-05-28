@@ -64,6 +64,7 @@ export default class DetectTokensController {
   }
 
   async _getTokenBalances(tokens) {
+    console.log('[Pontem] DetectTokens _getTokenBalances', tokens);
     const ethContract = this.web3.eth
       .contract(SINGLE_CALL_BALANCES_ABI)
       .at(SINGLE_CALL_BALANCES_ADDRESS);

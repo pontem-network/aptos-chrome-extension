@@ -63,8 +63,8 @@ export const LOCALHOST_RPC_URL = 'http://localhost:8545';
 
 export const APTOS_SYMBOL = 'APTOS';
 export const PONTEM_SYMBOL = 'PONTEM';
-export const ETH_SYMBOL = 'ETH';
-export const WETH_SYMBOL = 'WETH';
+export const ETH_SYMBOL = 'APTOS';
+export const WETH_SYMBOL = 'APTOS';
 export const TEST_ETH_SYMBOL = 'TESTETH';
 export const BNB_SYMBOL = 'BNB';
 export const MATIC_SYMBOL = 'MATIC';
@@ -74,7 +74,7 @@ export const CELO_SYMBOL = 'CELO';
 
 export const APTOS_TOKEN_IMAGE_URL = './images/aptos_logo.svg';
 export const PONTEM_TOKEN_IMAGE_URL = './images/aptos_logo.svg';
-export const ETH_TOKEN_IMAGE_URL = './images/eth_logo.svg';
+export const ETH_TOKEN_IMAGE_URL = './images/aptos_logo.svg';
 export const TEST_ETH_TOKEN_IMAGE_URL = './images/black-eth-logo.svg';
 export const BNB_TOKEN_IMAGE_URL = './images/bnb.png';
 export const MATIC_TOKEN_IMAGE_URL = './images/matic-token.png';
@@ -207,6 +207,11 @@ export const IPFS_DEFAULT_GATEWAY_URL = 'dweb.link';
 // default crypto currency for the network
 const BUYABLE_CHAIN_ETHEREUM_NETWORK_NAME = 'ethereum';
 export const BUYABLE_CHAINS_MAP = {
+  [APTOS_CHAIN_ID]: {
+    nativeCurrency: APTOS_SYMBOL,
+    network: BUYABLE_CHAIN_ETHEREUM_NETWORK_NAME,
+    transakCurrencies: [APTOS_SYMBOL, 'USDT', 'USDC', 'DAI'],
+  },
   [MAINNET_CHAIN_ID]: {
     nativeCurrency: ETH_SYMBOL,
     network: BUYABLE_CHAIN_ETHEREUM_NETWORK_NAME,

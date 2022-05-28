@@ -77,27 +77,27 @@ export default function AccountOptionsMenu({ anchorElement, onClose }) {
       className="account-options-menu"
       onHide={onClose}
     >
-      <MenuItem
-        onClick={() => {
-          blockExplorerLinkClickedEvent();
-          global.platform.openTab({
-            url: addressLink,
-          });
-          onClose();
-        }}
-        subtitle={
-          blockExplorerUrlSubTitle ? (
-            <span className="account-options-menu__explorer-origin">
-              {blockExplorerUrlSubTitle}
-            </span>
-          ) : null
-        }
-        iconClassName="fas fa-external-link-alt"
-      >
-        {rpcPrefs.blockExplorerUrl
-          ? t('viewinExplorer', [t('blockExplorerAccountAction')])
-          : t('viewOnEtherscan', [t('blockExplorerAccountAction')])}
-      </MenuItem>
+      {/*<MenuItem*/}
+      {/*  onClick={() => {*/}
+      {/*    blockExplorerLinkClickedEvent();*/}
+      {/*    global.platform.openTab({*/}
+      {/*      url: addressLink,*/}
+      {/*    });*/}
+      {/*    onClose();*/}
+      {/*  }}*/}
+      {/*  subtitle={*/}
+      {/*    blockExplorerUrlSubTitle ? (*/}
+      {/*      <span className="account-options-menu__explorer-origin">*/}
+      {/*        {blockExplorerUrlSubTitle}*/}
+      {/*      </span>*/}
+      {/*    ) : null*/}
+      {/*  }*/}
+      {/*  iconClassName="fas fa-external-link-alt"*/}
+      {/*>*/}
+      {/*  {rpcPrefs.blockExplorerUrl*/}
+      {/*    ? t('viewinExplorer', [t('blockExplorerAccountAction')])*/}
+      {/*    : t('viewOnEtherscan', [t('blockExplorerAccountAction')])}*/}
+      {/*</MenuItem>*/}
       {getEnvironmentType() === ENVIRONMENT_TYPE_FULLSCREEN ? null : (
         <MenuItem
           onClick={() => {

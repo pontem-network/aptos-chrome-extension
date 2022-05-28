@@ -7,6 +7,7 @@ export default function TokenBalance({ className, token }) {
   const { tokensWithBalances } = useTokenTracker([token]);
 
   const { string, symbol } = tokensWithBalances[0] || {};
+  console.log('asdasd', string, tokensWithBalances);
   return (
     <CurrencyDisplay
       className={className}

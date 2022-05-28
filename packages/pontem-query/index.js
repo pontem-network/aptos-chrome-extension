@@ -20,6 +20,7 @@ PontemQuery.prototype.createSignMessage = generateFnFor('transactions/signing_me
 PontemQuery.prototype.getAccountTransactions = generateFnFor('accounts/:address/transactions', 'get', ['address'])
 PontemQuery.prototype.getAccount = generateFnFor('accounts/:address', 'get', ['address'])
 PontemQuery.prototype.getAccountResources = generateFnFor('accounts/:address/resources', 'get', ['address'])
+PontemQuery.prototype.getAccountResource = generateFnFor('accounts/:address/resource/:resource', 'get', ['address', 'resource'])
 PontemQuery.prototype.getAccountModules = generateFnFor('accounts/:address/modules', 'get', ['address'])
 PontemQuery.prototype.requestTokensFromFaucet = generateFnFor('faucet/mint', 'post', ['publicKey'])
 

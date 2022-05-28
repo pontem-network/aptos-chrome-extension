@@ -178,7 +178,7 @@ export function getRenderableEthFee(
   estimate,
   gasLimit,
   numberOfDecimals = 9,
-  nativeCurrency = 'ETH',
+  nativeCurrency = 'APTOS',
 ) {
   const value = conversionUtil(estimate, {
     fromNumericBase: 'dec',

@@ -91,3 +91,19 @@ export function isValidAddress(hexAddress) {
 
   return /^0x[0-9a-fA-F]{40,64}$/.test(hexAddress)
 }
+
+
+export function isValidAptosResource(resource, { allowNonPrefixed = true }) {
+  const parts = resource.split('::')
+
+  if(parts.length !== 3) {
+    throw new Error(`Invalid Aptos resource: ${resource}`)
+  }
+
+  const possibleAddress = parts[0];
+  const addressToCheck = allowNonPrefixed
+    ? addHexPrefix(possibleAddress)
+    : possibleAddress;
+
+  return isHexString(addressToCheck);
+}

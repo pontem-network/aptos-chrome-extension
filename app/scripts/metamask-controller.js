@@ -33,16 +33,22 @@ import {
   PhishingController,
   NotificationController,
   // GasFeeController,
-  TokenListController,
-  TokensController,
-  TokenRatesController,
+  // TokenListController,
+  // TokensController,
+  // TokenRatesController,
   CollectiblesController,
-  AssetsContractController,
+  // AssetsContractController,
   CollectibleDetectionController,
   PermissionController,
   SubjectMetadataController,
 } from '@metamask/controllers';
+// import {GasFeeController, TokensController, TokenListController, TokenRatesController, AssetsContractController} from '@pontem/pontem-controllers';
 import GasFeeController from '@pontem/pontem-controllers/dist/gas/GasFeeController';
+import TokensController from '@pontem/pontem-controllers/dist/assets/TokensController';
+import TokenListController from '@pontem/pontem-controllers/dist/assets/TokenListController';
+import AssetsContractController from '@pontem/pontem-controllers/dist/assets/AssetsContractController';
+import TokenRatesController from '@pontem/pontem-controllers/dist/assets/TokenRatesController';
+// import GasFeeController from '@pontem/pontem-controllers/dist/gas/GasFeeController';
 
 import SmartTransactionsController from '@metamask/smart-transactions-controller';
 ///: BEGIN:ONLY_INCLUDE_IN(flask)
@@ -3719,7 +3725,7 @@ export default class MetamaskController extends EventEmitter {
   async updateAndSetCustomRpc(
     rpcUrl,
     chainId,
-    ticker = 'ETH',
+    ticker = 'APTOS',
     nickname,
     rpcPrefs,
   ) {
@@ -3753,7 +3759,7 @@ export default class MetamaskController extends EventEmitter {
   async setCustomRpc(
     rpcUrl,
     chainId,
-    ticker = 'ETH',
+    ticker = 'APTOS',
     nickname = '',
     rpcPrefs = {},
   ) {

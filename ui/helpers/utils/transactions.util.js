@@ -207,7 +207,7 @@ export function getStatusKey(transaction) {
  * @param {string} nativeCurrency - The native currency of the currently selected network
  * @returns {string} The transaction category title
  */
-export function getTransactionTypeTitle(t, type, nativeCurrency = 'ETH') {
+export function getTransactionTypeTitle(t, type, nativeCurrency = 'APTOS') {
   switch (type) {
     case TRANSACTION_TYPES.TOKEN_METHOD_TRANSFER: {
       return t('transfer');
