@@ -1,0 +1,55 @@
+{
+  "name": "@pontem/pontem-token-tracker",
+  "version": "4.0.0",
+  "description": "A module for tracking Ethereum token balances over block changes.",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "lint": "echo 'Skip'",
+    "prepublishOnly": "npm run build",
+    "build": "babel -d dist/ lib/",
+    "test": "tape test/**/*.js",
+    "buildSample": "browserify example/index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MetaMask/eth-token-tracker.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "ethereum",
+    "tokens"
+  ],
+  "author": "Dan Finlay <dan@danfinlay.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetaMask/eth-token-tracker/issues"
+  },
+  "homepage": "https://github.com/MetaMask/eth-token-tracker#readme",
+  "files": [
+    "/dist",
+    "/lib"
+  ],
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "deep-equal": "^1.1.0",
+    "human-standard-token-abi": "^1.0.2",
+    "safe-event-emitter": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/runtime": "^7.18.3",
+    "ethereumjs-testrpc": "^3.0.4",
+    "solc": "^0.4.10",
+    "tape": "^4.6.3",
+    "web3-provider-engine": "^15.0.1"
+  }
+}
