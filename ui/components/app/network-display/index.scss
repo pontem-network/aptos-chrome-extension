@@ -6,13 +6,20 @@
   border-radius: 4px;
   min-height: 25px;
   user-select: none;
+  background: var(--secondary-bg);
+  border-color: var(--secondary-bg) !important;
+  color: var(--secondary-text);
+
+  span {
+    color: var(--secondary-text) !important;
+  }
 
   &--disabled {
     cursor: not-allowed;
   }
 
   &--colored {
-    background-color: lighten(rgb(125, 128, 130), 45%);
+    background-color: var(--secondary-bg);
   }
 
   &--mainnet {
@@ -62,6 +69,7 @@
     height: 8px;
     width: 12px;
     display: block;
+    color: var(--secondary-text);
   }
 
   &--clickable {

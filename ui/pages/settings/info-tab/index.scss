@@ -41,21 +41,21 @@
     @include H6;
 
     padding-top: 5px;
-    color: var(--dusty-gray);
+    color: var(--secondary-text);
   }
 
   &__separator {
     margin: 15px 0;
     width: 80px;
-    border-color: var(--alto);
+    border-color: var(--divider-2);
     border: none;
     height: 1px;
-    background-color: var(--alto);
-    color: var(--alto);
+    background-color: var(--divider-2);
+    color: var(--divider-2);
   }
 
   &__about {
-    color: var(--dusty-gray);
+    color: var(--secondary-text);
     margin-bottom: 15px;
   }
 }

@@ -193,7 +193,7 @@ function parseArgv() {
 
   const entryTask = argv._[0];
   if (!entryTask) {
-    throw new Error('AptosMask build: No entry task specified.');
+    throw new Error('MultiMask build: No entry task specified.');
   }
 
   const buildType = argv[NamedArgs.BuildType];

@@ -19,15 +19,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -123,7 +123,7 @@
     "message": "Limite de Gas deve ser no mínimo 21000"
   },
   "gasPrice": {
-    "message": "Preço Gas (GWEI)"
+    "message": "Preço Gas"
   },
   "getEther": {
     "message": "Obter Ether"
@@ -150,7 +150,7 @@
     "message": "Importar Conta"
   },
   "importAccountMsg": {
-    "message": "Contas importadas não irão ser associadas com a frase seed da conta criada originalmente pelo AptosMask. Saiba mais sobre contas importadas."
+    "message": "Contas importadas não irão ser associadas com a frase seed da conta criada originalmente pelo MultiMask. Saiba mais sobre contas importadas."
   },
   "imported": {
     "message": "Importado",
@@ -200,7 +200,7 @@
     "message": "Mensagem"
   },
   "metamaskDescription": {
-    "message": "O AptosMask é um lugar seguro para guardar a sua identidade em em Ethereum."
+    "message": "O MultiMask é um lugar seguro para guardar a sua identidade em em Ethereum."
   },
   "mustSelectOne": {
     "message": "Deve escolher no mínimo 1 token."
@@ -379,7 +379,7 @@
     "message": "Visite o nosso site"
   },
   "welcome": {
-    "message": "Bem-vindo ao AptosMask"
+    "message": "Bem-vindo ao MultiMask"
   },
   "youSign": {
     "message": "Está a assinar"

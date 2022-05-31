@@ -1330,7 +1330,7 @@ export function addToken(
 ) {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('AptosMask - Cannot add token without address');
+      throw new Error('MultiMask - Cannot add token without address');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -1350,10 +1350,10 @@ export function addToken(
 export function addCollectible(address, tokenID, dontShowLoadingIndicator) {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('AptosMask - Cannot add collectible without address');
+      throw new Error('MultiMask - Cannot add collectible without address');
     }
     if (!tokenID) {
-      throw new Error('AptosMask - Cannot add collectible without tokenID');
+      throw new Error('MultiMask - Cannot add collectible without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -1377,10 +1377,10 @@ export function addCollectibleVerifyOwnership(
 ) {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('AptosMask - Cannot add collectible without address');
+      throw new Error('MultiMask - Cannot add collectible without address');
     }
     if (!tokenID) {
-      throw new Error('AptosMask - Cannot add collectible without tokenID');
+      throw new Error('MultiMask - Cannot add collectible without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -1414,10 +1414,10 @@ export function removeAndIgnoreCollectible(
 ) {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('AptosMask - Cannot ignore collectible without address');
+      throw new Error('MultiMask - Cannot ignore collectible without address');
     }
     if (!tokenID) {
-      throw new Error('AptosMask - Cannot ignore collectible without tokenID');
+      throw new Error('MultiMask - Cannot ignore collectible without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -1437,10 +1437,10 @@ export function removeAndIgnoreCollectible(
 export function removeCollectible(address, tokenID, dontShowLoadingIndicator) {
   return async (dispatch) => {
     if (!address) {
-      throw new Error('AptosMask - Cannot remove collectible without address');
+      throw new Error('MultiMask - Cannot remove collectible without address');
     }
     if (!tokenID) {
-      throw new Error('AptosMask - Cannot remove collectible without tokenID');
+      throw new Error('MultiMask - Cannot remove collectible without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());

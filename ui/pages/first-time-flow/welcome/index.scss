@@ -22,10 +22,12 @@
     margin-bottom: 22px;
     margin-top: 50px;
     text-align: center;
+    color: var(--primary-text)
   }
 
   &__description {
     text-align: center;
+    color: var(--secondary-text);
 
     p {
       @include Paragraph;
@@ -35,7 +37,7 @@
     }
 
     a {
-      color: var(--primary-1);
+      color: var(--primary);
     }
 
     @media screen and (max-width: $break-small) {

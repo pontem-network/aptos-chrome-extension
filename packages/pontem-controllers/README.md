@@ -277,7 +277,7 @@ First, `yarn build:link` in this repository, then link `@metamask/controllers` b
 
 ### Release & Publishing
 
-The project follows the same release process as the other libraries in the AptosMask organization. The GitHub Actions [`action-create-release-pr`](https://github.com/MetaMask/action-create-release-pr) and [`action-publish-release`](https://github.com/MetaMask/action-publish-release) are used to automate the release process; see those repositories for more information about how they work.
+The project follows the same release process as the other libraries in the MultiMask organization. The GitHub Actions [`action-create-release-pr`](https://github.com/MetaMask/action-create-release-pr) and [`action-publish-release`](https://github.com/MetaMask/action-publish-release) are used to automate the release process; see those repositories for more information about how they work.
 
 1. Choose a release version.
 

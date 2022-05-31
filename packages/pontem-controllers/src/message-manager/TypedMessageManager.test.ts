@@ -122,7 +122,7 @@ describe('TypedMessageManager', () => {
     });
     controller.setMessageStatusErrored(keys[0], 'error message');
     await expect(result).rejects.toThrow(
-      'AptosMask Typed Message Signature: error message',
+      'MultiMask Typed Message Signature: error message',
     );
   });
 

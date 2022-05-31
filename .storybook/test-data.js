@@ -111,12 +111,12 @@ const state = {
           "snap_confirm": {}
         },
         "manifest": {
-          "description": "An example AptosMask Snap.",
+          "description": "An example MultiMask Snap.",
           "initialPermissions": {
             "snap_confirm": {}
           },
           "manifestVersion": "0.1",
-          "proposedName": "AptosMask Example Snap",
+          "proposedName": "MultiMask Example Snap",
           "repository": {
             "type": "git",
             "url": "https://github.com/MetaMask/snaps-skunkworks.git"
@@ -1306,7 +1306,7 @@ const state = {
       "local:http://localhost:8080/": {
         extensionId: null,
         iconUrl: null,
-        name: "AptosMask Example Snap",
+        name: "MultiMask Example Snap",
         origin: "local:http://localhost:8080/",
         subjectType: "snap",
         svgIcon: "<svg>...</svg>",

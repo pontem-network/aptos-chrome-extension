@@ -1,5 +1,28 @@
 :root {
-  // These are the colors of the AptosMask design system
+  // MultiMask colors
+  --primary-violet: #6E42CA;
+  --primary-violet-2: #7649d5;
+  --primary-violet-3: #7953c8;
+  --secondary-violet: #6E42CA;
+  --primary-text: #E5E4FA;
+  --secondary-text: #8e8ca5;
+  --disabled-text: #656474;
+  --secondary-bg: #1C1C33;
+  --secondary-bg-hover: #20203a;
+  --primary-error: #E74C3C;
+  --primary-success: #04B78A;
+  --divider: #32294c;
+  --divider-2: #3A3A51;
+  --border-input: #2f2f45;
+  --border-btn: var(--divider);
+  --border-btn-hover: var(--border-input);
+  --link: var(--primary-violet);
+  --link-hover: var(--secondary-violet);
+  --link-active: var(--secondary-violet);
+  --primary: var(--primary-violet);
+  --primary-hover: var(--primary-violet-2);
+  --primary-active: var(--primary-violet-3);
+  // These are the colors of the MultiMask design system
   // Only design system colors should be added, no superfluous variables
   --Blue-000: #eaf6ff;
   --Blue-100: #a7d9fe;

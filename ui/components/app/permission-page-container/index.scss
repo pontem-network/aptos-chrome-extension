@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    border-bottom: 1px solid var(--geyser);
+    border-bottom: 1px solid var(--divider);
     padding: 9px;
   }
 
@@ -43,13 +43,13 @@
     display: flex;
     overflow-y: auto;
     flex-direction: column;
-    color: #7c808e;
+    color: var(--primary-text);
     padding-left: 24px;
     padding-right: 24px;
 
     a,
     a:hover {
-      color: var(--dodger-blue);
+      color: var(--primary);
     }
 
     &__requested {
@@ -68,7 +68,7 @@
         @include H6;
 
         margin-left: 16px;
-        color: var(--Black-100);
+        color: var(--secondary-text);
       }
     }
   }
@@ -87,7 +87,7 @@
   &__permissions-header {
     @include H6;
 
-    color: #6a737d;
+    color: var(--primary-text);
   }
 
   &__permissions-container {

@@ -25,7 +25,7 @@ export function useMetricEvent(config = {}, overrides = {}) {
 
 /**
  * track a metametrics event using segment
- * e.g metricsEvent({ event: 'Unlocked AptosMask', category: 'Navigation' })
+ * e.g metricsEvent({ event: 'Unlocked MultiMask', category: 'Navigation' })
  *
  * @param {UIMetricsEventPayload} payload - payload of the event to track
  * @param {MetaMetricsEventOptions} options - options for handling/routing event

@@ -4,7 +4,7 @@ When publishing a new version of MetaMask, we follow this procedure:
 
 ## Overview
 
-The below diagram outlines our process for design, development, and release. Building AptosMask is a community affair, and many steps of the process invite participation from external contributors as indicated. All QA, code review, and release of new versions is done by members of the core AptosMask team.
+The below diagram outlines our process for design, development, and release. Building MultiMask is a community affair, and many steps of the process invite participation from external contributors as indicated. All QA, code review, and release of new versions is done by members of the core MultiMask team.
 
 <img width="664" alt="mm-dev-process" src="https://user-images.githubusercontent.com/1016190/56308059-36906000-60fb-11e9-8e61-6655bca0c54f.png">
 

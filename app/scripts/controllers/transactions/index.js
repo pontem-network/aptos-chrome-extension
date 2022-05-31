@@ -336,7 +336,7 @@ export default class TransactionController extends EventEmitter {
               return reject(
                 cleanErrorStack(
                   ethErrors.provider.userRejectedRequest(
-                    'AptosMask Tx Signature: User denied transaction signature.',
+                    'MultiMask Tx Signature: User denied transaction signature.',
                   ),
                 ),
               );

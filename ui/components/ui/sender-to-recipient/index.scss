@@ -27,7 +27,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        border: 1px solid #d8d8d8;
+        border: 1px solid var(--divider);
 
         &--sender {
           padding-right: 30px;
@@ -36,7 +36,7 @@
 
         &--recipient {
           padding-left: 30px;
-          border-left: 1px solid var(--geyser);
+          border-left: 1px solid var(--divider);
 
           &-with-address {
             cursor: pointer;
@@ -57,9 +57,9 @@
       }
 
       &__arrow-circle {
-        background: var(--white);
+        background: var(--secondary-bg);
         padding: 5px;
-        border: 1px solid var(--geyser);
+        border: 1px solid var(--divider);
         border-radius: 20px;
         height: 32px;
         width: 32px;
@@ -71,6 +71,7 @@
       &__name {
         @include H7;
 
+        color: var(--primary-text);
         padding-left: 14px;
         overflow: hidden;
         text-overflow: ellipsis;

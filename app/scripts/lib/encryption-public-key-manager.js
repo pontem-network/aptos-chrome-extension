@@ -75,7 +75,7 @@ export default class EncryptionPublicKeyManager extends EventEmitter {
   addUnapprovedMessageAsync(address, req) {
     return new Promise((resolve, reject) => {
       if (!address) {
-        reject(new Error('AptosMask Message: address field is required.'));
+        reject(new Error('MultiMask Message: address field is required.'));
         return;
       }
       const msgId = this.addUnapprovedMessage(address, req);
@@ -87,7 +87,7 @@ export default class EncryptionPublicKeyManager extends EventEmitter {
           case 'rejected':
             reject(
               ethErrors.provider.userRejectedRequest(
-                'AptosMask EncryptionPublicKey: User denied message EncryptionPublicKey.',
+                'MultiMask EncryptionPublicKey: User denied message EncryptionPublicKey.',
               ),
             );
             return;

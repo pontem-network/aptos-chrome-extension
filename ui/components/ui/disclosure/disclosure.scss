@@ -5,6 +5,7 @@
 
   & > details[open] > summary {
     &::before {
+      display: none;
       background-image: url("images/icons/collapse.svg");
     }
   }
@@ -13,6 +14,7 @@
     position: relative;
     padding-left: 24px;
     padding-bottom: 10px;
+    color: var(--primary-text);
 
     &::-webkit-details-marker,
     &::marker {
@@ -21,6 +23,7 @@
     }
 
     &::before {
+      display: none;
       position: absolute;
       content: " ";
       flex: 0 0 auto;

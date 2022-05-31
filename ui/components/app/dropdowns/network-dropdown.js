@@ -36,7 +36,7 @@ const notToggleElementClassnames = [
 const DROP_DOWN_MENU_ITEM_STYLE = {
   fontSize: '16px',
   lineHeight: '20px',
-  padding: '12px 0',
+  padding: '12px 10px',
 };
 
 function mapStateToProps(state) {
@@ -125,8 +125,7 @@ class NetworkDropdown extends Component {
     const style = {
       width: '100%',
       left: '40px',
-      color: 'white',
-      background: 'rgba(0, 0, 0, 0.75)',
+      color: '#E5E4FA',
       borderRadius: '20px',
       textTransform: 'none',
     };
@@ -181,7 +180,7 @@ class NetworkDropdown extends Component {
           style={{
             fontSize: '16px',
             lineHeight: '20px',
-            padding: '12px 0',
+            padding: '12px 10px;',
           }}
         >
           {isCurrentRpcTarget ? (
@@ -198,7 +197,7 @@ class NetworkDropdown extends Component {
           <span
             className="network-name-item"
             style={{
-              color: isCurrentRpcTarget ? '#ffffff' : '#9b9b9b',
+              color: isCurrentRpcTarget ? '#E5E4FA' : '#8e8ca5',
             }}
           >
             {nickname || rpcUrl}
@@ -270,7 +269,7 @@ class NetworkDropdown extends Component {
         <span
           className="network-name-item"
           style={{
-            color: providerType === network ? '#ffffff' : '#9b9b9b',
+            color: providerType === network ? '#E5E4FA' : '#8e8ca5',
           }}
         >
           {this.context.t(network)}

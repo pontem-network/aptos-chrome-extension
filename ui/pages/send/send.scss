@@ -5,7 +5,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: var(--Grey-000);
+    background-color: transparent;
     border-bottom: none;
     padding: 14px 0 3px 0;
 
@@ -39,8 +39,8 @@
     margin: 0;
     padding: 0.5rem;
     flex: 0 0 auto;
-    background-color: var(--Grey-000);
-    border-bottom: 1px solid var(--alto);
+    background-color: transparent;
+    border-bottom: 1px solid var(--divider);
   }
 
   &__select-recipient-wrapper {
@@ -58,7 +58,7 @@
         @extend %row-nowrap;
 
         padding: 1rem;
-        border-bottom: 1px solid var(--alto);
+        border-bottom: 1px solid var(--divider);
         border-radius: 0;
         align-items: center;
         justify-content: flex-start;
@@ -87,7 +87,7 @@
 
         padding: 0.5rem;
         text-align: center;
-        border-bottom: 1px solid var(--alto);
+        border-bottom: 1px solid var(--divider);
         justify-content: flex-start;
       }
     }
@@ -97,15 +97,15 @@
     }
 
     &__group-label {
-      @include H8;
+      @include H7;
 
-      background-color: var(--Grey-000);
-      color: var(--Grey-600);
+      background-color: transparent;
+      color: var(--secondary-text);
       padding: 0.5rem 1rem;
-      border-bottom: 1px solid var(--alto);
+      border-bottom: 1px solid var(--divider);
 
       &:first-of-type {
-        border-top: 1px solid var(--alto);
+        border-top: 1px solid var(--divider);
       }
     }
 
@@ -115,11 +115,11 @@
 
       padding: 0.75rem 1rem;
       align-items: center;
-      border-bottom: 1px solid var(--alto);
+      border-bottom: 1px solid var(--divider);
       cursor: pointer;
 
       &:hover {
-        background-color: rgba($alto, 0.2);
+        background-color: var(--secondary-bg-hover);
       }
 
       .identicon {
@@ -141,18 +141,18 @@
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        color: var(--black);
+        color: var(--text-primary);
       }
 
       &__subtitle {
         @include H8;
 
-        color: var(--Grey-500);
+        color: var(--text-secondary);
       }
     }
 
     &__group-item--selected {
-      border: 2px solid #2b7cd6;
+      border: 2px solid var(--primary);
       border-radius: 8px;
     }
   }
@@ -167,20 +167,20 @@
     flex: 1 1 auto;
     width: 0;
     align-items: center;
-    background: var(--white);
+    background: var(--secondary-bg);
     border-radius: 0.5rem;
     padding: 0.75rem 0.5rem;
-    border: 1px solid var(--Grey-100);
+    border: 1.5px solid var(--border-input);
     transition: border-color 150ms ease-in-out;
 
     &:focus-within {
-      border-color: var(--Grey-500);
+      border-color: var(--divider);
     }
 
     &__status-icon {
       @extend %bg-contain;
 
-      background-image: url('/images/search-black.svg');
+      background-image: url('/images/search.svg');
       width: 1.125rem;
       height: 1.125rem;
       margin: 0.25rem 0.5rem 0.25rem 0.25rem;
@@ -197,9 +197,11 @@
       width: 0;
       border: 0;
       outline: none;
+      background: transparent;
+      color: var(--primary-text);
 
       &::placeholder {
-        color: var(--Grey-200);
+        color: var(--secondary-text);
       }
     }
 
@@ -217,7 +219,7 @@
       }
 
       &--qrcode {
-        background-image: url('/images/qr-blue.svg');
+        background-image: url('/images/qr-primary.svg');
         background-color: unset;
         width: 1.5rem;
         height: 1.5rem;
@@ -226,7 +228,7 @@
     }
 
     &--valid {
-      border-color: var(--Blue-500);
+      border-color: var(--primary);
 
       .ens-input__wrapper {
         &__status-icon {
@@ -238,7 +240,7 @@
 
           @include H7;
 
-          color: var(--Blue-500);
+          color: var(--primary);
         }
       }
     }
@@ -252,12 +254,13 @@
 
       word-wrap: break-word;
       white-space: inherit !important;
+      color: var(--primary-text)
     }
 
     &__subtitle {
       @include H7;
 
-      color: var(--Grey-500);
+      color: var(--secondary-text);
       margin-top: 0.25rem;
     }
   }

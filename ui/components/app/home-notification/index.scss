@@ -2,14 +2,15 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background: rgba(36, 41, 46, 0.9);
+  background: var(--secondary-bg);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   min-height: 116px;
   padding: 16px;
+  margin-left: 8px;
 
   @media screen and (min-width: $break-large) {
-    min-width: 472px;
+    max-width: 400px;
   }
 
   &__content-container {
@@ -25,18 +26,18 @@
   &__text {
     @include H7;
 
-    color: var(--white);
+    color: var(--primary-text);
   }
 
   &__text-link {
     @include H7;
 
-    color: var(--primary-blue);
+    color: var(--primary);
     cursor: pointer;
   }
 
   .fa-info-circle {
-    color: #6a737d;
+    color: var(--secondary-text);
   }
 
   & &__checkbox-wrapper {
@@ -59,7 +60,7 @@
   & &__checkbox-label {
     @include H7;
 
-    color: var(--white);
+    color: var(--primary-text);
     margin-left: 10px;
     margin-top: 1px;
     user-select: none;
@@ -69,9 +70,9 @@
   }
 
   & &__ignore-button {
-    border-color: #6a737d;
+    border-color: var(--primary);
     box-sizing: border-box;
-    color: var(--white);
+    color: var(--primary-text);
     background-color: inherit;
     height: 34px;
     width: 155px;
@@ -92,22 +93,23 @@
   }
 
   & &__accept-button {
-    border-color: #6a737d;
+    border-color: var(--primary);
     box-sizing: border-box;
-    color: var(--white);
+    color: var(--text-primary);
     background-color: inherit;
     height: 34px;
-    width: 155px;
-    padding: 0;
+    width: auto;
+    padding: 0 10px;
     margin-left: 4px;
 
     @media screen and (max-width: $break-small) {
-      width: 135px;
+      width: 100%;
+      min-width: 135px;
     }
 
     &:hover {
-      border-color: #6a737d;
-      background-color: #6a737d;
+      border-color: var(--primary);
+      background-color: var(-secondary-bg);
     }
 
     &:active {

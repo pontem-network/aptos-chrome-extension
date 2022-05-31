@@ -92,7 +92,7 @@ initialize().catch(log.error);
  * @property {string} currentLocale - A locale string matching the user's preferred display language.
  * @property {Object} provider - The current selected network provider.
  * @property {string} provider.rpcUrl - The address for the RPC API, if using an RPC API.
- * @property {string} provider.type - An identifier for the type of network selected, allows AptosMask to use custom provider strategies for known networks.
+ * @property {string} provider.type - An identifier for the type of network selected, allows MultiMask to use custom provider strategies for known networks.
  * @property {string} network - A stringified number of the current network ID.
  * @property {Object} accounts - An object mapping lower-case hex addresses to objects with "balance" and "address" keys, both storing hex string values.
  * @property {hex} currentBlockGasLimit - The most recently seen block gas limit, in a lower case hex prefixed string.
@@ -119,12 +119,12 @@ initialize().catch(log.error);
 
 /**
  * @typedef VersionedData
- * @property {MetaMaskState} data - The data emitted from AptosMask controller, or used to initialize it.
+ * @property {MetaMaskState} data - The data emitted from MultiMask controller, or used to initialize it.
  * @property {number} version - The latest migration version that has been run.
  */
 
 /**
- * Initializes the AptosMask controller, and sets up all platform configuration.
+ * Initializes the MultiMask controller, and sets up all platform configuration.
  *
  * @returns {Promise} Setup complete.
  */
@@ -132,7 +132,7 @@ async function initialize() {
   const initState = await loadStateFromPersistence();
   const initLangCode = await getFirstPreferredLangCode();
   await setupController(initState, initLangCode);
-  log.info('AptosMask initialization complete.');
+  log.info('MultiMask initialization complete.');
 }
 
 //
@@ -162,7 +162,7 @@ async function loadStateFromPersistence() {
   if (versionedData && !versionedData.data) {
     // unable to recover, clear state
     versionedData = migrator.generateInitialState(firstTimeState);
-    sentry.captureMessage('AptosMask - Empty vault found - unable to recover');
+    sentry.captureMessage('MultiMask - Empty vault found - unable to recover');
   }
 
   // report migration errors to sentry
@@ -178,7 +178,7 @@ async function loadStateFromPersistence() {
   // migrate data
   versionedData = await migrator.migrateData(versionedData);
   if (!versionedData) {
-    throw new Error('AptosMask - migrator returned undefined');
+    throw new Error('MultiMask - migrator returned undefined');
   }
 
   // write to disk
@@ -187,7 +187,7 @@ async function loadStateFromPersistence() {
   } else {
     // throw in setTimeout so as to not block boot
     setTimeout(() => {
-      throw new Error('AptosMask  - Localstore not supported');
+      throw new Error('MultiMask  - Localstore not supported');
     });
   }
 
@@ -196,7 +196,7 @@ async function loadStateFromPersistence() {
 }
 
 /**
- * Initializes the AptosMask Controller with any initial state and default language.
+ * Initializes the MultiMask Controller with any initial state and default language.
  * Configures platform-specific error reporting strategy.
  * Streams emitted state updates to platform-specific storage strategy.
  * Creates platform listeners for new Dapps/Contexts, and sets up their data connections to the controller.
@@ -207,7 +207,7 @@ async function loadStateFromPersistence() {
  */
 function setupController(initState, initLangCode) {
   //
-  // AptosMask Controller
+  // MultiMask Controller
   //
 
   const controller = new MetamaskController({
@@ -241,6 +241,8 @@ function setupController(initState, initLangCode) {
     provider: controller.provider,
   });
 
+  console.log('BACKGROUND CONTROLLER STORE', controller.store);
+
   // setup state persistence
   pump(
     storeAsStream(controller.store),
@@ -248,7 +250,7 @@ function setupController(initState, initLangCode) {
     storeTransformStream(versionifyData),
     createStreamSink(persistData),
     (error) => {
-      log.error('AptosMask - Persistence pipeline failed', error);
+      log.error('MultiMask - Persistence pipeline failed', error);
     },
   );
 
@@ -266,11 +268,12 @@ function setupController(initState, initLangCode) {
   let dataPersistenceFailing = false;
 
   async function persistData(state) {
+    console.log('PERSIST DATA STATE', state);
     if (!state) {
-      throw new Error('AptosMask - updated state is missing');
+      throw new Error('MultiMask - updated state is missing');
     }
     if (!state.data) {
-      throw new Error('AptosMask - updated state does not have data');
+      throw new Error('MultiMask - updated state does not have data');
     }
     if (localStore.isSupported) {
       try {
@@ -338,7 +341,7 @@ function setupController(initState, initLangCode) {
    */
 
   /**
-   * Connects a Port to the AptosMask controller via a multiplexed duplex stream.
+   * Connects a Port to the MultiMask controller via a multiplexed duplex stream.
    * This method identifies trusted (MetaMask) interfaces, and connects them differently from untrusted (web pages).
    *
    * @param {Port} remotePort - The port provided by a new context.

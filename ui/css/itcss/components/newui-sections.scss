@@ -33,6 +33,9 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
 
 // Main container
 .main-container {
+  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
+  border-radius: 16px;
+  border: 1px solid var(--divider);
   z-index: $main-container-z-index;
 }
 
@@ -95,7 +98,9 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
   .main-container {
     width: 100%;
     overflow-y: auto;
-    background-color: var(--white);
+    background: transparent;
+    border: none;
+    border-radius: 0;
   }
 
   .main-container-wrapper {

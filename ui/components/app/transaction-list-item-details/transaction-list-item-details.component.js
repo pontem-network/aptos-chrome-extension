@@ -9,7 +9,7 @@ import TransactionActivityLog from '../transaction-activity-log';
 import TransactionBreakdown from '../transaction-breakdown';
 import Button from '../../ui/button';
 import Tooltip from '../../ui/tooltip';
-import CancelButton from '../cancel-button';
+// import CancelButton from '../cancel-button';
 import Popover from '../../ui/popover';
 import { SECOND } from '../../../../shared/constants/time';
 import { TRANSACTION_TYPES } from '../../../../shared/constants/transaction';
@@ -145,35 +145,35 @@ export default class TransactionListItemDetails extends PureComponent {
       <Popover title={title} onClose={onClose}>
         <div className="transaction-list-item-details">
           <div className="transaction-list-item-details__operations">
-            <div className="transaction-list-item-details__header-buttons">
-              {showSpeedUp && (
-                <Button
-                  type="primary"
-                  onClick={this.handleRetry}
-                  className="transaction-list-item-details__header-button-rounded-button"
-                >
-                  {t('speedUp')}
-                </Button>
-              )}
-              {showCancel && (
-                <CancelButton
-                  transaction={transaction}
-                  cancelTransaction={this.handleCancel}
-                  detailsModal
-                />
-              )}
-              {showRetry && (
-                <Tooltip title={t('retryTransaction')}>
-                  <Button
-                    type="raised"
-                    onClick={this.handleRetry}
-                    className="transaction-list-item-details__header-button"
-                  >
-                    <i className="fa fa-sync"></i>
-                  </Button>
-                </Tooltip>
-              )}
-            </div>
+            {/*<div className="transaction-list-item-details__header-buttons">*/}
+            {/*  {showSpeedUp && (*/}
+            {/*    <Button*/}
+            {/*      type="primary"*/}
+            {/*      onClick={this.handleRetry}*/}
+            {/*      className="transaction-list-item-details__header-button-rounded-button"*/}
+            {/*    >*/}
+            {/*      {t('speedUp')}*/}
+            {/*    </Button>*/}
+            {/*  )}*/}
+            {/*  {showCancel && (*/}
+            {/*    <CancelButton*/}
+            {/*      transaction={transaction}*/}
+            {/*      cancelTransaction={this.handleCancel}*/}
+            {/*      detailsModal*/}
+            {/*    />*/}
+            {/*  )}*/}
+            {/*  {showRetry && (*/}
+            {/*    <Tooltip title={t('retryTransaction')}>*/}
+            {/*      <Button*/}
+            {/*        type="raised"*/}
+            {/*        onClick={this.handleRetry}*/}
+            {/*        className="transaction-list-item-details__header-button"*/}
+            {/*      >*/}
+            {/*        <i className="fa fa-sync"></i>*/}
+            {/*      </Button>*/}
+            {/*    </Tooltip>*/}
+            {/*  )}*/}
+            {/*</div>*/}
           </div>
           <div className="transaction-list-item-details__header">
             <div className="transaction-list-item-details__tx-status">

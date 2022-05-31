@@ -40,7 +40,7 @@ async function start() {
 
   function displayCriticalError(container, err) {
     container.innerHTML =
-      '<div class="critical-error">The AptosMask app failed to load: please open and close AptosMask again to restart.</div>';
+      '<div class="critical-error">The MultiMask app failed to load: please open and close MultiMask again to restart.</div>';
     container.style.height = '80px';
     log.error(err.stack);
     throw err;

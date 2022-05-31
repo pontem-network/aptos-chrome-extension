@@ -34,10 +34,10 @@ import { isLegacyTransaction } from '../../../helpers/utils/transactions.util';
 import { useMetricEvent } from '../../../hooks/useMetricEvent';
 import Button from '../../ui/button';
 import AdvancedGasFeePopover from '../advanced-gas-fee-popover';
-import CancelButton from '../cancel-button';
+// import CancelButton from '../cancel-button';
 import CancelSpeedupPopover from '../cancel-speedup-popover';
 import EditGasFeePopover from '../edit-gas-fee-popover';
-import EditGasPopover from '../edit-gas-popover';
+// import EditGasPopover from '../edit-gas-popover';
 
 function TransactionListItemInner({
   transactionGroup,
@@ -220,13 +220,13 @@ function TransactionListItemInner({
         }
       >
         <div className="transaction-list-item__pending-actions">
-          {speedUpButton}
-          {showCancelButton && (
-            <CancelButton
-              transaction={transactionGroup.primaryTransaction}
-              cancelTransaction={cancelTransaction}
-            />
-          )}
+          {/*{speedUpButton}*/}
+          {/*{showCancelButton && (*/}
+          {/*  <CancelButton*/}
+          {/*    transaction={transactionGroup.primaryTransaction}*/}
+          {/*    cancelTransaction={cancelTransaction}*/}
+          {/*  />*/}
+          {/*)}*/}
         </div>
       </ListItem>
       {showDetails && (
@@ -255,20 +255,20 @@ function TransactionListItemInner({
           )}
         />
       )}
-      {!supportsEIP1559V2 && showRetryEditGasPopover && (
-        <EditGasPopover
-          onClose={() => setShowRetryEditGasPopover(false)}
-          mode={EDIT_GAS_MODES.SPEED_UP}
-          transaction={transactionGroup.primaryTransaction}
-        />
-      )}
-      {!supportsEIP1559V2 && showCancelEditGasPopover && (
-        <EditGasPopover
-          onClose={() => setShowCancelEditGasPopover(false)}
-          mode={EDIT_GAS_MODES.CANCEL}
-          transaction={transactionGroup.primaryTransaction}
-        />
-      )}
+      {/*{!supportsEIP1559V2 && showRetryEditGasPopover && (*/}
+      {/*  <EditGasPopover*/}
+      {/*    onClose={() => setShowRetryEditGasPopover(false)}*/}
+      {/*    mode={EDIT_GAS_MODES.SPEED_UP}*/}
+      {/*    transaction={transactionGroup.primaryTransaction}*/}
+      {/*  />*/}
+      {/*)}*/}
+      {/*{!supportsEIP1559V2 && showCancelEditGasPopover && (*/}
+      {/*  <EditGasPopover*/}
+      {/*    onClose={() => setShowCancelEditGasPopover(false)}*/}
+      {/*    mode={EDIT_GAS_MODES.CANCEL}*/}
+      {/*    transaction={transactionGroup.primaryTransaction}*/}
+      {/*  />*/}
+      {/*)}*/}
     </>
   );
 }

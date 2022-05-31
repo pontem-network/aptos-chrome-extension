@@ -7,7 +7,7 @@
 
 .first-time-flow {
   width: 100%;
-  background-color: var(--white);
+  background-color: transparent;
   display: flex;
   justify-content: center;
 
@@ -37,13 +37,14 @@
 
   &__create-back {
     margin-bottom: 16px;
+    margin-top: 24px;
   }
 
   &__header {
     @include H1;
 
     margin-bottom: 24px;
-    color: black;
+    color: var(--primary-text);
   }
 
   &__input {
@@ -52,7 +53,7 @@
 
   &__text-block {
     margin-bottom: 24px;
-    color: black;
+    color: var(--primary-text);
 
     @media screen and (max-width: $break-small) {
       @include H6;
@@ -74,8 +75,8 @@
   }
 
   &__checkbox {
-    background: #fff;
-    border: 1px solid #cdcdcd;
+    background: var(--secondary-bg);
+    border: 1px solid var(--disabled-text);
     box-sizing: border-box;
     height: 34px;
     width: 34px;
@@ -84,23 +85,23 @@
     align-items: center;
 
     &:hover {
-      border: 1.5px solid #2f9ae0;
+      border: 1.5px solid var(--primary);
     }
 
     .fa-check {
-      color: #2f9ae0;
+      color: var(--primary);
     }
   }
 
   &__checkbox-label {
     @include H4;
 
-    color: #939090;
+    color: var(--secondary-text);
     margin-left: 18px;
   }
 
   &__link-text {
-    color: var(--primary-blue);
+    color: var(--primary);
   }
 }
 

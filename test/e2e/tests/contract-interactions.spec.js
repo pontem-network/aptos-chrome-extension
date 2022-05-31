@@ -59,7 +59,7 @@ describe('Deploy contract and call contract methods', function () {
         await driver.waitUntilXWindowHandles(3);
         windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
         await driver.clickElement({ text: 'Data', tag: 'button' });
@@ -94,7 +94,7 @@ describe('Deploy contract and call contract methods', function () {
         await driver.delay(5000);
         windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
         await driver.delay(regularDelayMs);
@@ -120,7 +120,7 @@ describe('Deploy contract and call contract methods', function () {
         await driver.delay(5000);
         windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
         await driver.delay(regularDelayMs);

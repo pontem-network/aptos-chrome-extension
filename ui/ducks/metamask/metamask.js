@@ -47,8 +47,8 @@ export default function reduceMetamask(state = {}, action) {
     participateInMetaMetrics: null,
     nextNonce: null,
     conversionRate: null,
-    ...state,
     nativeCurrency: 'APTOS',
+    ...state,
   };
 
   switch (action.type) {
@@ -441,7 +441,7 @@ export function isAddressLedger(state, address) {
 }
 
 /**
- * Given the redux state object, returns a boolean indicating whether the user has any Ledger accounts added to AptosMask (i.e. Ledger keyrings
+ * Given the redux state object, returns a boolean indicating whether the user has any Ledger accounts added to MultiMask (i.e. Ledger keyrings
  * in state)
  *
  * @param {Object} state - the redux state object

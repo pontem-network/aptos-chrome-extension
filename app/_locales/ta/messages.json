@@ -32,11 +32,11 @@
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -177,7 +177,7 @@
     "message": "எரிவாயு வரம்பு குறைந்தது 21000 ஆக இருக்க வேண்டும்"
   },
   "gasPrice": {
-    "message": "எரிவாயு விலை (GWEI)"
+    "message": "எரிவாயு விலை"
   },
   "getEther": {
     "message": "ஈத்தர் கிடைக்கும்"

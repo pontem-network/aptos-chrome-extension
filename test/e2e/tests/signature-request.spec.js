@@ -37,7 +37,7 @@ describe('Sign Typed Data V4 Signature Request', function () {
         await driver.waitUntilXWindowHandles(3);
         let windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
 
@@ -118,7 +118,7 @@ describe('Sign Typed Data V3 Signature Request', function () {
         await driver.waitUntilXWindowHandles(3);
         let windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
 
@@ -196,7 +196,7 @@ describe('Sign Typed Data Signature Request', function () {
         await driver.waitUntilXWindowHandles(3);
         let windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
 

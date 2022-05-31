@@ -39,8 +39,8 @@ function createZipTask(platform, buildType) {
   return async () => {
     const path =
       buildType === BuildType.main
-        ? `aptosmask-${platform}-${version}`
-        : `aptosmask-${buildType}-${platform}-${version}`;
+        ? `multimask-${platform}-${version}`
+        : `multimask-${buildType}-${platform}-${version}`;
     await pump(
       gulp.src(`dist/${platform}/**`),
       gulpZip(`${path}.zip`),

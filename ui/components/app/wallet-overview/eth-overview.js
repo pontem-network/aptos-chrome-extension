@@ -66,7 +66,7 @@ const EthOverview = ({ className }) => {
 
   const enteredSwapsEvent = useNewMetricEvent({
     event: 'Swaps Opened',
-    properties: { source: 'Main View', active_currency: 'ETH' },
+    properties: { source: 'Main View', active_currency: 'APTOS' },
     category: 'swaps',
   });
   const defaultSwapsToken = useSelector(getSwapsDefaultToken);
@@ -113,16 +113,16 @@ const EthOverview = ({ className }) => {
       }
       buttons={
         <>
-          <IconButton
-            className="eth-overview__button"
-            Icon={BuyIcon}
-            disabled={!isBuyableChain}
-            label={t('buy')}
-            onClick={() => {
-              depositEvent();
-              dispatch(showModal({ name: 'DEPOSIT_ETHER' }));
-            }}
-          />
+          {/*<IconButton*/}
+          {/*  className="eth-overview__button"*/}
+          {/*  Icon={BuyIcon}*/}
+          {/*  disabled={!isBuyableChain}*/}
+          {/*  label={t('buy')}*/}
+          {/*  onClick={() => {*/}
+          {/*    depositEvent();*/}
+          {/*    dispatch(showModal({ name: 'DEPOSIT_ETHER' }));*/}
+          {/*  }}*/}
+          {/*/>*/}
           <IconButton
             className="eth-overview__button"
             data-testid="eth-overview-send"
@@ -133,32 +133,32 @@ const EthOverview = ({ className }) => {
               history.push(SEND_ROUTE);
             }}
           />
-          <IconButton
-            className="eth-overview__button"
-            disabled={!isSwapsChain}
-            Icon={SwapIcon}
-            onClick={() => {
-              if (isSwapsChain) {
-                enteredSwapsEvent();
-                dispatch(setSwapsFromToken(defaultSwapsToken));
-                if (usingHardwareWallet) {
-                  global.platform.openExtensionInBrowser(BUILD_QUOTE_ROUTE);
-                } else {
-                  history.push(BUILD_QUOTE_ROUTE);
-                }
-              }
-            }}
-            label={t('swap')}
-            tooltipRender={(contents) => (
-              <Tooltip
-                title={t('currentlyUnavailable')}
-                position="bottom"
-                disabled={isSwapsChain}
-              >
-                {contents}
-              </Tooltip>
-            )}
-          />
+          {/*<IconButton*/}
+          {/*  className="eth-overview__button"*/}
+          {/*  disabled={!isSwapsChain}*/}
+          {/*  Icon={SwapIcon}*/}
+          {/*  onClick={() => {*/}
+          {/*    if (isSwapsChain) {*/}
+          {/*      enteredSwapsEvent();*/}
+          {/*      dispatch(setSwapsFromToken(defaultSwapsToken));*/}
+          {/*      if (usingHardwareWallet) {*/}
+          {/*        global.platform.openExtensionInBrowser(BUILD_QUOTE_ROUTE);*/}
+          {/*      } else {*/}
+          {/*        history.push(BUILD_QUOTE_ROUTE);*/}
+          {/*      }*/}
+          {/*    }*/}
+          {/*  }}*/}
+          {/*  label={t('swap')}*/}
+          {/*  tooltipRender={(contents) => (*/}
+          {/*    <Tooltip*/}
+          {/*      title={t('currentlyUnavailable')}*/}
+          {/*      position="bottom"*/}
+          {/*      disabled={isSwapsChain}*/}
+          {/*    >*/}
+          {/*      {contents}*/}
+          {/*    </Tooltip>*/}
+          {/*  )}*/}
+          {/*/>*/}
         </>
       }
       className={className}

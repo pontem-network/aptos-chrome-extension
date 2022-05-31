@@ -117,11 +117,12 @@ export default function CurrencyInput({
     let currency, numberOfDecimals;
 
     if (hideSecondary) {
-      return (
-        <div className="currency-input__conversion-component">
-          {t('noConversionRateAvailable')}
-        </div>
-      );
+      // return (
+      //   <div className="currency-input__conversion-component">
+      //     {t('noConversionRateAvailable')}
+      //   </div>
+      // );
+      return '';
     }
 
     if (shouldUseFiat()) {

@@ -9,7 +9,11 @@
 
   font-size: 13px;
   cursor: pointer;
-  color: var(--Blue-500);
+  color: var(--primary-text);
+
+  &:hover {
+    color: var(--primary);
+  }
 
   &__circle {
     display: flex;
@@ -17,7 +21,7 @@
     align-items: center;
     height: 36px;
     width: 36px;
-    background: #037dd6;
+    background: var(--primary);
     border-radius: 18px;
     margin-top: 6px;
     margin-bottom: 5px;

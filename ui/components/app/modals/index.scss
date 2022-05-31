@@ -24,7 +24,7 @@
 
   &__content {
     margin: 0;
-    background-color: white;
+    background-color: var(--secondary-bg);
     animation-fill-mode: forwards;
   }
 
@@ -35,7 +35,8 @@
     bottom: 0;
     left: 0;
     z-index: 1040;
-    background-color: #373a47;
+    background: #080123;
+    opacity: 0.7;
     animation-fill-mode: forwards;
     animation-duration: 0.3s;
   }

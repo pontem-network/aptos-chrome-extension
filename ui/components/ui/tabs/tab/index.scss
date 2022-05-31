@@ -1,4 +1,7 @@
 .tab {
+  color: var(--disabled-text);
+  border-bottom: 2px solid var(--disabled-text);
+
   button {
     cursor: pointer;
     padding: 8px;
@@ -8,11 +11,11 @@
     width: 100%;
     background-color: unset;
     font-size: unset;
-    color: unset;
+    color: inherit;
   }
 
   &--active {
-    color: var(--black);
-    border-bottom: 2px solid var(--primary-blue);
+    color: var(--primary-text);
+    border-bottom: 2px solid var(--primary);
   }
 }

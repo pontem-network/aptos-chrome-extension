@@ -1,6 +1,8 @@
 .seed-phrase-intro {
   &__sections {
     display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
     @media screen and (min-width: $break-large) {
       flex-direction: row;
@@ -14,14 +16,36 @@
   &__left {
     flex: 3;
     min-width: 0;
+    color: var(--primary-text) !important;
+
+    h1 {
+      color: var(--primary-text) !important;
+    }
+
+    p {
+      color: var(--secondary-text) !important;
+    }
   }
 
   &__right {
     flex: 1;
     min-width: 0;
+    color: var(--secondary-text) !important;
+
+    & > div {
+      border-color: var(--divider-2) !important;
+    }
 
     @media screen and (max-width: 970px) {
       margin-top: 24px;
+    }
+
+    span:first-child {
+      color: var(--primary-text) !important;
+    }
+
+    span:last-child {
+      color: var(--secondary-text) !important;
     }
   }
 

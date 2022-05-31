@@ -1,5 +1,5 @@
 name: Bug Report
-description: Using AptosMask, but it's not working as you expect?
+description: Using MultiMask, but it's not working as you expect?
 title: "[Bug]: "
 labels: ["bug"]
 body:
@@ -11,7 +11,7 @@ body:
        ## **Before Submitting:**
 
        * Please search to make sure this issue has not been opened already.
-       * If this is a question about how to integrate AptosMask with your project, please ask in our [Community forum](https://community.metamask.io/c/developer-questions/) instead. This will get your question answered more quickly and make it easier for other devs to find the answer in the future.
+       * If this is a question about how to integrate MultiMask with your project, please ask in our [Community forum](https://community.metamask.io/c/developer-questions/) instead. This will get your question answered more quickly and make it easier for other devs to find the answer in the future.
  - type: textarea
    id: what-happened
    attributes:
@@ -39,14 +39,14 @@ body:
    id: version
    attributes:
      label: Version
-     description: What version of AptosMask are you running? You can find the version in "Settings" > "About"
+     description: What version of MultiMask are you running? You can find the version in "Settings" > "About"
    validations:
      required: true
  - type: dropdown
    id: build
    attributes:
      label: Build type
-     description: Are you using a testing or development build of AptosMask? If so, please select the type of build you are using.
+     description: Are you using a testing or development build of MultiMask? If so, please select the type of build you are using.
      options:
        - Beta
        - Flask

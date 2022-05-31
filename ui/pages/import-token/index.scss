@@ -36,12 +36,13 @@
 
     &__label {
       flex: 0 0 auto;
+      color: var(--secondary-text)
     }
 
     &__edit {
       flex: 1 1 auto;
       text-align: right;
-      color: var(--primary-blue);
+      color: var(--primary);
       padding-right: 4px;
       cursor: pointer;
     }
@@ -51,7 +52,7 @@
     @include H7;
 
     display: inline;
-    color: var(--primary-blue);
+    color: var(--primary);
     padding-left: 0;
   }
 

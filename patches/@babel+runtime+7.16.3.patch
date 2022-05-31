@@ -4,9 +4,9 @@ index 108b39a..e3c769b 100644
 +++ b/node_modules/@babel/runtime/helpers/construct.js
 @@ -1,26 +1,21 @@
 -var setPrototypeOf = require("./setPrototypeOf.js");
-+// All of AptosMask's supported browsers include `Reflect.construct` support, so
++// All of MultiMask's supported browsers include `Reflect.construct` support, so
 +// we don't need this polyfill.
- 
+
 -var isNativeReflectConstruct = require("./isNativeReflectConstruct.js");
 -
 -function _construct(Parent, args, Class) {
@@ -40,7 +40,7 @@ index 108b39a..e3c769b 100644
 +    }
    }
 +);
- 
+
 -  return _construct.apply(null, arguments);
 -}
 -
@@ -72,7 +72,7 @@ index eaf9547..d0474f5 100644
 -  return _extends.apply(this, arguments);
 +  return Object.assign(...arguments)
  }
- 
+
  module.exports = _extends;
 diff --git a/node_modules/@babel/runtime/helpers/getPrototypeOf.js b/node_modules/@babel/runtime/helpers/getPrototypeOf.js
 index a6916eb..e01b2d6 100644
@@ -87,7 +87,7 @@ index a6916eb..e01b2d6 100644
 -  return _getPrototypeOf(o);
 +  return Object.getPrototypeOf(o);
  }
- 
+
  module.exports = _getPrototypeOf;
 diff --git a/node_modules/@babel/runtime/helpers/setPrototypeOf.js b/node_modules/@babel/runtime/helpers/setPrototypeOf.js
 index 415797b..63312f2 100644
@@ -106,7 +106,7 @@ index 415797b..63312f2 100644
 +  o.__proto__ = p;
 +  return o;
 +};
- 
+
  module.exports = _setPrototypeOf;
  module.exports["default"] = module.exports, module.exports.__esModule = true;
 \ No newline at end of file

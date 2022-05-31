@@ -19,7 +19,7 @@ const LOCALE = 'en_US';
 const TEST_META_METRICS_ID = '0xabc';
 
 const DEFAULT_TEST_CONTEXT = {
-  app: { name: 'AptosMask Extension', version: VERSION },
+  app: { name: 'MultiMask Extension', version: VERSION },
   page: METAMETRICS_BACKGROUND_PAGE_OBJECT,
   referrer: undefined,
   userAgent: window.navigator.userAgent,

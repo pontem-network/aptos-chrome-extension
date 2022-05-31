@@ -38,23 +38,25 @@
 }
 
 .btn-secondary {
-  color: var(--Blue-500);
-  border: 1px solid var(--hover-secondary);
-  background-color: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--primary-hover);
+  background-color: transparent;
 
   &:hover {
-    border-color: var(--Blue-500);
+    border-color: var(--primary-hover);
+    background: var(--secondary-bg-hover);
   }
 
   &:active {
-    background: var(--Blue-000);
-    border-color: var(--Blue-500);
+    color: var(--text-primary);
+    background: var(--primary-active);
+    border-color: var(--primary-active);
   }
 
   &--disabled,
   &[disabled] {
     opacity: 1;
-    color: var(--hover-secondary);
+    color: var(--primary-hover);
   }
 }
 
@@ -80,23 +82,23 @@
 }
 
 .btn-danger {
-  color: var(--Red-500);
-  border: 1px solid var(--hover-red);
-  background-color: var(--white);
+  color: var(--primary-error);
+  border: 1px solid var(--primary-error);
+  background-color: #e74c3c14;
 
   &:hover {
-    border-color: var(--Red-500);
+    color: var(--primary-error);
   }
 
   &:active {
-    background: var(--Red-000);
-    border-color: var(--Red-500);
+    background: transparent;
+    border-color: var(--primary-error);
   }
 
   &--disabled,
   &[disabled] {
-    opacity: 1;
-    color: var(--hover-red);
+    opacity: 0.5;
+    color: var(--primary-error);
   }
 }
 
@@ -124,60 +126,60 @@
 }
 
 .btn-default {
-  color: var(--Grey-500);
-  border: 1px solid var(--hover-default);
+  color: var(--text-primary);
+  border: 1px solid var(--divider-2);
 
   &:hover {
-    border-color: var(--Grey-500);
+    border-color: var(--border-btn-hover);
   }
 
   &:active {
-    background: #fbfbfc;
-    border-color: var(--Grey-500);
+    background: transparent;
+    border-color: var(--border-btn-hover);
   }
 
   &--disabled,
   &[disabled] {
     opacity: 1;
-    color: var(--hover-default);
+    color: var(--border-btn-hover);
   }
 }
 
 .btn-primary {
-  color: var(--white);
-  border: 1px solid var(--Blue-500);
-  background-color: var(--Blue-500);
+  color: var(--primary-text);
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
 
   &:hover {
-    border-color: var(--hover-confirm);
-    background-color: var(--hover-confirm);
+    border-color: var(--primary-hover);
+    background-color: var(--primary-hover);
   }
 
   &:active {
-    background: var(--Blue-600);
-    border-color: var(--Blue-600);
+    background: var(--primary-active);
+    border-color: var(--primary-active);
   }
 
   &--disabled,
   &[disabled] {
-    border-color: var(--hover-secondary);
-    background-color: var(--hover-secondary);
+    border-color: var(--primary-hover);
+    background-color: var(--primary-hover);
   }
 }
 
 .btn-link {
   @include H4;
 
-  color: var(--Blue-500);
+  color: var(--link);
   cursor: pointer;
   background-color: transparent;
 
   &:hover {
-    color: var(--Blue-400);
+    color: var(--link-hover);
   }
 
   &:active {
-    color: var(--Blue-600);
+    color: var(--link-active);
   }
 
   &--disabled,
@@ -185,7 +187,7 @@
     cursor: auto;
     opacity: 1;
     pointer-events: none;
-    color: var(--hover-secondary);
+    color: var(--link-hover);
   }
 }
 
@@ -198,8 +200,8 @@
  */
 
 .btn-raised {
-  color: var(--primary-blue);
-  background-color: var(--white);
+  color: var(--primary-text);
+  background-color: var(--primary);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   padding: 6px;
   height: initial;
@@ -237,30 +239,35 @@ input[type="submit"][disabled] {
   }
 
   &.btn-secondary {
-    border: 1px solid var(--Blue-500);
+    border: 1px solid var(--primary);
 
     &--disabled,
     &[disabled] {
-      border-color: var(--hover-secondary);
-      color: var(--hover-secondary);
+      border-color: var(--primary-hover);
+      color: var(--primary-hover);
     }
 
     &:active {
-      border-color: var(--Blue-600);
+      border-color: var(--primary-active);
     }
   }
 
   &.btn-default {
-    border: 1px solid var(--Grey-500);
+    border: 1px solid var(--border-btn);
+    background: transparent;
 
     &--disabled,
     &[disabled] {
-      border-color: var(--Grey-100);
-      color: var(--hover-default);
+      border-color: var(--border-btn);
+      color: var(--border-btn);
     }
 
     &:active {
-      border-color: var(--Grey-600);
+      border-color: var(--border-hover);
+    }
+
+    &:hover {
+      background: var(--border-btn-hover);
     }
   }
 
@@ -293,15 +300,15 @@ input[type="submit"][disabled] {
   }
 
   &.btn-primary {
-    background-color: var(--Blue-500);
+    background-color: var(--primary);
 
     &--disabled,
     &[disabled] {
-      background-color: var(--hover-secondary);
+      background-color: var(--border-btn);
     }
 
     &:active {
-      background-color: var(--Blue-600);
+      background-color: var(--primary-active);
     }
   }
 

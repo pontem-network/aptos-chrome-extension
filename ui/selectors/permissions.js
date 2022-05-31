@@ -263,7 +263,7 @@ export function activeTabHasPermissions(state) {
 /**
  * Get the connected accounts history for all origins.
  *
- * @param {Record<string, unknown>} state - The AptosMask state.
+ * @param {Record<string, unknown>} state - The MultiMask state.
  * @returns {Record<string, { accounts: Record<string, number> }>} An object
  * with account connection histories by origin.
  */

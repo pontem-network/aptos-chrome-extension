@@ -17,6 +17,7 @@
     transition: opacity 200ms ease-in-out;
     background-color: unset;
     text-align: start;
+    color: var(--primary-text);
 
     @media screen and (min-width: $break-large) {
       &:hover {
@@ -31,20 +32,24 @@
     @media screen and (max-width: $break-small) {
       @include H4;
 
-      border-bottom: 1px solid var(--alto);
+      border-bottom: 1px solid var(--divider);
       opacity: 1;
     }
 
     &__content {
       padding: 12px 18px;
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: row nowrap;
       align-items: center;
       position: relative;
       z-index: 201;
+      overflow: hidden;
 
       &__title {
         @include H4;
+        color: var(--primary-text);
+        overflow: hidden;
+        text-overflow: ellipsis;
 
         @media screen and (min-width: $break-large) {
           @include H6;
@@ -66,8 +71,11 @@
 
 
       &__icon {
+        width: 16px;
+        min-width: 16px;
         margin-inline-end: 16px;
         display: flex;
+        color: var(--secondary-text);
       }
     }
 

@@ -6,13 +6,14 @@
 
 html,
 body {
-  color: #4d4d4d;
+  color: var(--primary-text);
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   font-size: 16px;
   overflow: auto;
+  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
 }
 
 html {
@@ -49,21 +50,21 @@ html {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background: #f7f7f7;
+  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
 
-  @media screen and (max-width: $break-small) {
-    background-color: var(--white);
-  }
+  //@media screen and (max-width: $break-small) {
+  //  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
+  //}
 }
 /* stylelint-enable */
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--link);
 }
 
 a:hover {
-  color: var(--Blue-400);
+  color: var(--link-hover);
 }
 
 input.large-input,
@@ -89,32 +90,34 @@ input.form-control {
   padding-left: 10px;
   font-size: 14px;
   height: 40px;
-  border: 1px solid var(--alto);
+  border: 1.5px solid var(--border-input);
   border-radius: 3px;
   width: 100%;
+  background: var(--secondary-bg);
+  color: var(--primary-text);
 
   &::-webkit-input-placeholder {
     font-weight: 100;
-    color: var(--dusty-gray);
+    color: var(--primary-text);
   }
 
   &::-moz-placeholder {
     font-weight: 100;
-    color: var(--dusty-gray);
+    color: var(--primary-text);
   }
 
   &:-ms-input-placeholder {
     font-weight: 100;
-    color: var(--dusty-gray);
+    color: var(--primary-text);
   }
 
   &:-moz-placeholder {
     font-weight: 100;
-    color: var(--dusty-gray);
+    color: var(--primary-text);
   }
 
   &--error {
-    border: 1px solid var(--monzo);
+    border: 1px solid var(--primary-error);
   }
 }
 
@@ -123,3 +126,20 @@ input.form-control {
   font-family: $font-family;
 }
 
+input:-webkit-autofill {
+  background-color: transparent;
+}
+
+
+/** Base MUI input color  **/
+.MuiInputBase-root {
+  color: var(--primary-text) !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-color: #422878a3 !important;
+}
+
+.MuiFormLabel-root.Mui-disabled {
+  color: var(--secondary-text) !important;
+}

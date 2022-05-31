@@ -1,8 +1,8 @@
 # Documentation
 
-These docs relate to how to contribute to the AptosMask project itself.
+These docs relate to how to contribute to the MultiMask project itself.
 
-You can find the latest version of AptosMask on [our official website](https://metamask.io/).
+You can find the latest version of MultiMask on [our official website](https://metamask.io/).
 
 For help using MetaMask, visit our [User Support Site](https://metamask.zendesk.com/hc/en-us).
 
@@ -15,6 +15,6 @@ To learn how to develop MetaMask-compatible applications, visit our [Developer D
 - [Publishing Guide](./publishing.md)
 - [How to live reload on local dependency changes](./developing-on-deps.md)
 - [How to add new networks to the Provider Menu](./adding-new-networks.md)
-- [How to port AptosMask to a new platform](./porting_to_new_environment.md)
+- [How to port MultiMask to a new platform](./porting_to_new_environment.md)
 - [How to generate a visualization of this repository's development](./development-visualization.md)
 - [How to add a feature behind a secret feature flag](./secret-preferences.md)

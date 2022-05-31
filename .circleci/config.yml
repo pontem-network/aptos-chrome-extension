@@ -338,7 +338,7 @@ jobs:
           root: .
           paths:
             - storybook-build
-  
+
   test-storybook:
     executor: node-browsers
     steps:
@@ -650,7 +650,7 @@ jobs:
       - run:
           name: storybook:deploy
           command: |
-            git remote add storybook git@github.com:AptosMask/metamask-storybook.git
+            git remote add storybook git@github.com:MultiMask/metamask-storybook.git
             yarn storybook:deploy
 
   test-unit:

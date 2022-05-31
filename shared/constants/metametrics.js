@@ -107,7 +107,7 @@
  *  track. Keys in this object must be in snake_case. These properties will be
  *  sent in an additional event that excludes the user's metaMetricsId
  * @property {number} [revenue] - amount of currency that event creates in
- *  revenue for AptosMask if fragment is successful.
+ *  revenue for MultiMask if fragment is successful.
  * @property {string} [currency] - ISO 4127 format currency for events with
  *  revenue, defaults to US dollars
  * @property {number} [value] - Abstract business "value" attributable to

@@ -17,7 +17,7 @@ export class Dropdown extends Component {
     const innerStyleDefaults = {
       borderRadius: '4px',
       padding: '8px 16px',
-      background: 'rgba(0, 0, 0, 0.8)',
+      background: '#1C1C33',
       boxShadow: 'rgba(0, 0, 0, 0.15) 0px 2px 2px 2px',
       ...innerStyle,
     };
@@ -35,7 +35,7 @@ export class Dropdown extends Component {
         <style>
           {`
             li.dropdown-menu-item:hover {
-              color:rgb(225, 225, 225);
+              color: rgb(225, 225, 225);
               background-color: rgba(255, 255, 255, 0.05);
               border-radius: 4px;
             }
@@ -81,7 +81,7 @@ export class DropdownMenuItem extends Component {
         }}
         style={{
           listStyle: 'none',
-          padding: '8px 0px',
+          padding: '8px 10px',
           fontSize: '18px',
           fontStyle: 'normal',
           cursor: 'pointer',

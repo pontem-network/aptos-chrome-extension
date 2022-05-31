@@ -61,7 +61,7 @@ const defaultState = {
   conversionDate: 0,
   conversionRate: 0,
   currentCurrency: 'usd',
-  nativeCurrency: 'ETH',
+  nativeCurrency: 'APTOS',
   pendingCurrentCurrency: null,
   pendingNativeCurrency: null,
   usdConversionRate: null,

@@ -13,7 +13,7 @@ const cleanContextForImports = () => {
   try {
     global.define = undefined;
   } catch (_) {
-    console.warn('AptosMask - global.define could not be deleted.');
+    console.warn('MultiMask - global.define could not be deleted.');
   }
 };
 
@@ -24,7 +24,7 @@ const restoreContextAfterImports = () => {
   try {
     global.define = __define;
   } catch (_) {
-    console.warn('AptosMask - global.define could not be overwritten.');
+    console.warn('MultiMask - global.define could not be overwritten.');
   }
 };
 

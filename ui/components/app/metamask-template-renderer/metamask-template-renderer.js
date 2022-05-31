@@ -8,7 +8,7 @@ function getElement(section) {
   const Element = safeComponentList[element];
   if (!Element) {
     throw new Error(
-      `${element} is not in the safe component list for AptosMask template renderer`,
+      `${element} is not in the safe component list for MultiMask template renderer`,
     );
   }
   return Element;
@@ -52,7 +52,7 @@ const MetaMaskTemplateRenderer = ({ sections }) => {
           // be provided a key when a part of an array.
           if (!child.key) {
             throw new Error(
-              'When using array syntax in AptosMask Template Language, you must specify a key for each child of the array',
+              'When using array syntax in MultiMask Template Language, you must specify a key for each child of the array',
             );
           }
           if (typeof child?.children === 'object') {

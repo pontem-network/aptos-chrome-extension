@@ -11,10 +11,6 @@ import SiteIcon from '../../ui/site-icon';
 import UserPreferencedCurrencyDisplay from '../user-preferenced-currency-display';
 import {
   PRIMARY,
-  SUPPORT_LINK,
-  ///: BEGIN:ONLY_INCLUDE_IN(beta,flask)
-  SUPPORT_REQUEST_LINK,
-  ///: END:ONLY_INCLUDE_IN
 } from '../../../helpers/constants/common';
 import {
   SETTINGS_ROUTE,
@@ -295,13 +291,6 @@ export default class AccountMenu extends Component {
       return null;
     }
 
-    let supportText = t('support');
-    let supportLink = SUPPORT_LINK;
-    ///: BEGIN:ONLY_INCLUDE_IN(beta,flask)
-    supportText = t('needHelpSubmitTicket');
-    supportLink = SUPPORT_REQUEST_LINK;
-    ///: END:ONLY_INCLUDE_IN
-
     return (
       <div className="account-menu">
         <div className="account-menu__close-area" onClick={toggleAccountMenu} />
@@ -374,39 +363,7 @@ export default class AccountMenu extends Component {
           }
           text={t('importAccount')}
         />
-        {/* <AccountMenuItem
-          onClick={() => {
-            toggleAccountMenu();
-            metricsEvent({
-              eventOpts: {
-                category: 'Navigation',
-                action: 'Main Menu',
-                name: 'Clicked Connect Hardware',
-              },
-            });
-            if (getEnvironmentType() === ENVIRONMENT_TYPE_POPUP) {
-              global.platform.openExtensionInBrowser(CONNECT_HARDWARE_ROUTE);
-            } else {
-              history.push(CONNECT_HARDWARE_ROUTE);
-            }
-          }}
-          icon={
-            <img
-              className="account-menu__item-icon"
-              src="images/connect-icon.svg"
-              alt={t('connectHardwareWallet')}
-            />
-          }
-          text={t('connectHardwareWallet')}
-        /> */}
         <div className="account-menu__divider" />
-        {/*<AccountMenuItem*/}
-        {/*  onClick={() => {*/}
-        {/*    global.platform.openTab({ url: supportLink });*/}
-        {/*  }}*/}
-        {/*  icon={<img src="images/support.svg" alt={supportText} />}*/}
-        {/*  text={supportText}*/}
-        {/*/>*/}
 
         <AccountMenuItem
           onClick={() => {

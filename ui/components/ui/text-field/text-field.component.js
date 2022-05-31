@@ -7,33 +7,33 @@ const inputLabelBase = {
   transform: 'none',
   transition: 'none',
   position: 'initial',
-  color: '#5b5b5b',
+  color: '#8e8ca5',
 };
 
 const styles = {
   materialLabel: {
     '&$materialFocused': {
-      color: '#aeaeae',
+      color: '#E5E4FA',
     },
     '&$materialError': {
-      color: '#aeaeae',
+      color: '#E74C3C',
     },
     fontWeight: '400',
-    color: '#aeaeae',
+    color: '#8e8ca5',
   },
   materialFocused: {},
   materialUnderline: {
     '&:after': {
-      borderBottom: `2px solid rgb(3, 125, 214)`,
+      borderBottom: `2px solid #6E42CA`,
     },
   },
   materialError: {},
   materialWhitePaddedRoot: {
-    color: '#aeaeae',
+    color: '#E5E4FA',
   },
   materialWhitePaddedInput: {
     padding: '8px',
-
+    color: '#E5E4FA',
     '&::placeholder': {
       color: '#aeaeae',
     },
@@ -48,11 +48,12 @@ const styles = {
   },
   // Non-material styles
   formLabel: {
+    color: '#8e8ca5',
     '&$formLabelFocused': {
-      color: '#5b5b5b',
+      color: '#E5E4FA',
     },
     '&$materialError': {
-      color: '#5b5b5b',
+      color: '#E74C3C',
     },
   },
   formLabelFocused: {},
@@ -61,14 +62,19 @@ const styles = {
     'label + &': {
       marginTop: '9px',
     },
-    border: '1px solid #BBC0C5',
+    border: '1px solid #2f2f45',
     height: '48px',
     borderRadius: '6px',
     padding: '0 16px',
     display: 'flex',
+    color: '#E5E4FA',
     alignItems: 'center',
     '&$inputFocused': {
-      border: '1px solid #2f9ae0',
+      border: '1px solid #6E42CA',
+      color: '#E5E4FA',
+    },
+    '&$inputDisabled': {
+      color: '#8e8ca5',
     },
   },
   largeInputLabel: {
@@ -82,6 +88,11 @@ const styles = {
   inputMultiline: {
     lineHeight: 'initial !important',
   },
+  disabledInput: {
+    "& .Mui-disabled": {
+      color: "#8e8ca5"
+    }
+  }
 };
 
 const getMaterialThemeInputProps = ({

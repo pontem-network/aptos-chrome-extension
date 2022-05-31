@@ -33,7 +33,7 @@
     "message": "darbību žurnāls"
   },
   "addAcquiredTokens": {
-    "message": "Pievienojiet marķierus, ko ieguvāt, izmantojot AptosMask"
+    "message": "Pievienojiet marķierus, ko ieguvāt, izmantojot MultiMask"
   },
   "addAlias": {
     "message": "Pievienot segvārdu"
@@ -67,15 +67,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Automātiskās izrakstīšanās taimeris (minūtes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Iestatiet bezdarbības laiku minūtēs, pēc kura AptosMask veiks automātisku izrakstīšanu"
+    "message": "Iestatiet bezdarbības laiku minūtēs, pēc kura MultiMask veiks automātisku izrakstīšanu"
   },
   "average": {
     "message": "Vidēji"
@@ -115,7 +115,7 @@
     "message": "Atgriezties pie visiem"
   },
   "backupApprovalInfo": {
-    "message": "Šis slepenais kods ir nepieciešams, lai atjaunotu jūsu maku, ja pazaudējat ierīci, aizmirstat paroli, jāpārinstalē AptosMask vai vēlaties piekļūt makam no citas ierīces."
+    "message": "Šis slepenais kods ir nepieciešams, lai atjaunotu jūsu maku, ja pazaudējat ierīci, aizmirstat paroli, jāpārinstalē MultiMask vai vēlaties piekļūt makam no citas ierīces."
   },
   "backupApprovalNotice": {
     "message": "Dublējiet savu slepeno atgūšanas kodu, lai maks un līdzekļi atrastos drošībā."
@@ -146,7 +146,7 @@
     "message": "Pirkt ETH ar Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ļauj noguldīt ETH tieši jūsu AptosMask kontā, izmantojot kredītkarti."
+    "message": "Wyre ļauj noguldīt ETH tieši jūsu MultiMask kontā, izmantojot kredītkarti."
   },
   "bytes": {
     "message": "Baiti"
@@ -164,7 +164,7 @@
     "message": "Ķēdes ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "AptosMask ir jāpalaiž pārlūkprogrammā Google Chrome, lai varētu pievienot aparatūras maku."
+    "message": "MultiMask ir jāpalaiž pārlūkprogrammā Google Chrome, lai varētu pievienot aparatūras maku."
   },
   "clickToRevealSeed": {
     "message": "Klikšķiniet šeit, lai skatītu slepenos vārdus"
@@ -323,13 +323,13 @@
     "message": "Nekad neizpaudiet šo frāzi citiem cilvēkiem."
   },
   "endOfFlowMessage5": {
-    "message": "Uzmanieties no pikšķerēšanas! AptosMask nekad pēkšņi nelūgs norādīt atkopšanas frāzi."
+    "message": "Uzmanieties no pikšķerēšanas! MultiMask nekad pēkšņi nelūgs norādīt atkopšanas frāzi."
   },
   "endOfFlowMessage6": {
     "message": "Ja nepieciešams atkārtoti dublēt atkopšanas frāzi, varat to atrast, dodoties uz Iestatījumi -> Drošība."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask nevar atjaunot jūsu atkopšanas frāzi. Uzzināt vairāk."
+    "message": "MultiMask nevar atjaunot jūsu atkopšanas frāzi. Uzzināt vairāk."
   },
   "endOfFlowMessage9": {
     "message": "Uzzināt vairāk."
@@ -393,7 +393,7 @@
     "message": "Minimālajai Gas robežvērtībai jābūt vismaz 21000"
   },
   "gasPrice": {
-    "message": "Gas cena (GWEI)"
+    "message": "Gas cena"
   },
   "gasPriceExtremelyLow": {
     "message": "Ārkārtīgi zema Gas cena"
@@ -433,7 +433,7 @@
     "message": "Pieslēdziet aparatūras maku"
   },
   "hardwareWalletsMsg": {
-    "message": "Atlasiet aparatūras maku lietošanai ar AptosMask"
+    "message": "Atlasiet aparatūras maku lietošanai ar MultiMask"
   },
   "here": {
     "message": "šeit",
@@ -459,7 +459,7 @@
     "message": "Importēt kontu"
   },
   "importAccountMsg": {
-    "message": "Importētie konti netiks piesaistīti sākotnēji izveidotā AptosMask konta atkopšanas frāzei. Uzziniet vairāk par importētajiem kontiem"
+    "message": "Importētie konti netiks piesaistīti sākotnēji izveidotā MultiMask konta atkopšanas frāzei. Uzziniet vairāk par importētajiem kontiem"
   },
   "importAccountSeedPhrase": {
     "message": "Importēt kontu ar atkopšanas frāzi"
@@ -563,7 +563,7 @@
     "message": "Veido savienojumu ar Aptos un decentralizēto tīmekli."
   },
   "metamaskVersion": {
-    "message": "AptosMask versija"
+    "message": "MultiMask versija"
   },
   "mustSelectOne": {
     "message": "Jāatlasa vismaz 1 marķieris."
@@ -607,7 +607,7 @@
     "message": "Jauna parole (vism. 8 rakstzīmes)"
   },
   "newToMetaMask": {
-    "message": "Nepazīstat AptosMask?"
+    "message": "Nepazīstat MultiMask?"
   },
   "newTotal": {
     "message": "Jaunā kopsumma"
@@ -933,16 +933,16 @@
     "message": "Pārliecinieties, ka neviens cits neskatās jūsu ekrānā, kad skenējat šo kodu."
   },
   "syncWithMobileComplete": {
-    "message": "Jūsu dati sekmīgi sinhronizēti. Patīkamu AptosMask mobilās lietotnes lietošanu!"
+    "message": "Jūsu dati sekmīgi sinhronizēti. Patīkamu MultiMask mobilās lietotnes lietošanu!"
   },
   "syncWithMobileDesc": {
-    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar mobilo ierīci. Atveriet AptosMask mobilo lietotni, ejiet uz \"Iestatījumi\" un pieskarieties pie \"Sinhronizēt no pārlūka paplašinājuma\""
+    "message": "Jūs varat sinhronizēt savus kontus un informāciju ar mobilo ierīci. Atveriet MultiMask mobilo lietotni, ejiet uz \"Iestatījumi\" un pieskarieties pie \"Sinhronizēt no pārlūka paplašinājuma\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ja esat pirmoreiz atvēris AptosMask mobilo lietotni, vienkārši sekojiet norādēm tālrunī."
+    "message": "Ja esat pirmoreiz atvēris MultiMask mobilo lietotni, vienkārši sekojiet norādēm tālrunī."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Noskenējiet šo kodu ar AptosMask mobilo lietotni"
+    "message": "Noskenējiet šo kodu ar MultiMask mobilo lietotni"
   },
   "syncWithMobileTitle": {
     "message": "Sinhronizēt ar tālruni"
@@ -1033,7 +1033,7 @@
     "message": "Mēģināt vēlreiz"
   },
   "typePassword": {
-    "message": "Ievadiet savu AptosMask paroli"
+    "message": "Ievadiet savu MultiMask paroli"
   },
   "unapproved": {
     "message": "Nav apstiprināts"
@@ -1084,7 +1084,7 @@
     "message": "Apmeklējiet mūsu tīmekļa vietni"
   },
   "welcome": {
-    "message": "Laipni lūgti AptosMask"
+    "message": "Laipni lūgti MultiMask"
   },
   "welcomeBack": {
     "message": "Ar atgriešanos!"

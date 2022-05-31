@@ -1,12 +1,16 @@
 .transaction-detail-item {
-  color: var(--ui-4);
+  color: var(--secondary-text);
   padding: 20px 0;
-  border-bottom: 1px solid var(--ui-3);
+  border-bottom: 1px solid var(--divider);
 
   &__row {
     display: flex;
     justify-content: space-between;
     grid-gap: 5px;
+
+    & > h6 {
+      color: var(--secondary-text) !important;
+    }
 
     &-subText {
       display: flex;
@@ -34,7 +38,7 @@
     margin-inline-start: 4px;
 
     path {
-      fill: var(--ui-3);
+      fill: var(--secondary-text);
     }
   }
 

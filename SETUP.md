@@ -11,6 +11,7 @@
   - `pontem-providers`
   - `pontem-json-rpc-middleware`
   - `pontem-wallet`
+  - `pontem-token-tracker`
 
 Before the first run, be sure to build these packages.
 Pay attention to the version of nodejs in each project for build.

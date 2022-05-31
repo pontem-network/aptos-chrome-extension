@@ -22,7 +22,7 @@ export default function createMetamaskMiddleware({
   const metamaskMiddleware = mergeMiddleware([
     createScaffoldMiddleware({
       eth_syncing: false,
-      web3_clientVersion: `AptosMask/v${version}`,
+      web3_clientVersion: `MultiMask/v${version}`,
     }),
     createWalletMiddleware({
       getAccounts,

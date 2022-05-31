@@ -103,7 +103,6 @@ const AccountList = ({
                       className="choose-account-list__account__balance"
                       type={PRIMARY}
                       value={balance}
-                      style={{ color: '#6A737D' }}
                       suffix={nativeCurrency}
                     />
                   </div>

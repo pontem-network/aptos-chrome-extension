@@ -43,18 +43,18 @@ const AssetOptions = ({
           >
             {t('accountDetails')}
           </MenuItem>
-          <MenuItem
-            iconClassName="fas fa-external-link-alt asset-options__icon"
-            data-testid="asset-options__etherscan"
-            onClick={() => {
-              setAssetOptionsOpen(false);
-              onClickBlockExplorer();
-            }}
-          >
-            {isEthNetwork
-              ? t('viewOnEtherscan', [t('blockExplorerAssetAction')])
-              : t('viewinExplorer', [t('blockExplorerAssetAction')])}
-          </MenuItem>
+          {/*<MenuItem*/}
+          {/*  iconClassName="fas fa-external-link-alt asset-options__icon"*/}
+          {/*  data-testid="asset-options__etherscan"*/}
+          {/*  onClick={() => {*/}
+          {/*    setAssetOptionsOpen(false);*/}
+          {/*    onClickBlockExplorer();*/}
+          {/*  }}*/}
+          {/*>*/}
+          {/*  {isEthNetwork*/}
+          {/*    ? t('viewOnEtherscan', [t('blockExplorerAssetAction')])*/}
+          {/*    : t('viewinExplorer', [t('blockExplorerAssetAction')])}*/}
+          {/*</MenuItem>*/}
           {isNativeAsset ? null : (
             <MenuItem
               iconClassName="fas fa-trash-alt asset-options__icon"

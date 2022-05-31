@@ -8,12 +8,13 @@
   &__gas-edit-row {
     display: flex;
     flex-flow: column;
-    width: 47.5%;
+    //width: 47.5%;
+    width: 100%;
 
     &__label {
       @include H7;
 
-      color: #313b5e;
+      color: var(--text-primary);
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -23,19 +24,19 @@
       }
 
       .fa-info-circle {
-        color: var(--silver);
+        color: var(--primary);
         cursor: pointer;
       }
 
       .fa-info-circle:hover {
-        color: var(--mid-gray);
+        color: var(--primary-hover);
       }
     }
 
     &__error-text {
       @include H7;
 
-      color: red;
+      color: var(--primary-error);
     }
 
     &__warning-text {
@@ -53,18 +54,19 @@
       @include Paragraph;
 
       direction: ltr;
-      border: 1px solid var(--dusty-gray);
+      border: 1.5px solid var(--border-input);
       border-radius: 4px;
-      color: var(--mid-gray);
+      color: var(--secondary-text);
       height: 24px;
       width: 100%;
       padding-left: 8px;
       padding-top: 2px;
       margin-top: 7px;
+      background: var(--secondary-bg);
     }
 
     &__input--error {
-      border: 1px solid var(--red);
+      border: 1px solid var(--primary-error);
     }
 
     &__input--warning {
@@ -76,16 +78,17 @@
 
       position: absolute;
       top: 7px;
+      overflow: hidden;
 
       /*rtl:ignore*/
       right: 0;
       width: 17px;
       height: 24px;
-      border: 1px solid #dadada;
+      border: 1px solid var(--border-input);
       border-top-right-radius: 4px;
       display: flex;
       flex-direction: column;
-      color: #9b9b9b;
+      color: #434364;
       border-bottom-right-radius: 4px;
       cursor: pointer;
 
@@ -98,12 +101,12 @@
       }
 
       &__i-wrap:hover {
-        background: #4eade7;
-        color: var(--white);
+        background: var(--primary);
+        color: var(--primary-text);
       }
 
       i:hover {
-        background: #4eade7;
+        background: var(--primary);
       }
 
       i {
@@ -116,7 +119,7 @@
     }
 
     &__input-arrows--error {
-      border: 1px solid var(--red);
+      border: 1px solid var(--primary-error);
     }
 
     &__input-arrows--warning {
@@ -145,11 +148,15 @@
       position: absolute;
       top: 8px;
       right: 10px;
-      color: var(--dusty-gray);
+      color: var(--secondary-text);
     }
 
     &__custom-text {
       @include H7;
     }
   }
+}
+
+.advanced-gas-inputs__gas-edit-row__input-arrows.advanced-gas-inputs__gas-edit-row__input--error {
+  border-color: var(--primary-error);
 }

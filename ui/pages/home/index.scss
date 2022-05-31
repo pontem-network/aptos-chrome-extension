@@ -6,7 +6,7 @@
 
   &__main-view {
     flex: 1 1 66.5%;
-    background: var(--white);
+    //background: var(--white);
     min-width: 0;
     display: flex;
     flex-direction: column;
@@ -22,20 +22,19 @@
 
   // TODO: fix style import order so this isn't required to override specificity of `tab` class
   &__main-view &__tabs {
-    border: none;
-    box-shadow: 0 3px 4px rgba(135, 134, 134, 0.16);
+    //border: none;
+    //box-shadow: 0 3px 4px rgba(135, 134, 134, 0.16);
   }
 
   &__main-view &__tab {
-    @include H6;
+    @include H5;
 
     flex-grow: 1;
-    color: var(--Grey-500);
     font-weight: 500;
   }
 
   &__main-view &__tab--active {
-    color: var(--Blue-500);
+    color: var(--primary-text);
   }
 
   &__main-view &__tab button {
@@ -46,11 +45,11 @@
     display: flex;
     flex-direction: column;
 
-    @include H6;
+    @include H5;
 
     padding-left: 24px;
     padding-right: 24px;
-    color: var(--Grey-800);
+    color: var(--secondary-text);
 
     div {
       margin-bottom: 20px;
@@ -103,7 +102,7 @@
 
       a,
       a:hover {
-        color: var(--dodger-blue);
+        color: var(--primary);
         cursor: pointer;
       }
     }
@@ -130,7 +129,7 @@
     text-align: center;
 
     a {
-      color: var(--primary-1);
+      color: var(--link);
     }
   }
 
@@ -148,7 +147,7 @@
   }
 
   &__close {
-    color: var(--ui-black);
+    color: var(--secondary-text);
     background: none;
     margin-left: 20px;
   }

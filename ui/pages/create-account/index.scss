@@ -3,12 +3,14 @@
 
 .new-account {
   width: 375px;
-  background-color: #fff;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
+  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
   z-index: 25;
   height: unset;
   overflow: auto;
   scrollbar-width: none;
+  border: 0;
+  border-radius: 0;
 
   &::-webkit-scrollbar {
     display: none;
@@ -16,18 +18,20 @@
 
   @media screen and (min-width: $break-large) {
     position: absolute;
+    border: 1px solid var(--divider);
+    border-radius: 16px;
   }
 
   &__header {
     display: flex;
     flex-flow: column;
-    border-bottom: 1px solid var(--geyser);
+    border-bottom: 1px solid var(--divider);
   }
 
   &__title {
     @include H2;
 
-    color: var(--tundora);
+    color: var(--secondary-text);
     font-weight: 500;
     margin-top: 22px;
     margin-left: 29px;
@@ -43,19 +47,19 @@
 
       height: 54px;
       padding: 15px 10px;
-      color: var(--dusty-gray);
+      color: var(--secondary-text);
       text-align: center;
       cursor: pointer;
     }
 
     &__tab:hover {
-      color: var(--black);
+      color: var(--primary-text);
       border-bottom: none;
     }
 
     &__selected {
-      color: var(--primary-blue);
-      border-bottom: 3px solid var(--primary-blue);
+      color: var(--primary);
+      border-bottom: 3px solid var(--primary);
       cursor: initial;
       pointer-events: none;
     }
@@ -72,7 +76,7 @@
   &__input-label {
     @include Paragraph;
 
-    color: var(--scorpion);
+    color: var(--secondary-text);
     align-self: flex-start;
   }
 
@@ -81,15 +85,15 @@
 
     height: 54px;
     width: 315.84px;
-    border: 1px solid var(--geyser);
+    border: 1.5px solid var(--border-input);
     border-radius: 4px;
-    background-color: var(--white);
-    color: var(--scorpion);
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text);
     margin-top: 15px;
     padding: 0 20px;
 
     &__error {
-      border: 1px solid var(--error-3);
+      border: 1px solid var(--primary-error);
     }
   }
 
@@ -97,7 +101,7 @@
     @include H7;
 
     left: 8px;
-    color: var(--red);
+    color: var(--primary-error);
   }
 
   &__error-amount {

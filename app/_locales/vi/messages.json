@@ -99,7 +99,7 @@
     "message": "Thêm tên riêng"
   },
   "addAcquiredTokens": {
-    "message": "Thêm token mà bạn đã mua bằng AptosMask"
+    "message": "Thêm token mà bạn đã mua bằng MultiMask"
   },
   "addAlias": {
     "message": "Thêm biệt danh"
@@ -115,10 +115,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Thao tác này sẽ cho phép sử dụng mạng này trong AptosMask."
+    "message": "Thao tác này sẽ cho phép sử dụng mạng này trong MultiMask."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "AptosMask không xác minh mạng tùy chỉnh."
+    "message": "MultiMask không xác minh mạng tùy chỉnh."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Tìm hiểu về $1.",
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "Hẹn giờ tự động khóa (phút)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Đặt khoảng thời gian không hoạt động tính bằng phút trước khi AptosMask khóa."
+    "message": "Đặt khoảng thời gian không hoạt động tính bằng phút trước khi MultiMask khóa."
   },
   "average": {
     "message": "Trung bình"
@@ -301,7 +301,7 @@
     "message": "Quay lại toàn bộ danh sách"
   },
   "backupApprovalInfo": {
-    "message": "Đây là mã bí mật bắt buộc phải dùng để khôi phục ví trong trường hợp bạn bị mất thiết bị, quên mật khẩu, phải cài đặt lại AptosMask hoặc muốn truy cập ví của mình trên một thiết bị khác."
+    "message": "Đây là mã bí mật bắt buộc phải dùng để khôi phục ví trong trường hợp bạn bị mất thiết bị, quên mật khẩu, phải cài đặt lại MultiMask hoặc muốn truy cập ví của mình trên một thiết bị khác."
   },
   "backupApprovalNotice": {
     "message": "Sao lưu Cụm mật khẩu khôi phục bí mật để đảm bảo an toàn cho ví và tiền của bạn."
@@ -322,10 +322,10 @@
     "message": "Cơ bản"
   },
   "betaMetamaskDescription": {
-    "message": "Được hàng triệu người tin dùng, AptosMask là một ví an toàn cho phép mọi người có thể truy cập vào thế giới web3."
+    "message": "Được hàng triệu người tin dùng, MultiMask là một ví an toàn cho phép mọi người có thể truy cập vào thế giới web3."
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "Sử dụng phiên bản này để thử nghiệm các tính năng sắp ra mắt trước khi chúng được phát hành. Việc sử dụng và phản hồi của bạn sẽ giúp chúng tôi xây dựng phiên bản AptosMask tốt nhất có thể. Việc bạn sử dụng AptosMask Beta phải tuân theo $1 tiêu chuẩn cũng như $2 của chúng tôi. Vì đây là phiên bản Beta, nguy cơ xuất hiện lỗi sẽ nhiều hơn bình thường. Bằng cách tiếp tục, bạn chấp nhận và thừa nhận những nguy cơ này, cũng như những nguy cơ theo Điều Khoản Beta và Điều Khoản của chúng tôi.",
+    "message": "Sử dụng phiên bản này để thử nghiệm các tính năng sắp ra mắt trước khi chúng được phát hành. Việc sử dụng và phản hồi của bạn sẽ giúp chúng tôi xây dựng phiên bản MultiMask tốt nhất có thể. Việc bạn sử dụng MultiMask Beta phải tuân theo $1 tiêu chuẩn cũng như $2 của chúng tôi. Vì đây là phiên bản Beta, nguy cơ xuất hiện lỗi sẽ nhiều hơn bình thường. Bằng cách tiếp tục, bạn chấp nhận và thừa nhận những nguy cơ này, cũng như những nguy cơ theo Điều Khoản Beta và Điều Khoản của chúng tôi.",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "Điều khoản"
   },
   "betaMetamaskVersion": {
-    "message": "Phiên Bản AptosMask Beta"
+    "message": "Phiên Bản MultiMask Beta"
   },
   "betaWelcome": {
-    "message": "Chào mừng đến với AptosMask Beta"
+    "message": "Chào mừng đến với MultiMask Beta"
   },
   "blockExplorerAccountAction": {
     "message": "Tài khoản",
@@ -369,7 +369,7 @@
     "message": "Xây dựng danh sách liên hệ của bạn"
   },
   "builtAroundTheWorld": {
-    "message": "AptosMask được thiết kế và xây dựng trên khắp thế giới."
+    "message": "MultiMask được thiết kế và xây dựng trên khắp thế giới."
   },
   "busy": {
     "message": "Đang bận"
@@ -381,7 +381,7 @@
     "message": "Mua ETH qua Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre cho phép bạn dùng thẻ ghi nợ để nạp ETH trực tiếp vào tài khoản AptosMask của mình."
+    "message": "Wyre cho phép bạn dùng thẻ ghi nợ để nạp ETH trực tiếp vào tài khoản MultiMask của mình."
   },
   "bytes": {
     "message": "Byte"
@@ -417,7 +417,7 @@
     "message": "Mạng $1 hiện đang sử dụng mã chuỗi này."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Bạn cần sử dụng AptosMask trên Google Chrome để kết nối với Ví cứng của bạn."
+    "message": "Bạn cần sử dụng MultiMask trên Google Chrome để kết nối với Ví cứng của bạn."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "Nhấn vào đây để kết nối với thiết bị Ledger của bạn qua WebHID",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Kết nối với AptosMask"
+    "message": "Kết nối với MultiMask"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Bạn có $1 tài khoản kết nối với trang web này.",
@@ -499,7 +499,7 @@
     "message": "Bạn có 1 tài khoản kết nối với trang web này."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMask chưa kết nối với trang web này. Để kết nối với một trang web trên web3, hãy tìm nút kết nối trên trang web của họ."
+    "message": "MultiMask chưa kết nối với trang web này. Để kết nối với một trang web trên web3, hãy tìm nút kết nối trên trang web của họ."
   },
   "connectedSites": {
     "message": "Trang web đã kết nối"
@@ -657,7 +657,7 @@
     "message": "Dữ liệu"
   },
   "dataBackupFoundInfo": {
-    "message": "Một số dữ liệu tài khoản của bạn đã được sao lưu trong lần cài đặt AptosMask trước đó. Dữ liệu này có thể bao gồm các tùy chọn cài đặt, danh bạ và token. Bạn có muốn khôi phục dữ liệu này bây giờ không?"
+    "message": "Một số dữ liệu tài khoản của bạn đã được sao lưu trong lần cài đặt MultiMask trước đó. Dữ liệu này có thể bao gồm các tùy chọn cài đặt, danh bạ và token. Bạn có muốn khôi phục dữ liệu này bây giờ không?"
   },
   "dataHex": {
     "message": "Thập lục phân"
@@ -822,7 +822,7 @@
     "message": "Phí tối đa là phí cao nhất mà bạn sẽ trả (phí cơ bản + phí ưu tiên)."
   },
   "editGasMaxPriorityFeeBelowMinimum": {
-    "message": "Phí ưu tiên tối đa phải lớn hơn 0 GWEI"
+    "message": "Phí ưu tiên tối đa phải lớn hơn"
   },
   "editGasMaxPriorityFeeBelowMinimumV2": {
     "message": "Phí ưu tiên phải lớn hơn 0."
@@ -918,7 +918,7 @@
     "message": "Tuyệt đối không chia sẻ cụm mật khẩu với bất kỳ ai."
   },
   "endOfFlowMessage5": {
-    "message": "Hãy cẩn thận với hành vi lừa đảo! AptosMask sẽ không bao giờ tự ý hỏi Cụm mật khẩu khôi phục bí mật của bạn."
+    "message": "Hãy cẩn thận với hành vi lừa đảo! MultiMask sẽ không bao giờ tự ý hỏi Cụm mật khẩu khôi phục bí mật của bạn."
   },
   "endOfFlowMessage6": {
     "message": "Nếu bạn cần sao lưu lại Cụm mật khẩu khôi phục bí mật, bạn có thể tìm thấy chức năng này trong phần Cài đặt -> Bảo mật."
@@ -928,7 +928,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask không thể khôi phục Cụm mật khẩu khôi phục bí mật của bạn."
+    "message": "MultiMask không thể khôi phục Cụm mật khẩu khôi phục bí mật của bạn."
   },
   "endOfFlowMessage9": {
     "message": "Tìm hiểu thêm."
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask đã gặp lỗi",
+    "message": "MultiMask đã gặp lỗi",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1126,7 +1126,7 @@
     "message": "Tùy chọn gas"
   },
   "gasPrice": {
-    "message": "Giá gas (GWEI)"
+    "message": "Giá gas"
   },
   "gasPriceExcessive": {
     "message": "Bạn đã đặt phí gas cao một cách không cần thiết. Hãy cân nhắc giảm mức phí này."
@@ -1228,7 +1228,7 @@
     "message": "Kết nối với một ví cứng"
   },
   "hardwareWalletsMsg": {
-    "message": "Chọn một ví cứng mà bạn muốn sử dụng với AptosMask."
+    "message": "Chọn một ví cứng mà bạn muốn sử dụng với MultiMask."
   },
   "here": {
     "message": "tại đây",
@@ -1277,7 +1277,7 @@
     "message": "nhập bằng Cụm mật khẩu khôi phục bí mật"
   },
   "importAccountMsg": {
-    "message": "Tài khoản đã nhập sẽ không được liên kết với Cụm mật khẩu khôi phục bí mật cho tài khoản AptosMask đã tạo ban đầu của bạn. Tìm hiểu thêm về các tài khoản đã nhập"
+    "message": "Tài khoản đã nhập sẽ không được liên kết với Cụm mật khẩu khôi phục bí mật cho tài khoản MultiMask đã tạo ban đầu của bạn. Tìm hiểu thêm về các tài khoản đã nhập"
   },
   "importAccountSeedPhrase": {
     "message": "Nhập một ví bằng Cụm mật khẩu khôi phục bí mật"
@@ -1322,7 +1322,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "AptosMask không thể kết nối với máy chủ chuỗi khối. Hãy xem xét các lý do tiềm ẩn $1.",
+    "message": "MultiMask không thể kết nối với máy chủ chuỗi khối. Hãy xem xét các lý do tiềm ẩn $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1462,7 +1462,7 @@
     "message": "Mở và mở khóa Ứng Dụng Ledger Live"
   },
   "ledgerConnectionPreferenceDescription": {
-    "message": "Tùy chỉnh cách thức kết nối Ledger với AptosMask. Nên dùng $1, nhưng cũng có sẵn các tùy chọn khác. Đọc thêm tại đây: $2",
+    "message": "Tùy chỉnh cách thức kết nối Ledger với MultiMask. Nên dùng $1, nhưng cũng có sẵn các tùy chọn khác. Đọc thêm tại đây: $2",
     "description": "A description that appears above a dropdown where users can select between up to three options - Ledger Live, U2F or WebHID - depending on what is supported in their browser. $1 is the recommended browser option, it will be either WebHID or U2f. $2 is a link to an article where users can learn more, but will be the translation of the learnMore message."
   },
   "ledgerDeviceOpenFailureMessage": {
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to MultiMask."
   },
   "ledgerLiveApp": {
     "message": "Ứng dụng Ledger Live"
@@ -1570,7 +1570,7 @@
     "message": "Thông báo"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Giờ đây, bạn có nhiều quyền kiểm soát hơn đối với các kết nối của tài khoản trong AptosMask."
+    "message": "Giờ đây, bạn có nhiều quyền kiểm soát hơn đối với các kết nối của tài khoản trong MultiMask."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Nhấn vào để quản lý các tài khoản đã kết nối của bạn."
@@ -1582,10 +1582,10 @@
     "message": "Kết nối bạn với Aptos và trang Web phi tập trung."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Tính năng Hoán đổi trên AptosMask đang được bảo trì. Vui lòng kiểm tra lại sau."
+    "message": "Tính năng Hoán đổi trên MultiMask đang được bảo trì. Vui lòng kiểm tra lại sau."
   },
   "metamaskVersion": {
-    "message": "Phiên bản AptosMask"
+    "message": "Phiên bản MultiMask"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Luôn cho phép bạn chọn không tham gia thông qua phần Cài đặt"
@@ -1598,7 +1598,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "AptosMask sẽ.."
+    "message": "MultiMask sẽ.."
   },
   "metametricsCommitmentsNeverCollect": {
     "message": "Không bao giờ thu thập mã khóa, địa chỉ, giao dịch, số dư, mã băm hoặc bất kỳ thông tin cá nhân nào"
@@ -1625,16 +1625,16 @@
     "message": "Gửi các lượt nhấn và xem trang đã được ẩn danh"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Giúp chúng tôi cải thiện AptosMask"
+    "message": "Giúp chúng tôi cải thiện MultiMask"
   },
   "metametricsOptInDescription": {
-    "message": "AptosMask muốn thu thập dữ liệu sử dụng để hiểu rõ hơn về cách người dùng tương tác với tiện ích. Chúng tôi sẽ dùng dữ liệu này để liên tục cải thiện độ hữu ích và trải nghiệm người dùng trên sản phẩm của mình và hệ sinh thái Ethereum."
+    "message": "MultiMask muốn thu thập dữ liệu sử dụng để hiểu rõ hơn về cách người dùng tương tác với tiện ích. Chúng tôi sẽ dùng dữ liệu này để liên tục cải thiện độ hữu ích và trải nghiệm người dùng trên sản phẩm của mình và hệ sinh thái Ethereum."
   },
   "metametricsOptInDescription2": {
     "message": "Chúng tôi muốn thu thập dữ liệu sử dụng cơ bản để cải thiện mức độ hữu ích của sản phẩm. Các chỉ số này sẽ..."
   },
   "metametricsTitle": {
-    "message": "Tham gia cùng hơn 6 Triệu người dùng để cải thiện AptosMask"
+    "message": "Tham gia cùng hơn 6 Triệu người dùng để cải thiện MultiMask"
   },
   "mismatchedChain": {
     "message": "Thông tin về mạng cho mã chuỗi này không khớp với hồ sơ của chúng tôi. Bạn nên $1 trước khi tiếp tục.",
@@ -1651,7 +1651,7 @@
     "message": "Không thấy token của mình?"
   },
   "mobileSyncWarning": {
-    "message": "Tính năng 'Đồng bộ với tiện ích' tạm thời bị tắt. Nếu bạn muốn sử dụng ví tiện ích trên thiết bị di động AptosMask, thì trên ứng dụng di động: hãy quay lại các tùy chọn thiết lập ví và chọn phương án 'Nhập bằng Cụm Mật Khẩu Khôi Phục Bí Mật'. Sử dụng cụm mật khẩu bí mật của ví tiện ích để nhập ví của bạn vào thiết bị di động."
+    "message": "Tính năng 'Đồng bộ với tiện ích' tạm thời bị tắt. Nếu bạn muốn sử dụng ví tiện ích trên thiết bị di động MultiMask, thì trên ứng dụng di động: hãy quay lại các tùy chọn thiết lập ví và chọn phương án 'Nhập bằng Cụm Mật Khẩu Khôi Phục Bí Mật'. Sử dụng cụm mật khẩu bí mật của ví tiện ích để nhập ví của bạn vào thiết bị di động."
   },
   "mustSelectOne": {
     "message": "Phải chọn ít nhất 1 token."
@@ -1670,7 +1670,7 @@
     "message": "Chia sẻ Phản Hồi của bạn"
   },
   "needHelpLinkText": {
-    "message": "Hỗ trợ về AptosMask"
+    "message": "Hỗ trợ về MultiMask"
   },
   "needHelpSubmitTicket": {
     "message": "Gửi Phiếu"
@@ -1761,7 +1761,7 @@
     "message": "Mới! Phát hiện NFT"
   },
   "newNFTsDetectedInfo": {
-    "message": "Cho phép AptosMask tự động phát hiện NFT từ Opensea và hiển thị trong ví AptosMask của bạn."
+    "message": "Cho phép MultiMask tự động phát hiện NFT từ Opensea và hiển thị trong ví MultiMask của bạn."
   },
   "newNetworkAdded": {
     "message": "“$1” đã được thêm thành công!"
@@ -1770,7 +1770,7 @@
     "message": "Mật khẩu mới (tối thiểu 8 ký tự)"
   },
   "newToMetaMask": {
-    "message": "Bạn mới sử dụng AptosMask?"
+    "message": "Bạn mới sử dụng MultiMask?"
   },
   "newTotal": {
     "message": "Tổng mới"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "Số chỉ dùng một lần lớn hơn số chỉ dùng một lần gợi ý là $1",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to MultiMask's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "Nhập ID bộ sưu tập"
@@ -1849,19 +1849,19 @@
     "message": "Không đủ gas"
   },
   "notifications1Description": {
-    "message": "Giờ đây, người dùng AptosMask trên điện thoại di động có thể hoán đổi token trong ví di động của họ. Quét mã QR để tải ứng dụng di động và bắt đầu hoán đổi.",
+    "message": "Giờ đây, người dùng MultiMask trên điện thoại di động có thể hoán đổi token trong ví di động của họ. Quét mã QR để tải ứng dụng di động và bắt đầu hoán đổi.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Tính năng hoán đổi trên điện thoại di động đã sẵn sàng!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MultiMask Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Đọc thêm",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Luôn cập nhật các phương pháp bảo mật tốt nhất của AptosMask và nhận các mẹo mới nhất về bảo mật từ nhóm hỗ trợ chính thức của AptosMask.",
+    "message": "Luôn cập nhật các phương pháp bảo mật tốt nhất của MultiMask và nhận các mẹo mới nhất về bảo mật từ nhóm hỗ trợ chính thức của MultiMask.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1873,7 +1873,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Nhận giá hoán đổi token tốt nhất ngay trong ví của bạn. Giờ đây, AptosMask sẽ kết nối bạn với nhiều trình tổng hợp sàn giao dịch phi tập trung và nhà tạo lập thị trường chuyên nghiệp trên Binance Smart Chain.",
+    "message": "Nhận giá hoán đổi token tốt nhất ngay trong ví của bạn. Giờ đây, MultiMask sẽ kết nối bạn với nhiều trình tổng hợp sàn giao dịch phi tập trung và nhà tạo lập thị trường chuyên nghiệp trên Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1885,11 +1885,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Kể từ phiên bản Chrome 91, API từng cho phép hỗ trợ Ledger (U2F) của chúng tôi không còn hỗ trợ ví cứng nữa. AptosMask đã triển khai một tính năng hỗ trợ Ledger Live mới cho phép bạn tiếp tục kết nối với thiết bị Ledger của mình thông qua ứng dụng Ledger Live trên máy tính.",
+    "message": "Kể từ phiên bản Chrome 91, API từng cho phép hỗ trợ Ledger (U2F) của chúng tôi không còn hỗ trợ ví cứng nữa. MultiMask đã triển khai một tính năng hỗ trợ Ledger Live mới cho phép bạn tiếp tục kết nối với thiết bị Ledger của mình thông qua ứng dụng Ledger Live trên máy tính.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Khi tương tác với tài khoản Ledger của bạn trong AptosMask, một tab mới sẽ mở ra và bạn sẽ được yêu cầu mở ứng dụng Ledger Live.  Khi ứng dụng này mở ra, bạn sẽ được yêu cầu cho phép kết nối WebSocket với tài khoản AptosMask của mình.  Đơn giản vậy thôi!",
+    "message": "Khi tương tác với tài khoản Ledger của bạn trong MultiMask, một tab mới sẽ mở ra và bạn sẽ được yêu cầu mở ứng dụng Ledger Live.  Khi ứng dụng này mở ra, bạn sẽ được yêu cầu cho phép kết nối WebSocket với tài khoản MultiMask của mình.  Đơn giản vậy thôi!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1901,7 +1901,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "AptosMask v10.1.0 bao gồm hỗ trợ mới cho các giao dịch EIP-1559 khi sử dụng thiết bị Ledger.",
+    "message": "MultiMask v10.1.0 bao gồm hỗ trợ mới cho các giao dịch EIP-1559 khi sử dụng thiết bị Ledger.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1917,7 +1917,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "Kể từ phiên bản AptosMask v10.4.0, bạn không cần phần mềm Ledger Live để kết nối thiết bị Ledger của mình với AptosMask nữa.",
+    "message": "Kể từ phiên bản MultiMask v10.4.0, bạn không cần phần mềm Ledger Live để kết nối thiết bị Ledger của mình với MultiMask nữa.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -1974,16 +1974,16 @@
     "message": "Nhấn vào biểu tượng tiện ích trên trình duyệt"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Ghim AptosMask trên trình duyệt để bạn có thể truy cập và dễ dàng xem các xác nhận giao dịch."
+    "message": "Ghim MultiMask trên trình duyệt để bạn có thể truy cập và dễ dàng xem các xác nhận giao dịch."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Bạn có thể mở AptosMask bằng cách nhấn vào tiện ích và truy cập ví của mình chỉ với 1 cú nhấp chuột."
+    "message": "Bạn có thể mở MultiMask bằng cách nhấn vào tiện ích và truy cập ví của mình chỉ với 1 cú nhấp chuột."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Nhấn vào biểu tượng tiện ích trên trình duyệt để truy cập tức thì"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Ghim AptosMask"
+    "message": "Ghim MultiMask"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Quá trình cài đặt AptosMask đã hoàn tất!"
+    "message": "Quá trình cài đặt MultiMask đã hoàn tất!"
   },
   "onboardingReturnNotice": {
     "message": "\"$1\" sẽ đóng tab này và quay về $2",
@@ -2013,8 +2013,8 @@
     "message": "Chỉ kết nối với các trang web mà bạn tin tưởng."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "Mở AptosMask ở chế độ toàn màn hình để kết nối thiết bị Ledger của bạn qua WebHID.",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "message": "Mở MultiMask ở chế độ toàn màn hình để kết nối thiết bị Ledger của bạn qua WebHID.",
+    "description": "Shown to the user on the confirm screen when they are viewing MultiMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "Không bắt buộc"
@@ -2035,7 +2035,7 @@
     "message": "Tham gia MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Tham gia MetaMetrics để giúp chúng tôi cải thiện AptosMask"
+    "message": "Tham gia MetaMetrics để giúp chúng tôi cải thiện MultiMask"
   },
   "password": {
     "message": "Mật khẩu"
@@ -2044,10 +2044,10 @@
     "message": "Mật khẩu không đủ dài"
   },
   "passwordSetupDetails": {
-    "message": "Mật khẩu này sẽ chỉ mở khóa ví AptosMask của bạn trên thiết bị này. AptosMask không thể khôi phục mật khẩu này."
+    "message": "Mật khẩu này sẽ chỉ mở khóa ví MultiMask của bạn trên thiết bị này. MultiMask không thể khôi phục mật khẩu này."
   },
   "passwordTermsWarning": {
-    "message": "Tôi hiểu rằng AptosMask không thể khôi phục mật khẩu này cho tôi. $1"
+    "message": "Tôi hiểu rằng MultiMask không thể khôi phục mật khẩu này cho tôi. $1"
   },
   "passwordsDontMatch": {
     "message": "Mật khẩu không khớp"
@@ -2167,7 +2167,7 @@
     "message": "Tuyệt đối không cho ai biết Cụm mật khẩu khôi phục bí mật"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "Nhóm AptosMask sẽ không bao giờ hỏi Cụm mật khẩu khôi phục bí mật của bạn"
+    "message": "Nhóm MultiMask sẽ không bao giờ hỏi Cụm mật khẩu khôi phục bí mật của bạn"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Cụm mật khẩu khôi phục bí mật sẽ kiểm soát mọi thứ trong tài khoản của bạn."
@@ -2342,7 +2342,7 @@
     "message": "Nếu ai đó hỏi bạn cụm mật khẩu khôi phục bí mật, thì họ đang cố gắng lừa đảo và đánh cắp tiền trong ví của bạn"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Đừng bao giờ cho ai biết cụm mật khẩu khôi phục bí mật, kể cả AptosMask!"
+    "message": "Đừng bao giờ cho ai biết cụm mật khẩu khôi phục bí mật, kể cả MultiMask!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Cụm mật khẩu khôi phục bí mật là gì?"
@@ -2381,7 +2381,7 @@
     "message": "Chọn một tài khoản"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Tài khoản này đã được kết nối với AptosMask"
+    "message": "Tài khoản này đã được kết nối với MultiMask"
   },
   "selectEachPhrase": {
     "message": "Vui lòng chọn từng cụm mật khẩu theo thứ tự để đảm bảo sự chính xác."
@@ -2425,7 +2425,7 @@
     "message": "Thiết lập cài đặt quyền riêng tư nâng cao"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "AptosMask sử dụng các dịch vụ của bên thứ ba đáng tin cậy này để nâng cao sự hữu ích và an toàn của sản phẩm."
+    "message": "MultiMask sử dụng các dịch vụ của bên thứ ba đáng tin cậy này để nâng cao sự hữu ích và an toàn của sản phẩm."
   },
   "settings": {
     "message": "Cài đặt"
@@ -2564,7 +2564,7 @@
     "message": "Lỗi khi truy xuất nhật ký trạng thái."
   },
   "stateLogFileName": {
-    "message": "Nhật ký trạng thái của AptosMask"
+    "message": "Nhật ký trạng thái của MultiMask"
   },
   "stateLogs": {
     "message": "Nhật ký trạng thái"
@@ -2582,7 +2582,7 @@
     "message": "Đảm bảo Lattice1 của bạn đã sẵn sàng để kết nối"
   },
   "step1LatticeWalletMsg": {
-    "message": "Bạn có thể kết nối AptosMask với Lattice1 sau khi thiết bị đã được thiết lập và trực tuyến. Mở khóa thiết bị và chuẩn bị sẵn ID Thiết Bị. Để biết thêm về cách sử dụng ví cứng, $1",
+    "message": "Bạn có thể kết nối MultiMask với Lattice1 sau khi thiết bị đã được thiết lập và trực tuyến. Mở khóa thiết bị và chuẩn bị sẵn ID Thiết Bị. Để biết thêm về cách sử dụng ví cứng, $1",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2678,7 +2678,7 @@
     "message": "Chỉnh sửa giới hạn"
   },
   "swapEnableDescription": {
-    "message": "Thao tác này là bắt buộc và cấp cho AptosMask quyền hoán đổi $1 của bạn.",
+    "message": "Thao tác này là bắt buộc và cấp cho MultiMask quyền hoán đổi $1 của bạn.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2724,14 +2724,14 @@
     "message": "Phí gas trên màn hình trước được chia đôi giữa hai giao dịch này."
   },
   "swapGasFeesSummary": {
-    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. AptosMask không thu lợi nhuận từ phí gas.",
+    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. MultiMask không thu lợi nhuận từ phí gas.",
     "description": "$1 is the selected network, e.g. Aptos or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "Số tiền trượt giá rất cao."
   },
   "swapIncludesMMFee": {
-    "message": "Bao gồm $1% phí của AptosMask.",
+    "message": "Bao gồm $1% phí của MultiMask.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2741,7 +2741,7 @@
     "message": "Mức trượt giá tối đa"
   },
   "swapMetaMaskFee": {
-    "message": "Phí của AptosMask"
+    "message": "Phí của MultiMask"
   },
   "swapMetaMaskFeeDescription": {
     "message": "Chúng tôi luôn tìm giá tốt nhất từ các nguồn thanh khoản hàng đầu. Phí $1% được tự động tính vào báo giá này.",
@@ -2924,7 +2924,7 @@
     "message": "Xem hoạt động"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Thao tác này sẽ chuyển mạng được chọn trong AptosMask sang một mạng đã thêm trước đó:"
+    "message": "Thao tác này sẽ chuyển mạng được chọn trong MultiMask sang một mạng đã thêm trước đó:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Cho phép trang web này chuyển mạng?"
@@ -2960,16 +2960,16 @@
     "message": "Đảm bảo rằng không có ai nhìn vào màn hình của bạn khi quét mã này"
   },
   "syncWithMobileComplete": {
-    "message": "Đã đồng bộ thành công dữ liệu của bạn. Tận hưởng ứng dụng AptosMask trên thiết bị di động!"
+    "message": "Đã đồng bộ thành công dữ liệu của bạn. Tận hưởng ứng dụng MultiMask trên thiết bị di động!"
   },
   "syncWithMobileDesc": {
-    "message": "Bạn có thể đồng bộ tài khoản và thông tin của mình với thiết bị di động. Mở ứng dụng AptosMask trên thiết bị di động, chuyển đến phần \"Cài đặt\" và nhấn vào \"Đồng bộ với tiện ích trình duyệt\""
+    "message": "Bạn có thể đồng bộ tài khoản và thông tin của mình với thiết bị di động. Mở ứng dụng MultiMask trên thiết bị di động, chuyển đến phần \"Cài đặt\" và nhấn vào \"Đồng bộ với tiện ích trình duyệt\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Nếu mới mở ứng dụng AptosMask trên thiết bị di động lần đầu tiên, bạn chỉ cần làm theo các bước hướng dẫn trên điện thoại."
+    "message": "Nếu mới mở ứng dụng MultiMask trên thiết bị di động lần đầu tiên, bạn chỉ cần làm theo các bước hướng dẫn trên điện thoại."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Quét mã này bằng ứng dụng AptosMask trên thiết bị di động"
+    "message": "Quét mã này bằng ứng dụng MultiMask trên thiết bị di động"
   },
   "syncWithMobileTitle": {
     "message": "Đồng bộ với thiết bị di động"
@@ -3067,7 +3067,7 @@
     "message": "Trang web gợi ý"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Chỉnh sửa để sử dụng mức phí gas được đề xuất của AptosMask dựa trên khối mới nhất."
+    "message": "Chỉnh sửa để sử dụng mức phí gas được đề xuất của MultiMask dựa trên khối mới nhất."
   },
   "transactionDetailGasHeading": {
     "message": "Phí gas ước tính"
@@ -3082,7 +3082,7 @@
     "message": "Phí gas do mạng thiết lập và sẽ dao động dựa trên lưu lượng mạng và độ phức tạp của giao dịch."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. AptosMask không thu lợi nhuận từ phí gas."
+    "message": "Phí gas được trả cho thợ đào tiền điện tử, họ là những người xử lý các giao dịch trên mạng $1. MultiMask không thu lợi nhuận từ phí gas."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Số lượng + phí gas"
@@ -3109,7 +3109,7 @@
     "message": "Phí giao dịch"
   },
   "transactionHistoryBaseFee": {
-    "message": "Phí Cơ Bản (GWEI)"
+    "message": "Phí Cơ Bản"
   },
   "transactionHistoryL1GasLabel": {
     "message": "Tổng Phí Gas L1"
@@ -3124,7 +3124,7 @@
     "message": "Phí Tối Đa Mỗi Gas"
   },
   "transactionHistoryPriorityFee": {
-    "message": "Phí Ưu Tiên (GWEI)"
+    "message": "Phí Ưu Tiên"
   },
   "transactionHistoryTotalGasFee": {
     "message": "Tổng Phí Gas"
@@ -3174,11 +3174,11 @@
     "message": "Thông tin chi tiết về giao dịch không được hỗ trợ cho hợp đồng này tại thời điểm này."
   },
   "typePassword": {
-    "message": "Nhập mật khẩu AptosMask của bạn"
+    "message": "Nhập mật khẩu MultiMask của bạn"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MultiMask to Ledger devices."
   },
   "unapproved": {
     "message": "Chưa phê duyệt"
@@ -3247,7 +3247,7 @@
     "message": "Sử Dụng Phát Hiện Token"
   },
   "useTokenDetectionDescription": {
-    "message": "Chúng tôi sử dụng API của bên thứ ba để phát hiện và hiển thị các token mới được gửi vào ví của bạn. Hãy tắt tính năng này nếu bạn không muốn AptosMask lấy dữ liệu từ các dịch vụ đó."
+    "message": "Chúng tôi sử dụng API của bên thứ ba để phát hiện và hiển thị các token mới được gửi vào ví của bạn. Hãy tắt tính năng này nếu bạn không muốn MultiMask lấy dữ liệu từ các dịch vụ đó."
   },
   "usedByClients": {
     "message": "Được nhiều ví khác nhau sử dụng"
@@ -3310,10 +3310,10 @@
     "message": "Bạn đã bảo vệ thành công ví của mình. Hãy đảm bảo an toàn và bí mật cho Cụm Mật Khẩu Khôi Phục Bí Mật của bạn -- đây là trách nhiệm của bạn!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "AptosMask không thể khôi phục Cụm Mật Khẩu Khôi Phục Bí Mật của bạn."
+    "message": "MultiMask không thể khôi phục Cụm Mật Khẩu Khôi Phục Bí Mật của bạn."
   },
   "walletCreationSuccessReminder2": {
-    "message": "AptosMask sẽ không bao giờ hỏi về Cụm Mật Khẩu Khôi Phục Bí Mật của bạn."
+    "message": "MultiMask sẽ không bao giờ hỏi về Cụm Mật Khẩu Khôi Phục Bí Mật của bạn."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 với bất kỳ ai, nếu không bạn sẽ có nguy cơ bị mất tiền",
@@ -3335,7 +3335,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "Chào mừng bạn đến với AptosMask"
+    "message": "Chào mừng bạn đến với MultiMask"
   },
   "welcomeBack": {
     "message": "Chào mừng bạn trở lại!"
@@ -3347,7 +3347,7 @@
     "message": "Khám phá các ứng dụng phi tập trung"
   },
   "welcomeLoginDescription": {
-    "message": "Sử dụng AptosMask của bạn để đăng nhập vào các ứng dụng phi tập trung - không cần đăng ký."
+    "message": "Sử dụng MultiMask của bạn để đăng nhập vào các ứng dụng phi tập trung - không cần đăng ký."
   },
   "welcomeLoginTitle": {
     "message": "Gửi lời chào đến ví của bạn"
@@ -3356,11 +3356,11 @@
     "message": "Bắt đầu nào"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "Được hàng triệu người tin dùng, AptosMask là một ví an toàn cho phép mọi người có thể truy cập vào thế giới web3."
+    "message": "Được hàng triệu người tin dùng, MultiMask là một ví an toàn cho phép mọi người có thể truy cập vào thế giới web3."
   },
   "whatsNew": {
     "message": "Xem tính năng mới",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to MultiMask."
   },
   "whatsThis": {
     "message": "Đây là gì?"

@@ -8,7 +8,7 @@
     @include Paragraph;
 
     margin-top: 18px;
-    color: #4d4d4d;
+    color: var(--secondary-text);
   }
 
   &__message {
@@ -21,13 +21,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f7861c;
+    color: var(--primary-error);
     margin-bottom: 9px;
   }
 
   &__address-container {
     display: flex;
     justify-content: center;
+    color: var(--primary-text);
 
     &__tooltip-wrapper {
       width: 100%;
@@ -37,7 +38,7 @@
       cursor: pointer;
 
       .qr-code__copy-icon__svg {
-        fill: var(--primary-1);
+        fill: var(--primary);
       }
     }
   }
@@ -45,7 +46,10 @@
   &__address {
     @include H7;
 
-    background-color: var(--Grey-000);
+    color: var(--primary-text);
+    background-color: var(--secondary-bg);
+    border: 1.5px solid var(--border-input);
+    border-radius: 8px;
     width: 76%;
     padding: 8px 12px;
     word-break: break-all;
@@ -59,7 +63,7 @@
     right: 24px;
 
     &__svg {
-      fill: var(--ui-5);
+      fill: var(--secondary-text);
     }
   }
 }

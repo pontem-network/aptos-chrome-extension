@@ -99,7 +99,7 @@
     "message": "एक उपनाम जोड़ें"
   },
   "addAcquiredTokens": {
-    "message": "आपके द्वारा AptosMask का उपयोग करके प्राप्त किए गए टोकन जोड़ें"
+    "message": "आपके द्वारा MultiMask का उपयोग करके प्राप्त किए गए टोकन जोड़ें"
   },
   "addAlias": {
     "message": "उपनाम जोड़ें"
@@ -115,10 +115,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "इससे इस नेटवर्क को AptosMask के अंदर उपयोग करने की अनुमति मिलेगी।"
+    "message": "इससे इस नेटवर्क को MultiMask के अंदर उपयोग करने की अनुमति मिलेगी।"
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "AptosMask कस्टम नेटवर्क को सत्यापित नहीं करता है।"
+    "message": "MultiMask कस्टम नेटवर्क को सत्यापित नहीं करता है।"
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "$1 के बारे में जानें।",
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "ऑटो-लॉक टाइमर (मिनट)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "AptosMask लॉक होने से पहले निष्क्रिय समय को मिनट में सेट करें।"
+    "message": "MultiMask लॉक होने से पहले निष्क्रिय समय को मिनट में सेट करें।"
   },
   "average": {
     "message": "औसत"
@@ -301,7 +301,7 @@
     "message": "सभी पर वापस"
   },
   "backupApprovalInfo": {
-    "message": "यदि आप अपना डिवाइस खो देते हैं, अपना पासवर्ड भूल जाते हैं, AptosMask को फिर से स्थापित करना हो या दूसरे डिवाइस पर अपने वॉलेट तक पहुंचना चाहते हों, तो आपके वॉलेट को पुनर्प्राप्त करने के लिए यह गुप्त कोड आवश्यक है।"
+    "message": "यदि आप अपना डिवाइस खो देते हैं, अपना पासवर्ड भूल जाते हैं, MultiMask को फिर से स्थापित करना हो या दूसरे डिवाइस पर अपने वॉलेट तक पहुंचना चाहते हों, तो आपके वॉलेट को पुनर्प्राप्त करने के लिए यह गुप्त कोड आवश्यक है।"
   },
   "backupApprovalNotice": {
     "message": "अपने वॉलेट और धन को सुरक्षित रखने के लिए अपने गुप्त रिकवरी कोड का बैकअप लें।"
@@ -322,10 +322,10 @@
     "message": "बेसिक"
   },
   "betaMetamaskDescription": {
-    "message": "लाखों लोगों का भरोसेमंद, AptosMask एक सुरक्षित वॉलेट है जो वेब3 की दुनिया को सबके लिए सुलभ बनाता है।"
+    "message": "लाखों लोगों का भरोसेमंद, MultiMask एक सुरक्षित वॉलेट है जो वेब3 की दुनिया को सबके लिए सुलभ बनाता है।"
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "आगामी फीचर के रिलीज़ होने से पहले उनके परीक्षण के लिए इस संस्करण का उपयोग करें। आपका उपयोग और फीडबैक हमें AptosMask के सर्वोत्तम संस्करण को संभव बनाने में मदद करता है। AptosMask बीटा का आपका उपयोग हमारे मानक $1 के साथ साथ $2 के अधीन है। बीटा के रूप में, वहां बग का खतरा बढ़ सकता है। आगे बढ़ने पर, आप इन खतरों को स्वीकार करते हैं और पहचानते हैं, साथ हीं साथ वो खतरे हमारे नियम औऱ बीटा नियम में पाए जाते हैं।",
+    "message": "आगामी फीचर के रिलीज़ होने से पहले उनके परीक्षण के लिए इस संस्करण का उपयोग करें। आपका उपयोग और फीडबैक हमें MultiMask के सर्वोत्तम संस्करण को संभव बनाने में मदद करता है। MultiMask बीटा का आपका उपयोग हमारे मानक $1 के साथ साथ $2 के अधीन है। बीटा के रूप में, वहां बग का खतरा बढ़ सकता है। आगे बढ़ने पर, आप इन खतरों को स्वीकार करते हैं और पहचानते हैं, साथ हीं साथ वो खतरे हमारे नियम औऱ बीटा नियम में पाए जाते हैं।",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "नियम"
   },
   "betaMetamaskVersion": {
-    "message": "AptosMask बीटा संस्करण"
+    "message": "MultiMask बीटा संस्करण"
   },
   "betaWelcome": {
-    "message": "AptosMask बीटा में आपका स्वागत है"
+    "message": "MultiMask बीटा में आपका स्वागत है"
   },
   "blockExplorerAccountAction": {
     "message": "अकाउंट",
@@ -369,7 +369,7 @@
     "message": "अपनी संपर्क सूची बनाएं"
   },
   "builtAroundTheWorld": {
-    "message": "AptosMask दुनिया भर में डिज़ाइन किया और बनाया गया है।"
+    "message": "MultiMask दुनिया भर में डिज़ाइन किया और बनाया गया है।"
   },
   "busy": {
     "message": "व्यस्त"
@@ -381,7 +381,7 @@
     "message": "Wyre के जरिए ETH खरीदें"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre आपको अपने AptosMask खाते में ETH जमा करने के लिए डेबिट कार्ड का उपयोग करने की सुविधा देता है।"
+    "message": "Wyre आपको अपने MultiMask खाते में ETH जमा करने के लिए डेबिट कार्ड का उपयोग करने की सुविधा देता है।"
   },
   "bytes": {
     "message": "बाइट"
@@ -417,7 +417,7 @@
     "message": "यह चेन ID वर्तमान में $1 नेटवर्क द्वारा उपयोग की जाती है।"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "अपने हार्डवेयर वॉलेट से कनेक्ट करने के लिए आपको Google Chrome पर AptosMask का उपयोग करने की आवश्यकता है।"
+    "message": "अपने हार्डवेयर वॉलेट से कनेक्ट करने के लिए आपको Google Chrome पर MultiMask का उपयोग करने की आवश्यकता है।"
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "अपने लेजर को WebHID के जरिये कनेक्ट करने के लिए यहां क्लिक करें",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "AptosMask के साथ कनेक्ट करें"
+    "message": "MultiMask के साथ कनेक्ट करें"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "आपके पास इस साइट से कनेक्ट किए गए $1 खाते हैं।",
@@ -499,7 +499,7 @@
     "message": "इस साइट से आपका 1 खाता कनेक्ट किया गया है।"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMask इस साइट से कनेक्ट नहीं है। किसी web3 साइट से कनेक्ट करने के लिए, उनकी साइट पर कनेक्ट बटन खोजें।"
+    "message": "MultiMask इस साइट से कनेक्ट नहीं है। किसी web3 साइट से कनेक्ट करने के लिए, उनकी साइट पर कनेक्ट बटन खोजें।"
   },
   "connectedSites": {
     "message": "कनेक्ट की गई साइटें"
@@ -657,7 +657,7 @@
     "message": "डेटा"
   },
   "dataBackupFoundInfo": {
-    "message": "AptosMask की पिछली स्थापना के दौरान आपके कुछ खाता डेटा का बैकअप लिया गया था। इसमें आपकी सेटिंग, संपर्क और टोकन शामिल हो सकते हैं। क्या आप अब इस डेटा को पुनर्स्थापित करना चाहेंगे?"
+    "message": "MultiMask की पिछली स्थापना के दौरान आपके कुछ खाता डेटा का बैकअप लिया गया था। इसमें आपकी सेटिंग, संपर्क और टोकन शामिल हो सकते हैं। क्या आप अब इस डेटा को पुनर्स्थापित करना चाहेंगे?"
   },
   "dataHex": {
     "message": "Hex"
@@ -822,7 +822,7 @@
     "message": "अधिकतम शुल्क वह अधिकतम शुल्क है जिसका आप भुगतान करेंगे (आधार शुल्क + प्राथमिकता शुल्क)।"
   },
   "editGasMaxPriorityFeeBelowMinimum": {
-    "message": "अधिकतम प्राथमिकता शुल्क 0 GWEI से अधिक होना चाहिए"
+    "message": "अधिकतम प्राथमिकता शुल्क से अधिक होना चाहिए"
   },
   "editGasMaxPriorityFeeBelowMinimumV2": {
     "message": "प्राथमिकता शुल्क 0 से अधिक होना चाहिए।"
@@ -918,7 +918,7 @@
     "message": "वाक्यांश को कभी भी किसी के साथ साझा न करें।"
   },
   "endOfFlowMessage5": {
-    "message": "फिशिंग से सावधान रहें! AptosMask कभी भी अनायास ही आपके गुप्त रिकवरी फ्रेज के बारे में नहीं पूछेगा।"
+    "message": "फिशिंग से सावधान रहें! MultiMask कभी भी अनायास ही आपके गुप्त रिकवरी फ्रेज के बारे में नहीं पूछेगा।"
   },
   "endOfFlowMessage6": {
     "message": "यदि आपको अपने गुप्त रिकवरी फ्रेज का फिर से बैकअप लेने की आवश्यकता है, तो आप इसे सेटिंग -> सुरक्षा में पा सकते हैं।"
@@ -928,7 +928,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask आपके गुप्त रिकवरी फ्रेज को पुनर्प्राप्त नहीं कर सकता है।"
+    "message": "MultiMask आपके गुप्त रिकवरी फ्रेज को पुनर्प्राप्त नहीं कर सकता है।"
   },
   "endOfFlowMessage9": {
     "message": "अधिक जानें।"
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask में कोई त्रुटि हुई",
+    "message": "MultiMask में कोई त्रुटि हुई",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1126,7 +1126,7 @@
     "message": "गैस विकल्प"
   },
   "gasPrice": {
-    "message": "गैस मूल्य (GWEI)"
+    "message": "गैस मूल्य"
   },
   "gasPriceExcessive": {
     "message": "आपका गैस शुल्क अनावश्यक रूप से अधिक निर्धारित किया गया है। राशि को कम करने पर विचार करें।"
@@ -1228,7 +1228,7 @@
     "message": "हार्डवेयर वॉलेट कनेक्ट करें"
   },
   "hardwareWalletsMsg": {
-    "message": "किसी हार्डवेयर वॉलेट का चयन करें, जिसे आप AptosMask के साथ उपयोग करना चाहते हैं।"
+    "message": "किसी हार्डवेयर वॉलेट का चयन करें, जिसे आप MultiMask के साथ उपयोग करना चाहते हैं।"
   },
   "here": {
     "message": "यहां",
@@ -1277,7 +1277,7 @@
     "message": "गुप्त रिकवरी फ्रेज का उपयोग करके आयात करें"
   },
   "importAccountMsg": {
-    "message": "आयातित खाते आपके मूल रूप से बनाए गए AptosMask खाते के गुप्त रिकवरी फ्रेज से संबद्ध नहीं होंगे। आयातित खातों के बारे में अधिक जानें"
+    "message": "आयातित खाते आपके मूल रूप से बनाए गए MultiMask खाते के गुप्त रिकवरी फ्रेज से संबद्ध नहीं होंगे। आयातित खातों के बारे में अधिक जानें"
   },
   "importAccountSeedPhrase": {
     "message": "गुप्त रिकवरी फ्रेज के साथ एक खाता आयात करें"
@@ -1322,7 +1322,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "AptosMask ब्लॉकचेन होस्ट से कनेक्ट करने में असमर्थ है। संभावित कारणों की समीक्षा करें $1।",
+    "message": "MultiMask ब्लॉकचेन होस्ट से कनेक्ट करने में असमर्थ है। संभावित कारणों की समीक्षा करें $1।",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1462,7 +1462,7 @@
     "message": "लेजर लाइव ऐप खोलें और अनलॉक करें"
   },
   "ledgerConnectionPreferenceDescription": {
-    "message": "अपने लेजर को AptosMask से कैसे कनेक्ट करना है, यह अनुकूलित करें। $1 की अनुशंसा की जाती है, लेकिन अन्य विकल्प उपलब्ध हैं। यहां और पढ़ें: $2",
+    "message": "अपने लेजर को MultiMask से कैसे कनेक्ट करना है, यह अनुकूलित करें। $1 की अनुशंसा की जाती है, लेकिन अन्य विकल्प उपलब्ध हैं। यहां और पढ़ें: $2",
     "description": "A description that appears above a dropdown where users can select between up to three options - Ledger Live, U2F or WebHID - depending on what is supported in their browser. $1 is the recommended browser option, it will be either WebHID or U2f. $2 is a link to an article where users can learn more, but will be the translation of the learnMore message."
   },
   "ledgerDeviceOpenFailureMessage": {
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "लेजर लाइव",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to MultiMask."
   },
   "ledgerLiveApp": {
     "message": "Ledger Live ऐप"
@@ -1570,7 +1570,7 @@
     "message": "संदेश"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "अब AptosMask में आपके खाते के कनेक्शन पर आपका अधिक नियंत्रण है।"
+    "message": "अब MultiMask में आपके खाते के कनेक्शन पर आपका अधिक नियंत्रण है।"
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "अपने कनेक्ट किए गए खातों को प्रबंधित करने के लिए इसे क्लिक करें।"
@@ -1582,10 +1582,10 @@
     "message": "आपको Aptos और विकेंद्रीकृत वेब से कनेक्ट किया जा रहा है।"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask स्वैप का रखरखाव किया जा रहा है। कृपया बाद में वापस देखें।"
+    "message": "MultiMask स्वैप का रखरखाव किया जा रहा है। कृपया बाद में वापस देखें।"
   },
   "metamaskVersion": {
-    "message": "AptosMask संस्करण"
+    "message": "MultiMask संस्करण"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "हमेशा आपको सेटिंग्स के माध्यम से ऑप्ट-आउट करने की अनुमति देगा"
@@ -1598,7 +1598,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "AptosMask निम्न चीजें करेगा.."
+    "message": "MultiMask निम्न चीजें करेगा.."
   },
   "metametricsCommitmentsNeverCollect": {
     "message": "कभी भी चाभियां, पता, लेन-देन, शेष राशि, हैश, या कोई व्यक्तिगत सूचना एकत्र ना करें"
@@ -1625,16 +1625,16 @@
     "message": "बेनाम क्लिक और पेजव्यू ईवेंट भेजता है"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "AptosMask को बेहतर बनाने में हमारी मदद करें"
+    "message": "MultiMask को बेहतर बनाने में हमारी मदद करें"
   },
   "metametricsOptInDescription": {
-    "message": "AptosMask इस बात की बेहतर समझ प्राप्त करने के लिए डेटा एकत्र करना चाहता है कि हमारे उपयोगकर्ता विस्तार के साथ कैसे सहभागिता करते हैं। इस डेटा का उपयोग हमारे उत्पाद और Aptos पारिस्थितिकी तंत्र की उपयोगिता और उपयोगकर्ता अनुभव को लगातार सुधारने के लिए किया जाएगा।"
+    "message": "MultiMask इस बात की बेहतर समझ प्राप्त करने के लिए डेटा एकत्र करना चाहता है कि हमारे उपयोगकर्ता विस्तार के साथ कैसे सहभागिता करते हैं। इस डेटा का उपयोग हमारे उत्पाद और Aptos पारिस्थितिकी तंत्र की उपयोगिता और उपयोगकर्ता अनुभव को लगातार सुधारने के लिए किया जाएगा।"
   },
   "metametricsOptInDescription2": {
     "message": "हम अपने उत्पाद की उपयोगिता में सुधार के लिए बुनियादी उपयोग डेटा एकत्र करना चाहते हैं। ये मेट्रिक्स करेंगे..."
   },
   "metametricsTitle": {
-    "message": "AptosMask को बेहतर बनाने के लिए 6M+ उपयोगकर्ताओं से जुड़ें"
+    "message": "MultiMask को बेहतर बनाने के लिए 6M+ उपयोगकर्ताओं से जुड़ें"
   },
   "mismatchedChain": {
     "message": "इस चेन ID के लिए नेटवर्क विवरण हमारे रिकॉर्ड से मेल नहीं खाता। हम अनुशंसा करते हैं कि आप आगे बढ़ने से पहले $1।",
@@ -1651,7 +1651,7 @@
     "message": "क्या अपना टोकन नहीं देख रहे हैं?"
   },
   "mobileSyncWarning": {
-    "message": "'एक्सटेंशन के साथ सिंक' फीचर अस्थायी रूप से अक्षम है। यदि आप AptosMask मोबाइल पर अपने एक्सटेंशन वॉलेट का उपयोग करना चाहते हैं, तो अपने मोबाइल ऐप पर: वॉलेट सेटअप ऑप्शन पर वापस जाएं और 'सीक्रेट रिकवरी फ्रेज के साथ इम्पोर्ट करें' विकल्प चुनें। फिर अपने वॉलेट को मोबाइल में इम्पोर्ट करने के लिए अपने एक्सटेंशन वॉलेट के सीक्रेट फ्रेज का उपयोग करें।"
+    "message": "'एक्सटेंशन के साथ सिंक' फीचर अस्थायी रूप से अक्षम है। यदि आप MultiMask मोबाइल पर अपने एक्सटेंशन वॉलेट का उपयोग करना चाहते हैं, तो अपने मोबाइल ऐप पर: वॉलेट सेटअप ऑप्शन पर वापस जाएं और 'सीक्रेट रिकवरी फ्रेज के साथ इम्पोर्ट करें' विकल्प चुनें। फिर अपने वॉलेट को मोबाइल में इम्पोर्ट करने के लिए अपने एक्सटेंशन वॉलेट के सीक्रेट फ्रेज का उपयोग करें।"
   },
   "mustSelectOne": {
     "message": "कम से कम 1 टोकन का चयन करना होगा।"
@@ -1670,7 +1670,7 @@
     "message": "अपना फीडबैक साझा करें"
   },
   "needHelpLinkText": {
-    "message": "AptosMask सहायता"
+    "message": "MultiMask सहायता"
   },
   "needHelpSubmitTicket": {
     "message": "टिकट जमा करें"
@@ -1761,7 +1761,7 @@
     "message": "नया! NFT डिटेक्शन"
   },
   "newNFTsDetectedInfo": {
-    "message": "AptosMask को Opensea से NFT का स्वचालित रूप से पता लगाने और अपने AptosMask वॉलेट में प्रदर्शित करने की अनुमति दें।"
+    "message": "MultiMask को Opensea से NFT का स्वचालित रूप से पता लगाने और अपने MultiMask वॉलेट में प्रदर्शित करने की अनुमति दें।"
   },
   "newNetworkAdded": {
     "message": "\"$1\" सफलतापूर्वक जोड़ा गया था!"
@@ -1770,7 +1770,7 @@
     "message": "नया पासवर्ड (न्यूनतम 8 वर्ण)"
   },
   "newToMetaMask": {
-    "message": "AptosMask पर नए हैं?"
+    "message": "MultiMask पर नए हैं?"
   },
   "newTotal": {
     "message": "नया कुलयोग"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "नॉन्स $1 के सुझाए गए नॉन्स से अधिक है",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to MultiMask's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "संग्रहणीय ID दर्ज करें"
@@ -1849,19 +1849,19 @@
     "message": "पर्याप्त गैस नहीं"
   },
   "notifications1Description": {
-    "message": "AptosMask Mobile उपयोगकर्ता अब अपने मोबाइल वॉलेट के अंदर टोकन स्वैप कर सकते हैं। मोबाइल ऐप प्राप्त करने के लिए QR कोड को स्कैन करें और स्वैप करना शुरू करें।",
+    "message": "MultiMask Mobile उपयोगकर्ता अब अपने मोबाइल वॉलेट के अंदर टोकन स्वैप कर सकते हैं। मोबाइल ऐप प्राप्त करने के लिए QR कोड को स्कैन करें और स्वैप करना शुरू करें।",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "मोबाइल पर स्वैपिंग यहां है!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MultiMask Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "और पढ़ें",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "AptosMask सुरक्षा की सर्वोत्तम प्रथाओं पर अद्यतित रहें और आधिकारिक AptosMask सहायता से नवीनतम सुरक्षा युक्तियां प्राप्त करें।",
+    "message": "MultiMask सुरक्षा की सर्वोत्तम प्रथाओं पर अद्यतित रहें और आधिकारिक MultiMask सहायता से नवीनतम सुरक्षा युक्तियां प्राप्त करें।",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1873,7 +1873,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "अपने वॉलेट के अंदर ही टोकन स्वैप पर सर्वोत्तम मूल्य प्राप्त करें। AptosMask अब आपको Binance Smart Chain पर कई विकेन्द्रीकृत एक्सचेंज एग्रीगेटर और पेशेवर बाजार निर्माताओं से जोड़ता है।",
+    "message": "अपने वॉलेट के अंदर ही टोकन स्वैप पर सर्वोत्तम मूल्य प्राप्त करें। MultiMask अब आपको Binance Smart Chain पर कई विकेन्द्रीकृत एक्सचेंज एग्रीगेटर और पेशेवर बाजार निर्माताओं से जोड़ता है।",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1885,11 +1885,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Chrome के संस्करण 91 से, वह API जो हमारे Ledger सपोर्ट (U2F) को सक्षम करती है वह अब हार्डवेयर वॉलेट का समर्थन नहीं करती। AptosMask ने एक नया Ledger Live सपोर्ट लागू किया है, जिसकी मदद से आप Ledger Live डेस्कटॉप ऐप के माध्यम से अपने Ledger डिवाइस से कनेक्ट करना जारी रख सकते हैं।",
+    "message": "Chrome के संस्करण 91 से, वह API जो हमारे Ledger सपोर्ट (U2F) को सक्षम करती है वह अब हार्डवेयर वॉलेट का समर्थन नहीं करती। MultiMask ने एक नया Ledger Live सपोर्ट लागू किया है, जिसकी मदद से आप Ledger Live डेस्कटॉप ऐप के माध्यम से अपने Ledger डिवाइस से कनेक्ट करना जारी रख सकते हैं।",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "AptosMask में अपने Ledger खाते पर काम करते समय, एक नया टैब खुल जाएगा और आपको Ledger Live ऐप खोलने के लिए कहा जाएगा।  ऐप खुलने के बाद, आपको अपने AptosMask खाते के लिए एक WebSocket कनेक्शन को अनुमति देने के लिए कहा जाएगा।  बस इतना ही!",
+    "message": "MultiMask में अपने Ledger खाते पर काम करते समय, एक नया टैब खुल जाएगा और आपको Ledger Live ऐप खोलने के लिए कहा जाएगा।  ऐप खुलने के बाद, आपको अपने MultiMask खाते के लिए एक WebSocket कनेक्शन को अनुमति देने के लिए कहा जाएगा।  बस इतना ही!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1901,7 +1901,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "AptosMask v10.1.0 ने लेजर डिवाइस का उपयोग करते समय EIP-1559 लेन-देन के लिए नया समर्थन शामिल किया",
+    "message": "MultiMask v10.1.0 ने लेजर डिवाइस का उपयोग करते समय EIP-1559 लेन-देन के लिए नया समर्थन शामिल किया",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1917,7 +1917,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "AptosMask v10.4.0 के अनुसार, अब आपको अपने लेजर डिवाइस को मेटामास्क से कनेक्ट करने के लिए लेजर लाइव की आवश्यकता नहीं है।",
+    "message": "MultiMask v10.4.0 के अनुसार, अब आपको अपने लेजर डिवाइस को मेटामास्क से कनेक्ट करने के लिए लेजर लाइव की आवश्यकता नहीं है।",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -1974,16 +1974,16 @@
     "message": "ब्राउजर एक्सटेंशन आइकन पर क्लिक करें"
   },
   "onboardingPinExtensionDescription": {
-    "message": "अपने ब्राउजर पर AptosMask को पिन करें ताकि यह सुलभ हो और लेन-देन की पुष्टि को देखना आसान हो सके।"
+    "message": "अपने ब्राउजर पर MultiMask को पिन करें ताकि यह सुलभ हो और लेन-देन की पुष्टि को देखना आसान हो सके।"
   },
   "onboardingPinExtensionDescription2": {
-    "message": "आप एक्सटेंशन पर क्लिक करके AptosMask खोल सकते हैं और 1 क्लिक से अपने वॉलेट तक पहुंच सकते हैं।"
+    "message": "आप एक्सटेंशन पर क्लिक करके MultiMask खोल सकते हैं और 1 क्लिक से अपने वॉलेट तक पहुंच सकते हैं।"
   },
   "onboardingPinExtensionDescription3": {
     "message": "ब्राउजर एक्सटेंशन आइकन पर क्लिक करें ताकि इस तक तुरंत पहुंच सकें"
   },
   "onboardingPinExtensionLabel": {
-    "message": "AptosMask को पिन करें"
+    "message": "MultiMask को पिन करें"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "आपका AptosMask इंस्टॉल पूरा हो गया है!"
+    "message": "आपका MultiMask इंस्टॉल पूरा हो गया है!"
   },
   "onboardingReturnNotice": {
     "message": "\"$1\" इस टैब को बंद कर देगा और वापस $2 पर ले जाएगा",
@@ -2013,8 +2013,8 @@
     "message": "केवल उन साइटों से कनेक्ट करें, जिन पर आप भरोसा करते हैं।"
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "अपने लेजर को WebHID के माध्यम से कनेक्ट करने के लिए AptosMask को पूर्ण स्क्रीन में खोलें।",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "message": "अपने लेजर को WebHID के माध्यम से कनेक्ट करने के लिए MultiMask को पूर्ण स्क्रीन में खोलें।",
+    "description": "Shown to the user on the confirm screen when they are viewing MultiMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "वैकल्पिक"
@@ -2035,7 +2035,7 @@
     "message": "MetaMetrics में भाग लें"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMetrics में भाग लें, जिससे हमें AptosMask को बेहतर बनाने में मदद मिल सके"
+    "message": "MetaMetrics में भाग लें, जिससे हमें MultiMask को बेहतर बनाने में मदद मिल सके"
   },
   "password": {
     "message": "पासवर्ड"
@@ -2044,10 +2044,10 @@
     "message": "पासवर्ड की लंबाई पर्याप्त नहीं है"
   },
   "passwordSetupDetails": {
-    "message": "यह पासवर्ड आपके AptosMask वॉलेट को केवल इसी डिवाइस पर अनलॉक करेगा। AptosMask इस पासवर्ड को फिर से प्राप्त नहीं कर सकता है।"
+    "message": "यह पासवर्ड आपके MultiMask वॉलेट को केवल इसी डिवाइस पर अनलॉक करेगा। MultiMask इस पासवर्ड को फिर से प्राप्त नहीं कर सकता है।"
   },
   "passwordTermsWarning": {
-    "message": "मैं समझता हूं कि AptosMask मेरे लिए यह पासवर्ड फिर से प्राप्त नहीं कर सकता। $1"
+    "message": "मैं समझता हूं कि MultiMask मेरे लिए यह पासवर्ड फिर से प्राप्त नहीं कर सकता। $1"
   },
   "passwordsDontMatch": {
     "message": "पासवर्ड मेल नहीं खाते"
@@ -2167,7 +2167,7 @@
     "message": "कभी भी अपना गुप्त रिकवरी फ्रेज किसी के साथ साझा न करें"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "AptosMask टीम कभी भी आपके गुप्त रिकवरी फ्रेज के बारे में नहीं पूछेगी"
+    "message": "MultiMask टीम कभी भी आपके गुप्त रिकवरी फ्रेज के बारे में नहीं पूछेगी"
   },
   "recoveryPhraseReminderSubText": {
     "message": "आपका गुप्त रिकवरी फ्रेज आपके सभी खातों को नियंत्रित करता है।"
@@ -2342,7 +2342,7 @@
     "message": "यदि कोई व्यक्ति आपका रिकवरी फ्रेज मांगता है, तो संभावना है कि वे आपको धोखा देने का प्रयास कर रहे हैं।"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "कभी भी अपना गुप्त रिकवरी फ्रेज साझा न करें, AptosMask के साथ भी नहीं!"
+    "message": "कभी भी अपना गुप्त रिकवरी फ्रेज साझा न करें, MultiMask के साथ भी नहीं!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "गुप्त रिकवरी फ्रेज क्या है?"
@@ -2381,7 +2381,7 @@
     "message": "किसी खाते का चयन करें"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "यह खाता पहले ही AptosMask से जुड़ा हुआ है"
+    "message": "यह खाता पहले ही MultiMask से जुड़ा हुआ है"
   },
   "selectEachPhrase": {
     "message": "कृपया प्रत्येक फ्रेज का चयन करें, ताकि यह सुनिश्चित हो सके कि यह सही है।"
@@ -2425,7 +2425,7 @@
     "message": "एडवांस गोपनीयता सेटिंग्स निर्धारित करें"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "AptosMask उत्पाद की उपयोगिता और सुरक्षा को बढ़ाने के लिए इन विश्वसनीय तीसरे-पक्ष की सेवाओं का उपयोग करता है।"
+    "message": "MultiMask उत्पाद की उपयोगिता और सुरक्षा को बढ़ाने के लिए इन विश्वसनीय तीसरे-पक्ष की सेवाओं का उपयोग करता है।"
   },
   "settings": {
     "message": "सेटिंग"
@@ -2564,7 +2564,7 @@
     "message": "स्टेट लॉग को पुनर्प्राप्त करने में त्रुटि।"
   },
   "stateLogFileName": {
-    "message": "AptosMask स्टेट लॉग"
+    "message": "MultiMask स्टेट लॉग"
   },
   "stateLogs": {
     "message": "स्टेट लॉग"
@@ -2582,7 +2582,7 @@
     "message": "सुनिश्चित करें कि आपका Lattice1 कनेक्ट होने के लिए तैयार है"
   },
   "step1LatticeWalletMsg": {
-    "message": "AptosMask के सेट अप होने और ऑनलाइन होने के बाद आप उसे अपने Lattice1 डिवाइस से कनेक्ट कर सकते हैं। अपना डिवाइस अनलॉक करें और अपनी डिवाइस ID तैयार रखें। हार्डवेयर वॉलेट का उपयोग करने के बारे में अधिक जानकारी के लिए, $1",
+    "message": "MultiMask के सेट अप होने और ऑनलाइन होने के बाद आप उसे अपने Lattice1 डिवाइस से कनेक्ट कर सकते हैं। अपना डिवाइस अनलॉक करें और अपनी डिवाइस ID तैयार रखें। हार्डवेयर वॉलेट का उपयोग करने के बारे में अधिक जानकारी के लिए, $1",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2678,7 +2678,7 @@
     "message": "सीमा संपादित करें"
   },
   "swapEnableDescription": {
-    "message": "यह आवश्यक है और AptosMask को आपके $1 को स्वैप करने की अनुमति देता है।",
+    "message": "यह आवश्यक है और MultiMask को आपके $1 को स्वैप करने की अनुमति देता है।",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2724,14 +2724,14 @@
     "message": "पिछली स्क्रीन पर गैस शुल्क इन दो लेनदेन के बीच विभाजित हैं।"
   },
   "swapGasFeesSummary": {
-    "message": "क्रिप्टो खनिकों को गैस शुल्क का भुगतान किया जाता है जो $1 नेटवर्क पर लेन-देन की प्रक्रिया करते हैं। AptosMask को गैस शुल्क से लाभ नहीं होता है।",
+    "message": "क्रिप्टो खनिकों को गैस शुल्क का भुगतान किया जाता है जो $1 नेटवर्क पर लेन-देन की प्रक्रिया करते हैं। MultiMask को गैस शुल्क से लाभ नहीं होता है।",
     "description": "$1 is the selected network, e.g. Aptos or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "स्लिपेज राशि बहुत अधिक है।"
   },
   "swapIncludesMMFee": {
-    "message": "$1% AptosMask शुल्क शामिल है।",
+    "message": "$1% MultiMask शुल्क शामिल है।",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2741,7 +2741,7 @@
     "message": "अधिकतम स्लिपेज"
   },
   "swapMetaMaskFee": {
-    "message": "AptosMask शुल्क"
+    "message": "MultiMask शुल्क"
   },
   "swapMetaMaskFeeDescription": {
     "message": "हम हर बार शीर्ष चलनिधि स्रोतों से सबसे अच्छे मूल्य ढूंढते हैं। इस उद्धरण में $1% का शुल्क स्वतः ही शामिल हो जाता है।",
@@ -2924,7 +2924,7 @@
     "message": "गतिविधि में देखें"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "इससे चयनित नेटवर्क को AptosMask के भीतर पहले से जोड़े गए नेटवर्क में बदल दिया जाएगा:"
+    "message": "इससे चयनित नेटवर्क को MultiMask के भीतर पहले से जोड़े गए नेटवर्क में बदल दिया जाएगा:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "इस साइट को नेटवर्क स्विच करने की अनुमति दें?"
@@ -2960,16 +2960,16 @@
     "message": "सुनिश्चित करें कि जब आप इस कोड को स्कैन कर रहे हों, तो आपकी स्क्रीन को कोई और न देख रहा हो"
   },
   "syncWithMobileComplete": {
-    "message": "आपका डेटा सफलतापूर्वक सिंक कर लिया गया है। AptosMask मोबाइल ऐप का आनंद लें!"
+    "message": "आपका डेटा सफलतापूर्वक सिंक कर लिया गया है। MultiMask मोबाइल ऐप का आनंद लें!"
   },
   "syncWithMobileDesc": {
-    "message": "आप अपने खाते और जानकारी को अपने मोबाइल डिवाइस के साथ सिंक कर सकते हैं। AptosMask मोबाइल ऐप खोलें, \"सेटिंग\" पर जाएं और \"ब्राउजर एक्सटेंशन से सिंक करें\" पर टैप करें"
+    "message": "आप अपने खाते और जानकारी को अपने मोबाइल डिवाइस के साथ सिंक कर सकते हैं। MultiMask मोबाइल ऐप खोलें, \"सेटिंग\" पर जाएं और \"ब्राउजर एक्सटेंशन से सिंक करें\" पर टैप करें"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "यदि आप पहली बार AptosMask मोबाइल ऐप खोलते हैं, तो बस अपने फोन में दिए गए चरणों का पालन करें।"
+    "message": "यदि आप पहली बार MultiMask मोबाइल ऐप खोलते हैं, तो बस अपने फोन में दिए गए चरणों का पालन करें।"
   },
   "syncWithMobileScanThisCode": {
-    "message": "इस कोड को अपने AptosMask मोबाइल ऐप से स्कैन करें"
+    "message": "इस कोड को अपने MultiMask मोबाइल ऐप से स्कैन करें"
   },
   "syncWithMobileTitle": {
     "message": "मोबाइल के साथ सिंक करें"
@@ -3067,7 +3067,7 @@
     "message": "साइट का सुझाव दिया गया"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "नवीनतम ब्लॉक के आधार पर AptosMask द्वारा अनुशंसित गैस शुल्क का उपयोग करने के लिए संपादित करें।"
+    "message": "नवीनतम ब्लॉक के आधार पर MultiMask द्वारा अनुशंसित गैस शुल्क का उपयोग करने के लिए संपादित करें।"
   },
   "transactionDetailGasHeading": {
     "message": "अनुमानित गैस शुल्क"
@@ -3082,7 +3082,7 @@
     "message": "गैस शुल्क नेटवर्क द्वारा निर्धारित किया जाता है और नेटवर्क ट्रैफिक और लेनदेन की जटिलता के आधार पर उतार-चढ़ाव होता है।"
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "क्रिप्टो खनिकों को गैस शुल्क का भुगतान किया जाता है जो $1 नेटवर्क पर लेन-देन की प्रक्रिया करते हैं। AptosMask को गैस शुल्क से लाभ नहीं होता है।"
+    "message": "क्रिप्टो खनिकों को गैस शुल्क का भुगतान किया जाता है जो $1 नेटवर्क पर लेन-देन की प्रक्रिया करते हैं। MultiMask को गैस शुल्क से लाभ नहीं होता है।"
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "राशि + गैस शुल्क"
@@ -3109,7 +3109,7 @@
     "message": "लेनदेन शुल्क"
   },
   "transactionHistoryBaseFee": {
-    "message": "आधार शुल्क (GWEI)"
+    "message": "आधार शुल्क"
   },
   "transactionHistoryL1GasLabel": {
     "message": "कुल L1 गैस शुल्क"
@@ -3124,7 +3124,7 @@
     "message": "अधिकतम शुल्क प्रति गैस"
   },
   "transactionHistoryPriorityFee": {
-    "message": "प्राथमिकता शुल्क (GWEI)"
+    "message": "प्राथमिकता शुल्क"
   },
   "transactionHistoryTotalGasFee": {
     "message": "कुल गैस शुल्क"
@@ -3174,11 +3174,11 @@
     "message": "इस समय इस अनुबंध के लिए लेन-देन की जानकारी समर्थित नहीं है।"
   },
   "typePassword": {
-    "message": "अपना AptosMask पासवर्ड टाइप करें"
+    "message": "अपना MultiMask पासवर्ड टाइप करें"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MultiMask to Ledger devices."
   },
   "unapproved": {
     "message": "अस्वीकृत"
@@ -3247,7 +3247,7 @@
     "message": "टोकन डिटेक्शन का उपयोग करें"
   },
   "useTokenDetectionDescription": {
-    "message": "हम आपके वॉलेट में भेजे गए नए टोकन का पता लगाने और प्रदर्शित करने के लिए तीसरे-पक्ष API का उपयोग करते हैं। बंद करें यदि आप नहीं चाहते कि AptosMask उन सेवाओं से डेटा पुल करे।"
+    "message": "हम आपके वॉलेट में भेजे गए नए टोकन का पता लगाने और प्रदर्शित करने के लिए तीसरे-पक्ष API का उपयोग करते हैं। बंद करें यदि आप नहीं चाहते कि MultiMask उन सेवाओं से डेटा पुल करे।"
   },
   "usedByClients": {
     "message": "विभिन्न क्लाइंट द्वारा उपयोग किया जाता है"
@@ -3310,10 +3310,10 @@
     "message": "आपने अपने वॉलेट को सफलतापूर्वक सुरक्षित कर लिया है। अपने सीक्रेट रिकवरी फ्रेज को सुरक्षित और गुप्त रखें -- यह आपकी जिम्मेदारी है!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "AptosMask आपके सीक्रेट रिकवरी फ्रेज को फिर से प्राप्त नहीं कर सकता है।"
+    "message": "MultiMask आपके सीक्रेट रिकवरी फ्रेज को फिर से प्राप्त नहीं कर सकता है।"
   },
   "walletCreationSuccessReminder2": {
-    "message": "AptosMask कभी भी आपके गुप्त रिकवरी फ्रेज के बारे में नहीं पूछेगा।"
+    "message": "MultiMask कभी भी आपके गुप्त रिकवरी फ्रेज के बारे में नहीं पूछेगा।"
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 किसी के साथ या आपके फंड के चोरी होने का खतरा",
@@ -3335,7 +3335,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "AptosMask में आपका स्वागत है"
+    "message": "MultiMask में आपका स्वागत है"
   },
   "welcomeBack": {
     "message": "वापसी पर स्वागत है!"
@@ -3347,7 +3347,7 @@
     "message": "विकेन्द्रीकृत ऐप का अन्वेषण करें"
   },
   "welcomeLoginDescription": {
-    "message": "विकेंद्रीकृत ऐप में लॉगिन करने के लिए अपने AptosMask का उपयोग करें - किसी साइनअप की जरूरत नहीं है।"
+    "message": "विकेंद्रीकृत ऐप में लॉगिन करने के लिए अपने MultiMask का उपयोग करें - किसी साइनअप की जरूरत नहीं है।"
   },
   "welcomeLoginTitle": {
     "message": "अपने वॉलेट को हैलो कहें"
@@ -3356,11 +3356,11 @@
     "message": "चलिए शुरु करते हैं"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "लाखों लोगों का भरोसेमंद, AptosMask एक सुरक्षित वॉलेट है जो वेब3 की दुनिया को सबके लिए सुलभ बनाता है।"
+    "message": "लाखों लोगों का भरोसेमंद, MultiMask एक सुरक्षित वॉलेट है जो वेब3 की दुनिया को सबके लिए सुलभ बनाता है।"
   },
   "whatsNew": {
     "message": "नया क्या है",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to MultiMask."
   },
   "whatsThis": {
     "message": "यह क्या है?"

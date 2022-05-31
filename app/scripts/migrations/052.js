@@ -17,7 +17,7 @@ const version = 52;
 
 /**
  * Migrate tokens in Preferences to be keyed by chainId instead of
- * providerType. To prevent breaking user's AptosMask and selected
+ * providerType. To prevent breaking user's MultiMask and selected
  * tokens, this migration copies the RPC entry into *every* custom RPC
  * chainId.
  */

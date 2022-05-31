@@ -3,9 +3,9 @@
 Steps to mark a full pass of QA complete.
 * Browsers: Opera, Chrome, Firefox, Edge.
 * OS: Ubuntu, Mac OSX, Windows
-* Load older version of AptosMask and attempt to simulate updating the extension.
+* Load older version of MultiMask and attempt to simulate updating the extension.
 * Open Developer Console in background and popup, inspect errors.
-* Watch the state logs 
+* Watch the state logs
   * Transactions (unapproved txs -> rejected/submitted -> confirmed)
   * Nonces/LocalNonces
 * Vault integrity

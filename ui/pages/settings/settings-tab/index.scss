@@ -13,16 +13,17 @@
   }
 
   &__button--red {
-    border-color: lighten($monzo, 10%);
-    color: var(--monzo);
+    border-color: var(--primary-error);
+    color: var(--primary-error);
+    background-color: #e74c3c14;
 
     &:active {
-      background: lighten($monzo, 55%);
-      border-color: var(--monzo);
+      background-color: rgba(231, 76, 60, 0.26);
+      border-color: var(--primary-error);
     }
 
     &:hover {
-      border-color: var(--monzo);
+      border-color: var(--primary-error);
     }
   }
 

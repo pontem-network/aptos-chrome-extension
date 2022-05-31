@@ -13,10 +13,10 @@
     @include H7;
 
     display: flex;
-    color: var(--ui-4);
+    color: var(--secondary-text);
 
     .link {
-      color: var(--primary-blue);
+      color: var(--primary);
       margin-inline-start: 4px;
       cursor: pointer;
     }

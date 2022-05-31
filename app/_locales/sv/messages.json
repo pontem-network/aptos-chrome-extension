@@ -33,7 +33,7 @@
     "message": "aktivitetslogg"
   },
   "addAcquiredTokens": {
-    "message": "Lägg till de tokens du har skaffat med AptosMask"
+    "message": "Lägg till de tokens du har skaffat med MultiMask"
   },
   "addAlias": {
     "message": "Lägg till alias"
@@ -67,15 +67,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Timer för automatisk utloggning (minuter)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Ställ in efter hur lång tids inaktivitet som AptosMask automatiskt loggar ut"
+    "message": "Ställ in efter hur lång tids inaktivitet som MultiMask automatiskt loggar ut"
   },
   "average": {
     "message": "Genomsnitt"
@@ -115,7 +115,7 @@
     "message": "Tillbaka till Alla"
   },
   "backupApprovalInfo": {
-    "message": "Den hemliga koden krävs för att komma åt din plånbok ifall du tappar bort din enhet, glömmer ditt lösenord, behöver installera om AptosMask eller om du vill komma åt din plånbok på en annan enhet."
+    "message": "Den hemliga koden krävs för att komma åt din plånbok ifall du tappar bort din enhet, glömmer ditt lösenord, behöver installera om MultiMask eller om du vill komma åt din plånbok på en annan enhet."
   },
   "backupApprovalNotice": {
     "message": "Säkerhetskopiera din hemliga återställningskod för att se till att din plånbok och dina tillgångar är säkra."
@@ -146,7 +146,7 @@
     "message": "Köp ETH med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre låter dig använda ett kreditkort för att sätta in ETH direkt på ditt AptosMask-konto."
+    "message": "Wyre låter dig använda ett kreditkort för att sätta in ETH direkt på ditt MultiMask-konto."
   },
   "cancel": {
     "message": "Avbryt"
@@ -158,7 +158,7 @@
     "message": "Avbruten"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Du måste använda AptosMask på Google Chrome för att ansluta till din hårdvaruplånbok."
+    "message": "Du måste använda MultiMask på Google Chrome för att ansluta till din hårdvaruplånbok."
   },
   "clickToRevealSeed": {
     "message": "Klicka här för att visa hemliga ord"
@@ -317,13 +317,13 @@
     "message": "Dela aldrig frasen med någon."
   },
   "endOfFlowMessage5": {
-    "message": "Se upp för nätfiske! AptosMask kommer aldrig att oväntat fråga om din seed phrase."
+    "message": "Se upp för nätfiske! MultiMask kommer aldrig att oväntat fråga om din seed phrase."
   },
   "endOfFlowMessage6": {
     "message": "Om du behöver säkerhetskopiera din nyckelfras igen, kan du hitta den i Inställningar -> Säkerhet"
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask kan inte återställa din seedphrase. Läs mer."
+    "message": "MultiMask kan inte återställa din seedphrase. Läs mer."
   },
   "endOfFlowMessage9": {
     "message": "Lär dig mer."
@@ -387,7 +387,7 @@
     "message": "Gasgräns måste vara minst 21 000"
   },
   "gasPrice": {
-    "message": "Gas-pris (GWEI)"
+    "message": "Gas-pris"
   },
   "gasPriceExtremelyLow": {
     "message": "Gaspris extremt lågt"
@@ -427,7 +427,7 @@
     "message": "Anslut en hårdvaruplånbok"
   },
   "hardwareWalletsMsg": {
-    "message": "Välj en hårdvaruplånbok som du vill använda med AptosMask"
+    "message": "Välj en hårdvaruplånbok som du vill använda med MultiMask"
   },
   "here": {
     "message": "här",
@@ -453,7 +453,7 @@
     "message": "Importera konto"
   },
   "importAccountMsg": {
-    "message": "Importerade konton kommer inte att kopplas till din ursprungligen skapade seedphrase för ditt AptosMask-konto. Läs mer om importerade konton"
+    "message": "Importerade konton kommer inte att kopplas till din ursprungligen skapade seedphrase för ditt MultiMask-konto. Läs mer om importerade konton"
   },
   "importAccountSeedPhrase": {
     "message": "Importera konto med"
@@ -551,7 +551,7 @@
     "message": "Ansluter dig mot Aptos och den decentraliserade webben."
   },
   "metamaskVersion": {
-    "message": "AptosMask-version"
+    "message": "MultiMask-version"
   },
   "mustSelectOne": {
     "message": "Minst 1 token måste väljas."
@@ -595,7 +595,7 @@
     "message": "Nytt lösenord (minst 8 tecken)"
   },
   "newToMetaMask": {
-    "message": "Ny på AptosMask?"
+    "message": "Ny på MultiMask?"
   },
   "newTotal": {
     "message": "Ny totalsumma"
@@ -649,7 +649,7 @@
     "message": "Delta i MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Delta i MetaMetrics för att hjälpa oss göra AptosMask bättre"
+    "message": "Delta i MetaMetrics för att hjälpa oss göra MultiMask bättre"
   },
   "password": {
     "message": "Lösenord"
@@ -918,16 +918,16 @@
     "message": "Försäkra dig om att ingen tittar på din skärm när du skannar denna kod"
   },
   "syncWithMobileComplete": {
-    "message": "Din data har nu synkats. Ha det så kul med AptosMasks mobil-app!"
+    "message": "Din data har nu synkats. Ha det så kul med MultiMasks mobil-app!"
   },
   "syncWithMobileDesc": {
-    "message": "Du kan nu synka dina konton och din information med din mobil-enhet. Öppna AptosMasks mobil-app, gå till \"Inställningar\" och tryck på \"Synka från webbläsartillägg\""
+    "message": "Du kan nu synka dina konton och din information med din mobil-enhet. Öppna MultiMasks mobil-app, gå till \"Inställningar\" och tryck på \"Synka från webbläsartillägg\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Om du öppnar AptosMask mobilapplikation för första gången behöver du bara följa stegen som visas i telefonen."
+    "message": "Om du öppnar MultiMask mobilapplikation för första gången behöver du bara följa stegen som visas i telefonen."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skanna den här koden med din AptosMask mobilapplikation"
+    "message": "Skanna den här koden med din MultiMask mobilapplikation"
   },
   "syncWithMobileTitle": {
     "message": "Synka med mobil"
@@ -1012,7 +1012,7 @@
     "message": "Försök igen"
   },
   "typePassword": {
-    "message": "Ange ditt AptosMask-lösenord"
+    "message": "Ange ditt MultiMask-lösenord"
   },
   "unapproved": {
     "message": "Inte godkänd"
@@ -1063,7 +1063,7 @@
     "message": "Besök vår hemsida"
   },
   "welcome": {
-    "message": "Välkommen till AptosMask"
+    "message": "Välkommen till MultiMask"
   },
   "welcomeBack": {
     "message": "Välkommen tillbaka!"

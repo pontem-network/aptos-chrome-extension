@@ -8,7 +8,7 @@
 
 .settings-page {
   position: relative;
-  background: var(--white);
+  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
   display: flex;
   flex-flow: column nowrap;
 
@@ -38,7 +38,7 @@
     @include H4;
 
     padding: 16px 4px;
-    border-bottom: 1px solid var(--alto);
+    border-bottom: 1px solid var(--divider);
     margin-right: 24px;
     height: 72px;
     align-items: center;
@@ -57,7 +57,7 @@
 
   &__subheader--link:hover {
     cursor: pointer;
-    color: var(--primary-blue);
+    color: var(--primary);
   }
 
   &__subheader--break {
@@ -66,7 +66,7 @@
 
   &__sub-header {
     height: 72px;
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid var(--divider);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,7 +117,7 @@
   &__close-button::after {
     content: '\00D7';
     font-size: 40px;
-    color: var(--ui-4);
+    color: var(--secondary-text);
     cursor: pointer;
   }
 
@@ -126,7 +126,7 @@
     flex-flow: row nowrap;
     height: 100%;
     overflow: auto;
-    border-top: 1px solid #d8d8d8;
+    border-top: 1px solid var(--divider);
 
     &__tabs {
       display: flex;
@@ -222,7 +222,7 @@
             height: 40px;
             width: 40px;
             border-radius: 40px;
-            border: 2px solid #037dd6;
+            border: 2px solid var(--primary);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -236,7 +236,7 @@
 
       margin-top: 8px;
       margin-bottom: 12px;
-      color: var(--dusty-gray);
+      color: var(--secondary-text);
     }
   }
 
@@ -247,11 +247,11 @@
   &__content-description {
     @include H6;
 
-    color: var(--dusty-gray);
+    color: var(--secondary-text);
     padding-top: 5px;
 
     a {
-      color: var(--Blue-500);
+      color: var(--primary);
     }
   }
 

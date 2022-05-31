@@ -185,7 +185,7 @@ export class TokenRatesController extends BaseController<
     this.defaultConfig = {
       disabled: true,
       interval: 3 * 60 * 1000,
-      nativeCurrency: 'eth',
+      nativeCurrency: 'aptos',
       chainId: '',
       tokens: [],
       threshold: 6 * 60 * 60 * 1000,

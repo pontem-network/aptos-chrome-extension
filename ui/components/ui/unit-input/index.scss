@@ -5,12 +5,16 @@
   flex-flow: row nowrap;
   align-items: center;
   min-height: 54px;
-  border: 1px solid #dedede;
+  border: 1.5px solid var(--border-input);
   border-radius: 4px;
-  background-color: #fff;
-  color: #4d4d4d;
+  background-color: var(--secondary-bg);
+  color: var(--primary-text);
   padding: 8px 10px;
   position: relative;
+
+  input {
+    background-color: transparent;
+  }
 
   input[type="number"] {
     -moz-appearance: textfield;
@@ -37,7 +41,7 @@
   &__input {
     @include Paragraph;
 
-    color: #4d4d4d;
+    color: var(--secondary-text);
     border: none;
     max-width: 15ch;
     overflow: hidden;
@@ -45,7 +49,7 @@
     height: 16px;
 
     &__disabled {
-      background-color: rgb(222, 222, 222);
+      background-color: var(--secondary-bg-hover);
     }
   }
 
@@ -62,10 +66,10 @@
   }
 
   &--error {
-    border-color: var(--red);
+    border-color: var(--primary-error);
   }
 
   &__disabled {
-    background-color: #f2f3f4;
+    background-color: var(--secondary-bg-hover);
   }
 }

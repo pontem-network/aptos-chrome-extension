@@ -34,8 +34,8 @@ import { NETWORK_EVENTS } from './network';
 // The MAX_GAS_LIMIT is a number that is higher than the maximum gas costs we have observed on any aggregator
 const MAX_GAS_LIMIT = 2500000;
 
-// To ensure that our serves are not spammed if AptosMask is left idle, we limit the number of fetches for quotes that are made on timed intervals.
-// 3 seems to be an appropriate balance of giving users the time they need when AptosMask is not left idle, and turning polling off when it is.
+// To ensure that our serves are not spammed if MultiMask is left idle, we limit the number of fetches for quotes that are made on timed intervals.
+// 3 seems to be an appropriate balance of giving users the time they need when MultiMask is not left idle, and turning polling off when it is.
 const POLL_COUNT_LIMIT = 3;
 
 // If for any reason the MetaSwap API fails to provide a refresh time,
@@ -144,7 +144,7 @@ export default class SwapsController {
       typeof refreshRates.stxBatchStatus !== 'number'
     ) {
       throw new Error(
-        `AptosMask - invalid response for refreshRates: ${response}`,
+        `MultiMask - invalid response for refreshRates: ${response}`,
       );
     }
     // We presently use milliseconds in the UI.

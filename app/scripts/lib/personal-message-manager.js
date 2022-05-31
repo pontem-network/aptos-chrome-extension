@@ -81,7 +81,7 @@ export default class PersonalMessageManager extends EventEmitter {
     return new Promise((resolve, reject) => {
       if (!msgParams.from) {
         reject(
-          new Error('AptosMask Message Signature: from field is required.'),
+          new Error('MultiMask Message Signature: from field is required.'),
         );
         return;
       }
@@ -94,7 +94,7 @@ export default class PersonalMessageManager extends EventEmitter {
           case 'rejected':
             reject(
               ethErrors.provider.userRejectedRequest(
-                'AptosMask Message Signature: User denied message signature.',
+                'MultiMask Message Signature: User denied message signature.',
               ),
             );
             return;

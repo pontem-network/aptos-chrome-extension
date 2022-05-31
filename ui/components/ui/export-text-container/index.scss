@@ -3,8 +3,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid var(--alto);
-  border-radius: 4px;
+  border: 1px solid var(--border-input);
+  border-radius: 8px;
   font-weight: 400;
 
   &__text-container {
@@ -12,8 +12,9 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    border-radius: 4px;
-    background: var(--alabaster);
+    border-radius: 0;
+    color: var(--primary-text);
+    background: var(--secondary-bg);
   }
 
   &__text {
@@ -21,14 +22,14 @@
 
     resize: none;
     border: none;
-    background: var(--alabaster);
+    background: var(--secondary-bg);
     text-align: center;
   }
 
   &__buttons-container {
     display: flex;
     flex-direction: row;
-    border-top: 1px solid var(--alto);
+    border-top: 1px solid var(--divider);
     width: 100%;
   }
 
@@ -41,10 +42,10 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: var(--primary-blue);
+    color: var(--primary);
 
     &--copy {
-      border-right: 1px solid var(--alto);
+      border-right: 1px solid var(--divider);
     }
   }
 

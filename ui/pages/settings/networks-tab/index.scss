@@ -28,7 +28,7 @@
     @include H4;
 
     padding: 16px 4px;
-    border-bottom: 1px solid var(--alto);
+    border-bottom: 1px solid var(--divider);
     height: 72px;
     align-items: center;
     display: flex;
@@ -42,7 +42,7 @@
   &__sub-header-text {
     @include H4;
 
-    color: var(--ui-4);
+    color: var(--secondary-text);
     margin-right: 10px;
   }
 
@@ -116,7 +116,7 @@
   &__network-form-label-text {
     @include H6;
 
-    color: #000;
+    color: var(--primary-text);
     font-weight: bold;
   }
 
@@ -146,7 +146,7 @@
     justify-content: center;
     padding-top: 23px;
     padding-bottom: 23px;
-    border-top: 1px solid #d8d8d8;
+    border-top: 1px solid var(--divider);
 
     .button {
       width: 178px;
@@ -190,7 +190,7 @@
 
     @media screen and (max-width: $break-small) {
       padding: 20px 23px 21px 17px;
-      border-bottom: 1px solid #d8d8d8;
+      border-bottom: 1px solid var(--divider);
       max-width: 351px;
     }
   }
@@ -205,7 +205,7 @@
     @include Paragraph;
 
     margin-left: 11px;
-    color: #6a737d;
+    color: var(--primary-text);
     width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -247,12 +247,12 @@
 
   &__networks-list-name--selected {
     font-weight: bold;
-    color: #000;
+    color: var(--primary-text);
   }
 
   &__networks-list-name--disabled {
     font-weight: 300;
-    color: #cdcdcd;
+    color: var(--disabled-text);
   }
 
   &__network-form-footer {
@@ -262,20 +262,22 @@
     width: 95%;
 
     @media screen and (max-width: $break-small) {
-      width: 93%;
+      width: 95%;
+    }
+
+    .btn-danger {
+      margin-right: 0.375rem;
     }
 
     .btn-secondary {
       margin-right: 0.375rem;
+      margin-left: 0.375rem;
     }
 
     .btn-primary {
       margin-left: 0.375rem;
     }
 
-    .btn-danger {
-      margin-right: 3.75rem;
-    }
   }
 
   &__add-network-form-footer {

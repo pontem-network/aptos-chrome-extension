@@ -33,7 +33,7 @@
     "message": "dziennik aktywności"
   },
   "addAcquiredTokens": {
-    "message": "Dodaj tokeny pozyskane przy pomocy AptosMask"
+    "message": "Dodaj tokeny pozyskane przy pomocy MultiMask"
   },
   "addAlias": {
     "message": "Dodaj alias"
@@ -67,15 +67,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -103,7 +103,7 @@
     "message": "Czas automatycznego wylogowania (w minutach)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Ustaw czas bezczynności w minutach, po którym AptosMask wyloguje Cię automatycznie"
+    "message": "Ustaw czas bezczynności w minutach, po którym MultiMask wyloguje Cię automatycznie"
   },
   "average": {
     "message": "Średnia"
@@ -115,7 +115,7 @@
     "message": "Wróć do wszystkich"
   },
   "backupApprovalInfo": {
-    "message": "Ten tajny kod jest wymagany do odzyskania portfela w przypadku zgubienia urządzenia, zapomnienia hasła, ponownego zainstalowania AptosMask lub potrzeby uzyskania dostępu do portfela na innym urządzeniu."
+    "message": "Ten tajny kod jest wymagany do odzyskania portfela w przypadku zgubienia urządzenia, zapomnienia hasła, ponownego zainstalowania MultiMask lub potrzeby uzyskania dostępu do portfela na innym urządzeniu."
   },
   "backupApprovalNotice": {
     "message": "Utwórz kopię zapasową tajnego kodu odzyskiwania, aby zapewnić bezpieczeństwo swojego portfela i środków."
@@ -146,7 +146,7 @@
     "message": "Kup ETH poprzez Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić ETH bezpośrednio na swoje konto AptosMask."
+    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić ETH bezpośrednio na swoje konto MultiMask."
   },
   "bytes": {
     "message": "Bajty"
@@ -164,7 +164,7 @@
     "message": "Identyfikator łańcucha"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić AptosMask z przeglądarką Google Chrome."
+    "message": "Żeby połączyć się z portfelem sprzętowym, należy uruchomić MultiMask z przeglądarką Google Chrome."
   },
   "clickToRevealSeed": {
     "message": "Kliknij tutaj, aby odkryć tajne słowa"
@@ -323,13 +323,13 @@
     "message": "Nigdy nie udostępniaj nikomu tej frazy."
   },
   "endOfFlowMessage5": {
-    "message": "Uważaj na phishing! AptosMask nigdy spontanicznie nie poprosi Cię o podanie frazy seed."
+    "message": "Uważaj na phishing! MultiMask nigdy spontanicznie nie poprosi Cię o podanie frazy seed."
   },
   "endOfFlowMessage6": {
     "message": "Jeśli zajdzie konieczność ponownego wykonania kopii zapasowej frazy seed, znajdziesz ją w Ustawieniach -> Zabezpieczenia."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask nie może odzyskać Twojej frazy seed. Dowiedz się więcej."
+    "message": "MultiMask nie może odzyskać Twojej frazy seed. Dowiedz się więcej."
   },
   "endOfFlowMessage9": {
     "message": "Dowiedz się więcej."
@@ -397,7 +397,7 @@
     "message": "Limit gazu musi wynosić co najmniej 21000"
   },
   "gasPrice": {
-    "message": "Cena gazu (GWEI)"
+    "message": "Cena gazu"
   },
   "gasPriceExtremelyLow": {
     "message": "Bardzo niska cena gazu"
@@ -437,7 +437,7 @@
     "message": "Podłącz sprzętowy portfel"
   },
   "hardwareWalletsMsg": {
-    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z AptosMaskiem"
+    "message": "Wybierz portfel sprzętowy, którego chcesz użyć z MultiMaskiem"
   },
   "here": {
     "message": "tutaj",
@@ -463,7 +463,7 @@
     "message": "Importuj konto"
   },
   "importAccountMsg": {
-    "message": " Importowane konta nie będą powiązane z Twoją pierwotną frazą seed AptosMask. Dowiedz się więcej o importowaniu kont "
+    "message": " Importowane konta nie będą powiązane z Twoją pierwotną frazą seed MultiMask. Dowiedz się więcej o importowaniu kont "
   },
   "importAccountSeedPhrase": {
     "message": "Zaimportuj konto za pomocą frazy seed"
@@ -561,10 +561,10 @@
     "message": "Wiadomość"
   },
   "metamaskDescription": {
-    "message": "AptosMask to bezpieczny portfel dla Ethereum."
+    "message": "MultiMask to bezpieczny portfel dla Ethereum."
   },
   "metamaskVersion": {
-    "message": "Wersja AptosMask"
+    "message": "Wersja MultiMask"
   },
   "mustSelectOne": {
     "message": "Należy wybrać co najmniej 1 token."
@@ -608,7 +608,7 @@
     "message": "Nowe hasło (min. 8 znaków)"
   },
   "newToMetaMask": {
-    "message": "Pierwszy raz w AptosMask?"
+    "message": "Pierwszy raz w MultiMask?"
   },
   "newTotal": {
     "message": "Nowa suma"
@@ -659,7 +659,7 @@
     "message": "Weź udział w MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Weź udział w MetaMetrics, aby pomóc nam ulepszyć AptosMask"
+    "message": "Weź udział w MetaMetrics, aby pomóc nam ulepszyć MultiMask"
   },
   "password": {
     "message": "Hasło"
@@ -928,16 +928,16 @@
     "message": "Upewnij się, że nikt inny nie patrzy na Twój ekran podczas skanowania tego kodu"
   },
   "syncWithMobileComplete": {
-    "message": "Twoje dane zostały zsynchronizowane. Miłego korzystania z aplikacji mobilnej AptosMask!"
+    "message": "Twoje dane zostały zsynchronizowane. Miłego korzystania z aplikacji mobilnej MultiMask!"
   },
   "syncWithMobileDesc": {
-    "message": "Możesz synchronizować swoje konta i informacje z urządzeniem mobilnym. Otwórz aplikację mobilną AptosMask, przejdź do „Ustawień” i wybierz opcję „Synchronizuj z rozszerzeniem przeglądarki”."
+    "message": "Możesz synchronizować swoje konta i informacje z urządzeniem mobilnym. Otwórz aplikację mobilną MultiMask, przejdź do „Ustawień” i wybierz opcję „Synchronizuj z rozszerzeniem przeglądarki”."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Jeśli po raz pierwszy otwierasz aplikację AptosMask Mobile, postępuj zgodnie z instrukcjami w telefonie."
+    "message": "Jeśli po raz pierwszy otwierasz aplikację MultiMask Mobile, postępuj zgodnie z instrukcjami w telefonie."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Zeskanuj ten kod za pomocą aplikacji mobilnej AptosMask"
+    "message": "Zeskanuj ten kod za pomocą aplikacji mobilnej MultiMask"
   },
   "syncWithMobileTitle": {
     "message": "Synchronizuj z telefonem"
@@ -1076,7 +1076,7 @@
     "message": "Odwiedź naszą stronę"
   },
   "welcome": {
-    "message": "Witaj w AptosMask"
+    "message": "Witaj w MultiMask"
   },
   "welcomeBack": {
     "message": "Witaj z powrotem!"

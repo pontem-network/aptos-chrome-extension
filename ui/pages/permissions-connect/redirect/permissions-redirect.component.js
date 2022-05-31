@@ -37,7 +37,7 @@ export default function PermissionsRedirect({ subjectMetadata }) {
       >
         <path
           d="M0 1H134"
-          stroke="#CDD1E4"
+          stroke="#32294c"
           strokeLinejoin="round"
           strokeDasharray="8 7"
         />

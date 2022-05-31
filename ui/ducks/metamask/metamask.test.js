@@ -11,7 +11,7 @@ import reduceMetamask, {
   isNotEIP1559Network,
 } from './metamask';
 
-describe('AptosMask Reducers', () => {
+describe('MultiMask Reducers', () => {
   const mockState = {
     metamask: reduceMetamask(
       {
@@ -114,7 +114,7 @@ describe('AptosMask Reducers', () => {
     expect.anything(initState);
   });
 
-  it('locks AptosMask', () => {
+  it('locks MultiMask', () => {
     const unlockMetaMaskState = {
       isUnlocked: true,
       selectedAddress: 'test address',

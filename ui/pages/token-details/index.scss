@@ -1,6 +1,24 @@
 .token-details {
   &__title {
     text-transform: capitalize;
+    color: var(--primary-text) !important;
+  }
+
+  h4 {
+    color: var(--primary-text) !important;
+  }
+
+  h6 {
+    &.typography--h6,
+    &.typography--h7 {
+      font-size: 1rem !important;
+      color: var(--primary-text) !important;
+    }
+
+    &.typography--h9 {
+      font-size: 1.2rem !important;
+      color: var(--secondary-text) !important;
+    }
   }
 
   &__closeButton {
@@ -12,7 +30,7 @@
     &::after {
       font-size: 24px;
       content: '\00D7';
-      color: var(--black);
+      color: var(--secondary-text);
     }
   }
 
@@ -22,6 +40,7 @@
 
   &__token-address {
     width: 222px;
+    color: var(--secondary-text) !important;
   }
 
   &__copy-icon {
@@ -44,6 +63,6 @@
   }
 
   .btn--rounded.btn-primary {
-    background-color: #fff;
+    //background-color: #fff;
   }
 }

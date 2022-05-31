@@ -29,7 +29,7 @@ import {
   AddressBookController,
   ApprovalController,
   ControllerMessenger,
-  CurrencyRateController,
+  // CurrencyRateController,
   PhishingController,
   NotificationController,
   // GasFeeController,
@@ -48,6 +48,7 @@ import TokensController from '@pontem/pontem-controllers/dist/assets/TokensContr
 import TokenListController from '@pontem/pontem-controllers/dist/assets/TokenListController';
 import AssetsContractController from '@pontem/pontem-controllers/dist/assets/AssetsContractController';
 import TokenRatesController from '@pontem/pontem-controllers/dist/assets/TokenRatesController';
+import CurrencyRateController from '@pontem/pontem-controllers/dist/assets/CurrencyRateController';
 // import GasFeeController from '@pontem/pontem-controllers/dist/gas/GasFeeController';
 
 import SmartTransactionsController from '@metamask/smart-transactions-controller';
@@ -1149,7 +1150,7 @@ export default class MetamaskController extends EventEmitter {
     const providerOpts = {
       static: {
         eth_syncing: false,
-        web3_clientVersion: `AptosMask/v${version}`,
+        web3_clientVersion: `MultiMask/v${version}`,
       },
       version,
       // account mgmt
@@ -1241,7 +1242,7 @@ export default class MetamaskController extends EventEmitter {
   /**
    * Gets network state relevant for external providers.
    *
-   * @param {Object} [memState] - The AptosMask memState. If not provided,
+   * @param {Object} [memState] - The MultiMask memState. If not provided,
    * this function will retrieve the most recent state.
    * @returns {Object} An object with relevant network state properties.
    */
@@ -2136,7 +2137,7 @@ export default class MetamaskController extends EventEmitter {
       keyring.setHdPath(hdPath);
     }
     if (deviceName === DEVICE_NAMES.LATTICE) {
-      keyring.appName = 'AptosMask';
+      keyring.appName = 'MultiMask';
     }
     if (deviceName === DEVICE_NAMES.TREZOR) {
       const model = keyring.getModel();
@@ -2903,7 +2904,7 @@ export default class MetamaskController extends EventEmitter {
    * ).CustomGasSettings} [customGasSettings] - overrides to use for gas params
    *  instead of allowing this method to generate them
    * @param newTxMetaProps
-   * @returns {Object} AptosMask state
+   * @returns {Object} MultiMask state
    */
   async createCancelTransaction(
     originalTxId,
@@ -2930,7 +2931,7 @@ export default class MetamaskController extends EventEmitter {
    * ).CustomGasSettings} [customGasSettings] - overrides to use for gas params
    *  instead of allowing this method to generate them
    * @param newTxMetaProps
-   * @returns {Object} AptosMask state
+   * @returns {Object} MultiMask state
    */
   async createSpeedUpTransaction(
     originalTxId,
@@ -3025,7 +3026,7 @@ export default class MetamaskController extends EventEmitter {
       const { hostname } = new URL(sender.url);
       // Check if new connection is blocked if phishing detection is on
       if (usePhishDetect && this.phishingController.test(hostname)) {
-        log.debug('AptosMask - sending phishing warning for', hostname);
+        log.debug('MultiMask - sending phishing warning for', hostname);
         this.sendPhishingWarning(connectionStream, hostname);
         return;
       }
@@ -3611,7 +3612,7 @@ export default class MetamaskController extends EventEmitter {
   // misc
 
   /**
-   * A method for emitting the full AptosMask state to all registered listeners.
+   * A method for emitting the full MultiMask state to all registered listeners.
    *
    * @private
    */
@@ -3870,7 +3871,7 @@ export default class MetamaskController extends EventEmitter {
   // TODO: Replace isClientOpen methods with `controllerConnectionChanged` events.
   /* eslint-disable accessor-pairs */
   /**
-   * A method for recording whether the AptosMask user interface is open or not.
+   * A method for recording whether the MultiMask user interface is open or not.
    *
    * @param {boolean} open
    */

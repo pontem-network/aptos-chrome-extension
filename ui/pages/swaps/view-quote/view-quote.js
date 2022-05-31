@@ -617,7 +617,7 @@ export default function ViewQuote() {
       showModal({
         name: 'EDIT_APPROVAL_PERMISSION',
         decimals: selectedFromToken.decimals,
-        origin: 'AptosMask',
+        origin: 'MultiMask',
         setCustomAmount: (newCustomPermissionAmount) => {
           const customPermissionAmount =
             newCustomPermissionAmount === ''

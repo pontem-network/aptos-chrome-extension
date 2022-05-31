@@ -44,7 +44,7 @@ export function formatDateWithYearContext(
   );
 }
 /**
- * Determines if the provided chainId is a default AptosMask chain
+ * Determines if the provided chainId is a default MultiMask chain
  *
  * @param {string} chainId - chainId to check
  */
@@ -377,7 +377,7 @@ export function constructTxParams({
     from,
     value: '0',
     gas,
-    gasPrice,
+    gasPrice: gasPrice && gasPrice !== '0x0' ? gasPrice : new BigNumber(1, 10).mul(new BigNumber(10, 10).pow(9)).toString(16),
   };
 
   if (!sendToken) {

@@ -3,16 +3,17 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+  padding: 0 1rem 1rem 1rem;
 
   &__text {
     @include H7;
 
-    color: var(--ui-4);
+    color: var(--secondary-text);
     display: flex;
     margin-top: 10px;
 
     &--link {
-      color: var(--primary-blue);
+      color: var(--primary);
       margin-left: 4px;
       cursor: pointer;
     }

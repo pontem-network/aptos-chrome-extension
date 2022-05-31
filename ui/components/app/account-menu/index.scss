@@ -4,10 +4,10 @@
   top: 58px;
   width: 320px;
   border-radius: 4px;
-  background: rgba($black, 0.8);
+  background: var(--secondary-bg);
   box-shadow: rgba($black, 0.15) 0 2px 2px 2px;
   min-width: 150px;
-  color: var(--white);
+  color: var(--primary-text);
 
   @media screen and (max-width: $break-small) {
     right: 16px;
@@ -42,11 +42,11 @@
       cursor: pointer;
 
       &:hover {
-        background-color: rgba($white, 0.05);
+        background-color: var(--secondary-bg-hover);
       }
 
       &:active {
-        background-color: rgba($white, 0.1);
+        background-color: var(--secondary-bg-hover);
       }
     }
 
@@ -68,7 +68,7 @@
   }
 
   &__divider {
-    background-color: var(--scorpion);
+    background-color: var(--divider-2);
     width: 100%;
     height: 1px;
   }
@@ -101,18 +101,18 @@
   & &__lock-button {
     @include H7;
 
-    border: 1px solid var(--ui-white);
+    border: 1px solid var(--divider-2);
     background-color: transparent;
-    padding: 3.5px 5px;
-    color: var(--white);
-    width: 59px;
+    padding: 4px 8px;
+    color: var(--primary-text);
+    width: auto;
 
     &:hover {
-      background-color: rgba($dusty-gray, 0.05);
+      background-color: var(--secondary-bg-hover);
     }
 
     &:active {
-      background-color: rgba($dusty-gray, 0.1);
+      background-color: var(--secondary-bg-hover);
     }
   }
 
@@ -152,8 +152,8 @@
       height: 15px;
       margin-top: 5px;
       margin-right: 10px;
-      background-color: var(--dusty-gray);
-      color: var(--black);
+      background-color: var(--background-bg);
+      color: var(--primary-text);
       font-weight: normal;
       letter-spacing: 0.5px;
       display: flex;
@@ -187,7 +187,7 @@
       .remove-account-icon::after {
         content: '\00D7';
         font-size: 25px;
-        color: var(--white);
+        color: var(--primary-text);
         cursor: pointer;
         position: absolute;
         margin-top: -5px;
@@ -225,7 +225,7 @@
   &__name {
     @include H4;
 
-    color: var(--white);
+    color: var(--primary-text);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -235,7 +235,7 @@
   &__balance {
     @include H6;
 
-    color: var(--dusty-gray);
+    color: var(--secondary-text);
   }
 
   &__action {

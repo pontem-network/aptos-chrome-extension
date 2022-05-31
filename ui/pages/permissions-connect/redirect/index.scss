@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    color: var(--Black-100);
+    color: var(--primary-text);
   }
 
   &__icons {
@@ -31,7 +31,7 @@
   &__check {
     width: 40px;
     height: 40px;
-    background: white url("/images/permissions-check.svg") no-repeat;
+    background: transparent url("/images/permissions-check.svg") no-repeat;
     position: absolute;
   }
 }

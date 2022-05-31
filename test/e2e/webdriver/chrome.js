@@ -38,7 +38,7 @@ class ChromeDriver {
     builder.setChromeService(service);
     const driver = builder.build();
     const chromeDriver = new ChromeDriver(driver);
-    const extensionId = await chromeDriver.getExtensionIdByName('AptosMask');
+    const extensionId = await chromeDriver.getExtensionIdByName('MultiMask');
 
     return {
       driver,

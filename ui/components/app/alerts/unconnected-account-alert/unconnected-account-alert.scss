@@ -29,9 +29,9 @@
 
     margin-bottom: 16px;
     padding: 16px;
-    border: 1px solid var(--accent-red);
-    background: #f8eae8;
-    border-radius: 3px;
+    border: 1px solid var(--primary-red);
+    background: var(--secondary-bg);
+    border-radius: 6px;
   }
 
   &__checkbox-wrapper {
@@ -52,7 +52,7 @@
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    color: var(--Grey-500);
+    color: var(--secondary-text);
   }
 
   &__checkbox-label-tooltip {

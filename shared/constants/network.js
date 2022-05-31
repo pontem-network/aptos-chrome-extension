@@ -57,7 +57,7 @@ export const PONTEM_RPC_URL = 'http://178.62.219.21:8080';
 export const ROPSTEN_RPC_URL = getRpcUrl({ network: ROPSTEN });
 export const RINKEBY_RPC_URL = getRpcUrl({ network: RINKEBY });
 export const KOVAN_RPC_URL = getRpcUrl({ network: KOVAN });
-export const MAINNET_RPC_URL = getRpcUrl({ network: MAINNET });
+export const MAINNET_RPC_URL = 'https://fullnode.devnet.aptoslabs.com';
 export const GOERLI_RPC_URL = getRpcUrl({ network: GOERLI });
 export const LOCALHOST_RPC_URL = 'http://localhost:8545';
 

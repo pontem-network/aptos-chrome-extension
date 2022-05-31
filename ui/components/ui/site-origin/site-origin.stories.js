@@ -25,6 +25,6 @@ DefaultStory.storyName = 'Default';
 
 DefaultStory.args = {
   siteOrigin: 'https://metamask.io',
-  iconName: 'AptosMask',
+  iconName: 'MultiMask',
   iconSrc: './metamark.svg',
 };

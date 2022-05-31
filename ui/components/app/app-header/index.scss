@@ -1,12 +1,13 @@
 .app-header {
   align-items: center;
-  background: var(--Grey-000);
+  background: transparent;
   position: relative;
   z-index: $header-z-index;
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
   flex: 0 0 auto;
+  border-bottom: 1px solid var(--divider);
 
   @media screen and (max-width: $break-small) {
     padding: 1rem;
@@ -16,6 +17,8 @@
   @media screen and (min-width: $break-large) {
     height: 75px;
     justify-content: center;
+    background: #0A081E;
+    border: none;
 
     &--back-drop {
       &::after {
@@ -23,8 +26,9 @@
         position: absolute;
         width: 100%;
         height: 32px;
-        background: var(--Grey-000);
+        background: #0A081E;
         bottom: -32px;
+        border-bottom: 1px solid var(--divider);
       }
     }
   }

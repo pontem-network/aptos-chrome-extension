@@ -20,12 +20,13 @@ export default function UserPreferencedCurrencyDisplay({
     numberOfDecimals: propsNumberOfDecimals,
   });
   const prefixComponent = useMemo(() => {
-    return (
-      currency === ETH &&
-      showEthLogo && (
-        <img src="./images/eth.svg" height={ethLogoHeight} alt="" />
-      )
-    );
+    // return (
+    //   currency === ETH &&
+    //   showEthLogo && (
+    //     <img src="./images/eth.svg" height={ethLogoHeight} alt="" />
+    //   )
+    // );
+    return '';
   }, [currency, showEthLogo, ethLogoHeight]);
 
   return (

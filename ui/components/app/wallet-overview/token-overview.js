@@ -115,39 +115,39 @@ const TokenOverview = ({ className, token }) => {
             data-testid="eth-overview-send"
             disabled={token.isERC721}
           />
-          <IconButton
-            className="token-overview__button"
-            disabled={!isSwapsChain}
-            Icon={SwapIcon}
-            onClick={() => {
-              if (isSwapsChain) {
-                enteredSwapsEvent();
-                dispatch(
-                  setSwapsFromToken({
-                    ...token,
-                    iconUrl: token.image,
-                    balance,
-                    string: balanceToRender,
-                  }),
-                );
-                if (usingHardwareWallet) {
-                  global.platform.openExtensionInBrowser(BUILD_QUOTE_ROUTE);
-                } else {
-                  history.push(BUILD_QUOTE_ROUTE);
-                }
-              }
-            }}
-            label={t('swap')}
-            tooltipRender={(contents) => (
-              <Tooltip
-                title={t('currentlyUnavailable')}
-                position="bottom"
-                disabled={isSwapsChain}
-              >
-                {contents}
-              </Tooltip>
-            )}
-          />
+          {/*<IconButton*/}
+          {/*  className="token-overview__button"*/}
+          {/*  disabled={!isSwapsChain}*/}
+          {/*  Icon={SwapIcon}*/}
+          {/*  onClick={() => {*/}
+          {/*    if (isSwapsChain) {*/}
+          {/*      enteredSwapsEvent();*/}
+          {/*      dispatch(*/}
+          {/*        setSwapsFromToken({*/}
+          {/*          ...token,*/}
+          {/*          iconUrl: token.image,*/}
+          {/*          balance,*/}
+          {/*          string: balanceToRender,*/}
+          {/*        }),*/}
+          {/*      );*/}
+          {/*      if (usingHardwareWallet) {*/}
+          {/*        global.platform.openExtensionInBrowser(BUILD_QUOTE_ROUTE);*/}
+          {/*      } else {*/}
+          {/*        history.push(BUILD_QUOTE_ROUTE);*/}
+          {/*      }*/}
+          {/*    }*/}
+          {/*  }}*/}
+          {/*  label={t('swap')}*/}
+          {/*  tooltipRender={(contents) => (*/}
+          {/*    <Tooltip*/}
+          {/*      title={t('currentlyUnavailable')}*/}
+          {/*      position="bottom"*/}
+          {/*      disabled={isSwapsChain}*/}
+          {/*    >*/}
+          {/*      {contents}*/}
+          {/*    </Tooltip>*/}
+          {/*  )}*/}
+          {/*/>*/}
         </>
       }
       className={className}

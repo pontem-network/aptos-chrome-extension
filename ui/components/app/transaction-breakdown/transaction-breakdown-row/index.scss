@@ -1,22 +1,24 @@
 .transaction-breakdown-row {
   @include H7;
 
-  color: var(--Grey-500);
+  color: var(--secondary-text);
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
 
   &--with-bottom-border {
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid var(--divider-2);
   }
 
   &__title {
     padding-right: 8px;
     min-width: 40%;
+    color: var(--primary-text)
   }
 
   &__value {
     min-width: 0;
     word-break: break-word;
+    color: var(--primary-text)
   }
 }

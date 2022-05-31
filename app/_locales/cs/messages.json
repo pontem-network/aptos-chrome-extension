@@ -22,15 +22,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -150,7 +150,7 @@
     "message": "Limit paliva musí být alespoň 21000"
   },
   "gasPrice": {
-    "message": "Cena paliva (GWEI)"
+    "message": "Cena paliva"
   },
   "getEther": {
     "message": "Získejte Ether"
@@ -173,7 +173,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní AptosMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní MultiMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "imported": {
     "message": "Importováno",
@@ -226,7 +226,7 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "AptosMask je bezpečný osobní trezor pro Ethereum."
+    "message": "MultiMask je bezpečný osobní trezor pro Ethereum."
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
@@ -426,7 +426,7 @@
     "message": "Navštivte naši stránku"
   },
   "welcome": {
-    "message": "Vítejte v AptosMask"
+    "message": "Vítejte v MultiMask"
   },
   "youSign": {
     "message": "Podepisujete"

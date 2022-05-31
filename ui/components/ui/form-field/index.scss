@@ -7,6 +7,12 @@
     margin-top: 4px;
   }
 
+  &__heading-title {
+    h6 {
+      color: var(--primary-text) !important;
+    }
+  }
+
   .info-tooltip {
     display: inline-block;
   }
@@ -18,7 +24,7 @@
 
   &__error,
   &__error h6 {
-    color: var(--error-1) !important;
+    color: var(--primary-error) !important;
     padding-top: 6px;
   }
 
@@ -28,22 +34,28 @@
   }
 
   i {
-    color: #dadada;
+    color: var(--secondary-text);
     font-size: $font-size-h7;
   }
 
   &__input {
     width: 100%;
-    border: solid 1px var(--ui-3);
+    background: var(--secondary-bg);
+    border: solid 1.5px var(--border-input);
     padding: 10px;
     border-radius: 6px;
+    color: var(--primary-text);
+
+    &[disabled] {
+      color: var(--disabled-text);
+    }
 
     &:focus {
-      border: solid 2px var(--primary-1);
+      border: solid 2px var(--primary);
     }
 
     &--error {
-      border-color: var(--error-1);
+      border-color: var(--primary-error);
     }
 
     &--warning {

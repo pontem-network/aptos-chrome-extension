@@ -140,7 +140,7 @@ export default function TokenDetailsPage() {
                 handleCopy(token.address);
               }}
             >
-              <CopyIcon size={11} color="#037DD6" />
+              <CopyIcon size={11} color="#6E42CA" />
             </Button>
           </Tooltip>
         </Box>

@@ -99,7 +99,7 @@
     "message": "Προσθήκη ενός ψευδωνύμου"
   },
   "addAcquiredTokens": {
-    "message": "Προσθέστε τα token που αποκτήσατε χρησιμοποιώντας το AptosMask"
+    "message": "Προσθέστε τα token που αποκτήσατε χρησιμοποιώντας το MultiMask"
   },
   "addAlias": {
     "message": "Προσθήκη ψευδωνύμου"
@@ -115,10 +115,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Αυτό θα επιτρέψει σε αυτό το δίκτυο να χρησιμοποιηθεί στο AptosMask."
+    "message": "Αυτό θα επιτρέψει σε αυτό το δίκτυο να χρησιμοποιηθεί στο MultiMask."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "Το AptosMask δεν επαληθεύει τα προσαρμοσμένα δίκτυα."
+    "message": "Το MultiMask δεν επαληθεύει τα προσαρμοσμένα δίκτυα."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Μάθετε για το $1.",
@@ -162,7 +162,7 @@
     "message": "Σύνθετες"
   },
   "advancedBaseGasFeeToolTip": {
-    "message": "Όταν η συναλλαγή σας συμπεριληφθεί στο μπλοκ, οποιαδήποτε διαφορά μεταξύ της μέγιστης βασικής χρέωσής σας και της πραγματικής βασικής χρέωσής θα επιστραφεί. Το συνολικό ποσό υπολογίζεται ως μέγιστο βασικό τέλος (σε GWEI) * όριο τελών συναλλαγής."
+    "message": "Όταν η συναλλαγή σας συμπεριληφθεί στο μπλοκ, οποιαδήποτε διαφορά μεταξύ της μέγιστης βασικής χρέωσής σας και της πραγματικής βασικής χρέωσής θα επιστραφεί. Το συνολικό ποσό υπολογίζεται ως μέγιστο βασικό τέλος * όριο τελών συναλλαγής."
   },
   "advancedGasFeeDefaultOptIn": {
     "message": "Αποθηκεύστε αυτά τα $1 ως προεπιλογή μου για το \"Προηγμένο\""
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "Χρονόμετρο Αυτόματης Αποσύνδεσης (λεπτά)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Ρυθμίστε τον χρόνο αδράνειας σε λεπτά πριν αποσυνδεθεί αυτόματα το AptosMask."
+    "message": "Ρυθμίστε τον χρόνο αδράνειας σε λεπτά πριν αποσυνδεθεί αυτόματα το MultiMask."
   },
   "average": {
     "message": "Μέσος Όρος"
@@ -301,7 +301,7 @@
     "message": "Πίσω σε Όλα"
   },
   "backupApprovalInfo": {
-    "message": "Αυτός ο μυστικός κωδικός απαιτείται για ανάκτηση του πορτοφολιού σας σε περίπτωση που χάσετε τη συσκευή σας, ξεχάσετε τον κωδικό πρόσβασης, πρέπει να κάνετε επανεγκατάσταση του AptosMask, ή θέλετε να έχετε πρόσβαση στο πορτοφόλι σας από μια άλλη συσκευή."
+    "message": "Αυτός ο μυστικός κωδικός απαιτείται για ανάκτηση του πορτοφολιού σας σε περίπτωση που χάσετε τη συσκευή σας, ξεχάσετε τον κωδικό πρόσβασης, πρέπει να κάνετε επανεγκατάσταση του MultiMask, ή θέλετε να έχετε πρόσβαση στο πορτοφόλι σας από μια άλλη συσκευή."
   },
   "backupApprovalNotice": {
     "message": "Δημιουργήστε αντίγραφο ασφαλείας του κώδικα Μυστικής Αποκατάστασης για να διατηρήσετε ασφαλή το πορτοφόλι και τα χρήματά σας."
@@ -322,10 +322,10 @@
     "message": "Βασικά"
   },
   "betaMetamaskDescription": {
-    "message": "Αξιόπιστο για εκατομμύρια, το AptosMask είναι ένα ασφαλές πορτοφόλι που καθιστά τον κόσμο του web3 προσβάσιμο σε όλους."
+    "message": "Αξιόπιστο για εκατομμύρια, το MultiMask είναι ένα ασφαλές πορτοφόλι που καθιστά τον κόσμο του web3 προσβάσιμο σε όλους."
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "Χρησιμοποιήστε αυτήν την έκδοση για να δοκιμάσετε τις επερχόμενες λειτουργίες πριν από την κυκλοφορία τους. Η χρήση και η ανατροφοδότηση σας μας βοηθούν να χτίσουμε την καλύτερη δυνατή έκδοση του AptosMask. Η χρήση του AptosMask Δοκιμαστική Έκδοση υπόκειται στα στάνταρ μας $1, καθώς και $2. Ως Δοκιμαστική Έκδοση, μπορεί να υπάρχει αυξημένος κίνδυνος σφαλμάτων. Συνεχίζοντας, αποδέχεστε και αναγνωρίζετε αυτούς τους κινδύνους, καθώς και τους κινδύνους που εντοπίζονται στους Όρους μας και τους Όρους Δοκιμαστικής Έκδοσης.",
+    "message": "Χρησιμοποιήστε αυτήν την έκδοση για να δοκιμάσετε τις επερχόμενες λειτουργίες πριν από την κυκλοφορία τους. Η χρήση και η ανατροφοδότηση σας μας βοηθούν να χτίσουμε την καλύτερη δυνατή έκδοση του MultiMask. Η χρήση του MultiMask Δοκιμαστική Έκδοση υπόκειται στα στάνταρ μας $1, καθώς και $2. Ως Δοκιμαστική Έκδοση, μπορεί να υπάρχει αυξημένος κίνδυνος σφαλμάτων. Συνεχίζοντας, αποδέχεστε και αναγνωρίζετε αυτούς τους κινδύνους, καθώς και τους κινδύνους που εντοπίζονται στους Όρους μας και τους Όρους Δοκιμαστικής Έκδοσης.",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "Όροι"
   },
   "betaMetamaskVersion": {
-    "message": "Δοκιμαστική έκδοση AptosMask"
+    "message": "Δοκιμαστική έκδοση MultiMask"
   },
   "betaWelcome": {
-    "message": "Καλώς ήλθατε στη Δοκιμαστική Έκδοση AptosMask"
+    "message": "Καλώς ήλθατε στη Δοκιμαστική Έκδοση MultiMask"
   },
   "blockExplorerAccountAction": {
     "message": "Λογαριασμός",
@@ -369,7 +369,7 @@
     "message": "Δημιουργήστε τη λίστα επαφών σας"
   },
   "builtAroundTheWorld": {
-    "message": "Η AptosMask έχει σχεδιαστεί και κατασκευαστεί σε όλο τον κόσμο."
+    "message": "Η MultiMask έχει σχεδιαστεί και κατασκευαστεί σε όλο τον κόσμο."
   },
   "busy": {
     "message": "Απασχολημένο"
@@ -417,7 +417,7 @@
     "message": "Αυτό το αναγνωριστικό αλυσίδας χρησιμοποιείται επί του παρόντος από το δίκτυο $1."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Θα πρέπει να χρησιμοποιήσετε το AptosMask στο Google Chrome για να συνδεθείτε στο Πορτοφόλι Υλικού."
+    "message": "Θα πρέπει να χρησιμοποιήσετε το MultiMask στο Google Chrome για να συνδεθείτε στο Πορτοφόλι Υλικού."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "Κάντε κλικ εδώ για να συνδέσετε το Ledger σας μέσω WebHID",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Σύνδεση Με AptosMask"
+    "message": "Σύνδεση Με MultiMask"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Έχετε $1 λογαριασμούς συνδεδεμένους με αυτόν τον ιστότοπο.",
@@ -499,7 +499,7 @@
     "message": "Έχετε 1 λογαριασμό συνδεδεμένο σε αυτόν τον ιστότοπο."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "To AptosMask δεν είναι συνδεδεμένo σε αυτόν τον ιστότοπο. Για να συνδεθείτε σε έναν ιστότοπο web3, βρείτε και κάντε κλικ στο κουμπί σύνδεσης."
+    "message": "To MultiMask δεν είναι συνδεδεμένo σε αυτόν τον ιστότοπο. Για να συνδεθείτε σε έναν ιστότοπο web3, βρείτε και κάντε κλικ στο κουμπί σύνδεσης."
   },
   "connectedSites": {
     "message": "Συνδεδεμένοι ιστότοποι"
@@ -657,7 +657,7 @@
     "message": "Δεδομένα"
   },
   "dataBackupFoundInfo": {
-    "message": "Ορισμένα από τα δεδομένα του λογαριασμού σας δημιουργήθηκαν σε προηγούμενη εγκατάσταση του AptosMask. Αυτό θα μπορούσε να περιλαμβάνει τις ρυθμίσεις, τις επαφές και τα διακριτικά σας. Θα θέλατε να επαναφέρετε αυτά τα δεδομένα τώρα;"
+    "message": "Ορισμένα από τα δεδομένα του λογαριασμού σας δημιουργήθηκαν σε προηγούμενη εγκατάσταση του MultiMask. Αυτό θα μπορούσε να περιλαμβάνει τις ρυθμίσεις, τις επαφές και τα διακριτικά σας. Θα θέλατε να επαναφέρετε αυτά τα δεδομένα τώρα;"
   },
   "dataHex": {
     "message": "Δεκαεξαδικός"
@@ -822,7 +822,7 @@
     "message": "Το μέγιστο τέλος είναι το περισσότερο που θα πληρώσετε (βασικό τέλος + τέλος προτεραιότητας)."
   },
   "editGasMaxPriorityFeeBelowMinimum": {
-    "message": "Το μέγιστο τέλος προτεραιότητας πρέπει να είναι μεγαλύτερο από 0 GWEI"
+    "message": "Το μέγιστο τέλος προτεραιότητας πρέπει να είναι μεγαλύτερο από 0"
   },
   "editGasMaxPriorityFeeBelowMinimumV2": {
     "message": "Το τέλος προτεραιότητας πρέπει να είναι μεγαλύτερο από 0."
@@ -918,7 +918,7 @@
     "message": "Μην μοιράζεστε ποτέ τη φράση με κανέναν."
   },
   "endOfFlowMessage5": {
-    "message": "Προσέξτε το ηλεκτρονικό \"ψάρεμα\"! Το AptosMask δεν θα ζητήσει ποτέ από μόνο του τη Μυστική Φράση Ανάκτησής σας."
+    "message": "Προσέξτε το ηλεκτρονικό \"ψάρεμα\"! Το MultiMask δεν θα ζητήσει ποτέ από μόνο του τη Μυστική Φράση Ανάκτησής σας."
   },
   "endOfFlowMessage6": {
     "message": "Αν χρειάζεται να δημιουργήσετε ξανά αντίγραφο της φράσης επαναφοράς σας, μπορείτε να τη βρείτε στο Ρυθμίσεις -> Ασφάλεια."
@@ -928,7 +928,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "Το AptosMask δεν μπορεί να ανακτήσει τη Μυστική Φράση Ανάκτησής σας. Μάθετε περισσότερα."
+    "message": "Το MultiMask δεν μπορεί να ανακτήσει τη Μυστική Φράση Ανάκτησής σας. Μάθετε περισσότερα."
   },
   "endOfFlowMessage9": {
     "message": "Μάθετε περισσότερα."
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "Το AptosMask αντιμετώπισε ένα σφάλμα",
+    "message": "Το MultiMask αντιμετώπισε ένα σφάλμα",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1126,7 +1126,7 @@
     "message": "Επιλογή τέλους συναλλαγής"
   },
   "gasPrice": {
-    "message": "Τιμή Αερίου (GWEI)"
+    "message": "Τιμή Αερίου"
   },
   "gasPriceExcessive": {
     "message": "Το ποσό του τέλους συναλλαγής σας ορίστηκε άσκοπα υψηλό. Εξετάστε τη μείωση του ποσού."
@@ -1228,7 +1228,7 @@
     "message": "Συνδέστε ένα πορτοφόλι εξοπλισμού"
   },
   "hardwareWalletsMsg": {
-    "message": "Επιλέξτε ένα πορτοφόλι εξοπλισμού το οποίο θέλετε να χρησιμοποιήσετε με το AptosMask."
+    "message": "Επιλέξτε ένα πορτοφόλι εξοπλισμού το οποίο θέλετε να χρησιμοποιήσετε με το MultiMask."
   },
   "here": {
     "message": "εδώ",
@@ -1322,7 +1322,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "Το AptosMask δεν μπορεί να συνδεθεί με τον εξυπηρετητή blockchain. Ανασκόπηση πιθανών λόγων $1.",
+    "message": "Το MultiMask δεν μπορεί να συνδεθεί με τον εξυπηρετητή blockchain. Ανασκόπηση πιθανών λόγων $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1462,7 +1462,7 @@
     "message": "Άνοιγμα και ξεκλείδωμα εφαρμογής Ledger Live"
   },
   "ledgerConnectionPreferenceDescription": {
-    "message": "Προσαρμόστε το πώς μπορείτε να συνδέσετε Ledger σας με το AptosMask. Το $1 συνιστάται, αλλά και άλλες επιλογές είναι διαθέσιμες. Διαβάστε περισσότερα εδώ: $2",
+    "message": "Προσαρμόστε το πώς μπορείτε να συνδέσετε Ledger σας με το MultiMask. Το $1 συνιστάται, αλλά και άλλες επιλογές είναι διαθέσιμες. Διαβάστε περισσότερα εδώ: $2",
     "description": "A description that appears above a dropdown where users can select between up to three options - Ledger Live, U2F or WebHID - depending on what is supported in their browser. $1 is the recommended browser option, it will be either WebHID or U2f. $2 is a link to an article where users can learn more, but will be the translation of the learnMore message."
   },
   "ledgerDeviceOpenFailureMessage": {
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to MultiMask."
   },
   "ledgerLiveApp": {
     "message": "Εφαρμογή Ledger Live"
@@ -1570,7 +1570,7 @@
     "message": "Μήνυμα"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Τώρα έχετε περισσότερο έλεγχο των συνδέσεων του λογαριασμού σας στο AptosMask."
+    "message": "Τώρα έχετε περισσότερο έλεγχο των συνδέσεων του λογαριασμού σας στο MultiMask."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Κάντε κλικ για να διαχειριστείτε τους συνδεδεμένους λογαριασμούς σας."
@@ -1582,10 +1582,10 @@
     "message": "Σύνδεση με το Aptos και τον Αποκεντρωμένο Ιστό."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "Συντήρηση των ανταλλαγών AptosMask. Παρακαλούμε ελέγξτε αργότερα."
+    "message": "Συντήρηση των ανταλλαγών MultiMask. Παρακαλούμε ελέγξτε αργότερα."
   },
   "metamaskVersion": {
-    "message": "Έκδοση AptosMask"
+    "message": "Έκδοση MultiMask"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Σας επιτρέπεται πάντα να εξαιρεθείτε μέσω των Ρυθμίσεων"
@@ -1598,7 +1598,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "Το AptosMask.."
+    "message": "Το MultiMask.."
   },
   "metametricsCommitmentsNeverCollect": {
     "message": "Ποτέ δεν θα συλλέγει κλειδιά, διευθύνσεις, συναλλαγές, υπόλοιπα, συναρτήσεις κατατεμαχισμού ή οποιαδήποτε προσωπικά στοιχεία"
@@ -1625,16 +1625,16 @@
     "message": "Στείλτε ανώνυμα γεγονότα κλικ και προβολής ιστοσελίδων"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Βοηθήστε μας να βελτιώσουμε το AptosMask"
+    "message": "Βοηθήστε μας να βελτιώσουμε το MultiMask"
   },
   "metametricsOptInDescription": {
-    "message": "Το AptosMask θα ήθελε να συγκεντρώσει δεδομένα χρήσης για να κατανοήσει καλύτερα πώς οι χρήστες μας αλληλεπιδρούν με την επέκταση. Τα δεδομένα αυτά θα χρησιμοποιηθούν για τη συνεχή βελτίωση της χρηστικότητας και της εμπειρίας χρήσης του προϊόντος μας και του οικοσυστήματος Ethereum."
+    "message": "Το MultiMask θα ήθελε να συγκεντρώσει δεδομένα χρήσης για να κατανοήσει καλύτερα πώς οι χρήστες μας αλληλεπιδρούν με την επέκταση. Τα δεδομένα αυτά θα χρησιμοποιηθούν για τη συνεχή βελτίωση της χρηστικότητας και της εμπειρίας χρήσης του προϊόντος μας και του οικοσυστήματος Ethereum."
   },
   "metametricsOptInDescription2": {
     "message": "Θα θέλαμε να συγκεντρώσουμε βασικά δεδομένα χρήσης για τη βελτίωση της χρηστικότητας του προϊόντος μας. Αυτές οι μετρήσεις θα..."
   },
   "metametricsTitle": {
-    "message": "Συμμετάσχετε σε 6εκ+ χρήστες για να βελτιώσετε το AptosMask"
+    "message": "Συμμετάσχετε σε 6εκ+ χρήστες για να βελτιώσετε το MultiMask"
   },
   "mismatchedChain": {
     "message": "Οι λεπτομέρειες δικτύου για αυτό το αναγνωριστικό αλυσίδας δεν ταιριάζουν με τις εγγραφές μας. Σας συνιστούμε να $1 πριν συνεχίσετε.",
@@ -1651,7 +1651,7 @@
     "message": "Δεν βλέπετε το token σας;"
   },
   "mobileSyncWarning": {
-    "message": "Η λειτουργία 'Συγχρονισμός με επέκταση' είναι προσωρινά απενεργοποιημένη. Αν θέλετε να χρησιμοποιήσετε το πορτοφόλι της επέκτασής σας στο AptosMask mobile, τότε στην εφαρμογή για το κινητό σας: επιστρέψτε στις επιλογές εγκατάστασης του πορτοφολιού και επιλέξτε την επιλογή 'Εισαγωγή με Μυστική Φράση Ανάκτησης'. Χρησιμοποιήστε τη μυστική φράση του πορτοφολιού της επέκτασής σας για να εισαγάγετε το πορτοφόλι σας στο κινητό."
+    "message": "Η λειτουργία 'Συγχρονισμός με επέκταση' είναι προσωρινά απενεργοποιημένη. Αν θέλετε να χρησιμοποιήσετε το πορτοφόλι της επέκτασής σας στο MultiMask mobile, τότε στην εφαρμογή για το κινητό σας: επιστρέψτε στις επιλογές εγκατάστασης του πορτοφολιού και επιλέξτε την επιλογή 'Εισαγωγή με Μυστική Φράση Ανάκτησης'. Χρησιμοποιήστε τη μυστική φράση του πορτοφολιού της επέκτασής σας για να εισαγάγετε το πορτοφόλι σας στο κινητό."
   },
   "mustSelectOne": {
     "message": "Πρέπει να επιλέξετε 1 τουλάχιστον διακριτικό."
@@ -1670,7 +1670,7 @@
     "message": "Μοιραστείτε τα σχόλιά σας"
   },
   "needHelpLinkText": {
-    "message": "Υποστήριξη AptosMask"
+    "message": "Υποστήριξη MultiMask"
   },
   "needHelpSubmitTicket": {
     "message": "Υποβολή αιτήματος"
@@ -1761,7 +1761,7 @@
     "message": "Νέο! Εντοπισμός NFT"
   },
   "newNFTsDetectedInfo": {
-    "message": "Επιτρέψτε στο AptosMask να ανιχνεύει αυτόματα NFTs από το Opensea και να εμφανίζεται στο πορτοφόλι σας AptosMask."
+    "message": "Επιτρέψτε στο MultiMask να ανιχνεύει αυτόματα NFTs από το Opensea και να εμφανίζεται στο πορτοφόλι σας MultiMask."
   },
   "newNetworkAdded": {
     "message": "Το “$1” προστέθηκε με επιτυχία!"
@@ -1770,7 +1770,7 @@
     "message": "Νέος Κωδικός Πρόσβασης (ελάχιστο 8 χαρακτήρες)"
   },
   "newToMetaMask": {
-    "message": "Καινούριος στο AptosMask;"
+    "message": "Καινούριος στο MultiMask;"
   },
   "newTotal": {
     "message": "Νέο Σύνολο"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "Το Nonce είναι υψηλότερο από το προτεινόμενο nonce του $1",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to MultiMask's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "Εισάγετε το συλλεκτικό αναγνωριστικό"
@@ -1849,19 +1849,19 @@
     "message": "Δεν Υπάρχει Αρκετό Αέριο"
   },
   "notifications1Description": {
-    "message": "Οι χρήστες του AptosMask Mobile μπορούν τώρα να ανταλλάξουν tokens μέσα στο κινητό τους πορτοφόλι. Σαρώστε τον κωδικό QR για να πάρετε την εφαρμογή για κινητά και να αρχίσετε να ανταλλάζετε.",
+    "message": "Οι χρήστες του MultiMask Mobile μπορούν τώρα να ανταλλάξουν tokens μέσα στο κινητό τους πορτοφόλι. Σαρώστε τον κωδικό QR για να πάρετε την εφαρμογή για κινητά και να αρχίσετε να ανταλλάζετε.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Η ανταλλαγή στο κινητό είναι εδώ!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MultiMask Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Μάθε περισσότερα",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Μείνετε ενημερωμένοι για τις βέλτιστες πρακτικές ασφάλειας AptosMask και λάβετε τις τελευταίες συμβουλές ασφαλείας από την επίσημη υποστήριξη AptosMask.",
+    "message": "Μείνετε ενημερωμένοι για τις βέλτιστες πρακτικές ασφάλειας MultiMask και λάβετε τις τελευταίες συμβουλές ασφαλείας από την επίσημη υποστήριξη MultiMask.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1873,7 +1873,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Λάβετε τις καλύτερες τιμές για swaps token ακριβώς μέσα στο πορτοφόλι σας. Το AptosMask τώρα σας συνδέει με πολλαπλούς αποκεντρωμένα ανταλλακτήρια συναλλάγματος και επαγγελματίες διαμορφωτές της αγοράς για έξυπνη αλυσίδα Binance.",
+    "message": "Λάβετε τις καλύτερες τιμές για swaps token ακριβώς μέσα στο πορτοφόλι σας. Το MultiMask τώρα σας συνδέει με πολλαπλούς αποκεντρωμένα ανταλλακτήρια συναλλάγματος και επαγγελματίες διαμορφωτές της αγοράς για έξυπνη αλυσίδα Binance.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1885,11 +1885,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Από την έκδοση 91, το API που ενεργοποίησε την υποστήριξη Ledger (U2F) δεν υποστηρίζει πλέον πορτοφόλια υλικού. Η AptosMask έχει υλοποιήσει μια νέα υποστήριξη Ledger Live που σας επιτρέπει να συνεχίσετε να συνδέεστε με τη συσκευή Ledger μέσω της εφαρμογής επιφάνειας εργασίας Ledger Live.",
+    "message": "Από την έκδοση 91, το API που ενεργοποίησε την υποστήριξη Ledger (U2F) δεν υποστηρίζει πλέον πορτοφόλια υλικού. Η MultiMask έχει υλοποιήσει μια νέα υποστήριξη Ledger Live που σας επιτρέπει να συνεχίσετε να συνδέεστε με τη συσκευή Ledger μέσω της εφαρμογής επιφάνειας εργασίας Ledger Live.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Όταν αλληλεπιδράτε με τον λογαριασμό σας Ledger στο AptosMask, θα ανοίξει μια νέα καρτέλα και θα σας ζητηθεί να ανοίξετε την εφαρμογή Ledger Live. Μόλις ανοίξει η εφαρμογή, θα σας ζητηθεί να επιτρέψετε μια σύνδεση WebSocket στον λογαριασμό σας AptosMask. Αυτό ήταν όλο!",
+    "message": "Όταν αλληλεπιδράτε με τον λογαριασμό σας Ledger στο MultiMask, θα ανοίξει μια νέα καρτέλα και θα σας ζητηθεί να ανοίξετε την εφαρμογή Ledger Live. Μόλις ανοίξει η εφαρμογή, θα σας ζητηθεί να επιτρέψετε μια σύνδεση WebSocket στον λογαριασμό σας MultiMask. Αυτό ήταν όλο!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1901,7 +1901,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "Το AptosMask v10.1.0 περιελάμβανε νέα υποστήριξη για συναλλαγές EIP-1559 όταν χρησιμοποιούσε συσκευές Ledger.",
+    "message": "Το MultiMask v10.1.0 περιελάμβανε νέα υποστήριξη για συναλλαγές EIP-1559 όταν χρησιμοποιούσε συσκευές Ledger.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1917,7 +1917,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "Από τη AptosMask v10.4.0 και μετά, δεν χρειάζεστε πλέον το Ledger Live για να συνδέσετε τη συσκευή Ledger με το AptosMask.",
+    "message": "Από τη MultiMask v10.4.0 και μετά, δεν χρειάζεστε πλέον το Ledger Live για να συνδέσετε τη συσκευή Ledger με το MultiMask.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -1974,16 +1974,16 @@
     "message": "Κάντε κλικ στο εικονίδιο επέκτασης προγράμματος περιήγησης"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Καρφίτσωμα του AptosMask στο πρόγραμμα περιήγησής σας ώστε να είναι προσβάσιμες και εύκολα ορατές επιβεβαιώσεις συναλλαγών."
+    "message": "Καρφίτσωμα του MultiMask στο πρόγραμμα περιήγησής σας ώστε να είναι προσβάσιμες και εύκολα ορατές επιβεβαιώσεις συναλλαγών."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Μπορείτε να ανοίξετε το AptosMask κάνοντας κλικ στην επέκταση και να αποκτήσετε πρόσβαση στο πορτοφόλι σας με 1 κλικ."
+    "message": "Μπορείτε να ανοίξετε το MultiMask κάνοντας κλικ στην επέκταση και να αποκτήσετε πρόσβαση στο πορτοφόλι σας με 1 κλικ."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Κάντε κλικ στο εικονίδιο επέκτασης προγράμματος περιήγησης για άμεση πρόσβαση"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Καρφίτσωμα AptosMask"
+    "message": "Καρφίτσωμα MultiMask"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Η εγκατάσταση του AptosMask ολοκληρώθηκε!"
+    "message": "Η εγκατάσταση του MultiMask ολοκληρώθηκε!"
   },
   "onboardingReturnNotice": {
     "message": "Το \"$1\" θα κλείσει αυτή την καρτέλα και θα επιστρέψει στο $2",
@@ -2013,8 +2013,8 @@
     "message": "Συνδεθείτε μόνο με ιστότοπους που εμπιστεύεστε."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "Ανοίξτε το AptosMask σε πλήρη οθόνη για να συνδέσετε το ledger σας μέσω WebHID.",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "message": "Ανοίξτε το MultiMask σε πλήρη οθόνη για να συνδέσετε το ledger σας μέσω WebHID.",
+    "description": "Shown to the user on the confirm screen when they are viewing MultiMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "Προαιρετικό"
@@ -2035,7 +2035,7 @@
     "message": "Συμμετάσχετε στο MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Συμμετέχετε στο MetaMetrics για να μας βοηθήσετε να βελτιώσουμε το AptosMask"
+    "message": "Συμμετέχετε στο MetaMetrics για να μας βοηθήσετε να βελτιώσουμε το MultiMask"
   },
   "password": {
     "message": "Κωδικός πρόσβασης"
@@ -2044,10 +2044,10 @@
     "message": "Ο Κωδικός Πρόσβασης δεν είναι αρκετά μεγάλος"
   },
   "passwordSetupDetails": {
-    "message": "Αυτός ο κωδικός πρόσβασης θα ξεκλειδώσει το πορτοφόλι σας AptosMask μόνο σε αυτήν τη συσκευή. Το AptosMask δεν μπορεί να ανακτήσει αυτόν τον κωδικό πρόσβασης."
+    "message": "Αυτός ο κωδικός πρόσβασης θα ξεκλειδώσει το πορτοφόλι σας MultiMask μόνο σε αυτήν τη συσκευή. Το MultiMask δεν μπορεί να ανακτήσει αυτόν τον κωδικό πρόσβασης."
   },
   "passwordTermsWarning": {
-    "message": "Καταλαβαίνω ότι το AptosMask δεν μπορεί να ανακτήσει αυτόν τον κωδικό πρόσβασης για μένα. $1"
+    "message": "Καταλαβαίνω ότι το MultiMask δεν μπορεί να ανακτήσει αυτόν τον κωδικό πρόσβασης για μένα. $1"
   },
   "passwordsDontMatch": {
     "message": "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
@@ -2167,7 +2167,7 @@
     "message": "Ποτέ μην μοιράζεστε τη Μυστική Φράση Ανάκτησης με κανέναν"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "Η ομάδα AptosMask δεν θα ζητήσει ποτέ τη Μυστική Φράση Ανάκτησης σας"
+    "message": "Η ομάδα MultiMask δεν θα ζητήσει ποτέ τη Μυστική Φράση Ανάκτησης σας"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Η Μυστική Φράση Ανάκτησης σας ελέγχει όλους τους λογαριασμούς σας."
@@ -2342,7 +2342,7 @@
     "message": "Αν κάποιος ζητήσει τη φράση ανάκτησης σας είναι πιθανό να προσπαθεί να σας εξαπατήσει και να κλέψει τα χρήματα του πορτοφολιού σας"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Ποτέ μα ποτέ μην μοιραστείτε ποτέ Μυστική Φράση Αποκατάστασης σας, ούτε καν με το AptosMask!"
+    "message": "Ποτέ μα ποτέ μην μοιραστείτε ποτέ Μυστική Φράση Αποκατάστασης σας, ούτε καν με το MultiMask!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Τι είναι μια Μυστική Φράση Ανάκτησης;"
@@ -2381,7 +2381,7 @@
     "message": "Επιλέξτε Λογαριασμό"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Αυτός ο λογαριασμός έχει ήδη συνδεθεί με το AptosMask"
+    "message": "Αυτός ο λογαριασμός έχει ήδη συνδεθεί με το MultiMask"
   },
   "selectEachPhrase": {
     "message": "Παρακαλούμε επιλέξτε κάθε φράση, για να βεβαιωθείτε ότι είναι σωστή."
@@ -2425,7 +2425,7 @@
     "message": "Ορίστε ρυθμίσεις απορρήτου για προχωρημένους"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "Το AptosMask χρησιμοποιεί αυτές τις αξιόπιστες υπηρεσίες τρίτων για να ενισχύσει τη χρηστικότητα και την ασφάλεια των προϊόντων."
+    "message": "Το MultiMask χρησιμοποιεί αυτές τις αξιόπιστες υπηρεσίες τρίτων για να ενισχύσει τη χρηστικότητα και την ασφάλεια των προϊόντων."
   },
   "settings": {
     "message": "Ρυθμίσεις"
@@ -2564,7 +2564,7 @@
     "message": "Σφάλμα κατά την ανάκτηση αρχείων καταγραφής κατάστασης."
   },
   "stateLogFileName": {
-    "message": "Καταγραφές Κατάστασης AptosMask"
+    "message": "Καταγραφές Κατάστασης MultiMask"
   },
   "stateLogs": {
     "message": "Αρχεία Καταγραφής Κατάστασης"
@@ -2582,7 +2582,7 @@
     "message": "Βεβαιωθείτε ότι το Lattice1 σας είναι έτοιμο να συνδεθεί"
   },
   "step1LatticeWalletMsg": {
-    "message": "Μπορείτε να συνδέσετε το AptosMask με τη συσκευή Lattice1 σας μόλις εγκατασταθεί και είναι συνδεδεμένο στο ίντερνετ. Ξεκλειδώστε τη συσκευή σας και να έχετε το Αναγνωριστικό της Συσκευής σας έτοιμο. Για περισσότερα σχετικά με τη χρήση υλικού πορτοφολιού, $1",
+    "message": "Μπορείτε να συνδέσετε το MultiMask με τη συσκευή Lattice1 σας μόλις εγκατασταθεί και είναι συνδεδεμένο στο ίντερνετ. Ξεκλειδώστε τη συσκευή σας και να έχετε το Αναγνωριστικό της Συσκευής σας έτοιμο. Για περισσότερα σχετικά με τη χρήση υλικού πορτοφολιού, $1",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2678,7 +2678,7 @@
     "message": "Επεξεργασία ορίου"
   },
   "swapEnableDescription": {
-    "message": "Αυτό απαιτείται και δίνει άδεια στο AptosMask για να ανταλλάξετε το $1 σας.",
+    "message": "Αυτό απαιτείται και δίνει άδεια στο MultiMask για να ανταλλάξετε το $1 σας.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2724,14 +2724,14 @@
     "message": "Τα τέλη συναλλαγών στην προηγούμενη οθόνη μοιράζονται μεταξύ αυτών των δύο συναλλαγών."
   },
   "swapGasFeesSummary": {
-    "message": "Τα τέλη συναλλαγών καταβάλλονται σε κρυπτο-miners που επεξεργάζονται συναλλαγές στο δίκτυο $1. Το AptosMask δεν επωφελείται από τα τέλη συναλλαγών.",
+    "message": "Τα τέλη συναλλαγών καταβάλλονται σε κρυπτο-miners που επεξεργάζονται συναλλαγές στο δίκτυο $1. Το MultiMask δεν επωφελείται από τα τέλη συναλλαγών.",
     "description": "$1 is the selected network, e.g. Aptos or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "Το ποσό ολίσθησης είναι πολύ υψηλό."
   },
   "swapIncludesMMFee": {
-    "message": "Περιλαμβάνει $1% τέλος AptosMask.",
+    "message": "Περιλαμβάνει $1% τέλος MultiMask.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2741,7 +2741,7 @@
     "message": "Μέγιστη ολίσθηση"
   },
   "swapMetaMaskFee": {
-    "message": "Τέλος AptosMask"
+    "message": "Τέλος MultiMask"
   },
   "swapMetaMaskFeeDescription": {
     "message": "Βρίσκουμε την καλύτερη τιμή από τις κορυφαίες πηγές ρευστότητας, κάθε φορά. Μια αμοιβή $1% λαμβάνεται αυτόματα υπόψη σε αυτή την προσφορά.",
@@ -2924,7 +2924,7 @@
     "message": "Προβολή σε δραστηριότητα"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Αυτό θα αλλάξει το επιλεγμένο δίκτυο στο AptosMask σε ένα δίκτυο που έχει προστεθεί προηγουμένως:"
+    "message": "Αυτό θα αλλάξει το επιλεγμένο δίκτυο στο MultiMask σε ένα δίκτυο που έχει προστεθεί προηγουμένως:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Επιτρέπετε σε αυτόν τον ιστότοπο να αλλάξει το δίκτυο;"
@@ -2960,16 +2960,16 @@
     "message": "Σιγουρευτείτε ότι κανένας δεν κοιτάζει στην οθόνη σας όταν κάνετε σάρωση αυτού του κωδικού"
   },
   "syncWithMobileComplete": {
-    "message": "Τα δεδομένα σας έχουν συγχρονιστεί με επιτυχία. Απολαύστε την εφαρμογή AptosMask για κινητά!"
+    "message": "Τα δεδομένα σας έχουν συγχρονιστεί με επιτυχία. Απολαύστε την εφαρμογή MultiMask για κινητά!"
   },
   "syncWithMobileDesc": {
-    "message": "Μπορείτε να συγχρονίσετε τους λογαριασμούς και τις πληροφορίες σας με την κινητή συσκευή σας. Ανοίξτε την εφαρμογή AptosMask για κινητά, μεταβείτε στην ενότητα \"Ρυθμίσεις\" και πατήστε \"Συγχρονισμός από Επέκταση Προγράμματος Περιήγησης\""
+    "message": "Μπορείτε να συγχρονίσετε τους λογαριασμούς και τις πληροφορίες σας με την κινητή συσκευή σας. Ανοίξτε την εφαρμογή MultiMask για κινητά, μεταβείτε στην ενότητα \"Ρυθμίσεις\" και πατήστε \"Συγχρονισμός από Επέκταση Προγράμματος Περιήγησης\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Εάν απλά ανοίξετε την εφαρμογή AptosMask Mobile για πρώτη φορά, απλώς ακολουθήστε τα βήματα στο τηλέφωνό σας."
+    "message": "Εάν απλά ανοίξετε την εφαρμογή MultiMask Mobile για πρώτη φορά, απλώς ακολουθήστε τα βήματα στο τηλέφωνό σας."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Σαρώστε αυτόν τον κώδικα με την εφαρμογή AptosMask για κινητά"
+    "message": "Σαρώστε αυτόν τον κώδικα με την εφαρμογή MultiMask για κινητά"
   },
   "syncWithMobileTitle": {
     "message": "Συγχρονισμός με κινητό"
@@ -3067,7 +3067,7 @@
     "message": "Προτεινόμενο από την ιστοσελίδα"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Επεξεργαστείτε για να χρησιμοποιήσετε το προτεινόμενο τέλος συναλλαγής του AptosMask με βάση το τελευταίο μπλοκ."
+    "message": "Επεξεργαστείτε για να χρησιμοποιήσετε το προτεινόμενο τέλος συναλλαγής του MultiMask με βάση το τελευταίο μπλοκ."
   },
   "transactionDetailGasHeading": {
     "message": "Εκτιμώμενο τέλος συναλλαγής"
@@ -3082,7 +3082,7 @@
     "message": "Τα τέλη συναλλαγών καθορίζονται από το δίκτυο και θα αυξάνονται ανάλογα με την κυκλοφορία του δικτύου και την πολυπλοκότητα των συναλλαγών."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Τα τέλη συναλλαγών καταβάλλονται σε κρυπτο-miners που επεξεργάζονται συναλλαγές στο δίκτυο $1. Το AptosMask δεν επωφελείται από τα τέλη συναλλαγών."
+    "message": "Τα τέλη συναλλαγών καταβάλλονται σε κρυπτο-miners που επεξεργάζονται συναλλαγές στο δίκτυο $1. Το MultiMask δεν επωφελείται από τα τέλη συναλλαγών."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Ποσό + τέλος συναλλαγής"
@@ -3109,7 +3109,7 @@
     "message": "Χρέωση Συναλλαγής"
   },
   "transactionHistoryBaseFee": {
-    "message": "Βασικό Τέλος (GWEI)"
+    "message": "Βασικό Τέλος"
   },
   "transactionHistoryL1GasLabel": {
     "message": "Σύνολο Τέλους Συναλλαγής L1"
@@ -3124,7 +3124,7 @@
     "message": "Μέγιστη Χρέωση Ανά Τέλος Συναλλαγής"
   },
   "transactionHistoryPriorityFee": {
-    "message": "Τέλος Προτεραιότητας (GWEI)"
+    "message": "Τέλος Προτεραιότητας"
   },
   "transactionHistoryTotalGasFee": {
     "message": "Σύνολο Τέλους Συναλλαγής"
@@ -3174,11 +3174,11 @@
     "message": "Οι αναλύσεις συναλλαγών εις βάθος δεν υποστηρίζονται για αυτό το συμβόλαιο αυτή τη στιγμή."
   },
   "typePassword": {
-    "message": "Πληκτρολογήστε τον κωδικό πρόσβασής σας AptosMask"
+    "message": "Πληκτρολογήστε τον κωδικό πρόσβασής σας MultiMask"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MultiMask to Ledger devices."
   },
   "unapproved": {
     "message": "Μη εγκεκριμένο"
@@ -3247,7 +3247,7 @@
     "message": "Χρήση Ανίχνευσης Token"
   },
   "useTokenDetectionDescription": {
-    "message": "Χρησιμοποιούμε API τρίτων για να εντοπίσουμε και να εμφανίσουμε νέα tokens που αποστέλλονται στο πορτοφόλι σας. Απενεργοποιήστε αν δεν θέλετε το AptosMask να τραβήξει δεδομένα από αυτές τις υπηρεσίες."
+    "message": "Χρησιμοποιούμε API τρίτων για να εντοπίσουμε και να εμφανίσουμε νέα tokens που αποστέλλονται στο πορτοφόλι σας. Απενεργοποιήστε αν δεν θέλετε το MultiMask να τραβήξει δεδομένα από αυτές τις υπηρεσίες."
   },
   "usedByClients": {
     "message": "Χρησιμοποιείται από μια ποικιλία διαφορετικών πελατών"
@@ -3310,10 +3310,10 @@
     "message": "Προστατεύσατε με επιτυχία το πορτοφόλι σας. Κρατήστε τη Μυστική Φράση Ανάκτησης σας ασφαλή και μυστική -- είναι δική σας ευθύνη!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "Το AptosMask δεν μπορεί να ανακτήσει τη Μυστική Φράση Ανάκτησής σας."
+    "message": "Το MultiMask δεν μπορεί να ανακτήσει τη Μυστική Φράση Ανάκτησής σας."
   },
   "walletCreationSuccessReminder2": {
-    "message": "Το AptosMask δεν θα σας ζητήσει ποτέ τη Μυστική Φράση Ανάκτησής σας."
+    "message": "Το MultiMask δεν θα σας ζητήσει ποτέ τη Μυστική Φράση Ανάκτησής σας."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 με οποιονδήποτε ή να διακινδυνεύστε τα χρήματά σας να κλαπούν",
@@ -3335,7 +3335,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "Καλώς ήλθατε στο AptosMask"
+    "message": "Καλώς ήλθατε στο MultiMask"
   },
   "welcomeBack": {
     "message": "Καλώς Ήλθατε και Πάλι!"
@@ -3347,7 +3347,7 @@
     "message": "Εξερεύνηση αποκεντρωμένων εφαρμογών"
   },
   "welcomeLoginDescription": {
-    "message": "Χρησιμοποιήστε το AptosMask σας για να συνδεθείτε σε αποκεντρωμένες εφαρμογές - δεν απαιτείται εγγραφή."
+    "message": "Χρησιμοποιήστε το MultiMask σας για να συνδεθείτε σε αποκεντρωμένες εφαρμογές - δεν απαιτείται εγγραφή."
   },
   "welcomeLoginTitle": {
     "message": "Πείτε γεια στο πορτοφόλι σας"
@@ -3356,11 +3356,11 @@
     "message": "Ας ξεκινήσουμε"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "Αξιόπιστο για εκατομμύρια, το AptosMask είναι ένα ασφαλές πορτοφόλι που καθιστά τον κόσμο του web3 προσβάσιμο σε όλους."
+    "message": "Αξιόπιστο για εκατομμύρια, το MultiMask είναι ένα ασφαλές πορτοφόλι που καθιστά τον κόσμο του web3 προσβάσιμο σε όλους."
   },
   "whatsNew": {
     "message": "Τι νέο υπάρχει",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to MultiMask."
   },
   "whatsThis": {
     "message": "Τι είναι αυτό;"

@@ -21,10 +21,10 @@
     flex-flow: row nowrap;
     padding: 16px 14px;
     flex: 0 0 auto;
-    border-bottom: 1px solid #dedede;
+    border-bottom: 1px solid var(--divider-2);
 
     &:hover {
-      border: 1px solid var(--primary-blue);
+      border: 1px solid var(--primary);
       cursor: pointer;
     }
   }
@@ -54,7 +54,7 @@
       @include H6;
 
       justify-content: flex-end;
-      color: var(--accent-red);
+      color: var(--primary-error);
     }
   }
 
@@ -80,20 +80,21 @@
   }
 
   &__link {
-    background-color: #fff;
-    color: #037dd6;
+    background-color: transparent;
+    color: var(--primary);
   }
 
   &__input {
     @include H4;
 
-    border: 1px solid var(--Grey-200);
+    border: 1px solid var(--border-input);
     border-radius: 6px;
-    color: var(--Grey-800);
+    background: var(--secondary-bg);
+    color: var(--primary-text);
     padding: 0.875rem 1rem;
 
     &:focus-within {
-      border-color: var(--Blue-500);
+      border-color: var(--primary);
     }
 
     margin-top: 0.25rem;
@@ -129,7 +130,7 @@
       &__label--capitalized {
         @include H7;
 
-        color: var(--Grey-500);
+        color: var(--secondary-text);
         margin-bottom: 0.25rem;
       }
 
@@ -143,7 +144,7 @@
 
         display: flex;
         flex-flow: row nowrap;
-        color: var(--Grey-800);
+        color: var(--primary-text);
         word-break: break-word;
 
         &--address {
@@ -168,7 +169,7 @@
           cursor: pointer;
 
           &:hover {
-            color: black;
+            color: var(--primary-text);
           }
         }
       }
@@ -214,7 +215,7 @@
       @include H7;
 
       left: 8px;
-      color: var(--red);
+      color: var(--primary-error);
     }
   }
 
@@ -231,7 +232,7 @@
     &__header {
       @include H4;
 
-      color: #000;
+      color: var(--primary-text);
     }
 
     &__content {
@@ -242,7 +243,7 @@
     &__text {
       @include Paragraph;
 
-      color: #6a737d;
+      color: var(--primary-text);
     }
 
     &__caret {

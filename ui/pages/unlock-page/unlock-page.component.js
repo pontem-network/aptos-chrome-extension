@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import getCaretCoordinates from 'textarea-caret';
 import Button from '../../components/ui/button';
 import TextField from '../../components/ui/text-field';
-import Mascot from '../../components/ui/mascot';
-import { SUPPORT_LINK } from '../../helpers/constants/common';
+// import Mascot from '../../components/ui/mascot';
 import { DEFAULT_ROUTE } from '../../helpers/constants/routes';
+import MetaFoxLogo from '../../components/ui/metafox-logo';
 
 export default class UnlockPage extends Component {
   static contextTypes = {
@@ -128,8 +128,8 @@ export default class UnlockPage extends Component {
 
   renderSubmitButton() {
     const style = {
-      backgroundColor: '#037dd6',
-      color: 'white',
+      backgroundColor: '#6E42CA',
+      color: '#E5E4FA',
       marginTop: '20px',
       height: '60px',
       fontWeight: '400',
@@ -160,11 +160,12 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
-              animationEventEmitter={this.animationEventEmitter}
-              width="120"
-              height="120"
-            />
+            {/*<Mascot*/}
+            {/*  animationEventEmitter={this.animationEventEmitter}*/}
+            {/*  width="120"*/}
+            {/*  height="120"*/}
+            {/*/>*/}
+            <MetaFoxLogo unsetIconHeight isOnboarding />
           </div>
           <h1 className="unlock-page__title">{t('welcomeBack')}</h1>
           <div>{t('unlockMessage')}</div>
@@ -192,18 +193,6 @@ export default class UnlockPage extends Component {
               >
                 {t('importAccountLinkText')}
               </button>,
-            ])}
-          </div>
-          <div className="unlock-page__support">
-            {t('needHelp', [
-              <a
-                href={SUPPORT_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                key="need-help-link"
-              >
-                {t('needHelpLinkText')}
-              </a>,
             ])}
           </div>
         </div>

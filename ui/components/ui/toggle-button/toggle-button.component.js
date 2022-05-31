@@ -8,7 +8,7 @@ const trackStyle = {
   height: '24px',
   padding: '0px',
   borderRadius: '26px',
-  border: '2px solid rgb(3, 125, 214)',
+  border: '2px solid #6E42CA',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -16,7 +16,7 @@ const trackStyle = {
 
 const offTrackStyle = {
   ...trackStyle,
-  border: '2px solid #8E8E8E',
+  border: '2px solid #656474',
 };
 
 const thumbStyle = {
@@ -31,14 +31,14 @@ const thumbStyle = {
 
 const colors = {
   activeThumb: {
-    base: '#037DD6',
+    base: '#6E42CA',
   },
   inactiveThumb: {
-    base: '#6A737D',
+    base: '#656474',
   },
   active: {
-    base: '#ffffff',
-    hover: '#ffffff',
+    base: '#1C1C33',
+    hover: '#1C1C33',
   },
   inactive: {
     base: '#DADADA',

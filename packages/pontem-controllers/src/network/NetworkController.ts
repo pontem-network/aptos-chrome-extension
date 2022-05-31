@@ -289,7 +289,7 @@ export class NetworkController extends BaseController<
     this.update({
       provider: {
         ...providerState,
-        ...{ type, ticker: 'ETH', chainId: NetworksChainId[type] },
+        ...{ type, ticker: 'APTOS', chainId: NetworksChainId[type] },
       },
     });
     this.refreshNetwork();

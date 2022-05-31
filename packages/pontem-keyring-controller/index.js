@@ -144,7 +144,7 @@ class KeyringController extends EventEmitter {
    * into memory.
    *
    * Temporarily also migrates any old-style vaults first, as well.
-   * (Pre AptosMask 3.0.0)
+   * (Pre MultiMask 3.0.0)
    *
    * @emits KeyringController#unlock
    * @param {string} password - The keyring controller password.

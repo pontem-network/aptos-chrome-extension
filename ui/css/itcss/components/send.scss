@@ -89,7 +89,7 @@
   &--error {
     input,
     .send-screen-gas-input {
-      border-color: var(--red) !important;
+      border-color: var(--primary-error) !important;
     }
 
     .send-screen-input-wrapper__error-message {
@@ -99,7 +99,7 @@
       position: absolute;
       bottom: 4px;
       left: 8px;
-      color: var(--red);
+      color: var(--primary-error);
     }
   }
 
@@ -110,7 +110,7 @@
     position: absolute;
     bottom: 4px;
     left: 8px;
-    color: var(--red);
+    color: var(--primary-error);
   }
 }
 
@@ -518,7 +518,7 @@
     @include H7;
 
     left: 8px;
-    color: var(--red);
+    color: var(--primary-error);
   }
 
   &__error-amount {
@@ -533,7 +533,7 @@
   }
 
   &__error-border {
-    color: var(--red);
+    color: var(--primary-error);
   }
 
   &__form {
@@ -541,6 +541,7 @@
       margin: 0;
       flex: 1 1 auto;
     }
+    margin-bottom: 1rem;
   }
 
   &__form-header,
@@ -564,7 +565,7 @@
   &__form-field-container {
     display: flex;
     flex-direction: column;
-    width: 277px;
+    width: 100%;
   }
 
   &__form-field {
@@ -594,7 +595,7 @@
   &__form-label {
     @include Paragraph;
 
-    color: var(--scorpion);
+    color: var(--secondary-text);
     width: 95px;
     flex: 0 0 auto;
   }
@@ -604,10 +605,9 @@
     @include H7;
 
     width: 100%;
-    border: 1px solid var(--alto);
+    background: var(--secondary-bg);
+    color: var(--text-primary);
     border-radius: 4px;
-    background-color: var(--white);
-    color: var(--tundora);
     position: relative;
 
     &__close-area {
@@ -624,9 +624,9 @@
       position: absolute;
       height: 220px;
       width: 100%;
-      border: 1px solid var(--geyser);
+      border: 1px solid var(--divider);
       border-radius: 4px;
-      background-color: var(--white);
+      background-color: var(--secondary-bg);
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.11);
       margin-top: 11px;
       margin-left: -1px;
@@ -648,9 +648,10 @@
       flex-flow: row nowrap;
       align-items: center;
       padding: 8px 8px;
+      height: 100%;
 
       &:hover {
-        background-color: rgba($alto, 0.2);
+        background-color: var(--secondary-bg-hover);
       }
     }
 
@@ -667,13 +668,14 @@
       cursor: pointer;
 
       &:hover {
-        background-color: rgba($alto, 0.2);
+        background-color: var(--border-bg-hover);
       }
     }
 
     &__asset-icon {
       .identicon {
-        border: 1px solid var(--alto);
+        border: 1px solid white;
+        background: white;
       }
     }
 
@@ -720,9 +722,9 @@
       position: absolute;
       height: 220px;
       width: 100%;
-      border: 1px solid var(--geyser);
+      border: 1px solid var(--divider);
       border-radius: 4px;
-      background-color: var(--white);
+      background-color: var(--secondary-bg);
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.11);
       top: 65px;
       left: 0;
@@ -737,7 +739,7 @@
     }
 
     &__input-wrapper {
-      border: 1px solid var(--alto);
+      border: 1.5px solid var(--border-input);
       border-radius: 4px;
       height: 100%;
 
@@ -750,7 +752,7 @@
         height: 100%;
 
         &:hover {
-          background-color: var(--white);
+          background-color: var(--secondary-bg);
         }
       }
     }
@@ -764,8 +766,8 @@
       width: 100%;
       border: none;
       border-radius: 4px;
-      background-color: var(--white);
-      color: var(--tundora);
+      background-color: var(--secondary-bg);
+      color: var(--secondary-text);
       padding: 10px;
     }
   }
@@ -796,12 +798,13 @@
     height: 20px;
     margin-top: 5px;
     border-radius: 100px;
+    background: transparent;
 
     &__button {
       width: 56px;
       height: 20px;
       position: absolute;
-      border: 1px solid #b0d7f2;
+      border: 1px solid var(--primary);
       border-radius: 100px;
       cursor: pointer;
       top: 0;
@@ -811,19 +814,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #2f9ae0;
-      background: #fff;
+      color: var(--primary-text);
+      background: transparent;
 
       &__disabled {
-        color: #b0d7f2;
+        color: var(--primary-text);
+        opacity: 0.8;
         cursor: auto;
       }
     }
 
     input:checked + &__button {
-      background-color: var(--primary-blue);
-      border: 1px solid var(--primary-blue);
-      color: #fff;
+      background-color: var(--primary);
+      border: 1px solid var(--primary);
+      color: var(--primary-text);
     }
   }
 

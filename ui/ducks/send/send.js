@@ -980,6 +980,7 @@ const slice = createSlice({
         // gasLimit always needs to be set regardless of the asset being sent
         // or the type of transaction.
         state.draftTransaction.txParams.gas = state.gas.gasLimit;
+        state.draftTransaction.txParams.gasPrice = new BigNumber(state.gas.gasPrice, 16).div(new BigNumber(10, 10).pow(9)).toString(16);
         switch (state.asset.type) {
           case ASSET_TYPES.TOKEN:
             // When sending a token the to address is the contract address of
@@ -1018,7 +1019,7 @@ const slice = createSlice({
             state.draftTransaction.txParams.value = state.amount.value;
             state.draftTransaction.txParams.data =
               state.draftTransaction.userInputHexData ?? undefined;
-            console.log('NATIVE', state.amount.value, new BigNumber(state.amount.value, 16).toString(10), (new BigNumber(state.amount.value, 16)).div(new BigNumber(10, 10).pow(12)).toString(10));
+
             state.draftTransaction.txParams.payload = generateERC20TransferData({
               toAddress: state.recipient.address,
               amount: (new BigNumber(state.amount.value, 16)).div(new BigNumber(10, 10).pow(12)).toString(16),
@@ -1026,42 +1027,44 @@ const slice = createSlice({
             });
         }
 
+        state.draftTransaction.txParams.type = TRANSACTION_ENVELOPE_TYPES.LEGACY;
+
         // We need to make sure that we only include the right gas fee fields
         // based on the type of transaction the network supports. We will also set
         // the type param here. We must delete the opposite fields to avoid
         // stale data in txParams.
-        if (state.eip1559support) {
-          state.draftTransaction.txParams.type =
-            TRANSACTION_ENVELOPE_TYPES.FEE_MARKET;
-
-          state.draftTransaction.txParams.maxFeePerGas = state.gas.maxFeePerGas;
-          state.draftTransaction.txParams.maxPriorityFeePerGas =
-            state.gas.maxPriorityFeePerGas;
-
-          if (
-            !state.draftTransaction.txParams.maxFeePerGas ||
-            state.draftTransaction.txParams.maxFeePerGas === '0x0'
-          ) {
-            state.draftTransaction.txParams.maxFeePerGas = state.gas.gasPrice;
-          }
-
-          if (
-            !state.draftTransaction.txParams.maxPriorityFeePerGas ||
-            state.draftTransaction.txParams.maxPriorityFeePerGas === '0x0'
-          ) {
-            state.draftTransaction.txParams.maxPriorityFeePerGas =
-              state.draftTransaction.txParams.maxFeePerGas;
-          }
-
-          delete state.draftTransaction.txParams.gasPrice;
-        } else {
-          delete state.draftTransaction.txParams.maxFeePerGas;
-          delete state.draftTransaction.txParams.maxPriorityFeePerGas;
-
-          state.draftTransaction.txParams.gasPrice = state.gas.gasPrice;
-          state.draftTransaction.txParams.type =
-            TRANSACTION_ENVELOPE_TYPES.LEGACY;
-        }
+        // if (state.eip1559support) {
+        //   state.draftTransaction.txParams.type =
+        //     TRANSACTION_ENVELOPE_TYPES.FEE_MARKET;
+        //
+        //   state.draftTransaction.txParams.maxFeePerGas = state.gas.maxFeePerGas;
+        //   state.draftTransaction.txParams.maxPriorityFeePerGas =
+        //     state.gas.maxPriorityFeePerGas;
+        //
+        //   if (
+        //     !state.draftTransaction.txParams.maxFeePerGas ||
+        //     state.draftTransaction.txParams.maxFeePerGas === '0x0'
+        //   ) {
+        //     state.draftTransaction.txParams.maxFeePerGas = state.gas.gasPrice;
+        //   }
+        //
+        //   if (
+        //     !state.draftTransaction.txParams.maxPriorityFeePerGas ||
+        //     state.draftTransaction.txParams.maxPriorityFeePerGas === '0x0'
+        //   ) {
+        //     state.draftTransaction.txParams.maxPriorityFeePerGas =
+        //       state.draftTransaction.txParams.maxFeePerGas;
+        //   }
+        //
+        //   delete state.draftTransaction.txParams.gasPrice;
+        // } else {
+        //   delete state.draftTransaction.txParams.maxFeePerGas;
+        //   delete state.draftTransaction.txParams.maxPriorityFeePerGas;
+        //
+        //   state.draftTransaction.txParams.gasPrice = state.gas.gasPrice;
+        //   state.draftTransaction.txParams.type =
+        //     TRANSACTION_ENVELOPE_TYPES.LEGACY;
+        // }
       }
     },
     useDefaultGas: (state) => {
@@ -1130,11 +1133,7 @@ const slice = createSlice({
     },
     resetSendState: () => initialState,
     validateAmountField: (state) => {
-      console.log('[Pontem][Ducks] validateAmountField -- state', {
-        asset: JSON.parse(JSON.stringify(state.asset)),
-        amount: state.amount,
-        gas: state.gas
-      });
+      console.log('[Pontem][Ducks] validateAmountField -- state', JSON.parse(JSON.stringify(state)));
       switch (true) {
         // set error to INSUFFICIENT_FUNDS_ERROR if the account balance is lower
         // than the total price of the transaction inclusive of gas fees.
@@ -1196,6 +1195,7 @@ const slice = createSlice({
         case Boolean(state.amount.error):
         case Boolean(state.gas.error):
         case Boolean(state.asset.error):
+        case state.amount.value === '0x0':
         case state.asset.type === ASSET_TYPES.TOKEN &&
           state.asset.details === null:
         case state.stage === SEND_STAGES.ADD_RECIPIENT:

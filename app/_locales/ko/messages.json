@@ -115,7 +115,7 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "이렇게 하면 AptosMask 내에서 이 네트워크를 사용할 수 있습니다."
+    "message": "이렇게 하면 MultiMask 내에서 이 네트워크를 사용할 수 있습니다."
   },
   "addEthereumChainConfirmationRisks": {
     "message": "MetaMask는 맞춤형 네트워크를 검증하지 않습니다."
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -301,7 +301,7 @@
     "message": "전체 목록으로 돌아가기"
   },
   "backupApprovalInfo": {
-    "message": "이 비밀 코드는 장치를 분실하여 지갑을 복구해야 하거나, 비밀번호를 잊은 경우, AptosMask를 다시 설치해야 하거나, 다른 장치에서 지갑에 액세스해야 할 때 필요합니다."
+    "message": "이 비밀 코드는 장치를 분실하여 지갑을 복구해야 하거나, 비밀번호를 잊은 경우, MultiMask를 다시 설치해야 하거나, 다른 장치에서 지갑에 액세스해야 할 때 필요합니다."
   },
   "backupApprovalNotice": {
     "message": "비밀 복구 구문을 백업하여 지갑과 자금을 안전하게 보호하세요."
@@ -322,10 +322,10 @@
     "message": "기본"
   },
   "betaMetamaskDescription": {
-    "message": "수백만 명이 신뢰하는 AptosMask(메타마스크)는 모든 사람이 web3의 세계에 접근할 수 있도록 하는 안전한 지갑입니다."
+    "message": "수백만 명이 신뢰하는 MultiMask(메타마스크)는 모든 사람이 web3의 세계에 접근할 수 있도록 하는 안전한 지갑입니다."
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "이 버전을 사용하여 출시되기 전에 예정된 기능을 테스트해보세요. 귀하의 사용 및 피드백은 최고의 AptosMask 버전 구축에 도움이 됩니다. AptosMask 베타 사용은 표준 $1 및 $2 적용 대상입니다. 베타에서는 버그의 위험이 증가할 수 있습니다. 계속 진행하시면 이러한 위험과 당사 약관 및 베타 약관에 명시된 위험을 인정하고 수락하는 것입니다.",
+    "message": "이 버전을 사용하여 출시되기 전에 예정된 기능을 테스트해보세요. 귀하의 사용 및 피드백은 최고의 MultiMask 버전 구축에 도움이 됩니다. MultiMask 베타 사용은 표준 $1 및 $2 적용 대상입니다. 베타에서는 버그의 위험이 증가할 수 있습니다. 계속 진행하시면 이러한 위험과 당사 약관 및 베타 약관에 명시된 위험을 인정하고 수락하는 것입니다.",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "약관"
   },
   "betaMetamaskVersion": {
-    "message": "AptosMask 베타 버전"
+    "message": "MultiMask 베타 버전"
   },
   "betaWelcome": {
-    "message": "AptosMask 베타 방문을 환영합니다"
+    "message": "MultiMask 베타 방문을 환영합니다"
   },
   "blockExplorerAccountAction": {
     "message": "계정",
@@ -381,7 +381,7 @@
     "message": "Wyre로 ETH 구매"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre를 사용하면 체크카드를 이용하여 ETH를 AptosMask 계정에 바로 예치할 수 있습니다."
+    "message": "Wyre를 사용하면 체크카드를 이용하여 ETH를 MultiMask 계정에 바로 예치할 수 있습니다."
   },
   "bytes": {
     "message": "바이트"
@@ -417,7 +417,7 @@
     "message": "이 체인 ID는 현재 $1 네트워크에서 사용됩니다."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "하드웨어 지갑에 연결하려면 Google Chrome에서 AptosMask를 사용해야 합니다."
+    "message": "하드웨어 지갑에 연결하려면 Google Chrome에서 MultiMask를 사용해야 합니다."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "WebHID를 통해 Ledger을 연결하려면 여기를 클릭하세요.",
@@ -657,7 +657,7 @@
     "message": "데이터"
   },
   "dataBackupFoundInfo": {
-    "message": "일부 계정 데이터가 이전의 AptosMask 설치 도중에 백업되었습니다. 여기에는 설정, 연락처, 토큰이 포함될 수 있습니다. 지금 이 데이터를 복구할까요?"
+    "message": "일부 계정 데이터가 이전의 MultiMask 설치 도중에 백업되었습니다. 여기에는 설정, 연락처, 토큰이 포함될 수 있습니다. 지금 이 데이터를 복구할까요?"
   },
   "dataHex": {
     "message": "16진수"
@@ -918,7 +918,7 @@
     "message": "구문을 누구와도 공유하지 마세요."
   },
   "endOfFlowMessage5": {
-    "message": "피싱에 유의하세요. AptosMask에서는 절대로 비밀 복구 구문을 갑자기 묻지 않습니다."
+    "message": "피싱에 유의하세요. MultiMask에서는 절대로 비밀 복구 구문을 갑자기 묻지 않습니다."
   },
   "endOfFlowMessage6": {
     "message": "비밀 복구 구문을 다시 백업해야 한다면 설정 -> 보안에서 해당 구문을 찾을 수 있습니다."
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask 오류 발생",
+    "message": "MultiMask 오류 발생",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1277,7 +1277,7 @@
     "message": "비밀 복구 구문을 사용해 가져오기"
   },
   "importAccountMsg": {
-    "message": "가져온 계정은 본래 생성한 AptosMask 계정 비밀 복구 구문과 연결하지 못합니다. 가져온 계정에 대해 자세히 알아보기"
+    "message": "가져온 계정은 본래 생성한 MultiMask 계정 비밀 복구 구문과 연결하지 못합니다. 가져온 계정에 대해 자세히 알아보기"
   },
   "importAccountSeedPhrase": {
     "message": "비밀 복구 구문으로 계정 가져오기"
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to MultiMask."
   },
   "ledgerLiveApp": {
     "message": "Ledger Live 앱"
@@ -1570,7 +1570,7 @@
     "message": "메시지"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "이제 AptosMask에서 계정 연결을 더 효과적으로 제어할 수 있습니다."
+    "message": "이제 MultiMask에서 계정 연결을 더 효과적으로 제어할 수 있습니다."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "클릭하여 연결된 계정을 관리하세요."
@@ -1582,10 +1582,10 @@
     "message": "이더리움 및 분산형 웹에 연결합니다."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask Swaps가 점검 중입니다. 나중에 다시 확인하세요."
+    "message": "MultiMask Swaps가 점검 중입니다. 나중에 다시 확인하세요."
   },
   "metamaskVersion": {
-    "message": "AptosMask 버전"
+    "message": "MultiMask 버전"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "언제든 설정을 통해 옵트아웃할 수 있습니다."
@@ -1625,7 +1625,7 @@
     "message": "익명화된 클릭 및 페이지뷰 이벤트 보내기"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "AptosMask 개선에 참여"
+    "message": "MultiMask 개선에 참여"
   },
   "metametricsOptInDescription": {
     "message": "MetaMask는 사용자가 확장 프로그램과 상호작용하는 방식을 자세히 이해하기 위해 사용 데이터를 수집하고자 합니다. 수집한 데이터는 당사의 제품과 이더리움 에코시스템의 사용 편의성 및 사용자 경험을 지속적으로 개선하는 데 활용됩니다."
@@ -1634,7 +1634,7 @@
     "message": "당사 제품의 가용성 향상을 위해 기본적인 사용 데이터를 수집하고자 합니다. 이 측정항목은..."
   },
   "metametricsTitle": {
-    "message": "6백만 명 이상의 사용자와 함께 AptosMask 기능 향상에 동참하세요."
+    "message": "6백만 명 이상의 사용자와 함께 MultiMask 기능 향상에 동참하세요."
   },
   "mismatchedChain": {
     "message": "이 체인 ID의 네트워크 세부 정보가 기록과 일치하지 않습니다. 진행하기 전에 $1을(를) 권장합니다.",
@@ -1651,7 +1651,7 @@
     "message": "토큰이 보이지 않나요?"
   },
   "mobileSyncWarning": {
-    "message": "'확장 프로그램과 동기화' 기능이 일시적으로 비활성화됩니다. AptosMask 모바일에서 확장 지갑을 사용하려면 모바일 앱에서 지갑 설정 옵션으로 돌아가 '비밀 복구 구문 가져오기' 옵션을 선택하세요. 확장 지갑의 비밀 구문을 사용하시면 지갑을 모바일로 가져올 수 있습니다."
+    "message": "'확장 프로그램과 동기화' 기능이 일시적으로 비활성화됩니다. MultiMask 모바일에서 확장 지갑을 사용하려면 모바일 앱에서 지갑 설정 옵션으로 돌아가 '비밀 복구 구문 가져오기' 옵션을 선택하세요. 확장 지갑의 비밀 구문을 사용하시면 지갑을 모바일로 가져올 수 있습니다."
   },
   "mustSelectOne": {
     "message": "토큰을 1개 이상 선택해야 합니다."
@@ -1670,7 +1670,7 @@
     "message": "피드백을 공유하세요."
   },
   "needHelpLinkText": {
-    "message": "AptosMask 지원"
+    "message": "MultiMask 지원"
   },
   "needHelpSubmitTicket": {
     "message": "티켓 제출"
@@ -1761,7 +1761,7 @@
     "message": "신규! NFT 감지"
   },
   "newNFTsDetectedInfo": {
-    "message": "MetaMask가 Opensea에서 자동으로 NFT를 감지하고 AptosMask 지갑에 표시하도록 허용합니다."
+    "message": "MetaMask가 Opensea에서 자동으로 NFT를 감지하고 MultiMask 지갑에 표시하도록 허용합니다."
   },
   "newNetworkAdded": {
     "message": "“$1”가 성공적으로 추가되었습니다!"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "임시값이 권장 임시값인 $1보다 큽니다.",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to MultiMask's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "수집 가능한 ID를 입력하세요."
@@ -1849,19 +1849,19 @@
     "message": "가스 부족"
   },
   "notifications1Description": {
-    "message": "AptosMask 모바일 사용자는 이제 모바일 지갑에서 토큰을 스왑할 수 있습니다. QR 코드를 스캔하여 모바일 앱을 설치하고 스왑을 시작하세요.",
+    "message": "MultiMask 모바일 사용자는 이제 모바일 지갑에서 토큰을 스왑할 수 있습니다. QR 코드를 스캔하여 모바일 앱을 설치하고 스왑을 시작하세요.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "모바일 스왑은 여기서 진행됩니다!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MultiMask Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "더 읽어보기",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "AptosMask 보안 관련 최신 모범 사례를 알아보고 공식 AptosMask 지원에서 최신 보안 팁을 확인하세요.",
+    "message": "MultiMask 보안 관련 최신 모범 사례를 알아보고 공식 MultiMask 지원에서 최신 보안 팁을 확인하세요.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1873,7 +1873,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "토큰 스왑 최고가를 지갑에서 바로 이용하세요. AptosMask는 이제 바이낸스 스마트 체인의 여러 분산형 교환 애그리게이터 및 투자전문기관과 연결됩니다.",
+    "message": "토큰 스왑 최고가를 지갑에서 바로 이용하세요. MultiMask는 이제 바이낸스 스마트 체인의 여러 분산형 교환 애그리게이터 및 투자전문기관과 연결됩니다.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1885,11 +1885,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "Chrome 버전 91부터 Ledger 지원(U2F)이 활성화된 API는 더 이상 하드웨어 지갑을 지원하지 않습니다. AptosMask는 Ledger Live 지원을 새롭게 구축하여 Ledger Live 데스크톱 앱을 통해 Ledger 장치에 계속해서 연결할 수 있도록 보완했습니다.",
+    "message": "Chrome 버전 91부터 Ledger 지원(U2F)이 활성화된 API는 더 이상 하드웨어 지갑을 지원하지 않습니다. MultiMask는 Ledger Live 지원을 새롭게 구축하여 Ledger Live 데스크톱 앱을 통해 Ledger 장치에 계속해서 연결할 수 있도록 보완했습니다.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "MetaMask에서 Ledger 계정을 이용하려면 새 탭이 열리고 Ledger Live 앱을 열라는 메시지가 표시됩니다.  앱이 열리면 AptosMask 계정에 대한 WebSocket 연결을 허용하라는 메시지가 표시됩니다. 그러면 성공입니다!",
+    "message": "MetaMask에서 Ledger 계정을 이용하려면 새 탭이 열리고 Ledger Live 앱을 열라는 메시지가 표시됩니다.  앱이 열리면 MultiMask 계정에 대한 WebSocket 연결을 허용하라는 메시지가 표시됩니다. 그러면 성공입니다!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1901,7 +1901,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "AptosMask v10.1.0에는 Ledger 장치를 사용에서 EIP-1559 거래가 새롭게 지원되도록 했습니다.",
+    "message": "MultiMask v10.1.0에는 Ledger 장치를 사용에서 EIP-1559 거래가 새롭게 지원되도록 했습니다.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1917,7 +1917,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "AptosMask v10.4.0부터는 Ledger 장치를 AptosMask에 연결할 때 더 이상 Ledger Live를 사용하지 않아도 됩니다.",
+    "message": "MultiMask v10.4.0부터는 Ledger 장치를 MultiMask에 연결할 때 더 이상 Ledger Live를 사용하지 않아도 됩니다.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -1974,16 +1974,16 @@
     "message": "브라우저 확장 아이콘 클릭"
   },
   "onboardingPinExtensionDescription": {
-    "message": "쉽게 액세스하여 거래를 확인할 있도록 브라우저에 AptosMask를 고정해 놓으세요."
+    "message": "쉽게 액세스하여 거래를 확인할 있도록 브라우저에 MultiMask를 고정해 놓으세요."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "익스텐션 클릭으로 AptosMask를 열면 클릭 한 번으로 지갑에 액세스할 수 있습니다."
+    "message": "익스텐션 클릭으로 MultiMask를 열면 클릭 한 번으로 지갑에 액세스할 수 있습니다."
   },
   "onboardingPinExtensionDescription3": {
     "message": "브라우저 확장 아이콘을 클릭하여 즉시 액세스하세요."
   },
   "onboardingPinExtensionLabel": {
-    "message": "AptosMask 고정"
+    "message": "MultiMask 고정"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "AptosMask 설치가 완료되었습니다!"
+    "message": "MultiMask 설치가 완료되었습니다!"
   },
   "onboardingReturnNotice": {
     "message": "\"$1\"이(가) 이 탭을 닫고 $2로 돌아갑니다.",
@@ -2013,8 +2013,8 @@
     "message": "신뢰하는 사이트만 연결하세요."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "전체 화면에서 AptosMask를 열어 WebHID를 통해 Ledger를 연결합니다.",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "message": "전체 화면에서 MultiMask를 열어 WebHID를 통해 Ledger를 연결합니다.",
+    "description": "Shown to the user on the confirm screen when they are viewing MultiMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "옵션"
@@ -2035,7 +2035,7 @@
     "message": "MetaMetrics에 참여"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMetrics에 참여하여 AptosMask 개선에 도움을 주세요."
+    "message": "MetaMetrics에 참여하여 MultiMask 개선에 도움을 주세요."
   },
   "password": {
     "message": "비밀번호"
@@ -2044,7 +2044,7 @@
     "message": "비밀번호가 짧습니다."
   },
   "passwordSetupDetails": {
-    "message": "이 비밀번호는 이 기기에서만 AptosMask 지갑의 잠금을 해제합니다. AptosMask는 이 비밀번호를 복구할 수 없습니다."
+    "message": "이 비밀번호는 이 기기에서만 MultiMask 지갑의 잠금을 해제합니다. MultiMask는 이 비밀번호를 복구할 수 없습니다."
   },
   "passwordTermsWarning": {
     "message": "MetaMask가 이 비밀번호를 복구할 수 없음을 이해합니다. $1"
@@ -2167,7 +2167,7 @@
     "message": "절대로 다른 사람과 계정 시드 구문을 공유하지 마십시오"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "AptosMask 팀에서는 절대로 계정 시드 구문을 묻지 않습니다"
+    "message": "MultiMask 팀에서는 절대로 계정 시드 구문을 묻지 않습니다"
   },
   "recoveryPhraseReminderSubText": {
     "message": "비밀 복구 구문은 모든 계정을 관리합니다."
@@ -2342,7 +2342,7 @@
     "message": "복구 구문을 요청하는 사람은 사기를 치려는 것입니다."
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "절대로, 누구와도, 심지어 AptosMask와도 비밀 구문을 공유하면 안 됩니다!"
+    "message": "절대로, 누구와도, 심지어 MultiMask와도 비밀 구문을 공유하면 안 됩니다!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "'비밀 복구 구문'이란 무엇인가요?"
@@ -2381,7 +2381,7 @@
     "message": "계정 선택"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "이 계정은 이미 AptosMask와 연결되어 있습니다."
+    "message": "이 계정은 이미 MultiMask와 연결되어 있습니다."
   },
   "selectEachPhrase": {
     "message": "각 구문을 선택하여 구문이 올바른지 확인하세요."
@@ -2425,7 +2425,7 @@
     "message": "개인정보 설정 고급 지정"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "이와 같이 AptosMask는 신용있는 타사의 서비스를 사용하여 제품 가용성과 안전성을 향상합니다."
+    "message": "이와 같이 MultiMask는 신용있는 타사의 서비스를 사용하여 제품 가용성과 안전성을 향상합니다."
   },
   "settings": {
     "message": "설정"
@@ -2564,7 +2564,7 @@
     "message": "상태 로그를 가져오는 도중 오류가 발생했습니다."
   },
   "stateLogFileName": {
-    "message": "AptosMask 스테이트 로그"
+    "message": "MultiMask 스테이트 로그"
   },
   "stateLogs": {
     "message": "상태 로그"
@@ -2582,7 +2582,7 @@
     "message": "Lattice1을 연결할 준비가 되었는지 확인하세요."
   },
   "step1LatticeWalletMsg": {
-    "message": "Lattice1 장치 설정을 마치고 온라인 상태가 되면 AptosMask를 연결할 수 있습니다. 장치의 잠금을 해제하고 장치 ID를 준비하세요. 하드웨어 지갑 사용에 대한 자세한 내용은, $1 링크를 참조하세요",
+    "message": "Lattice1 장치 설정을 마치고 온라인 상태가 되면 MultiMask를 연결할 수 있습니다. 장치의 잠금을 해제하고 장치 ID를 준비하세요. 하드웨어 지갑 사용에 대한 자세한 내용은, $1 링크를 참조하세요",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2724,14 +2724,14 @@
     "message": "이전 화면의 가스 수수료는 이 두 거래로 나뉩니다."
   },
   "swapGasFeesSummary": {
-    "message": "가스요금은 $1 네트워크에서 거래를 처리하는 암호화폐 채굴자에게 지급됩니다. AptosMask는 가스 요금으로 수익을 창출하지 않습니다.",
+    "message": "가스요금은 $1 네트워크에서 거래를 처리하는 암호화폐 채굴자에게 지급됩니다. MultiMask는 가스 요금으로 수익을 창출하지 않습니다.",
     "description": "$1 is the selected network, e.g. Aptos or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "슬리패지 금액이 아주 큽니다."
   },
   "swapIncludesMMFee": {
-    "message": "$1%의 AptosMask 요금이 포함됩니다.",
+    "message": "$1%의 MultiMask 요금이 포함됩니다.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2741,7 +2741,7 @@
     "message": "최대 슬리패지"
   },
   "swapMetaMaskFee": {
-    "message": "AptosMask 수수료"
+    "message": "MultiMask 수수료"
   },
   "swapMetaMaskFeeDescription": {
     "message": "당사는 매번 최상의 유동성 소스에서 최적의 가격을 찾아드립니다. 이 견적에는 $1%의 수수료가 자동으로 반영됩니다.",
@@ -2924,7 +2924,7 @@
     "message": "활동에서 보기"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "이는 AptosMask에서 선택한 네트워크를 이전에 추가한 다음 네트워크로 전환하게 됩니다:"
+    "message": "이는 MultiMask에서 선택한 네트워크를 이전에 추가한 다음 네트워크로 전환하게 됩니다:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "이 사이트가 네트워크를 전환하도록 허용할까요?"
@@ -2960,16 +2960,16 @@
     "message": "이 코드를 스캔할 때는 다른 사람이 화면을 보지 못하게 하세요"
   },
   "syncWithMobileComplete": {
-    "message": "데이터가 동기화되었습니다. AptosMask 모바일 앱을 마음껏 이용하세요!"
+    "message": "데이터가 동기화되었습니다. MultiMask 모바일 앱을 마음껏 이용하세요!"
   },
   "syncWithMobileDesc": {
-    "message": "계정과 정보를 모바일 장치와 동기화할 수 있습니다. AptosMask 모바일 앱을 열고 \"설정\"으로 이동하여 \"브라우저 확장에서 동기화\"를 탭합니다."
+    "message": "계정과 정보를 모바일 장치와 동기화할 수 있습니다. MultiMask 모바일 앱을 열고 \"설정\"으로 이동하여 \"브라우저 확장에서 동기화\"를 탭합니다."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "AptosMask 모바일 앱을 처음 여는 경우라면 휴대폰에 나타나는 지시사항을 따르세요."
+    "message": "MultiMask 모바일 앱을 처음 여는 경우라면 휴대폰에 나타나는 지시사항을 따르세요."
   },
   "syncWithMobileScanThisCode": {
-    "message": "AptosMask 모바일 앱으로 이 코드를 스캔하세요"
+    "message": "MultiMask 모바일 앱으로 이 코드를 스캔하세요"
   },
   "syncWithMobileTitle": {
     "message": "모바일과 동기화"
@@ -3067,7 +3067,7 @@
     "message": "추천 사이트"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "최신 블록을 기반으로 AptosMask의 권장 가스 요금을 사용하도록 편집합니다."
+    "message": "최신 블록을 기반으로 MultiMask의 권장 가스 요금을 사용하도록 편집합니다."
   },
   "transactionDetailGasHeading": {
     "message": "예상 가스 요금"
@@ -3082,7 +3082,7 @@
     "message": "가스 요금은 네트워크에 의해 설정되며 네트워크 트래픽 및 거래의 복잡성에 따라 변동합니다."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "가스요금은 $1 네트워크에서 거래를 처리하는 암호화폐 채굴자에게 지급됩니다. AptosMask는 가스 요금으로 수익을 창출하지 않습니다."
+    "message": "가스요금은 $1 네트워크에서 거래를 처리하는 암호화폐 채굴자에게 지급됩니다. MultiMask는 가스 요금으로 수익을 창출하지 않습니다."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "금액 + 가스 요금"
@@ -3174,11 +3174,11 @@
     "message": "현재 이 계약에 대해 거래 인사이트가 지원되지 않습니다."
   },
   "typePassword": {
-    "message": "AptosMask 비밀번호를 입력하세요"
+    "message": "MultiMask 비밀번호를 입력하세요"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MultiMask to Ledger devices."
   },
   "unapproved": {
     "message": "승인되지 않음"
@@ -3247,7 +3247,7 @@
     "message": "토큰 감지 사용"
   },
   "useTokenDetectionDescription": {
-    "message": "당사는 타사 API를 사용하여 지갑으로 전송된 새 토큰을 감지하고 표시합니다. AptosMask가 해당 서비스에서 데이터를 가져오는 것을 원하지 않으면 이 기능을 사용하지 마세요."
+    "message": "당사는 타사 API를 사용하여 지갑으로 전송된 새 토큰을 감지하고 표시합니다. MultiMask가 해당 서비스에서 데이터를 가져오는 것을 원하지 않으면 이 기능을 사용하지 마세요."
   },
   "usedByClients": {
     "message": "다양한 클라이언트에서 사용합니다."
@@ -3335,7 +3335,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "AptosMask 방문을 환영합니다"
+    "message": "MultiMask 방문을 환영합니다"
   },
   "welcomeBack": {
     "message": "재방문을 환영합니다!"
@@ -3356,11 +3356,11 @@
     "message": "시작하기"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "수백만 명이 신뢰하는 AptosMask(메타마스크)는 모든 사람이 web3의 세계에 접근할 수 있도록 하는 안전한 지갑입니다."
+    "message": "수백만 명이 신뢰하는 MultiMask(메타마스크)는 모든 사람이 web3의 세계에 접근할 수 있도록 하는 안전한 지갑입니다."
   },
   "whatsNew": {
     "message": "새로운 소식",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to MultiMask."
   },
   "whatsThis": {
     "message": "이것은 무엇인가요?"

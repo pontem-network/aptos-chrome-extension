@@ -5,7 +5,7 @@ import logo from '../app/images/logo/metamask-logo-horizontal.svg';
 
 export default create({
   base: 'light',
-  brandTitle: 'AptosMask Storybook',
+  brandTitle: 'MultiMask Storybook',
   brandImage: logo,
 
   // Typography

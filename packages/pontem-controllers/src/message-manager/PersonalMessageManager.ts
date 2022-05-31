@@ -85,7 +85,7 @@ export class PersonalMessageManager extends AbstractMessageManager<
           case 'rejected':
             return reject(
               new Error(
-                'AptosMask Personal Message Signature: User denied message signature.',
+                'MultiMask Personal Message Signature: User denied message signature.',
               ),
             );
           default:

@@ -162,9 +162,7 @@ export default class SettingsTab extends PureComponent {
     return (
       <div className="settings-page__content-row" id="blockie-optin">
         <div className="settings-page__content-item">
-          <Typography variant={TYPOGRAPHY.H5} color={COLORS.BLACK}>
-            {t('accountIdenticon')}
-          </Typography>
+          <span>{t('accountIdenticon')}</span>
           <span className="settings-page__content-item__description">
             {t('jazzAndBlockies')}
           </span>
@@ -189,13 +187,7 @@ export default class SettingsTab extends PureComponent {
                   style={getIconStyles()}
                 />
               </div>
-              <Typography
-                color={COLORS.BLACK}
-                variant={TYPOGRAPHY.H7}
-                margin={[0, 12, 0, 3]}
-              >
-                {t('jazzicons')}
-              </Typography>
+              <span style={{margin: '0 12px 0 6px'}}>{t('jazzicons')}</span>
             </div>
             <div className="settings-page__content-item__identicon__item">
               <div
@@ -215,13 +207,9 @@ export default class SettingsTab extends PureComponent {
                   borderRadius="50%"
                 />
               </div>
-              <Typography
-                color={COLORS.BLACK}
-                variant={TYPOGRAPHY.H7}
-                margin={[0, 0, 0, 3]}
-              >
+              <span style={{'margin-left': '6px'}}>
                 {t('blockies')}
-              </Typography>
+              </span>
             </div>
           </div>
         </div>

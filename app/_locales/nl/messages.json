@@ -19,15 +19,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -120,7 +120,7 @@
     "message": "De gaslimiet moet minstens 21000 zijn"
   },
   "gasPrice": {
-    "message": "Gasprijs (GWEI)"
+    "message": "Gasprijs"
   },
   "getEther": {
     "message": "Krijg Ether"
@@ -147,7 +147,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte AptosMask-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte MultiMask-account. Meer informatie over geïmporteerde accounts"
   },
   "imported": {
     "message": "geïmporteerd",
@@ -197,7 +197,7 @@
     "message": "Bericht"
   },
   "metamaskDescription": {
-    "message": "AptosMask is een veilige identiteitskluis voor Ethereum."
+    "message": "MultiMask is een veilige identiteitskluis voor Ethereum."
   },
   "mustSelectOne": {
     "message": "Moet ten minste één token selecteren."
@@ -372,7 +372,7 @@
     "message": "Bezoek onze website"
   },
   "welcome": {
-    "message": "Welkom bij AptosMask"
+    "message": "Welkom bij MultiMask"
   },
   "youSign": {
     "message": "U ondertekent"

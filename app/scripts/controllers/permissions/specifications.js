@@ -78,13 +78,13 @@ export const getCaveatSpecifications = ({ getIdentities }) => {
  *   getIdentities: () => Record<string, Identity>,
  * }} options - Options bag.
  * @param options.getAllAccounts - A function that returns all Ethereum accounts
- * in the current AptosMask instance.
+ * in the current MultiMask instance.
  * @param options.getIdentities - A function that returns the
  * `PreferencesController` identity objects for all Ethereum accounts in the
  * @param options.captureKeyringTypesWithMissingIdentities - A function that
  * captures extra error information about the "Missing identity for address"
  * error.
- * current AptosMask instance.
+ * current MultiMask instance.
  */
 export const getPermissionSpecifications = ({
   getAllAccounts,

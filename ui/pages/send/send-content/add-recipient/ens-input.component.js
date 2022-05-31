@@ -7,6 +7,7 @@ import {
   isBurnAddress,
   isValidHexAddress,
 } from '../../../../../shared/modules/hexstring-utils';
+import {ellipsify} from '../../send.utils';
 
 export default class EnsInput extends Component {
   static contextTypes = {
@@ -110,7 +111,7 @@ export default class EnsInput extends Component {
                 {selectedName !== selectedAddress && (
                   <div className="ens-input__selected-input__subtitle">
                     {/* TODO cut the address */}
-                    {selectedAddress}
+                    {ellipsify(selectedAddress, 10, 10)}
                   </div>
                 )}
               </div>
@@ -133,19 +134,19 @@ export default class EnsInput extends Component {
                 autoFocus
                 data-testid="ens-input"
               />
-              <button
-                className={classnames('ens-input__wrapper__action-icon', {
-                  'ens-input__wrapper__action-icon--erase': userInput,
-                  'ens-input__wrapper__action-icon--qrcode': !userInput,
-                })}
-                onClick={() => {
-                  if (userInput) {
-                    this.props.onReset();
-                  } else {
-                    this.props.scanQrCode();
-                  }
-                }}
-              />
+              {/*<button*/}
+              {/*  className={classnames('ens-input__wrapper__action-icon', {*/}
+              {/*    'ens-input__wrapper__action-icon--erase': userInput,*/}
+              {/*    'ens-input__wrapper__action-icon--qrcode': !userInput,*/}
+              {/*  })}*/}
+              {/*  onClick={() => {*/}
+              {/*    if (userInput) {*/}
+              {/*      this.props.onReset();*/}
+              {/*    } else {*/}
+              {/*      this.props.scanQrCode();*/}
+              {/*    }*/}
+              {/*  }}*/}
+              {/*/>*/}
             </>
           )}
         </div>

@@ -3,7 +3,7 @@
   width: 100%;
 
   a {
-    color: #2f9ae0bf;
+    color: var(--primary);
   }
 
   &__main {
@@ -11,7 +11,7 @@
     flex-direction: column;
     margin-left: 26.26%;
     margin-right: 28%;
-    color: black;
+    color: var(--primary-text);
 
     @media screen and (max-width: $break-small) {
       justify-content: center;
@@ -29,13 +29,14 @@
 
     position: relative;
     margin-top: 20px;
+    color: var(--primary-text);
   }
 
   &__body-graphic {
     margin-top: 25px;
 
     .fa-bar-chart {
-      color: #c4c4c4;
+      color: var(--primary-text);
     }
   }
 
@@ -43,6 +44,7 @@
     @include Paragraph;
 
     margin-top: 12px;
+    color: var(--secondary-text);
   }
 
   &__committments {
@@ -61,12 +63,12 @@
 
     .fa-check {
       margin-right: 12px;
-      color: #1acc56;
+      color: var(--primary-success);
     }
 
     .fa-times {
       margin-right: 12px;
-      color: #d0021b;
+      color: var(--primary-error);
     }
   }
 
@@ -82,6 +84,7 @@
     position: relative;
     display: flex;
     max-width: 730px;
+    color: var(--primary-text);
     flex-direction: column;
   }
 
@@ -89,11 +92,12 @@
     max-width: 548px;
     margin-left: 16px;
     margin-right: 16px;
+    color: var(--primary-text);
   }
 
   &__bottom-text {
     margin-top: 10px;
-    color: #9a9a9a;
+    color: var(--secondary-text);
   }
 
   &__content {

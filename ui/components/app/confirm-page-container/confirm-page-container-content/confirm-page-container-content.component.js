@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { Tabs, Tab } from '../../../ui/tabs';
-import ErrorMessage from '../../../ui/error-message';
+// import ErrorMessage from '../../../ui/error-message';
 import ActionableMessage from '../../../ui/actionable-message/actionable-message';
 import { PageContainerFooter } from '../../../ui/page-container';
 import { ConfirmPageContainerSummary, ConfirmPageContainerWarning } from '.';
@@ -85,8 +85,8 @@ export default class ConfirmPageContainerContent extends Component {
   render() {
     const {
       action,
-      errorKey,
-      errorMessage,
+      // errorKey,
+      // errorMessage,
       hasSimulationError,
       title,
       image,
@@ -111,7 +111,7 @@ export default class ConfirmPageContainerContent extends Component {
       hideTitle,
       setUserAcknowledgedGasMissing,
       hideUserAcknowledgedGasMissing,
-      supportsEIP1559V2,
+      // supportsEIP1559V2,
       hasTopBorder,
     } = this.props;
 
@@ -158,13 +158,13 @@ export default class ConfirmPageContainerContent extends Component {
           hideTitle={hideTitle}
         />
         {this.renderContent()}
-        {!supportsEIP1559V2 &&
-          !hasSimulationError &&
-          (errorKey || errorMessage) && (
-            <div className="confirm-page-container-content__error-container">
-              <ErrorMessage errorMessage={errorMessage} errorKey={errorKey} />
-            </div>
-          )}
+        {/*{!supportsEIP1559V2 &&*/}
+        {/*  !hasSimulationError &&*/}
+        {/*  (errorKey || errorMessage) && (*/}
+        {/*    <div className="confirm-page-container-content__error-container">*/}
+        {/*      <ErrorMessage errorMessage={errorMessage} errorKey={errorKey} />*/}
+        {/*    </div>*/}
+        {/*  )}*/}
         <PageContainerFooter
           onCancel={onCancel}
           cancelText={cancelText}

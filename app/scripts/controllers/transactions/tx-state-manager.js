@@ -81,7 +81,7 @@ export default class TransactionStateManager extends EventEmitter {
     const netId = this.getNetwork();
     const chainId = this.getCurrentChainId();
     if (netId === 'loading') {
-      throw new Error('AptosMask is having trouble connecting to the network');
+      throw new Error('MultiMask is having trouble connecting to the network');
     }
 
     let dappSuggestedGasFees = null;

@@ -8,7 +8,7 @@ export default function configureStore(initialState) {
 
   if (process.env.METAMASK_DEBUG && !process.env.IN_TEST) {
     const composeEnhancers = composeWithDevTools({
-      name: 'AptosMask',
+      name: 'MultiMask',
       hostname: 'localhost',
       port: 8000,
       realtime: Boolean(process.env.METAMASK_DEBUG),

@@ -49,11 +49,11 @@ export default function RecipientGroup({
             data-testid="recipient"
           >
             <div className="send__select-recipient-wrapper__group-item__title">
-              {name || ellipsify(address)}
+              {name || ellipsify(address, 8, 8)}
             </div>
             {name && (
               <div className="send__select-recipient-wrapper__group-item__subtitle">
-                {ellipsify(address)}
+                {ellipsify(address, 8, 8)}
               </div>
             )}
           </div>

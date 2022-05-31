@@ -97,7 +97,7 @@ const AssetList = ({ onClickAsset }) => {
           selectTokenEvent();
         }}
       />
-      <Box marginTop={4}>
+      <Box marginTop={4} className='asset-list-item asset-list-item__import-tokens'>
         <Box justifyContent={JUSTIFY_CONTENT.CENTER}>
           <Typography
             color={COLORS.UI4}

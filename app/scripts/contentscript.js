@@ -46,7 +46,7 @@ function injectScript(content) {
     container.insertBefore(scriptTag, container.children[0]);
     container.removeChild(scriptTag);
   } catch (error) {
-    console.error('AptosMask: Provider injection failed.', error);
+    console.error('MultiMask: Provider injection failed.', error);
   }
 }
 
@@ -73,10 +73,10 @@ async function setupStreams() {
   extensionMux.ignoreStream(LEGACY_PUBLIC_CONFIG); // TODO:LegacyProvider: Delete
 
   pump(pageMux, pageStream, pageMux, (err) =>
-    logStreamDisconnectWarning('AptosMask Inpage Multiplex', err),
+    logStreamDisconnectWarning('MultiMask Inpage Multiplex', err),
   );
   pump(extensionMux, extensionStream, extensionMux, (err) => {
-    logStreamDisconnectWarning('AptosMask Background Multiplex', err);
+    logStreamDisconnectWarning('MultiMask Background Multiplex', err);
     notifyInpageOfStreamFailure();
   });
 
@@ -100,7 +100,7 @@ async function setupStreams() {
   legacyExtensionMux.setMaxListeners(25);
 
   pump(legacyPageMux, legacyPageStream, legacyPageMux, (err) =>
-    logStreamDisconnectWarning('AptosMask Legacy Inpage Multiplex', err),
+    logStreamDisconnectWarning('MultiMask Legacy Inpage Multiplex', err),
   );
   pump(
     legacyExtensionMux,
@@ -108,7 +108,7 @@ async function setupStreams() {
     getNotificationTransformStream(),
     legacyExtensionMux,
     (err) => {
-      logStreamDisconnectWarning('AptosMask Background Legacy Multiplex', err);
+      logStreamDisconnectWarning('MultiMask Background Legacy Multiplex', err);
       notifyInpageOfStreamFailure();
     },
   );
@@ -300,7 +300,7 @@ function blockedDomainCheck() {
  * Redirects the current page to a phishing information page
  */
 function redirectToPhishingWarning() {
-  console.debug('AptosMask: Routing to Phishing Warning component.');
+  console.debug('MultiMask: Routing to Phishing Warning component.');
   const extensionURL = extension.runtime.getURL('phishing.html');
   window.location.href = `${extensionURL}#${querystring.stringify({
     hostname: window.location.hostname,

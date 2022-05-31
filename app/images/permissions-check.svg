@@ -9,7 +9,7 @@
         <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
     </filter>
     <g filter="url(#a)">
-        <path d="M34.5 19c0 8.008-6.492 14.5-14.5 14.5S5.5 27.008 5.5 19 11.992 4.5 20 4.5 34.5 10.992 34.5 19z" fill="#61ba00" stroke="#61ba00"/>
+        <path d="M34.5 19c0 8.008-6.492 14.5-14.5 14.5S5.5 27.008 5.5 19 11.992 4.5 20 4.5 34.5 10.992 34.5 19z" fill="#04B78A" stroke="#04B78A"/>
         <path d="M13.3 19.72l3.513 3.6 9.387-9.3" stroke="#fff" stroke-width="2"/>
     </g>
 </svg>

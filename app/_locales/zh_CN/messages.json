@@ -99,7 +99,7 @@
     "message": "添加昵称"
   },
   "addAcquiredTokens": {
-    "message": "在 AptosMask 上添加获得的代币"
+    "message": "在 MultiMask 上添加获得的代币"
   },
   "addAlias": {
     "message": "添加别名"
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "自动锁定定时（分钟）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "请设置 AptosMask 自动锁定前的空闲时间（单位：分钟）"
+    "message": "请设置 MultiMask 自动锁定前的空闲时间（单位：分钟）"
   },
   "average": {
     "message": "平均值"
@@ -301,7 +301,7 @@
     "message": "返回全部"
   },
   "backupApprovalInfo": {
-    "message": "如果不慎丢失个人设备，忘记密码，或者需要重新安装 AptosMask，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
+    "message": "如果不慎丢失个人设备，忘记密码，或者需要重新安装 MultiMask，亦或是需在另一台设备上打开钱包，请使用该保密码恢复个人钱包数据。"
   },
   "backupApprovalNotice": {
     "message": "请备份您的账户助记词，保证您的钱包和资金安全。"
@@ -338,7 +338,7 @@
     "message": "MetaMask测试版本"
   },
   "betaWelcome": {
-    "message": "欢迎使用 AptosMask测试版"
+    "message": "欢迎使用 MultiMask测试版"
   },
   "blockExplorerAccountAction": {
     "message": "账户",
@@ -381,7 +381,7 @@
     "message": "使用 Wyre 购买 ETH"
   },
   "buyWithWyreDescription": {
-    "message": "您可以通过 Wyre 使用信用卡将 ETH 存入您的 AptosMask 账户。"
+    "message": "您可以通过 Wyre 使用信用卡将 ETH 存入您的 MultiMask 账户。"
   },
   "bytes": {
     "message": "字节"
@@ -417,7 +417,7 @@
     "message": "链路ID已经存在于现有的网络列表中。"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在谷歌浏览器（Google Chrome）上使用 AptosMask 才能连接到您的硬件钱包。"
+    "message": "您需要在谷歌浏览器（Google Chrome）上使用 MultiMask 才能连接到您的硬件钱包。"
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "点击这里通过WebHID连接到您的Ledger",
@@ -489,7 +489,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "使用 AptosMask 连接"
+    "message": "使用 MultiMask 连接"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "您有 $1 个账户连接到了该网站。",
@@ -499,7 +499,7 @@
     "message": "您有 1 个账户连接到了该网站。"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "AptosMask 没有连接这个网站。要连接到 web3 网站，请在他们的网站上找到连接按钮。"
+    "message": "MultiMask 没有连接这个网站。要连接到 web3 网站，请在他们的网站上找到连接按钮。"
   },
   "connectedSites": {
     "message": "已连接的网站"
@@ -657,7 +657,7 @@
     "message": "数据"
   },
   "dataBackupFoundInfo": {
-    "message": "您的部分账户数据已在之前安装的 AptosMask 时备份。其中可能包括您的设置、联系人和代币。您现在想恢复这些数据吗？"
+    "message": "您的部分账户数据已在之前安装的 MultiMask 时备份。其中可能包括您的设置、联系人和代币。您现在想恢复这些数据吗？"
   },
   "dataHex": {
     "message": "十六进制文件"
@@ -928,7 +928,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "AptosMask 无法恢复您的账户助记词。"
+    "message": "MultiMask 无法恢复您的账户助记词。"
   },
   "endOfFlowMessage9": {
     "message": "了解详情。"
@@ -989,7 +989,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "AptosMask 遇到了一个错误",
+    "message": "MultiMask 遇到了一个错误",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1228,7 +1228,7 @@
     "message": "连接硬件钱包"
   },
   "hardwareWalletsMsg": {
-    "message": "选择希望用于 AptosMask 的硬件钱包"
+    "message": "选择希望用于 MultiMask 的硬件钱包"
   },
   "here": {
     "message": "这里",
@@ -1277,7 +1277,7 @@
     "message": "使用账户助记词导入"
   },
   "importAccountMsg": {
-    "message": "导入的账户将不会与最初创建的 AptosMask 账户助记词相关联。了解更多有关导入账户的信息 。"
+    "message": "导入的账户将不会与最初创建的 MultiMask 账户助记词相关联。了解更多有关导入账户的信息 。"
   },
   "importAccountSeedPhrase": {
     "message": "使用账户助记词导入账户"
@@ -1470,7 +1470,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to MultiMask."
   },
   "ledgerLiveApp": {
     "message": "Ledger Live应用程序"
@@ -1570,7 +1570,7 @@
     "message": "消息"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "现在您可在 AptosMask 中对账户连接进行更多的控制。"
+    "message": "现在您可在 MultiMask 中对账户连接进行更多的控制。"
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "点击管理连接的账户。"
@@ -1582,10 +1582,10 @@
     "message": "将您与 Aptos 和去中心化网络连接起来。"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "AptosMask Swaps 正在进行维护。请稍后访问。"
+    "message": "MultiMask Swaps 正在进行维护。请稍后访问。"
   },
   "metamaskVersion": {
-    "message": "AptosMask 版本"
+    "message": "MultiMask 版本"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "始终允许您通过设置选择退出"
@@ -1625,10 +1625,10 @@
     "message": "发送匿名的点击和页面浏览事件信息"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "帮助我们让 AptosMask 变得更好"
+    "message": "帮助我们让 MultiMask 变得更好"
   },
   "metametricsOptInDescription": {
-    "message": "AptosMask 希望收集使用数据，以更好地了解我们的用户如何与扩展进行互动。这些数据将被用于持续改进我们产品和 Aptos 生态系统的可用性和用户体验。"
+    "message": "MultiMask 希望收集使用数据，以更好地了解我们的用户如何与扩展进行互动。这些数据将被用于持续改进我们产品和 Aptos 生态系统的可用性和用户体验。"
   },
   "metametricsOptInDescription2": {
     "message": "我们想要收集基本使用数据以提高我们产品的可用性。这些数据将..."
@@ -1761,7 +1761,7 @@
     "message": "新功能！NFT 检测"
   },
   "newNFTsDetectedInfo": {
-    "message": "允许 AptosMask自动检测Opensea 的 NFT，并在您的 AptosMask钱包中显示。"
+    "message": "允许 MultiMask自动检测Opensea 的 NFT，并在您的 MultiMask钱包中显示。"
   },
   "newNetworkAdded": {
     "message": "成功添加了“$1”！"
@@ -1770,7 +1770,7 @@
     "message": "新密码（至少 8 个字符）"
   },
   "newToMetaMask": {
-    "message": "第一次使用 AptosMask？"
+    "message": "第一次使用 MultiMask？"
   },
   "newTotal": {
     "message": "新总额"
@@ -1786,7 +1786,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce 高于建议的 nouce 值 $1",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to MultiMask's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "输入收藏ID"
@@ -1854,7 +1854,7 @@
   },
   "notifications1Title": {
     "message": "在移动设备上交换！",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MultiMask Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "阅读更多",
@@ -1873,7 +1873,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "在您的钱包内立即获取代币交换的最佳价格。 AptosMask现在将您连接到Binance Smart Chain上的多个分散化交易聚合器和专业市场制造商。",
+    "message": "在您的钱包内立即获取代币交换的最佳价格。 MultiMask现在将您连接到Binance Smart Chain上的多个分散化交易聚合器和专业市场制造商。",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1885,7 +1885,7 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "到Chrome版本91，启用我们Ledger支持 (U2F) 的API不再支持硬件钱包。 AptosMask实现了新的Ledger Live支持，允许您继续通过Ledger Live 桌面应用程序连接到您的Ledger设备。",
+    "message": "到Chrome版本91，启用我们Ledger支持 (U2F) 的API不再支持硬件钱包。 MultiMask实现了新的Ledger Live支持，允许您继续通过Ledger Live 桌面应用程序连接到您的Ledger设备。",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
@@ -1992,7 +1992,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "您的 AptosMask安装完成！"
+    "message": "您的 MultiMask安装完成！"
   },
   "onboardingReturnNotice": {
     "message": "“$1”会关闭此标签，直接回到 $2",
@@ -2014,7 +2014,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "全屏打开MetaMask以通过WebHID连接您的ledger。",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing MultiMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "可选"
@@ -2035,7 +2035,7 @@
     "message": "加入 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "加入 MetaMetrics ，帮助我们改善 AptosMask 服务"
+    "message": "加入 MetaMetrics ，帮助我们改善 MultiMask 服务"
   },
   "password": {
     "message": "密码"
@@ -2044,7 +2044,7 @@
     "message": "密码长度不足"
   },
   "passwordSetupDetails": {
-    "message": "此密码只会在此设备上解锁您的 AptosMask钱包。MetaMask无法恢复此密码。"
+    "message": "此密码只会在此设备上解锁您的 MultiMask钱包。MetaMask无法恢复此密码。"
   },
   "passwordTermsWarning": {
     "message": "我了解MetaMask无法为我恢复此密码。$1"
@@ -2564,7 +2564,7 @@
     "message": "检索状态日志时出错。"
   },
   "stateLogFileName": {
-    "message": "AptosMask 状态日志"
+    "message": "MultiMask 状态日志"
   },
   "stateLogs": {
     "message": "状态日志"
@@ -2678,7 +2678,7 @@
     "message": "修改限制"
   },
   "swapEnableDescription": {
-    "message": "这是必须的，并且允许 AptosMask 兑换您的 $1。",
+    "message": "这是必须的，并且允许 MultiMask 兑换您的 $1。",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2741,10 +2741,10 @@
     "message": "最大滑点"
   },
   "swapMetaMaskFee": {
-    "message": "AptosMask 手续费"
+    "message": "MultiMask 手续费"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "我们每次都能从顶级流动性资源中找到最好的价格。每次报价都会自动收取1%的手续费用，以支持 AptosMask 的持续发展，使其更加完善。",
+    "message": "我们每次都能从顶级流动性资源中找到最好的价格。每次报价都会自动收取1%的手续费用，以支持 MultiMask 的持续发展，使其更加完善。",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -2960,16 +2960,16 @@
     "message": "扫描这个代码时，请确保附近没有其他人在看您的屏幕。"
   },
   "syncWithMobileComplete": {
-    "message": "您的数据已同步成功。尽情体验 AptosMask 应用程序！"
+    "message": "您的数据已同步成功。尽情体验 MultiMask 应用程序！"
   },
   "syncWithMobileDesc": {
-    "message": "您可以使用个人移动设备同步个人账户与信息。打开 AptosMask 移动应用程序，进入“设置”选项，点击“通过浏览器扩展程序同步”"
+    "message": "您可以使用个人移动设备同步个人账户与信息。打开 MultiMask 移动应用程序，进入“设置”选项，点击“通过浏览器扩展程序同步”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "如果您是首次启用 AptosMask 移动应用程序，请通过个人手机完成如下操作。"
+    "message": "如果您是首次启用 MultiMask 移动应用程序，请通过个人手机完成如下操作。"
   },
   "syncWithMobileScanThisCode": {
-    "message": "使用 AptosMask 应用程序扫描代码"
+    "message": "使用 MultiMask 应用程序扫描代码"
   },
   "syncWithMobileTitle": {
     "message": "使用移动设备进行同步"
@@ -3109,7 +3109,7 @@
     "message": "交易费"
   },
   "transactionHistoryBaseFee": {
-    "message": "基本费用 (GWEI)"
+    "message": "基本费用"
   },
   "transactionHistoryL1GasLabel": {
     "message": "总共L1煤气费"
@@ -3174,11 +3174,11 @@
     "message": "此时此合同不支持交易见解。"
   },
   "typePassword": {
-    "message": "输入您的 AptosMask 密码"
+    "message": "输入您的 MultiMask 密码"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MultiMask to Ledger devices."
   },
   "unapproved": {
     "message": "未批准"
@@ -3335,7 +3335,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "欢迎使用 AptosMask"
+    "message": "欢迎使用 MultiMask"
   },
   "welcomeBack": {
     "message": "欢迎回来！"
@@ -3347,7 +3347,7 @@
     "message": "探索去中心化应用"
   },
   "welcomeLoginDescription": {
-    "message": "使用您的 AptosMask登录到去中心化的应用 - 无需注册。"
+    "message": "使用您的 MultiMask登录到去中心化的应用 - 无需注册。"
   },
   "welcomeLoginTitle": {
     "message": "对您的钱包说您好吧"
@@ -3360,7 +3360,7 @@
   },
   "whatsNew": {
     "message": "新功能",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to MultiMask."
   },
   "whatsThis": {
     "message": "这是什么？"

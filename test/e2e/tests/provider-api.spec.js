@@ -2,7 +2,7 @@ const { strict: assert } = require('assert');
 const { errorCodes } = require('eth-rpc-errors');
 const { convertToHexValue, withFixtures } = require('../helpers');
 
-describe('AptosMask', function () {
+describe('MultiMask', function () {
   const ganacheOptions = {
     accounts: [
       {

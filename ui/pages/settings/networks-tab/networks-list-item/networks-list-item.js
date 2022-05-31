@@ -64,7 +64,7 @@ const NetworksListItem = ({ network, networkIsSelected, selectedRpcUrl }) => {
       >
         {label || t(labelKey)}
         {currentProviderType !== NETWORK_TYPE_RPC && (
-          <LockIcon width="14px" height="17px" fill="#cdcdcd" />
+          <LockIcon width="14px" height="17px" fill="#656474" />
         )}
       </div>
       <div className="networks-tab__networks-list-arrow" />

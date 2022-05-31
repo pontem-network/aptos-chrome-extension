@@ -3,11 +3,16 @@
     padding: 4px 0 4px 8px;
   }
 
+  > div {
+    border: 1px solid var(--divider-2) !important;
+  }
+
   span {
     display: inline-block;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    color: var(--secondary-text) !important;
 
     /*rtl:ignore*/
     direction: rtl;

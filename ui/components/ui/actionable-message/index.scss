@@ -79,13 +79,13 @@
   }
 
   &--warning {
-    background: var(--Yellow-100);
-    border: 1px solid var(--Yellow-500);
+    background: #7a752b33;
+    border: 1px solid #ffd33d;
     justify-content: center;
 
     .actionable-message__message,
     .actionable-message__action {
-      color: var(--Black-100);
+      color: #f7c001;
     }
 
     .actionable-message__action--secondary {

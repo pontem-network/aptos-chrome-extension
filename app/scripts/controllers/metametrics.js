@@ -316,7 +316,7 @@ export default class MetaMetricsController {
   _buildContext(referrer, page = METAMETRICS_BACKGROUND_PAGE_OBJECT) {
     return {
       app: {
-        name: 'AptosMask Extension',
+        name: 'MultiMask Extension',
         version: this.version,
       },
       userAgent: window.navigator.userAgent,

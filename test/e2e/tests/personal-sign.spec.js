@@ -31,7 +31,7 @@ describe('Personal sign', function () {
         await driver.waitUntilXWindowHandles(3);
         let windowHandles = await driver.getAllWindowHandles();
         await driver.switchToWindowWithTitle(
-          'AptosMask Notification',
+          'MultiMask Notification',
           windowHandles,
         );
 

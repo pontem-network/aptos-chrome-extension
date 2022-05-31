@@ -43,16 +43,16 @@ export function isValidHexAddress(
     return false;
   }
 
-  if (mixedCaseUseChecksum) {
-    // const prefixRemoved = addressToCheck.slice(2);
-    // const lower = prefixRemoved.toLowerCase();
-    // const upper = prefixRemoved.toUpperCase();
-    // const allOneCase = prefixRemoved === lower || prefixRemoved === upper;
-    // if (!allOneCase) {
-    //   return isValidChecksumAddress(addressToCheck);
-    // }
-    return true
-  }
+  // if (mixedCaseUseChecksum) {
+  //   // const prefixRemoved = addressToCheck.slice(2);
+  //   // const lower = prefixRemoved.toLowerCase();
+  //   // const upper = prefixRemoved.toUpperCase();
+  //   // const allOneCase = prefixRemoved === lower || prefixRemoved === upper;
+  //   // if (!allOneCase) {
+  //   //   return isValidChecksumAddress(addressToCheck);
+  //   // }
+  //   return true
+  // }
 
   const isValid = isValidAddress(addressToCheck);
   console.log('[Pontem] is valid address', isValid);
@@ -89,7 +89,7 @@ export function isValidAddress(hexAddress) {
     return false
   }
 
-  return /^0x[0-9a-fA-F]{40,64}$/.test(hexAddress)
+  return /^0x[0-9a-fA-F]{64}$/.test(hexAddress)
 }
 
 

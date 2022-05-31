@@ -1,6 +1,6 @@
 # stc-keyring-controller
 
-A module for managing groups of Ethereum accounts called "Keyrings", defined originally for AptosMask's multiple-account-type feature.
+A module for managing groups of Ethereum accounts called "Keyrings", defined originally for MultiMask's multiple-account-type feature.
 
 To add new account types to a `KeyringController`, just make sure it follows [The Keyring Class Protocol](./docs/keyring.md).
 

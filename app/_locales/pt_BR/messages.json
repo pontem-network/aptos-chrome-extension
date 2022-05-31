@@ -99,7 +99,7 @@
     "message": "Adicionar um apelido"
   },
   "addAcquiredTokens": {
-    "message": "Adicione os tokens que você adquiriu usando a AptosMask"
+    "message": "Adicione os tokens que você adquiriu usando a MultiMask"
   },
   "addAlias": {
     "message": "Adicionar pseudônimo"
@@ -115,10 +115,10 @@
     "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
   },
   "addEthereumChainConfirmationDescription": {
-    "message": "Isso permitirá que essa rede seja usada dentro da AptosMask."
+    "message": "Isso permitirá que essa rede seja usada dentro da MultiMask."
   },
   "addEthereumChainConfirmationRisks": {
-    "message": "A AptosMask não verifica redes personalizadas."
+    "message": "A MultiMask não verifica redes personalizadas."
   },
   "addEthereumChainConfirmationRisksLearnMore": {
     "message": "Saiba mais sobre $1.",
@@ -228,15 +228,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "AptosMask",
+    "message": "MultiMask",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "AptosMask Beta",
+    "message": "MultiMask Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "AptosMask Flask",
+    "message": "MultiMask Flask",
     "description": "The name of the application (Flask)"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -289,7 +289,7 @@
     "message": "Timer com bloqueio automático (minutos)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Defina o tempo ocioso, em minutos, antes de a AptosMask ser bloqueada."
+    "message": "Defina o tempo ocioso, em minutos, antes de a MultiMask ser bloqueada."
   },
   "average": {
     "message": "Média"
@@ -301,7 +301,7 @@
     "message": "Voltar para todos"
   },
   "backupApprovalInfo": {
-    "message": "Esse código secreto é obrigatório para recuperar sua carteira caso você perca seu dispositivo, esqueça sua senha, precise reinstalar a AptosMask ou queira acessar sua carteira em outro dispositivo."
+    "message": "Esse código secreto é obrigatório para recuperar sua carteira caso você perca seu dispositivo, esqueça sua senha, precise reinstalar a MultiMask ou queira acessar sua carteira em outro dispositivo."
   },
   "backupApprovalNotice": {
     "message": "Faça backup da Frase de Recuperação Secreta para manter sua carteira e seus fundos em segurança."
@@ -322,10 +322,10 @@
     "message": "Básico"
   },
   "betaMetamaskDescription": {
-    "message": "Aprovada por milhões de pessoas, a AptosMask é uma carteira segura que torna o mundo da web3 acessível para todos."
+    "message": "Aprovada por milhões de pessoas, a MultiMask é uma carteira segura que torna o mundo da web3 acessível para todos."
   },
   "betaMetamaskDescriptionExplanation": {
-    "message": "Use esta versão para testar funcionalidades futuras antes de serem lançadas. Seu uso e feedback nos ajuda a desenvolver a melhor versão possível da AptosMask. O seu uso da AptosMask Beta está sujeito aos nossos $1 padrão, bem como aos nossos $2. Por ser uma versão Beta, pode haver um risco maior de bugs. Ao prosseguir, você aceita e reconhece esses riscos, bem como aqueles encontrados em nossos Termos e Termos da Versão Beta.",
+    "message": "Use esta versão para testar funcionalidades futuras antes de serem lançadas. Seu uso e feedback nos ajuda a desenvolver a melhor versão possível da MultiMask. O seu uso da MultiMask Beta está sujeito aos nossos $1 padrão, bem como aos nossos $2. Por ser uma versão Beta, pode haver um risco maior de bugs. Ao prosseguir, você aceita e reconhece esses riscos, bem como aqueles encontrados em nossos Termos e Termos da Versão Beta.",
     "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
   },
   "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
@@ -335,10 +335,10 @@
     "message": "Termos"
   },
   "betaMetamaskVersion": {
-    "message": "Versão Beta da AptosMask"
+    "message": "Versão Beta da MultiMask"
   },
   "betaWelcome": {
-    "message": "Bem-vindo à AptosMask Beta"
+    "message": "Bem-vindo à MultiMask Beta"
   },
   "blockExplorerAccountAction": {
     "message": "Conta",
@@ -369,7 +369,7 @@
     "message": "Crie sua lista de contatos"
   },
   "builtAroundTheWorld": {
-    "message": "A AptosMask é concebida e desenvolvida em todo o mundo."
+    "message": "A MultiMask é concebida e desenvolvida em todo o mundo."
   },
   "busy": {
     "message": "Ocupado"
@@ -381,7 +381,7 @@
     "message": "Comprar ETH com Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Com o Wyre, você pode usar um cartão de débito para depositar ETH diretamente na sua conta da AptosMask."
+    "message": "Com o Wyre, você pode usar um cartão de débito para depositar ETH diretamente na sua conta da MultiMask."
   },
   "bytes": {
     "message": "Bytes"
@@ -425,7 +425,7 @@
     "message": "Esse ID da cadeia é usado pela rede $1."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Você precisa usar a AptosMask no Google Chrome para se conectar com a sua carteira de hardware."
+    "message": "Você precisa usar a MultiMask no Google Chrome para se conectar com a sua carteira de hardware."
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "Clique aqui para conectar seu Ledger por meio do WebHID",
@@ -497,7 +497,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "Conectar-se com a AptosMask"
+    "message": "Conectar-se com a MultiMask"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Você tem $1 contas conectadas a este site.",
@@ -507,7 +507,7 @@
     "message": "Você tem 1 conta conectada a este site."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "A AptosMask não está conectada a esse site. Para conectar-se a um site da web3, encontre e clique no botão \"conectar\"."
+    "message": "A MultiMask não está conectada a esse site. Para conectar-se a um site da web3, encontre e clique no botão \"conectar\"."
   },
   "connectedSites": {
     "message": "Sites conectados"
@@ -661,7 +661,7 @@
     "message": "Dados"
   },
   "dataBackupFoundInfo": {
-    "message": "Foi feito o backup de alguns dos dados da sua conta durante uma instalação anterior da AptosMask. Isso pode incluir configurações, contatos e tokens. Gostaria de restaurar esses dados agora?"
+    "message": "Foi feito o backup de alguns dos dados da sua conta durante uma instalação anterior da MultiMask. Isso pode incluir configurações, contatos e tokens. Gostaria de restaurar esses dados agora?"
   },
   "dataHex": {
     "message": "Hex"
@@ -833,7 +833,7 @@
     "message": "A taxa máxima é o maior valor que você pagará (taxa de base + taxa de prioridade)."
   },
   "editGasMaxPriorityFeeBelowMinimum": {
-    "message": "A taxa de prioridade máxima deve ser superior a 0 GWEI"
+    "message": "A taxa de prioridade máxima deve ser superior a"
   },
   "editGasMaxPriorityFeeBelowMinimumV2": {
     "message": "A taxa de prioridade deve ser superior a 0."
@@ -932,7 +932,7 @@
     "message": "Nunca compartilhe essa frase com ninguém."
   },
   "endOfFlowMessage5": {
-    "message": "Cuidado com phishing! A AptosMask jamais pedirá espontaneamente sua Frase de Recuperação Secreta."
+    "message": "Cuidado com phishing! A MultiMask jamais pedirá espontaneamente sua Frase de Recuperação Secreta."
   },
   "endOfFlowMessage6": {
     "message": "Se você precisar fazer backup da sua Frase de Recuperação Secreta novamente, encontre-a em Configurações -> Segurança."
@@ -942,7 +942,7 @@
     "description": "$1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "endOfFlowMessage8": {
-    "message": "A AptosMask não pode recuperar sua Frase de Recuperação Secreta."
+    "message": "A MultiMask não pode recuperar sua Frase de Recuperação Secreta."
   },
   "endOfFlowMessage9": {
     "message": "Saiba mais."
@@ -1003,7 +1003,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "A AptosMask encontrou um erro",
+    "message": "A MultiMask encontrou um erro",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1095,10 +1095,10 @@
   },
   "flaskWelcomeWarning2": {
     "message": "Não damos garantias sobre a segurança ou a estabilidade dessa extensão. As novas APIs oferecidas pelo Flask não estão protegidas contra ataques de phishing, ou seja, qualquer site ou snap que requeira o Flask pode ser uma tentativa mal-intencionada de roubar seus ativos.",
-    "description": "This explains the risks of using AptosMask Flask"
+    "description": "This explains the risks of using MultiMask Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "Todas as APIs do Flask são experimentais. Elas podem ser alteradas ou removidas sem aviso prévio, ou podem permanecer no Flask indefinidamente, sem jamais serem migradas para a AptosMask estável. Use-as com cautela.",
+    "message": "Todas as APIs do Flask são experimentais. Elas podem ser alteradas ou removidas sem aviso prévio, ou podem permanecer no Flask indefinidamente, sem jamais serem migradas para a MultiMask estável. Use-as com cautela.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarningAcceptButton": {
@@ -1160,7 +1160,7 @@
     "message": "Opção de gás"
   },
   "gasPrice": {
-    "message": "Preço do gás (GWEI)"
+    "message": "Preço do gás"
   },
   "gasPriceExcessive": {
     "message": "Sua taxa de gás está desnecessariamente alta. Considere reduzir o valor."
@@ -1243,7 +1243,7 @@
     "message": "Concedido a:"
   },
   "gwei": {
-    "message": "GWEI"
+    "message": "APTOS"
   },
   "happyToSeeYou": {
     "message": "É um prazer ver você."
@@ -1265,7 +1265,7 @@
     "message": "Conecte uma carteira de hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selecione uma carteira de hardware que você gostaria de usar com a AptosMask."
+    "message": "Selecione uma carteira de hardware que você gostaria de usar com a MultiMask."
   },
   "here": {
     "message": "aqui",
@@ -1310,7 +1310,7 @@
     "message": "importe usando a Frase de Recuperação Secreta"
   },
   "importAccountMsg": {
-    "message": "As contas importadas não estarão associadas à Frase de Recuperação Secreta da conta da AptosMask criada originalmente. Saiba mais sobre as contas importadas"
+    "message": "As contas importadas não estarão associadas à Frase de Recuperação Secreta da conta da MultiMask criada originalmente. Saiba mais sobre as contas importadas"
   },
   "importAccountSeedPhrase": {
     "message": "Importe uma carteira com a Frase de Recuperação Secreta"
@@ -1355,7 +1355,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "Não foi possível conectar a AptosMask com o servidor do blockchain. Revise possíveis motivos $1.",
+    "message": "Não foi possível conectar a MultiMask com o servidor do blockchain. Revise possíveis motivos $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -1495,7 +1495,7 @@
     "message": "Abra e desbloqueie o app Ledger Live"
   },
   "ledgerConnectionPreferenceDescription": {
-    "message": "Personalize como conectar sua Ledger à AptosMask. Recomenda-se utilizar $1, mas há outras opções. Leia mais aqui: $2",
+    "message": "Personalize como conectar sua Ledger à MultiMask. Recomenda-se utilizar $1, mas há outras opções. Leia mais aqui: $2",
     "description": "A description that appears above a dropdown where users can select between up to three options - Ledger Live, U2F or WebHID - depending on what is supported in their browser. $1 is the recommended browser option, it will be either WebHID or U2f. $2 is a link to an article where users can learn more, but will be the translation of the learnMore message."
   },
   "ledgerDeviceOpenFailureMessage": {
@@ -1503,7 +1503,7 @@
   },
   "ledgerLive": {
     "message": "Ledger Live",
-    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to AptosMask."
+    "description": "The name of a desktop app that can be used with your ledger device. We can also use it to connect a users Ledger device to MultiMask."
   },
   "ledgerLiveApp": {
     "message": "Aplicativo Ledger Live"
@@ -1600,7 +1600,7 @@
     "message": "Mensagem"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Agora você tem mais controle sobre as conexões da sua conta na AptosMask."
+    "message": "Agora você tem mais controle sobre as conexões da sua conta na MultiMask."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Clique para gerenciar suas contas conectadas."
@@ -1612,10 +1612,10 @@
     "message": "Conectando você ao Aptos e à web descentralizada."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "O AptosMask Swaps está em manutenção. Verifique novamente mais tarde."
+    "message": "O MultiMask Swaps está em manutenção. Verifique novamente mais tarde."
   },
   "metamaskVersion": {
-    "message": "Versão da AptosMask"
+    "message": "Versão da MultiMask"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "Sempre permitirá que você se exclua por meio das Configurações"
@@ -1628,7 +1628,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "A AptosMask..."
+    "message": "A MultiMask..."
   },
   "metametricsCommitmentsNeverCollect": {
     "message": "Nunca coletarão chaves, endereços, transações, saldos, hashes ou qualquer informação pessoal"
@@ -1655,16 +1655,16 @@
     "message": "Enviarão eventos anonimizados de cliques e visualização de página"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "Ajude-nos a melhorar a AptosMask"
+    "message": "Ajude-nos a melhorar a MultiMask"
   },
   "metametricsOptInDescription": {
-    "message": "A AptosMask gostaria de reunir dados de uso para entender melhor como nossos usuários interagem com a extensão. Esses dados serão usados para melhorar continuamente a usabilidade e a experiência do usuário com o nosso produto e o ecossistema do Ethereum."
+    "message": "A MultiMask gostaria de reunir dados de uso para entender melhor como nossos usuários interagem com a extensão. Esses dados serão usados para melhorar continuamente a usabilidade e a experiência do usuário com o nosso produto e o ecossistema do Ethereum."
   },
   "metametricsOptInDescription2": {
     "message": "Gostaríamos de reunir dados básicos de utilização para melhorar a usabilidade do nosso produto. Esses indicadores..."
   },
   "metametricsTitle": {
-    "message": "Junte-se a mais de 6 milhões de usuários para melhorar a AptosMask"
+    "message": "Junte-se a mais de 6 milhões de usuários para melhorar a MultiMask"
   },
   "mismatchedChain": {
     "message": "Os detalhes da rede para esse ID da cadeia não correspondem aos dos nossos registros. Recomendamos que você $1 antes de continuar.",
@@ -1681,7 +1681,7 @@
     "message": "Não está vendo o seu token?"
   },
   "mobileSyncWarning": {
-    "message": "A funcionalidade \"Sincronizar com a extensão\" está temporariamente desativada. Se você quer usar sua carteira de extensão na AptosMask mobile, então, no seu app mobile: volte às opções de configuração da carteira e selecione a opção \"Importar com frase de recuperação secreta\". Use a frase secreta da sua carteira de extensão para, então, importar a sua carteira no celular."
+    "message": "A funcionalidade \"Sincronizar com a extensão\" está temporariamente desativada. Se você quer usar sua carteira de extensão na MultiMask mobile, então, no seu app mobile: volte às opções de configuração da carteira e selecione a opção \"Importar com frase de recuperação secreta\". Use a frase secreta da sua carteira de extensão para, então, importar a sua carteira no celular."
   },
   "mustSelectOne": {
     "message": "Selecione pelo menos 1 token."
@@ -1700,7 +1700,7 @@
     "message": "Compartilhe seu feedback"
   },
   "needHelpLinkText": {
-    "message": "Suporte da AptosMask"
+    "message": "Suporte da MultiMask"
   },
   "needHelpSubmitTicket": {
     "message": "Envie um chamado"
@@ -1794,7 +1794,7 @@
     "message": "Novidade! Detecção de NFT"
   },
   "newNFTsDetectedInfo": {
-    "message": "Autorize que a AptosMask detecte NFTs automaticamente do Opensea e os exiba na sua carteira AptosMask."
+    "message": "Autorize que a MultiMask detecte NFTs automaticamente do Opensea e os exiba na sua carteira MultiMask."
   },
   "newNetworkAdded": {
     "message": "“$1” foi adicionado com sucesso!"
@@ -1803,7 +1803,7 @@
     "message": "Nova senha (no mínimo 8 caracteres)"
   },
   "newToMetaMask": {
-    "message": "Acabou de chegar à AptosMask?"
+    "message": "Acabou de chegar à MultiMask?"
   },
   "newTotal": {
     "message": "Novo total"
@@ -1819,7 +1819,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce é maior que o nonce sugerido de $1",
-    "description": "The next nonce according to AptosMask's internal logic"
+    "description": "The next nonce according to MultiMask's internal logic"
   },
   "nfts": {
     "message": "NFTs"
@@ -1879,19 +1879,19 @@
     "message": "Não há gás suficiente"
   },
   "notifications1Description": {
-    "message": "Usuários da AptosMask Mobile agora podem trocar tokens dentro de sua carteira mobile. Leia o QR code para obter o aplicativo para dispositivos móveis e comece a trocar.",
+    "message": "Usuários da MultiMask Mobile agora podem trocar tokens dentro de sua carteira mobile. Leia o QR code para obter o aplicativo para dispositivos móveis e comece a trocar.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the swapping on mobile feature."
   },
   "notifications1Title": {
     "message": "Você já pode fazer trocas em dispositivos móveis!",
-    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use AptosMask Swaps on Mobile."
+    "description": "Title for a notification in the 'See What's New' popup. Tells users that they can now use MultiMask Swaps on Mobile."
   },
   "notifications3ActionText": {
     "message": "Ler mais",
     "description": "The 'call to action' on the button, or link, of the 'Stay secure' notification. Upon clicking, users will be taken to a page about security on the metamask support website."
   },
   "notifications3Description": {
-    "message": "Fique ligado nas boas práticas de segurança da AptosMask e obtenha as últimas dicas de segurança com o suporte oficial da AptosMask.",
+    "message": "Fique ligado nas boas práticas de segurança da MultiMask e obtenha as últimas dicas de segurança com o suporte oficial da MultiMask.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the information they can get on security from the linked support page."
   },
   "notifications3Title": {
@@ -1903,7 +1903,7 @@
     "description": "The 'call to action' on the button, or link, of the 'Swap on Binance Smart Chain!' notification. Upon clicking, users will be taken to a page where then can swap tokens on Binance Smart Chain."
   },
   "notifications4Description": {
-    "message": "Obtenha os melhores preços em trocas de tokens diretamente na sua carteira. Agora a AptosMask conecta você a vários agregadores de exchanges descentralizadas e formadores de mercado profissionais na Binance Smart Chain.",
+    "message": "Obtenha os melhores preços em trocas de tokens diretamente na sua carteira. Agora a MultiMask conecta você a vários agregadores de exchanges descentralizadas e formadores de mercado profissionais na Binance Smart Chain.",
     "description": "Description of a notification in the 'See What's New' popup."
   },
   "notifications4Title": {
@@ -1915,11 +1915,11 @@
     "description": "Description of a notification in the 'See What's New' popup. Describes the seed phrase wording update."
   },
   "notifications6DescriptionOne": {
-    "message": "A partir da versão 91 do Chrome, a API que permitia nosso suporte ao Ledger (U2F) não é mais compatível com carteiras de hardware. A AptosMask implementou um novo suporte ao Ledger Live que permite continuar conectando o seu dispositivo Ledger por meio do aplicativo de desktop Ledger Live.",
+    "message": "A partir da versão 91 do Chrome, a API que permitia nosso suporte ao Ledger (U2F) não é mais compatível com carteiras de hardware. A MultiMask implementou um novo suporte ao Ledger Live que permite continuar conectando o seu dispositivo Ledger por meio do aplicativo de desktop Ledger Live.",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionThree": {
-    "message": "Ao interagir com a sua conta do Ledger na AptosMask, uma nova aba será aberta, e você será solicitado a abrir o aplicativo Ledger Live. Quando o aplicativo for aberto, você precisará permitir uma conexão do WebSocket com a sua conta da AptosMask.  Só isso!",
+    "message": "Ao interagir com a sua conta do Ledger na MultiMask, uma nova aba será aberta, e você será solicitado a abrir o aplicativo Ledger Live. Quando o aplicativo for aberto, você precisará permitir uma conexão do WebSocket com a sua conta da MultiMask.  Só isso!",
     "description": "Description of a notification in the 'See What's New' popup. Describes the Ledger support update."
   },
   "notifications6DescriptionTwo": {
@@ -1931,7 +1931,7 @@
     "description": "Title for a notification in the 'See What's New' popup. Lets users know about the Ledger support update"
   },
   "notifications7DescriptionOne": {
-    "message": "A AptosMask v10.1.0 incluiu novo suporte para transações de EIP-1559 ao utilizar dispositivos Ledger.",
+    "message": "A MultiMask v10.1.0 incluiu novo suporte para transações de EIP-1559 ao utilizar dispositivos Ledger.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for ledger and EIP1559 in v10.1.0"
   },
   "notifications7DescriptionTwo": {
@@ -1947,7 +1947,7 @@
     "description": "Description on an action button that appears in the What's New popup. Tells the user that if they click it, they will go to our Advanced Settings page."
   },
   "notifications8DescriptionOne": {
-    "message": "A partir da AptosMask v10.4.0, não é mais necessário o Ledger Live para conectar o seu dispositivo Ledger à AptosMask.",
+    "message": "A partir da MultiMask v10.4.0, não é mais necessário o Ledger Live para conectar o seu dispositivo Ledger à MultiMask.",
     "description": "Description of a notification in the 'See What's New' popup. Describes changes for how Ledger Live is no longer needed to connect the device."
   },
   "notifications8DescriptionTwo": {
@@ -2004,16 +2004,16 @@
     "message": "Clique no ícone da extensão do navegador"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Fixe a AptosMask no seu navegador de modo que seja acessível e fácil de visualizar as confirmações das transações."
+    "message": "Fixe a MultiMask no seu navegador de modo que seja acessível e fácil de visualizar as confirmações das transações."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Você pode abrir a AptosMask clicando na extensão e acessando a sua carteira com apenas um clique."
+    "message": "Você pode abrir a MultiMask clicando na extensão e acessando a sua carteira com apenas um clique."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Clique no ícone da extensão do navegador para acessá-la instantaneamente"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Fixar a AptosMask"
+    "message": "Fixar a MultiMask"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -2022,7 +2022,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Sua instalação da AptosMask está concluída!"
+    "message": "Sua instalação da MultiMask está concluída!"
   },
   "onboardingReturnNotice": {
     "message": "\"$1\" fechará esta aba e direcionará de volta para $2",
@@ -2043,8 +2043,8 @@
     "message": "Conecte-se somente com sites em que você confia."
   },
   "openFullScreenForLedgerWebHid": {
-    "message": "Abra a AptosMask em tela cheia para conectar sua ledger por meio do WebHID.",
-    "description": "Shown to the user on the confirm screen when they are viewing AptosMask in a popup window but need to connect their ledger via webhid."
+    "message": "Abra a MultiMask em tela cheia para conectar sua ledger por meio do WebHID.",
+    "description": "Shown to the user on the confirm screen when they are viewing MultiMask in a popup window but need to connect their ledger via webhid."
   },
   "optional": {
     "message": "Opcional"
@@ -2065,7 +2065,7 @@
     "message": "Participe do MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participe do MetaMetrics para nos ajudar a deixar a AptosMask ainda melhor"
+    "message": "Participe do MetaMetrics para nos ajudar a deixar a MultiMask ainda melhor"
   },
   "password": {
     "message": "Senha"
@@ -2074,10 +2074,10 @@
     "message": "A senha não é longa o suficiente"
   },
   "passwordSetupDetails": {
-    "message": "Essa senha desbloqueará sua carteira AptosMask apenas neste dispositivo. A AptosMask não é capaz de recuperar essa senha."
+    "message": "Essa senha desbloqueará sua carteira MultiMask apenas neste dispositivo. A MultiMask não é capaz de recuperar essa senha."
   },
   "passwordTermsWarning": {
-    "message": "Compreendo que a AptosMask não é capaz de recuperar essa senha para mim. $1"
+    "message": "Compreendo que a MultiMask não é capaz de recuperar essa senha para mim. $1"
   },
   "passwordsDontMatch": {
     "message": "As senhas são diferentes"
@@ -2197,7 +2197,7 @@
     "message": "Nunca compartilhe a sua Frase de Recuperação Secreta com ninguém"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "A equipe da AptosMask jamais pedirá sua Frase de Recuperação Secreta"
+    "message": "A equipe da MultiMask jamais pedirá sua Frase de Recuperação Secreta"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Sua Frase de Recuperação Secreta controla todas as suas contas."
@@ -2375,7 +2375,7 @@
     "message": "Caso alguém lhe peça a sua frase de recuperação, essa pessoa provavelmente está tentando dar um golpe em você e roubar os fundos da sua carteira"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Jamais compartilhe a sua Frase de Recuperação Secreta, nem mesmo com a AptosMask!"
+    "message": "Jamais compartilhe a sua Frase de Recuperação Secreta, nem mesmo com a MultiMask!"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "O que é uma Frase de Recuperação Secreta?"
@@ -2414,7 +2414,7 @@
     "message": "Selecione uma conta"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Essa conta já foi conectada à AptosMask"
+    "message": "Essa conta já foi conectada à MultiMask"
   },
   "selectEachPhrase": {
     "message": "Selecione cada frase para garantir que esteja correta."
@@ -2461,7 +2461,7 @@
     "message": "Definir configurações avançadas de privacidade"
   },
   "setAdvancedPrivacySettingsDetails": {
-    "message": "A AptosMask utiliza esses serviços terceirizados de confiança para aumentar a usabilidade e a segurança dos produtos."
+    "message": "A MultiMask utiliza esses serviços terceirizados de confiança para aumentar a usabilidade e a segurança dos produtos."
   },
   "settings": {
     "message": "Configurações"
@@ -2600,7 +2600,7 @@
     "message": "Erro ao recuperar os registros de estado."
   },
   "stateLogFileName": {
-    "message": "Registros de estado da AptosMask"
+    "message": "Registros de estado da MultiMask"
   },
   "stateLogs": {
     "message": "Registros de estado"
@@ -2618,7 +2618,7 @@
     "message": "Confirme que seu Lattice1 está pronto para se conectar"
   },
   "step1LatticeWalletMsg": {
-    "message": "Você pode conectar a AptosMask ao seu dispositivo Lattice1 quando ele estiver configurado e online. Desbloqueie seu dispositivo e tenha o ID do seu dispositivo em mãos. Para saber mais sobre como usar carteiras de hardware, $1",
+    "message": "Você pode conectar a MultiMask ao seu dispositivo Lattice1 quando ele estiver configurado e online. Desbloqueie seu dispositivo e tenha o ID do seu dispositivo em mãos. Para saber mais sobre como usar carteiras de hardware, $1",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -2714,7 +2714,7 @@
     "message": "Editar limite"
   },
   "swapEnableDescription": {
-    "message": "Isso é obrigatório e dá à AptosMask permissão para trocar o seu $1.",
+    "message": "Isso é obrigatório e dá à MultiMask permissão para trocar o seu $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -2760,14 +2760,14 @@
     "message": "As taxas de gás da tela anterior estão divididas entre essas duas transações."
   },
   "swapGasFeesSummary": {
-    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A AptosMask não lucra com taxas de gás.",
+    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A MultiMask não lucra com taxas de gás.",
     "description": "$1 is the selected network, e.g. Aptos or BSC"
   },
   "swapHighSlippageWarning": {
     "message": "O valor de slippage está muito alto."
   },
   "swapIncludesMMFee": {
-    "message": "Inclui uma taxa de $1% da AptosMask.",
+    "message": "Inclui uma taxa de $1% da MultiMask.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapLowSlippageError": {
@@ -2777,7 +2777,7 @@
     "message": "Slippage máximo"
   },
   "swapMetaMaskFee": {
-    "message": "Taxa da AptosMask"
+    "message": "Taxa da MultiMask"
   },
   "swapMetaMaskFeeDescription": {
     "message": "Encontramos o melhor preço das principais fontes de liquidez – todas as vezes. Uma taxa de $1% é automaticamente incorporada nessa cotação.",
@@ -2960,7 +2960,7 @@
     "message": "Ver na atividade"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Isso mudará a rede selecionada dentro da AptosMask para uma rede adicionada anteriormente:"
+    "message": "Isso mudará a rede selecionada dentro da MultiMask para uma rede adicionada anteriormente:"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Permitir que esse site troque a rede?"
@@ -2996,16 +2996,16 @@
     "message": "Ao escanear esse código, verifique se não há mais ninguém olhando para a sua tela"
   },
   "syncWithMobileComplete": {
-    "message": "Seus dados foram sincronizados. Curta o app da AptosMask para dispositivos móveis!"
+    "message": "Seus dados foram sincronizados. Curta o app da MultiMask para dispositivos móveis!"
   },
   "syncWithMobileDesc": {
-    "message": "Você pode sincronizar suas contas e informações com o seu dispositivo móvel. Abra o aplicativo da AptosMask para dispositivos móveis, acesse \"Configurações\" e toque em \"Sincronizar pela extensão do navegador\""
+    "message": "Você pode sincronizar suas contas e informações com o seu dispositivo móvel. Abra o aplicativo da MultiMask para dispositivos móveis, acesse \"Configurações\" e toque em \"Sincronizar pela extensão do navegador\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Se você tiver acabado de abrir o app da AptosMask para dispositivos móveis pela primeira vez, basta seguir as etapas no seu telefone."
+    "message": "Se você tiver acabado de abrir o app da MultiMask para dispositivos móveis pela primeira vez, basta seguir as etapas no seu telefone."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Escaneie esse código com seu app da AptosMask para dispositivos móveis"
+    "message": "Escaneie esse código com seu app da MultiMask para dispositivos móveis"
   },
   "syncWithMobileTitle": {
     "message": "Sincronizar com dispositivo móvel"
@@ -3109,7 +3109,7 @@
     "message": "Site sugerido"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Edite para usar a taxa de gás recomendada pela AptosMask com base no bloco mais recente."
+    "message": "Edite para usar a taxa de gás recomendada pela MultiMask com base no bloco mais recente."
   },
   "transactionDetailGasHeading": {
     "message": "Taxa de gás estimada"
@@ -3124,7 +3124,7 @@
     "message": "As taxas de gás são determinadas pela rede e oscilam com base no tráfego da rede e na complexidade da transação."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A AptosMask não lucra com taxas de gás."
+    "message": "As taxas de gás são pagas aos mineradores de criptoativos que processam as transações na rede de $1. A MultiMask não lucra com taxas de gás."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Valor + taxa de gás"
@@ -3151,7 +3151,7 @@
     "message": "Taxa de transação"
   },
   "transactionHistoryBaseFee": {
-    "message": "Taxa de base (GWEI)"
+    "message": "Taxa de base"
   },
   "transactionHistoryL1GasLabel": {
     "message": "Taxa de gás L1 total"
@@ -3166,7 +3166,7 @@
     "message": "Taxa máxima por gás"
   },
   "transactionHistoryPriorityFee": {
-    "message": "Taxa de prioridade (GWEI)"
+    "message": "Taxa de prioridade"
   },
   "transactionHistoryTotalGasFee": {
     "message": "Taxa de gás total"
@@ -3216,11 +3216,11 @@
     "message": "As informações sobre transações não são suportadas para esse contrato, por ora."
   },
   "typePassword": {
-    "message": "Digite sua senha da AptosMask"
+    "message": "Digite sua senha da MultiMask"
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect AptosMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MultiMask to Ledger devices."
   },
   "unapproved": {
     "message": "Não aprovado"
@@ -3289,7 +3289,7 @@
     "message": "Usar detecção de tokens"
   },
   "useTokenDetectionDescription": {
-    "message": "Utilizamos APIs terceirizadas para detectar e exibir novos tokens enviados à sua carteira. Desative essa opção se não deseja que a AptosMask extraia dados desses serviços."
+    "message": "Utilizamos APIs terceirizadas para detectar e exibir novos tokens enviados à sua carteira. Desative essa opção se não deseja que a MultiMask extraia dados desses serviços."
   },
   "usedByClients": {
     "message": "Usado por diversos clientes diferentes"
@@ -3352,10 +3352,10 @@
     "message": "Você protegeu sua carteira com sucesso. Guarde sua Frase de Recuperação Secreta em segredo e em segurança — é sua responsabilidade!"
   },
   "walletCreationSuccessReminder1": {
-    "message": "A AptosMask não é capaz de recuperar sua Frase de Recuperação Secreta."
+    "message": "A MultiMask não é capaz de recuperar sua Frase de Recuperação Secreta."
   },
   "walletCreationSuccessReminder2": {
-    "message": "A equipe da AptosMask jamais pedirá sua Frase de Recuperação Secreta."
+    "message": "A equipe da MultiMask jamais pedirá sua Frase de Recuperação Secreta."
   },
   "walletCreationSuccessReminder3": {
     "message": "$1 com ninguém, senão seus fundos poderão ser roubados",
@@ -3377,7 +3377,7 @@
     "description": "Refers to a interface for connecting external devices to the browser. Used for connecting ledger to the browser. Read more here https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API"
   },
   "welcome": {
-    "message": "Bem-vindo(a) à AptosMask"
+    "message": "Bem-vindo(a) à MultiMask"
   },
   "welcomeBack": {
     "message": "Bem-vindo(a) novamente!"
@@ -3389,7 +3389,7 @@
     "message": "Explore aplicativos descentralizados"
   },
   "welcomeLoginDescription": {
-    "message": "Use a sua AptosMask para fazer login em aplicativos descentralizados, sem necessidade de cadastro."
+    "message": "Use a sua MultiMask para fazer login em aplicativos descentralizados, sem necessidade de cadastro."
   },
   "welcomeLoginTitle": {
     "message": "Diga olá à sua carteira"
@@ -3398,11 +3398,11 @@
     "message": "Vamos começar"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "Aprovada por milhões de pessoas, a AptosMask é uma carteira segura que torna o mundo da web3 acessível para todos."
+    "message": "Aprovada por milhões de pessoas, a MultiMask é uma carteira segura que torna o mundo da web3 acessível para todos."
   },
   "whatsNew": {
     "message": "Novidades",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to AptosMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to MultiMask."
   },
   "whatsThis": {
     "message": "O que é isso?"

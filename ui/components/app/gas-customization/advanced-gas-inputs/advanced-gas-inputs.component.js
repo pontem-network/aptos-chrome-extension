@@ -152,7 +152,7 @@ export default class AdvancedGasInputs extends Component {
                 errorType === 'warning',
             })}
             type="number"
-            min="0"
+            min="1"
             value={value}
             onChange={onChange}
             disabled={disabled}
@@ -202,7 +202,7 @@ export default class AdvancedGasInputs extends Component {
       customGasLimitMessage,
       minimumGasLimit,
       customPriceIsExcessive,
-      networkSupportsSettingGasPrice,
+      // networkSupportsSettingGasPrice,
     } = this.props;
     const { gasPrice, gasLimit } = this.state;
 
@@ -216,13 +216,13 @@ export default class AdvancedGasInputs extends Component {
       gasPrice,
       customPriceIsExcessive,
     });
-    const gasPriceErrorComponent = gasPriceErrorType ? (
-      <div
-        className={`advanced-gas-inputs__gas-edit-row__${gasPriceErrorType}-text`}
-      >
-        {gasPriceErrorText}
-      </div>
-    ) : null;
+    // const gasPriceErrorComponent = gasPriceErrorType ? (
+    //   <div
+    //     className={`advanced-gas-inputs__gas-edit-row__${gasPriceErrorType}-text`}
+    //   >
+    //     {gasPriceErrorText}
+    //   </div>
+    // ) : null;
 
     const {
       errorText: gasLimitErrorText,
@@ -244,16 +244,16 @@ export default class AdvancedGasInputs extends Component {
 
     return (
       <div className="advanced-gas-inputs__gas-edit-rows">
-        {this.renderGasInput({
-          label: this.context.t('gasPrice'),
-          testId: 'gas-price',
-          tooltipTitle: this.context.t('gasPriceInfoTooltipContent'),
-          value: this.state.gasPrice,
-          onChange: this.onChangeGasPrice,
-          errorComponent: gasPriceErrorComponent,
-          errorType: gasPriceErrorType,
-          disabled: !networkSupportsSettingGasPrice,
-        })}
+        {/*{this.renderGasInput({*/}
+        {/*  label: this.context.t('gasPrice'),*/}
+        {/*  testId: 'gas-price',*/}
+        {/*  tooltipTitle: this.context.t('gasPriceInfoTooltipContent'),*/}
+        {/*  value: this.state.gasPrice,*/}
+        {/*  onChange: this.onChangeGasPrice,*/}
+        {/*  errorComponent: gasPriceErrorComponent,*/}
+        {/*  errorType: gasPriceErrorType,*/}
+        {/*  disabled: !networkSupportsSettingGasPrice,*/}
+        {/*})}*/}
         {this.renderGasInput({
           label: this.context.t('gasLimit'),
           testId: 'gas-limit',

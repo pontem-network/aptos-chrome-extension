@@ -76,7 +76,7 @@ export default class SendContent extends Component {
       <PageContainerContent>
         <div className="send-v2__form">
           {assetError ? this.renderError(assetError) : null}
-          {gasError ? this.renderError(gasError) : null}
+          {/*{gasError ? this.renderError(gasError) : null}*/}
           {isEthGasPrice
             ? this.renderWarning(ETH_GAS_PRICE_FETCH_WARNING_KEY)
             : null}

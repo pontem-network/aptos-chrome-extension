@@ -932,7 +932,7 @@ describe('MetaMaskController', function () {
       } catch (error) {
         assert.equal(
           error.message,
-          'AptosMask Message Signature: from field is required.',
+          'MultiMask Message Signature: from field is required.',
         );
       }
     });

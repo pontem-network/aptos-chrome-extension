@@ -318,7 +318,7 @@ describe('Transaction Controller', function () {
       await assert.rejects(
         () => txController.newUnapprovedTransaction(txParams),
         {
-          message: 'AptosMask Tx Signature: User denied transaction signature.',
+          message: 'MultiMask Tx Signature: User denied transaction signature.',
         },
       );
     });
@@ -396,7 +396,7 @@ describe('Transaction Controller', function () {
             from: selectedAddress,
             to: '0x0d1d4e623D10F9FBA5Db95830F7d3839406C6AF2',
           }),
-        { message: 'AptosMask is having trouble connecting to the network' },
+        { message: 'MultiMask is having trouble connecting to the network' },
       );
     });
   });

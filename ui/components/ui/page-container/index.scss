@@ -1,17 +1,18 @@
 .page-container {
   width: 408px;
-  background-color: var(--white);
+  background: linear-gradient(52.43deg, #14072E 22.22%, #0A081E 59.58%);
+  border: 1px solid var(--divider);
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
   z-index: 25;
   display: flex;
   flex-flow: column;
-  border-radius: 8px;
+  border-radius: 16px;
   overflow-y: auto;
 
   &__header {
     display: flex;
     flex-flow: column;
-    border-bottom: 1px solid var(--geyser);
+    border-bottom: 1px solid var(--divider);
     padding: 16px;
     flex: 0 0 auto;
     position: relative;
@@ -22,7 +23,7 @@
   }
 
   &__header-close {
-    color: var(--tundora);
+    color: var(--secondary-text);
     position: absolute;
     top: 16px;
     right: 16px;
@@ -54,7 +55,7 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
-    border-top: 1px solid var(--geyser);
+    border-top: 1px solid var(--divider);
     flex: 0 0 auto;
 
     footer {
@@ -79,7 +80,7 @@
         text-decoration: none;
         cursor: pointer;
         text-transform: uppercase;
-        color: #2f9ae0;
+        color: var(--link);
       }
     }
   }
@@ -95,14 +96,14 @@
   &__back-button {
     @include Paragraph;
 
-    color: #2f9ae0;
+    color: var(--primary);
     cursor: pointer;
   }
 
   &__title {
     @include H2;
 
-    color: var(--black);
+    color: var(--primary-text);
     font-weight: 500;
     margin-right: 1.5rem;
 
@@ -115,7 +116,7 @@
     @include H6;
 
     padding-top: 0.5rem;
-    color: var(--gray);
+    color: var(--secondary-text);
   }
 
   &__tabs {
@@ -127,7 +128,7 @@
     @include Paragraph;
 
     min-width: 5rem;
-    color: var(--dusty-gray);
+    color: var(--secondary-text);
     border-bottom: none;
     margin-right: 16px;
 
@@ -152,7 +153,7 @@
   }
 
   &__warning-container {
-    background: var(--linen);
+    background: transparent;
     padding: 20px;
     display: flex;
     align-items: start;
@@ -160,14 +161,17 @@
 
   &__warning-message {
     padding-left: 15px;
+    color: var(--primary-error);
   }
 
   &__warning-title {
     font-weight: 500;
+    color: var(--primary-error);
   }
 
   &__warning-icon {
     padding-top: 5px;
+    color: var(--primary-error);
   }
 }
 
@@ -193,10 +197,11 @@
   .page-container {
     height: 100%;
     width: 100%;
-    background-color: var(--white);
+    background: transparent;
     border-radius: 0;
     flex: 1;
     overflow-y: auto;
+    border: 0;
   }
 }
 
