@@ -1,4 +1,4 @@
-import EventEmitter from 'events';
+// import EventEmitter from 'events';
 import React, { useContext, useRef, useState, useEffect } from 'react';
 import { shallowEqual, useDispatch, useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -35,7 +35,7 @@ import {
   getMaxSlippage,
   setSwapsFromToken,
 } from '../../../ducks/swaps/swaps';
-import Mascot from '../../../components/ui/mascot';
+// import Mascot from '../../../components/ui/mascot';
 import Box from '../../../components/ui/box';
 import {
   QUOTES_EXPIRED_ERROR,
@@ -71,7 +71,7 @@ export default function AwaitingSwap({
   const metaMetricsEvent = useContext(MetaMetricsContext);
   const history = useHistory();
   const dispatch = useDispatch();
-  const animationEventEmitter = useRef(new EventEmitter());
+  // const animationEventEmitter = useRef(new EventEmitter());
 
   const fetchParams = useSelector(getFetchParams, isEqual);
   const { destinationTokenInfo, sourceTokenInfo } = fetchParams?.metaData || {};
@@ -276,13 +276,13 @@ export default function AwaitingSwap({
   return (
     <div className="awaiting-swap">
       <div className="awaiting-swap__content">
-        {!(swapComplete || errorKey) && (
+        {/* {!(swapComplete || errorKey) && (
           <Mascot
             animationEventEmitter={animationEventEmitter.current}
             width="90"
             height="90"
           />
-        )}
+        )} */}
         <div className="awaiting-swap__status-image">{statusImage}</div>
         <div className="awaiting-swap__header">{headerText}</div>
         <div className="awaiting-swap__main-description">{descriptionText}</div>

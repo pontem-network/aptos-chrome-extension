@@ -1,9 +1,9 @@
-import EventEmitter from 'events';
-import React, { useState } from 'react';
+// import EventEmitter from 'events';
+import React /*, { useState } */ from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
-import Mascot from '../../../components/ui/mascot';
+// import Mascot from '../../../components/ui/mascot';
 import Button from '../../../components/ui/button';
 import Typography from '../../../components/ui/typography/typography';
 import {
@@ -19,7 +19,7 @@ export default function OnboardingWelcome() {
   const t = useI18nContext();
   const dispatch = useDispatch();
   const history = useHistory();
-  const [eventEmitter] = useState(new EventEmitter());
+  // const [eventEmitter] = useState(new EventEmitter());
 
   const onCreateClick = () => {
     dispatch(setFirstTimeFlowType('create'));
@@ -46,11 +46,11 @@ export default function OnboardingWelcome() {
             {t('welcomeToMetaMaskIntro')}
           </Typography>
           <div className="onboarding-welcome__mascot">
-            <Mascot
+            {/* <Mascot
               animationEventEmitter={eventEmitter}
               width="250"
               height="250"
-            />
+            /> */}
           </div>
         </div>
         <div>
