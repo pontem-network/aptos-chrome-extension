@@ -52,12 +52,12 @@ const infuraProjectId = process.env.INFURA_PROJECT_ID;
 export const getRpcUrl = ({ network, excludeProjectId = false }) =>
   `https://${network}.infura.io/v3/${excludeProjectId ? '' : infuraProjectId}`;
 
-export const APTOS_RPC_URL = 'https://fullnode.devnet.aptoslabs.com';
+export const APTOS_RPC_URL = 'https://aptos-devnet.pontem.network';
 export const PONTEM_RPC_URL = 'http://178.62.219.21:8080';
 export const ROPSTEN_RPC_URL = getRpcUrl({ network: ROPSTEN });
 export const RINKEBY_RPC_URL = getRpcUrl({ network: RINKEBY });
 export const KOVAN_RPC_URL = getRpcUrl({ network: KOVAN });
-export const MAINNET_RPC_URL = 'https://fullnode.devnet.aptoslabs.com';
+export const MAINNET_RPC_URL = 'https://aptos-devnet.pontem.network';
 export const GOERLI_RPC_URL = getRpcUrl({ network: GOERLI });
 export const LOCALHOST_RPC_URL = 'http://localhost:8545';
 
