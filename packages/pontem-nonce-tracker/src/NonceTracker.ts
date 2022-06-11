@@ -159,10 +159,12 @@ export class NonceTracker {
         network: networkNonceResult,
       };
 
-      const nextNonce: number = Math.max(
-        networkNonceResult.nonce,
-        localNonceResult.nonce,
-      );
+      // const nextNonce: number = Math.max(
+      //   networkNonceResult.nonce,
+      //   localNonceResult.nonce,
+      // );
+      const nextNonce: number = networkNonceResult.nonce;
+
       assert(
         Number.isInteger(nextNonce),
         `nonce-tracker - nextNonce is not an integer - got: (${typeof nextNonce}) "${nextNonce}"`,

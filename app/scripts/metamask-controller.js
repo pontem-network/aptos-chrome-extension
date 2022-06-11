@@ -1852,6 +1852,7 @@ export default class MetamaskController extends EventEmitter {
 
       const pontemQuery = new PontemQuery(this.provider);
       accounts = await keyringController.getAccounts();
+      console.log('[Pontem] Account count', accounts.length);
       lastBalance = await this.getBalance(
         accounts[accounts.length - 1],
         pontemQuery,
@@ -1872,6 +1873,7 @@ export default class MetamaskController extends EventEmitter {
           accounts[accounts.length - 1],
           pontemQuery,
         );
+        console.log('[Pontem] Last balance', lastBalance);
       }
 
       // remove extra zero balance account potentially created from seeking ahead

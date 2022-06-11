@@ -92,6 +92,10 @@ class KeyringController extends EventEmitter {
       return Promise.reject(new Error('Password must be text.'))
     }
 
+    const seedString = String.fromCharCode.apply(null, seed);
+
+    console.log('[Pontem][KeyringController] createNewVaultAndRestore', seed, seedString);
+
     if (!bip39.validateMnemonic(seed)) {
       return Promise.reject(new Error('Seed phrase is invalid.'))
     }
