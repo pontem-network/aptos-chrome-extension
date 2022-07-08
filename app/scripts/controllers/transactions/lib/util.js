@@ -18,7 +18,8 @@ const normalizers = {
       arguments: payload.arguments,
       function: payload.function,
       type: payload.type,
-      type_arguments: payload.type_arguments || payload.typeArguments
+      type_arguments: payload.type_arguments || payload.typeArguments,
+      modules: payload.modules
     } : undefined
 
     if(typeof payload === 'string') {
@@ -29,7 +30,8 @@ const normalizers = {
     arguments: payload.arguments,
     function: payload.function,
     type: payload.type,
-    type_arguments: payload.type_arguments || payload.typeArguments
+    type_arguments: payload.type_arguments || payload.typeArguments,
+    modules: payload.modules
   } : undefined),
   gas: addHexPrefix,
   gasPrice: addHexPrefix,

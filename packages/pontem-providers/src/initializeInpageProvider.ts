@@ -19,6 +19,11 @@ interface InitializeProviderOptions extends MetaMaskInpageProviderOptions {
    * Whether the window.web3 shim should be set.
    */
   shouldShimWeb3?: boolean;
+
+  /**
+   * Extension version
+   */
+  version?: string;
 }
 
 /**
@@ -41,12 +46,14 @@ export function initializeProvider({
   shouldSendMetadata = true,
   shouldSetOnWindow = true,
   shouldShimWeb3 = false,
+  version = '0.0.1',
 }: InitializeProviderOptions): MetaMaskInpageProvider {
   let provider = new MetaMaskInpageProvider(connectionStream, {
     jsonRpcStreamName,
     logger,
     maxEventListeners,
     shouldSendMetadata,
+    version,
   });
 
   provider = new Proxy(provider, {

@@ -24,6 +24,7 @@ export interface MetaMaskInpageProviderOptions extends BaseProviderOptions {
    * Whether the provider should send page metadata.
    */
   shouldSendMetadata?: boolean;
+  version?: string;
 }
 
 interface SentWarningsState {
@@ -68,6 +69,7 @@ export default class MetaMaskInpageProvider extends BaseProvider {
    * Indicating that this provider is a MetaMask provider.
    */
   public readonly isMetaMask: true;
+  public version: string;
 
   /**
    * @param connectionStream - A Node.js duplex stream
@@ -83,6 +85,7 @@ export default class MetaMaskInpageProvider extends BaseProvider {
   constructor(
     connectionStream: Duplex,
     {
+      version = '0.0.1',
       jsonRpcStreamName = 'metamask-provider',
       logger = console,
       maxEventListeners = 100,
@@ -93,6 +96,7 @@ export default class MetaMaskInpageProvider extends BaseProvider {
 
     this.networkVersion = null;
     this.isMetaMask = true;
+    this.version = version;
 
     this._sendSync = this._sendSync.bind(this);
     this.enable = this.enable.bind(this);

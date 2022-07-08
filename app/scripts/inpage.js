@@ -34,6 +34,7 @@ cleanContextForImports();
 import log from 'loglevel';
 import { WindowPostMessageStream } from '@metamask/post-message-stream';
 import { initializeProvider } from '@pontem/pontem-providers/dist/initializeInpageProvider';
+import pkg from '../../package.json';
 
 restoreContextAfterImports();
 
@@ -54,4 +55,5 @@ initializeProvider({
   logger: log,
   jsonRpcStreamName: 'aptosmask-provider',
   shouldShimWeb3: true,
+  version: pkg.version,
 });
