@@ -150,6 +150,7 @@ function fetchConfigFromReq({ rpcUrl, extraHeaders, req }) {
 
   if (req.method === 'faucet/mint') {
     fetchUrl = `https://faucet.devnet.aptoslabs.com/mint?amount=10000000&pub_key=${req.params.publicKey}`;
+    // fetchUrl = `http://167.172.156.30:8000/mint?amount=10000000&pub_key=${req.params.publicKey}`;
     fetchParams.body = undefined;
   }
 

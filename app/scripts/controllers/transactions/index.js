@@ -1089,7 +1089,7 @@ export default class TransactionController extends EventEmitter {
         {
           type: "script_function_payload",
           function: "0x1::Coin::transfer",
-          type_arguments: ['0x1::TestCoin::TestCoin'],
+          type_arguments: ['0x1::test_coin::TestCoin'],
           arguments: [
             txParams.to,
             new BigNumber(txParams.value, 16).div(new BigNumber(10, 10).pow(18)).toString(10)

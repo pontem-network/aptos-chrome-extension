@@ -339,7 +339,7 @@ async function estimateGasLimitForSend({
 
 export async function getERC20Balance(token, accountAddress) {
   try {
-    const resource = await global.aptosQuery.getAccountResource(accountAddress, `0x1::Coin::CoinStore<${token.address}>`);
+    const resource = await global.aptosQuery.getAccountResource(accountAddress, `0x1::coin::coinStore<${token.address}>`);
     const balance = resource.data.coin.value
     const amount = calcTokenAmount(
       balance,
@@ -1023,7 +1023,7 @@ const slice = createSlice({
             state.draftTransaction.txParams.payload = generateERC20TransferData({
               toAddress: state.recipient.address,
               amount: (new BigNumber(state.amount.value, 16)).div(new BigNumber(10, 10).pow(12)).toString(16),
-              sendToken: { address: '0x1::TestCoin::TestCoin' },
+              sendToken: { address: '0x1::test_coin::TestCoin' },
             });
         }
 

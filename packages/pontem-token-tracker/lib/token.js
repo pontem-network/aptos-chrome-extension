@@ -164,7 +164,7 @@ class Token {
     let balance;
 
     try {
-      const resource = await this._getAccountResource(this.owner, `0x1::Coin::CoinStore<${this.address}>`);
+      const resource = await this._getAccountResource(this.owner, `0x1::coin::CoinStore<${this.address}>`);
       console.log('[Pontem] PontemTokenTracker _getBalance result', resource);
       balance = resource.data.coin.value
     } catch (e) {
