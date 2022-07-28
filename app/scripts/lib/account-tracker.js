@@ -250,7 +250,7 @@ export default class AccountTracker {
 
     let balance = '0x0';
     (resources || []).forEach(resource => {
-      if(resource.type === '0x1::coin::CoinStore<0x1::test_coin::TestCoin>') {
+      if(resource.type === '0x1::coin::CoinStore<0x1::aptos_coin::AptosCoin>') {
         balance = bnToHex(new BigNumber(resource.data.coin.value, 10).times(new BigNumber(10, 10).pow(12)))
       }
     })
